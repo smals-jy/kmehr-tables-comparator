@@ -22,7 +22,7 @@ export default async function extractTableFromXSD(path: string) : Promise<KMEHR_
     const xsdDoc = parser.parseFromString(xsdContent, 'text/xml');
 
     // Function to recursively extract enumeration values
-    function extractEnumValues(node : Element, parentName : string) {
+    function extractEnumValues(node : Element) {
         if (node.tagName === 'xsd:simpleType') {
             const nameAttribute = node.getAttribute('name');
             if (nameAttribute && nameAttribute.match(/.+values$/)) {
@@ -31,19 +31,19 @@ export default async function extractTableFromXSD(path: string) : Promise<KMEHR_
                 for (let i = 0; i < enumerationElements.length; i++) {
                     enumValues.push(enumerationElements[i].getAttribute('value'));
                 }
-                enumValuesObject[parentName] = enumValues;
+                enumValuesObject[nameAttribute] = enumValues;
             }
         }
         
         for (let child = node.firstChild; child; child = child.nextSibling) {
             if (child.nodeType === 1) {
-                extractEnumValues(child as Element, parentName);
+                extractEnumValues(child as Element);
             }
         }
     }
 
     // Start extraction from the root element
-    extractEnumValues(xsdDoc.documentElement, '');
+    extractEnumValues(xsdDoc.documentElement);
 
     // Remove the "values" suffix from the keys
     for (const key in enumValuesObject) {

@@ -19,5 +19,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# coverage
+coverage
+
 # Can't commit my package-lock as it contains private stuff
 package-lock.json
