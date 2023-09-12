@@ -11,11 +11,11 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://smals-jy.github.io',
+  url: process.env.GITHUB_ORIGIN || "http://localhost:3000",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/kmehr-tables-comparator/',
-  trailingSlash: false, // Needed for Gh pages - https://github.com/facebook/docusaurus/issues/5026
+  baseUrl: process.env.GITHUB_BASE || "/",
+  //trailingSlash: false, // Needed for Gh pages - https://github.com/facebook/docusaurus/issues/5026
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
