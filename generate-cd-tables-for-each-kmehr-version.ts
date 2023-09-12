@@ -1,4 +1,4 @@
-import extractTablesFromXSD from "./plugins/kmehr/extract-tables";
+import extractTablesFromXSD from "./src/plugins/kmehr/extract-tables";
 import { resolve as pathResolver } from "path";
 import { readdir, writeFile, access, constants as FS_constants } from "fs/promises"
 

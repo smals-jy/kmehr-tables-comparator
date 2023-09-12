@@ -5,11 +5,12 @@ import intersection from 'lodash/intersection';
 import difference from 'lodash/difference';
 import groupBy from 'lodash/groupBy'
 
-// Tabs for result presenting
+// Docusaurus components
 import Details from "@theme/Details"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CodeBlock from "@theme/CodeBlock";
+import Layout from '@theme/Layout';
 
 // Output format of the
 type KMEHR_Mapping = {
@@ -174,33 +175,34 @@ export default function DiffComponent({ versions, dictionnary }: Props) {
   };
 
   return (
-    <div>
+    <Layout>
       <h2>Select Versions:</h2>
-      <label>
-        From Version:
-        <select value={fromVersion || ''} onChange={(e) => handleFromVersionChange(e.target.value)}>
-          <option value="">Select a version</option>
-          {versions.map((version) => (
-            <option key={version} value={version}>
-              {version}
-            </option>
-          ))}
-        </select>
-      </label>
+      <div style={{ display: "flex", justifyContent: "space-around" }}>
+        <label>
+          From Version:
+          <select value={fromVersion || ''} onChange={(e) => handleFromVersionChange(e.target.value)}>
+            <option value="">Select a version</option>
+            {versions.map((version) => (
+              <option key={version} value={version}>
+                {version}
+              </option>
+            ))}
+          </select>
+        </label>
 
-      <label>
-        To Version:
-        <select value={toVersion || ''} onChange={(e) => handleToVersionChange(e.target.value)}>
-          <option value="">Select a version</option>
-          {versions.map((version) => (
-            <option key={version} value={version}>
-              {version}
-            </option>
-          ))}
-        </select>
-      </label>
-
-      <button onClick={computeDiff}>Compute Diff</button>
+        <label>
+          To Version:
+          <select value={toVersion || ''} onChange={(e) => handleToVersionChange(e.target.value)}>
+            <option value="">Select a version</option>
+            {versions.map((version) => (
+              <option key={version} value={version}>
+                {version}
+              </option>
+            ))}
+          </select>
+        </label>
+        <button onClick={computeDiff}>Compute Diff</button>
+      </div>
       
       <div>
         <h2>Diff Result:</h2>
@@ -208,7 +210,7 @@ export default function DiffComponent({ versions, dictionnary }: Props) {
         {diffResult.DELETED_VALUES.length > 0 && <DeletedValuesViewer {...diffResult} />}
         {diffResult.NEW_TABLES.length > 0 && <NewTablesViewer {...diffResult} />}
       </div>
-    </div>
+    </Layout>
   );
 }
 
@@ -217,7 +219,7 @@ function findAddedValues(fromData: KMEHR_Mapping, toData: KMEHR_Mapping) : Added
     const common_keys = intersection(Object.keys(fromData), Object.keys(toData)) as string[];
     let result : Added_Value[] = [];
     for(let key of common_keys) {
-      const new_values = difference(fromData[key], toData[key]);
+      const new_values = difference(toData[key], fromData[key]);
       if (new_values.length > 0) {
         result.push(
           ...new_values.map(val => ({
@@ -236,7 +238,7 @@ function findDeletedValues(fromData: KMEHR_Mapping, toData: KMEHR_Mapping) : Del
   const common_keys = intersection(Object.keys(fromData), Object.keys(toData)) as string[];
   let result : Deleted_Value[] = [];
   for(let key of common_keys) {
-    const removed_values = difference(toData[key], fromData[key]);
+    const removed_values = difference(fromData[key], toData[key]);
     if (removed_values.length > 0) {
       result.push(
         ...removed_values.map(val => ({

@@ -1,26 +1,11 @@
-import { Plugin, LoadContext } from "@docusaurus/types"
-
-import { resolve as pathResolver } from "path";
-import { readdir, readFile } from "fs/promises"
-
-/**
- * The type of data your plugin loads.
- * This is set to never because the example doesn't load any data.
- */
-export type MyPluginLoadableContent = [
-    // the kmehr versions
-    string[],
-    // the map of result
-    {
-        [x: string]: {
-            [y: string]: string[]
-        }
-    }
-]
+// I can't use import / esm syntax in Docusaurus yet
+const path = require("path");
+const pathResolver = path.resolve;
+const { readdir, readFile } = require("fs/promises");
 
 // ehealth follows a convention for the cd file
 // e.g KMEHR version 1.17.1 => cd-1_17.xsd
-function convertVersion(inputVersion : string) {
+function convertVersion(inputVersion) {
     // Split the input version string into an array of parts
     const parts = inputVersion.split('.');
     return `${parts[0]}_${parts[1]}`;
@@ -28,21 +13,19 @@ function convertVersion(inputVersion : string) {
 
 // Fetch data
 async function retrieveKMEHRDefinitions() {
-    const KMEHR_FOLDER = pathResolver(__dirname, "../..","static/kmehr");
+    const KMEHR_FOLDER = pathResolver(__dirname, "../../..","static/kmehr");
 
     // Scan available folders
     const kmehr_versions = (await readdir(KMEHR_FOLDER, { withFileTypes: true }))
         .filter(dirent => dirent.isDirectory())
         .map(dirent => dirent.name);
     
-    let result : {
-        [x: string]: any
-    } = {};
+    let result = {};
 
     // Extract the json payload for each & merge them into a single array
     for (let kmehr_version of kmehr_versions) {
         const output_path = pathResolver(KMEHR_FOLDER, kmehr_version, `tables-${convertVersion(kmehr_version)}.json`);
-        const json = JSON.stringify(await readFile(output_path));
+        const json = JSON.parse(await readFile(output_path));
         result[kmehr_version] = json;
     }
 
@@ -50,7 +33,7 @@ async function retrieveKMEHRDefinitions() {
 }
 
 // Docusaurus declaration
-export default function myPlugin(): Plugin {
+function KMEHR_DIFF() {
     return {
         name: "docusaurus-eHealth-kmehr-plugin",
         // load json files that holds the table
@@ -59,7 +42,7 @@ export default function myPlugin(): Plugin {
         },
         async contentLoaded({content, actions}) {
             const {createData, addRoute} = actions;
-            const [VERSIONS, RESULT] = content as MyPluginLoadableContent;
+            const [VERSIONS, RESULT] = content;
 
             // Create versions.json
             const versionsJsonPath = await createData(
@@ -88,3 +71,5 @@ export default function myPlugin(): Plugin {
         }
     }
 }
+
+module.exports = KMEHR_DIFF;
