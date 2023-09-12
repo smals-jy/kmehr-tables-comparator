@@ -65,7 +65,7 @@ function KMEHR_DIFF() {
                     versions: versionsJsonPath,
                     dictionnary: resultJsonPath
                 },
-                exact: true,
+                exact: false,
             });
 
         }
