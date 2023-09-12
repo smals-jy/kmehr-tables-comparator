@@ -22,7 +22,7 @@ async function main() {
     for (let kmehr_version of kmehr_versions) {
         console.log(`Processing KMEHR ${kmehr_version}`);
         const path_to_cd = pathResolver(KMEHR_FOLDER, kmehr_version, `cd-${convertVersion(kmehr_version)}.xsd`);
-        const output = pathResolver(KMEHR_FOLDER, kmehr_version, `tables-${convertVersion(kmehr_version)}.json`)
+        const output = pathResolver(KMEHR_FOLDER, kmehr_version, `tables-${convertVersion(kmehr_version)}.json`);
         try {
             try {
                 await access(output, FS_constants.F_OK);
