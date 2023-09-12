@@ -15,7 +15,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: process.env.GITHUB_BASE || "/",
-  trailingSlash: false, // Needed for Gh pages - https://github.com/facebook/docusaurus/issues/5026
+  //trailingSlash: false, // Needed for Gh pages - https://github.com/facebook/docusaurus/issues/5026
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -39,6 +39,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: false,
+        debug: true,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
