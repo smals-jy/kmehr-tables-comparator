@@ -33,7 +33,7 @@ async function retrieveKMEHRDefinitions() {
 }
 
 // Docusaurus declaration
-function KMEHR_DIFF() {
+function KMEHR_DIFF(context, _opts) {
     return {
         name: "docusaurus-eHealth-kmehr-plugin",
         // load json files that holds the table
@@ -57,8 +57,10 @@ function KMEHR_DIFF() {
             );
 
             // Add the '/diff' routes, and ensure it receives the props
+            // Workaround to work both on local & remote
+            const baseUrl = context.siteConfig.baseUrl !== "/" ? context.siteConfig.baseUrl.slice(0, string.length - 1) : "";
             addRoute({
-                path: '/diff',
+                path: `${baseUrl}/diff`,
                 component: '@site/src/components/Diff.tsx',
                 modules: {
                     // propName -> JSON file path
