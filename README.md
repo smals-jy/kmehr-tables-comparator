@@ -20,6 +20,13 @@ Thanks to Docusaurus, we have a [diff tool](https://smals-jy.github.io/kmehr-tab
 
 ⚠️ Don't forget to relaunch `npm start` / `npm run build` depending to your env.
 
+## Run project in local
+
+```bash
+npm install
+npm run start
+```
+
 ## License
 
-TODO
+Check [License](./LICENSE) file
