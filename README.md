@@ -1,41 +1,25 @@
-# Website
+# KMEHR tables comparator
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## Why ?
 
-### Installation
+- https://www.ehealth.fgov.be/standards/kmehr/en/page/xschema doesn't offer full changelog for each release
+- https://www.ehealth.fgov.be/standards/kmehr/en/tables doesn't offer versioned CD tables (e.g. what changed between versions 1.x & 1.y tables)
+- Comparing XSD files isn't funny at all for humans
 
-```
-$ yarn
-```
+## How it works ?
 
-### Local Development
+It parses eHealth xsd definitions and generates a JSON summary of this release.  
+Thanks to Docusaurus, we have a [diff tool](https://smals-jy.github.io/kmehr-tables-comparator/diff) that uses them.
 
-```
-$ yarn start
-```
+## How to add an new version of the KMEHR ?
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+1. Download it from https://www.ehealth.fgov.be/standards/kmehr/en/page/xschema 
+2. Create a folder in `static/kmehr` (e.g. `1.39.0`)
+3. Copy all files from `ehealth-kmehr/XSD` to this new folder
+4. Run `npm run generate-json-tables`
 
-### Build
+⚠️ Don't forget to relaunch `npm start` / `npm run build` depending to your env.
 
-```
-$ yarn build
-```
+## License
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+TODO
