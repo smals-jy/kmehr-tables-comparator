@@ -23,4 +23,7 @@ yarn-error.log*
 coverage
 
 # Can't commit my package-lock as it contains private stuff
-package-lock.json
+# package-lock.json
+
+# temp folder for release-checker
+temp
