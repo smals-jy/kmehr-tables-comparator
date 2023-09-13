@@ -3,6 +3,9 @@
 # Step 1: Collect all folder names in static/kmehr
 folder_names=$(find static/kmehr -mindepth 1 -maxdepth 1 -type d -printf "%f\n")
 
+# Display the collected folder names in a single row
+echo "Collected folder names : ${folder_names[*]}"
+
 # Step 2: Extract links and version names from the website
 page_content=$(curl -s https://www.ehealth.fgov.be/standards/kmehr/en/page/xschema)
 links=$(echo "$page_content" | grep -oP '<a href="[^"]*"><span class="linkToZIP">ehealthxsd-[^<]*</span></a>')
