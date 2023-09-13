@@ -21,11 +21,11 @@ echo "$links" | while read -r line; do
   # Check if the version directory does not exist
   if [ ! -d "static/kmehr/$version" ]; then
     echo "Downloading version $version..."
-    wget -O "$version.zip" "https://www.ehealth.fgov.be$full_href"
+    wget -O "temp/$version.zip" "https://www.ehealth.fgov.be$full_href"
 
     # Step 3: Unzip only the files under ehealth-kmehr/XSD/
     echo "Unzipping version $version..."
-    unzip -j "$version.zip" "ehealth-kmehr/XSD/*" -d "temp/$version"
+    unzip -j "temp/$version.zip" "ehealth-kmehr/XSD/*" -d "temp/$version"
 
     # Step 4: Copy the full version folder to static/kmehr
     echo "Copying version $version to static/kmehr/$version"
