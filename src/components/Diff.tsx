@@ -138,6 +138,19 @@ function NewTablesViewer({NEW_TABLES}: Differences) {
   )
 }
 
+// Custom sorting function for version-dotted number strings like kmehr
+function compareVersions(a : string, b : string) {
+  const versionA = a.split('.').map(Number);
+  const versionB = b.split('.').map(Number);
+
+  for (let i = 0; i < versionA.length; i++) {
+      if (versionA[i] < versionB[i]) return -1;
+      if (versionA[i] > versionB[i]) return 1;
+  }
+
+  return 0;
+}
+
 export default function DiffComponent({ versions, dictionnary }: Props) {
   const [fromVersion, setFromVersion] = useState<string | null>(null);
   const [toVersion, setToVersion] = useState<string | null>(null);
@@ -156,7 +169,7 @@ export default function DiffComponent({ versions, dictionnary }: Props) {
   };
 
   const computeDiff = () => {
-    if (!fromVersion || !toVersion || fromVersion === toVersion || fromVersion > toVersion) {
+    if (!fromVersion || !toVersion || compareVersions(fromVersion, toVersion) !== -1 ) {
       alert('Please select valid "from" and "to" versions.');
       return;
     }

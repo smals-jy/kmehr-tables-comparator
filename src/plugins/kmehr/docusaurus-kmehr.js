@@ -11,6 +11,19 @@ function convertVersion(inputVersion) {
     return `${parts[0]}_${parts[1]}`;
 }
 
+// Custom sorting function for version-dotted number strings like kmehr
+function compareVersions(a, b) {
+    const versionA = a.split('.').map(Number);
+    const versionB = b.split('.').map(Number);
+
+    for (let i = 0; i < versionA.length; i++) {
+        if (versionA[i] < versionB[i]) return -1;
+        if (versionA[i] > versionB[i]) return 1;
+    }
+
+    return 0;
+}
+
 // Fetch data
 async function retrieveKMEHRDefinitions() {
     const KMEHR_FOLDER = pathResolver(__dirname, "../../..","static/kmehr");
@@ -18,7 +31,8 @@ async function retrieveKMEHRDefinitions() {
     // Scan available folders
     const kmehr_versions = (await readdir(KMEHR_FOLDER, { withFileTypes: true }))
         .filter(dirent => dirent.isDirectory())
-        .map(dirent => dirent.name);
+        .map(dirent => dirent.name)
+        .sort(compareVersions);
     
     let result = {};
 
