@@ -2,7 +2,7 @@
 
 # Step 1: Extract links and version names from the website
 page_content=$(curl -s https://www.ehealth.fgov.be/standards/kmehr/en/page/xschema)
-links=$(echo "$page_content" | grep -oP '<a href="[^"]*"><span class="linkToZIP">ehealthxsd-[^<]*</span></a>')
+links=$(echo "$page_content" | grep -oP '<a[^>]*\shref="([^"]*)"[^>]*><span class="linkToZIP">ehealthxsd-[^<]*</span></a>')
 
 # Count the number of links found
 num_links=$(echo "$links" | wc -l)
