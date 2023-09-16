@@ -11,7 +11,7 @@
 It parses eHealth xsd definitions and generates a JSON summary of this release.  
 Thanks to Docusaurus, we have a [diff tool](https://smals-jy.github.io/kmehr-tables-comparator/diff) that uses them.
 
-## How to add an new version of the KMEHR ?
+## How to add a new version of KMEHR ?
 
 1. Download it from https://www.ehealth.fgov.be/standards/kmehr/en/page/xschema 
 2. Create a folder in `static/kmehr` (e.g. `1.39.0`)
