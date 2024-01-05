@@ -21,7 +21,8 @@ rows = tbody.find_all("tr") if tbody else []
 for row in rows:
     cols = row.find_all("td")
     if len(cols) >= 2:
-        name = cols[0].find('a').get_text().strip().upper()  # Convert name to uppercase
+        name = cols[0].find('a').get_text().strip().upper() 
+        # TODO fix that stuff to make script working as expected
         link = cols[1].find('a', class_="btn-primary", href=lambda x: x and x.endswith('.xml'))
 
         if link:
