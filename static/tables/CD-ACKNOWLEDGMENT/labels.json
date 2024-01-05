@@ -1,0 +1,14 @@
+{
+	"always": {
+		"en": "Always send an acknowledgement"
+	},
+	"onerror": {
+		"en": "Send an acknowledgement for error/reject conditions only"
+	},
+	"never": {
+		"en": "Never send an acknowledgement"
+	},
+	"onsuccess": {
+		"en": "Send an acknowledgement for successful completion only"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"hour": {
+		"en": "To be processed within the hour"
+	},
+	"4hours": {
+		"en": "To be processed within the 4 hours"
+	},
+	"12hours": {
+		"en": "To be processed within the 12 hours"
+	},
+	"day": {
+		"en": "To be processed within 24 hours"
+	},
+	"week": {
+		"en": "To be processed within 1 week"
+	},
+	"month": {
+		"en": "To be processed within 1 month"
+	},
+	"asap": {
+		"en": "To be processed as soon as possible"
+	}
+}

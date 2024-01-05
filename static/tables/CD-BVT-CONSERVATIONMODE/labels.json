@@ -1,0 +1,31 @@
+{
+	"minus20degreesc": {
+		"en": "-20 °C",
+		"fr": "-20 °C",
+		"nl": "-20 °C"
+	},
+	"minus80degreesc": {
+		"en": "-80 °C",
+		"fr": "-80 °C",
+		"nl": "-80 °C"
+	},
+	"minus120degreesorcolder": {
+		"en": "=< -120°C",
+		"fr": "=< -120°C",
+		"nl": "=< -120°C"
+	},
+	"liquidnitrogen": {
+		"en": "liquid nitrogen",
+		"fr": "nitrogène liquide",
+		"nl": "vloeibare stikstof"
+	},
+	"inclusioninparaffin": {
+		"en": "inclusion in paraffin",
+		"fr": "inclusion en paraffine"
+	},
+	"other": {
+		"en": "Other",
+		"fr": "inclusion en paraffine",
+		"nl": "inclusie in paraffine"
+	}
+}

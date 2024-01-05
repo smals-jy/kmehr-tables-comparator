@@ -1,0 +1,62 @@
+{
+	"previouscaesareansection": {
+		"fr": "Césarienne antérieure",
+		"nl": "Voorafgaande keizersnede",
+		"de": "Früherer Kaiserschnitt"
+	},
+	"breechpresentation": {
+		"fr": "Siège",
+		"nl": "Stuitligging",
+		"de": "Steißgeburt"
+	},
+	"transversepresentation": {
+		"fr": "Transverse",
+		"nl": "Dwarsligging",
+		"de": "Transversal"
+	},
+	"foetaldistress": {
+		"fr": "Souffrance foetale",
+		"nl": "Foetale nood",
+		"de": "Leiden des Fötus"
+	},
+	"dystocienotinlabour": {
+		"fr": "Dystocie, pas en travail",
+		"nl": "Dysproportie, niet in arbeid",
+		"de": "Geburtshindernis, außerhalb der Wehen"
+	},
+	"dystocieinlabourinsufficientdilatation": {
+		"fr": "Dystocie, en travail mais stagnation dilatation",
+		"nl": "Dystocie, wel in arbeid en niet vorderende ontsluiting",
+		"de": "Geburtshindernis, während der Wehen, aber Stagnation, Dehnung"
+	},
+	"dystocieinlabourinsufficientexpulsion": {
+		"fr": "Dystocie, en travail mais arrêt de la progression à l'expulsion",
+		"nl": "Dystocie, wel in arbeid en niet vorderende uitdrijving",
+		"de": "Geburtshindernis, während der Wehen, aber kein Fortschreiten bei der Austreibung"
+	},
+	"maternalindication": {
+		"fr": "Pathologie maternelle",
+		"nl": "Maternaal",
+		"de": "Krankheitsbild der Mutter"
+	},
+	"abruptioplacentae": {
+		"fr": "Cause placentaire (décollement, praevia)",
+		"nl": "Placentair",
+		"de": "Placentabedingt (Ablösung, Placenta praevia)"
+	},
+	"requestedbypatient": {
+		"fr": "Demandée par la patiente",
+		"nl": "Op vraag van patiënt zonder medische indicatie",
+		"de": "Von der Patientin gewünscht"
+	},
+	"multiplepregnancy": {
+		"fr": "Grossesse multiple",
+		"nl": "Meerling",
+		"de": "Mehrfachschwangerschaft"
+	},
+	"other": {
+		"fr": "Autre",
+		"nl": "Andere",
+		"de": "Sonstiges"
+	}
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+  Property : Belgian Ministry of Health
+  Author   :  I. Pollet
+  Date       : 06/08/2009
+ -->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2009-08-06</DATE>
+	<STATUS>draft</STATUS>
+	<NAME>Time unit</NAME>
+	<VALUE>
+		<CODE>sunday</CODE>
+		<DESCRIPTION L="en">sunday</DESCRIPTION>
+		<DESCRIPTION L="fr">dimanche</DESCRIPTION>
+		<DESCRIPTION L="nl">zondag</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>monday</CODE>
+		<DESCRIPTION L="en">monday</DESCRIPTION>
+		<DESCRIPTION L="fr">lundi</DESCRIPTION>
+		<DESCRIPTION L="nl">maandag</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>tuesday</CODE>
+		<DESCRIPTION L="en">tuesday</DESCRIPTION>
+		<DESCRIPTION L="fr">mardi</DESCRIPTION>
+		<DESCRIPTION L="nl">dinsdag</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>wednesday</CODE>
+		<DESCRIPTION L="en">wednesday</DESCRIPTION>
+		<DESCRIPTION L="fr">mercredi</DESCRIPTION>
+		<DESCRIPTION L="nl">woensdag</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>thursday</CODE>
+		<DESCRIPTION L="en">thursday</DESCRIPTION>
+		<DESCRIPTION L="fr">jeudi</DESCRIPTION>
+		<DESCRIPTION L="nl">donderdag</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>friday</CODE>
+		<DESCRIPTION L="en">friday</DESCRIPTION>
+		<DESCRIPTION L="fr">vendredi</DESCRIPTION>
+		<DESCRIPTION L="nl">vrijdag</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>saturday</CODE>
+		<DESCRIPTION L="en">saturday</DESCRIPTION>
+		<DESCRIPTION L="fr">samedi</DESCRIPTION>
+		<DESCRIPTION L="nl">zaterdag</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

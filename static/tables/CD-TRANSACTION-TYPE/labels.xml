@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.4</VERSION>
+	<DATE>2023-08-01</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Transaction Type</NAME>
+	<VALUE>
+		<CODE>incapacity</CODE>
+		<DESCRIPTION L="en">Incapacity</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>incapacityextension</CODE>
+		<DESCRIPTION L="en">Incapacity extension</DESCRIPTION>
+	</VALUE>	
+	<VALUE>
+		<CODE>incapacityrelapse</CODE>
+		<DESCRIPTION L="en">Incapacity relapse</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>nursing</CODE>
+		<DESCRIPTION L="en">Nursing</DESCRIPTION>
+	</VALUE>	
+	<VALUE>
+		<CODE>physiotherapy</CODE>
+		<DESCRIPTION L="en">Physiotherapy</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>intermediarynursing</CODE>
+		<DESCRIPTION L="en">Intermediary nursing</DESCRIPTION>
+	</VALUE>	
+	<VALUE>
+		<CODE>intermediaryphysiotherapy</CODE>
+		<DESCRIPTION L="en">Intermediary physiotherapy</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>transferdocument</CODE>
+		<DESCRIPTION L="en">Transfer document</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>childrecord</CODE>
+		<DESCRIPTION L="en">Child record (Vitalink)</DESCRIPTION>
+		<DESCRIPTION L="nl">Kinddossier (Vitalink)</DESCRIPTION>
+		<DESCRIPTION L="fr">Dossier d'enfant (Vitalink)</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>adanormal</CODE>
+		<DESCRIPTION L="en">Request for partial work resumption</DESCRIPTION>
+		<DESCRIPTION L="nl">Aanvraag voor deeltijdse arbeidshervatting</DESCRIPTION>
+		<DESCRIPTION L="fr">Demande de reprise de travail partielle</DESCRIPTION>
+		<DESCRIPTION L="de">Antrag auf Wiederaufnahme der Teilzeitarbeit</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>adaextension</CODE>
+		<DESCRIPTION L="en">Request for extension of a period of partial work resumption</DESCRIPTION>
+		<DESCRIPTION L="nl">Aanvraag voor verlenging periode deeltijdse werkhervatting</DESCRIPTION>
+		<DESCRIPTION L="fr">Demande de prolongation d’une période de reprise de travail partielle</DESCRIPTION>
+		<DESCRIPTION L="de">Antrag auf Verlängerung der Frist für die Wiederaufnahme der Teilzeitarbeit</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>adarelapse</CODE>
+		<DESCRIPTION L="en">Request for return to partial work regime after relapse</DESCRIPTION>
+		<DESCRIPTION L="nl">Aanvraag voor terugkeer naar deeltijds werkregime na hervalling</DESCRIPTION>
+		<DESCRIPTION L="fr">aDemande de retour vers un régime de travail partiel après rechute</DESCRIPTION>
+		<DESCRIPTION L="de">Antrag auf Rückkehr zu einem teilweisen Arbeitsregime nach einem Rückfal</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

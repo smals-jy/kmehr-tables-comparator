@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Property : Belgian Cancer Registry
+  Author   :  D. Janssens
+  Date       : 01/07/2011
+ -->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2011-07-01</DATE>
+	<STATUS>draft</STATUS>
+	<NAME>BVT Available Materials</NAME>
+	<VALUE>
+		<CODE>cytology</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>dna</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>rna</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>proteins</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>correspondingnormaltissue</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>tissue</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>serum</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>plasma</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>blood</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>urine</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>other</CODE>
+	</VALUE>
+</kmehr-cd>

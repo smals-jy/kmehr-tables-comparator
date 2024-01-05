@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Andr� JP Vandenberghe (Dr Andr� Vandenberghe) -->
+<!-- 
+  Property : Belgian Ministry of Health
+  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Date       : 27/09/2004
+  
+  Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
+  Reference table
+-->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2002-07-17</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Encounter safety issue types</NAME>
+	<VALUE>
+		<CODE>verbal</CODE>
+		<DESCRIPTION L="en">verbal agression</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>fysical</CODE>
+		<DESCRIPTION L="en">fysical agression</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>material</CODE>
+		<DESCRIPTION L="en">demolition of material and infrastructure</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>notificationtopolice</CODE>
+		<DESCRIPTION L="en">notification of agression or demolition to the police</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

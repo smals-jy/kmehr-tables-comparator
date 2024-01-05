@@ -1,0 +1,12 @@
+{
+	"nstar": {
+		"fr": "Département-N*",
+		"nl": "N*-dienst",
+		"de": "N*-Station"
+	},
+	"nic": {
+		"fr": "Département-NIC",
+		"nl": "NIC-dienst",
+		"de": "NIC-Station"
+	}
+}

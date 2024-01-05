@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2016-12-01</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Patient's will resuscitation</NAME>
+	<VALUE>
+		<CODE>dnr0</CODE>
+		<DESCRIPTION L="en">No limit on treatment</DESCRIPTION>
+		<DESCRIPTION L="fr">Pas de limitations thérapeutiques</DESCRIPTION>
+		<DESCRIPTION L="nl">Geen therapiebeperking</DESCRIPTION>
+		<DESCRIPTION L="de">Keine Grenze für die Therapie</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>dnr1</CODE>
+		<DESCRIPTION L="en">Do not attempt resuscitation</DESCRIPTION>
+		<DESCRIPTION L="fr">Pas de réanimation</DESCRIPTION>
+		<DESCRIPTION L="nl">Geen reanimatie</DESCRIPTION>
+		<DESCRIPTION L="de">Keine Reanimation</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>dnr2</CODE>
+		<DESCRIPTION L="en">Do not attempt resuscitation and do not extend treatment</DESCRIPTION>
+		<DESCRIPTION L="fr">Pas de réanimation et ne pas étendre la thérapie en cours</DESCRIPTION>
+		<DESCRIPTION L="nl">Geen reanimatie en therapie niet uitbreiden</DESCRIPTION>
+		<DESCRIPTION L="de">Keine Reanimation und keine Erweiterung der Therapie</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>dnr3</CODE>
+		<DESCRIPTION L="en">Do not attempt resuscitation and phase out treatment</DESCRIPTION>
+		<DESCRIPTION L="fr">Pas de réanimation et diminuer progressivement la thérapie en cours</DESCRIPTION>
+		<DESCRIPTION L="nl">Geen reanimatie en therapie afbouwen</DESCRIPTION>
+		<DESCRIPTION L="de">Keine Reanimation und Abbau der Therapie</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

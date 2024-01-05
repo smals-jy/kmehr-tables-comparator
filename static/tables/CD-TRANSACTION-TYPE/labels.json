@@ -1,0 +1,49 @@
+{
+	"incapacity": {
+		"en": "Incapacity"
+	},
+	"incapacityextension": {
+		"en": "Incapacity extension"
+	},
+	"incapacityrelapse": {
+		"en": "Incapacity relapse"
+	},
+	"nursing": {
+		"en": "Nursing"
+	},
+	"physiotherapy": {
+		"en": "Physiotherapy"
+	},
+	"intermediarynursing": {
+		"en": "Intermediary nursing"
+	},
+	"intermediaryphysiotherapy": {
+		"en": "Intermediary physiotherapy"
+	},
+	"transferdocument": {
+		"en": "Transfer document"
+	},
+	"childrecord": {
+		"en": "Child record (Vitalink)",
+		"nl": "Kinddossier (Vitalink)",
+		"fr": "Dossier d'enfant (Vitalink)"
+	},
+	"adanormal": {
+		"en": "Request for partial work resumption",
+		"nl": "Aanvraag voor deeltijdse arbeidshervatting",
+		"fr": "Demande de reprise de travail partielle",
+		"de": "Antrag auf Wiederaufnahme der Teilzeitarbeit"
+	},
+	"adaextension": {
+		"en": "Request for extension of a period of partial work resumption",
+		"nl": "Aanvraag voor verlenging periode deeltijdse werkhervatting",
+		"fr": "Demande de prolongation d’une période de reprise de travail partielle",
+		"de": "Antrag auf Verlängerung der Frist für die Wiederaufnahme der Teilzeitarbeit"
+	},
+	"adarelapse": {
+		"en": "Request for return to partial work regime after relapse",
+		"nl": "Aanvraag voor terugkeer naar deeltijds werkregime na hervalling",
+		"fr": "aDemande de retour vers un régime de travail partiel après rechute",
+		"de": "Antrag auf Rückkehr zu einem teilweisen Arbeitsregime nach einem Rückfal"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"hacoated": {
+		"en": "HA-coated"
+	},
+	"porous": {
+		"en": "Porous"
+	},
+	"smouth": {
+		"en": "Smouth"
+	},
+	"cementwithab": {
+		"en": "Cement With AB"
+	},
+	"cementwithoutab": {
+		"en": "Cement Without AB"
+	},
+	"allpoly": {
+		"en": "All-poly (only for acetabular)"
+	},
+	"none": {
+		"en": "None"
+	},
+	"other": {
+		"en": "Other"
+	},
+	"metalbacked": {
+		"en": "Metal-backed"
+	}
+}

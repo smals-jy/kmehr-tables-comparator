@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  1.0 	 : 27/04/2012
+	
+  Reference table
+  -->
+  
+ <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2012-04-01</DATE>
+	<STATUS>final</STATUS>
+	<NAME>Bearing Surface</NAME>
+	<VALUE>
+		<CODE>metalpoly</CODE>
+		<DESCRIPTION L="en">Metal - Polyethylene</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>cerampoly</CODE>
+		<DESCRIPTION L="en">Ceramics - Polyethylene</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>metalmetal</CODE>
+		<DESCRIPTION L="en">Metal - Metal</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>ceramceram</CODE>
+		<DESCRIPTION L="en">Ceramics - Ceramics</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>other</CODE>
+		<DESCRIPTION L="en">Other</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

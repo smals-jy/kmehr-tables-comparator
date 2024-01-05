@@ -1,0 +1,74 @@
+{
+	"18768-2": {
+		"en": "cell counts anddifferential",
+		"fr": "hemogramme",
+		"nl": "bloedbeeld endifferentiatie",
+		"de": "blutbild"
+	},
+	"18767-4": {
+		"en": "blood gas",
+		"fr": "gaz sanguins",
+		"nl": "bloedgassen",
+		"de": "blutgas"
+	},
+	"18727-8": {
+		"en": "serology",
+		"fr": "serologie",
+		"nl": "serologie",
+		"de": "serologie"
+	},
+	"18721-1": {
+		"en": "therapeutic drugmonitoring",
+		"fr": "medicaments",
+		"nl": "therapeutische drugmonitoring",
+		"de": "therapeutisches drug monitoring"
+	},
+	"18728-6": {
+		"en": "toxicology",
+		"fr": "toxicologie",
+		"nl": "toxicologie",
+		"de": "toxikologie"
+	},
+	"18722-9": {
+		"en": "seminology",
+		"fr": "seminologie",
+		"nl": "semen analyse",
+		"de": "seminologie"
+	},
+	"18720-3": {
+		"en": "coagulation",
+		"fr": "coagulation",
+		"nl": "bloedstolling",
+		"de": "coagulation"
+	},
+	"18729-4": {
+		"en": "urinalysis",
+		"fr": "analyse d'urine",
+		"nl": "urine analyse",
+		"de": "urinuntersuchung"
+	},
+	"18716-1": {
+		"en": "allergology",
+		"fr": "allergologie",
+		"nl": "allergologie",
+		"de": "allergologie"
+	},
+	"18717-9": {
+		"en": "blood bank / transfusion",
+		"fr": "banque de sang / transfusion",
+		"nl": "bloedbank / transfusie",
+		"de": "blutbank / transfusion"
+	},
+	"18719-5": {
+		"en": "chemistry",
+		"fr": "chimie",
+		"nl": "scheikunde",
+		"de": "chemie"
+	},
+	"18725-2": {
+		"en": "microbiology",
+		"fr": "microbiologie",
+		"nl": "microbiologie",
+		"de": "mikrobiologie"
+	}
+}

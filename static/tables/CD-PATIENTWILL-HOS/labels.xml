@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2016-12-01</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Patient's will hospitalisation</NAME>
+	<VALUE>
+		<CODE>hos0</CODE>
+		<DESCRIPTION L="en">No limit on hospitalisation</DESCRIPTION>
+		<DESCRIPTION L="fr">Pas de limites concernant l'hospitalisation</DESCRIPTION>
+		<DESCRIPTION L="nl">Geen beperking op hospitalisatie</DESCRIPTION>
+		<DESCRIPTION L="de">Keine Grenze für die Hospitalisation</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>hos1</CODE>
+		<DESCRIPTION L="en">No hospitalisation</DESCRIPTION>
+		<DESCRIPTION L="fr">Pas d’hospitalisation</DESCRIPTION>
+		<DESCRIPTION L="nl">Geen hospitalisatie</DESCRIPTION>
+		<DESCRIPTION L="de">Keine Hospitalisation</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>hos2</CODE>
+		<DESCRIPTION L="en">Hospitalisation only in specific situations</DESCRIPTION>
+		<DESCRIPTION L="fr">Hospitalisation uniquement dans des situations spécifiques</DESCRIPTION>
+		<DESCRIPTION L="nl">Hospitalisatie enkel in specifieke comfortsituaties</DESCRIPTION>
+		<DESCRIPTION L="de">Hospitalisation nur in spezielle Situationen</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

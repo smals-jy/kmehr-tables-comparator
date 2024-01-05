@@ -1,0 +1,12 @@
+{
+	"intubation": {
+		"fr": "Ventilation ballon et masque",
+		"nl": "Beademing met ballon en masker",
+		"de": "Beatmung mit Ballon und Maske"
+	},
+	"balloon-mask": {
+		"fr": "Intubation",
+		"nl": "Beademing met intubatie",
+		"de": "Intubation"
+	}
+}

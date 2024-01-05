@@ -1,0 +1,48 @@
+{
+	"sickness": {
+		"en": "Sickness",
+		"fr": "maladie"
+	},
+	"accident": {
+		"en": "Accident",
+		"fr": "accident"
+	},
+	"family": {
+		"en": "Family",
+		"fr": "motif familial"
+	},
+	"other": {
+		"en": "Other",
+		"fr": "autre"
+	},
+	"illness": {
+		"en": "Illness",
+		"fr": "maladie"
+	},
+	"hospitalisation": {
+		"en": "Hospitalisation",
+		"fr": "hospitalisation"
+	},
+	"careencounter": {
+		"en": "Care encounter",
+		"fr": "rencontre m�dicale"
+	},
+	"pregnancy": {
+		"en": "Pregnancy",
+		"fr": "grossesse"
+	},
+	"workaccident": {
+		"en": "Work accident",
+		"fr": "accident de travail"
+	},
+	"occupationaldisease": {
+		"en": "Occupational disease",
+		"fr": "maladie professionnelle"
+	},
+	"traveltofromworkaccident": {
+		"en": "Accident during travel to or from work",
+		"fr": "accident de trajet du et vers le lieu de travail",
+		"nl": "ongeval op weg naar of van het werk",
+		"de": "Unfall von oder zu der Arbeitsst�tte"
+	}
+}

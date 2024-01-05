@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+  Property : Belgian Ministry of Health
+  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Date       : 17/07/2002
+  
+  Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
+  Reference table
+-->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2002-07-17</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Admission type</NAME>
+	<VALUE>
+		<CODE>0</CODE>
+		<DESCRIPTION L="fr">Inconnu</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>1</CODE>
+		<DESCRIPTION L="fr">Urgence service 100</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>2</CODE>
+		<DESCRIPTION L="fr">Admission inopin�e - urgence</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>3</CODE>
+		<DESCRIPTION L="fr">Admission planifi�e</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>4</CODE>
+		<DESCRIPTION L="fr">Admission � partir de l'h�pital de jour</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>5</CODE>
+		<DESCRIPTION L="fr">Retour</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>6</CODE>
+		<DESCRIPTION L="fr">Placement</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>8</CODE>
+		<DESCRIPTION L="fr">N� � l'h�pital</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

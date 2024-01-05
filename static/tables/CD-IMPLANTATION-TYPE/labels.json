@@ -1,0 +1,65 @@
+{
+	"unimedial": {
+		"en": "Uni medial"
+	},
+	"unilateral": {
+		"en": "Uni lateral"
+	},
+	"bicompartimental": {
+		"en": "Bicompartimental"
+	},
+	"femoropatellar": {
+		"en": "Femoropatellar"
+	},
+	"cementwithoutab": {
+		"en": "Cement Without AB"
+	},
+	"totalcr": {
+		"en": "Total PCL retaining (CR)"
+	},
+	"totalps": {
+		"en": "Total posterior-stabilized (PS)"
+	},
+	"totalcck": {
+		"en": "Total type CCK"
+	},
+	"hinge": {
+		"en": "Hinge"
+	},
+	"totaluc": {
+		"en": "Total ultracongruent (UC)"
+	},
+	"other": {
+		"en": "Other"
+	},
+	"totalprosthesis": {
+		"en": "Total prosthesis"
+	},
+	"totalprosthesisdualmobility": {
+		"en": "Total prosthesis dual mobility"
+	},
+	"hemiprosthesismonoblock": {
+		"en": "Hemi prosthesis mono block"
+	},
+	"hemiprosthesisbipolar": {
+		"en": "Hemi prosthesis bipolar"
+	},
+	"bicruciateretaining": {
+		"en": "Bicruciate retaining"
+	},
+	"hemiprosthesismodular": {
+		"en": "Hemi prosthesis modular"
+	},
+	"resurfacingfemhemi": {
+		"en": "Resurfacing fem hemi"
+	},
+	"resurfacingfemcup": {
+		"en": "Resurfacing fem cup"
+	},
+	"resurfacingpartial": {
+		"en": "Resurfacing partial"
+	},
+	"resurfacingpartialfemcondyle": {
+		"en": "Resurfacing partial fem condyle"
+	}
+}

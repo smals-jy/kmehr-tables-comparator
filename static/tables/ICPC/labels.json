@@ -1,0 +1,53 @@
+{
+	"-65": {
+		"en": "Encounter/problem initiated by other than patient/provider"
+	},
+	"-66": {
+		"en": "Referral to other primary health care provider"
+	},
+	"-67": {
+		"en": "Referral to specialist/hospital"
+	},
+	"-68": {
+		"en": "Other referral NEC"
+	},
+	"-69": {
+		"en": "Other reason for encounter NEC"
+	},
+	"A01": {
+		"en": "Pain general/multiple sites"
+	},
+	"A02": {
+		"en": "Chills"
+	},
+	"A03": {
+		"en": "Fever"
+	},
+	"A04": {
+		"en": "Weakness/tiredness general"
+	},
+	"A05": {
+		"en": "Feeling ill"
+	},
+	"A06": {
+		"en": "Fainting/syncope"
+	},
+	"A07": {
+		"en": "Coma"
+	},
+	"A08": {
+		"en": "Swelling"
+	},
+	"A09": {
+		"en": "Sweating problem"
+	},
+	"A10": {
+		"en": "Bleeding/haemorrhage NOS"
+	},
+	"A11": {
+		"en": "Chest pain NOS"
+	},
+	"A13": {
+		"en": "Concern about/fear of medical treatment"
+	}
+}

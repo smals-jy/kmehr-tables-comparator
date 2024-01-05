@@ -1,0 +1,47 @@
+{
+	"assessment": {
+		"en": "Assessment (diagnoses, hypotheses, ...)"
+	},
+	"clinical": {
+		"en": "Clinical investigation"
+	},
+	"clinicalplan": {
+		"en": "Clinical plan of action"
+	},
+	"familyhistory": {
+		"en": "Family history"
+	},
+	"history": {
+		"en": "Patient's history (antecedents)"
+	},
+	"medication": {
+		"en": "Medication plan"
+	},
+	"prescription": {
+		"en": "Prescriptions"
+	},
+	"technicalplan": {
+		"en": "Technical plan of action"
+	},
+	"technical": {
+		"en": "Technical investigation"
+	},
+	"treatment": {
+		"en": "Recommended treatment"
+	},
+	"userdefined": {
+		"en": "User defined"
+	},
+	"anamnesis": {
+		"en": "Anamnesis"
+	},
+	"examination": {
+		"en": "Examination"
+	},
+	"plan": {
+		"en": "Plan"
+	},
+	"outcomeevaluation": {
+		"en": "Outcome evaluation"
+	}
+}

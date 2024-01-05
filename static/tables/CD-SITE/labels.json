@@ -1,0 +1,191 @@
+{
+	"BE": {
+		"en": "BILATERAL EARS"
+	},
+	"BN": {
+		"en": "BILATERAL NARES"
+	},
+	"BU": {
+		"en": "BUTTOCK"
+	},
+	"CT": {
+		"en": "CHEST TUBE"
+	},
+	"LA": {
+		"en": "LEFT ARM"
+	},
+	"LAC": {
+		"en": "LEFT ANTERIOR CHEST"
+	},
+	"LACF": {
+		"en": "LEFT ANTECUBITAL FOSSA"
+	},
+	"LD": {
+		"en": "LEFT DELTOID"
+	},
+	"LE": {
+		"en": "LEFT EAR"
+	},
+	"LEJ": {
+		"en": "LEFT EXTERNAL JUGULAR"
+	},
+	"LF": {
+		"en": "LEFT FOOT"
+	},
+	"LG": {
+		"en": "LEFT GLUTEUS MEDIUS"
+	},
+	"LH": {
+		"en": "LEFT HAND"
+	},
+	"LIJ": {
+		"en": "LEFT INTERNAL JUGULAR"
+	},
+	"LLAQ": {
+		"en": "LEFT LOWER ABD QUADRANT"
+	},
+	"LLFA": {
+		"en": "LEFT LOWER FOREARM"
+	},
+	"LMFA": {
+		"en": "LEFT MID FOREARM"
+	},
+	"LN": {
+		"en": "LEFT NARIS"
+	},
+	"LPC": {
+		"en": "LEFT POSTERIOR CHEST"
+	},
+	"LSC": {
+		"en": "LEFT SUBCLAVIAN"
+	},
+	"LT": {
+		"en": "LEFT THIGH"
+	},
+	"LUA": {
+		"en": "LEFT UPPER ARM"
+	},
+	"LUAQ": {
+		"en": "LEFT UPPER ABD QUADRANT"
+	},
+	"LUFA": {
+		"en": "LEFT UPPER FOREARM"
+	},
+	"LVG": {
+		"en": "LEFT VENTRAGLUTEAL"
+	},
+	"LVL": {
+		"en": "LEFT VASTUS LATERALIS"
+	},
+	"NB": {
+		"en": "NEBULIZED"
+	},
+	"OD": {
+		"en": "RIGHT EYE"
+	},
+	"OS": {
+		"en": "LEFT EYE"
+	},
+	"OU": {
+		"en": "BILATERAL EYES"
+	},
+	"PA": {
+		"en": "PERIANAL"
+	},
+	"PERIN": {
+		"en": "PERINEAL"
+	},
+	"RA": {
+		"en": "RIGHT ARM"
+	},
+	"RAC": {
+		"en": "RIGHT ANTERIOR CHEST"
+	},
+	"RACF": {
+		"en": "RIGHT ANTECUBITAL FOSSA"
+	},
+	"RD": {
+		"en": "RIGHT DELTOID"
+	},
+	"RE": {
+		"en": "RIGHT EAR"
+	},
+	"REJ": {
+		"en": "RIGHT EXTERNAL JUGULAR"
+	},
+	"RF": {
+		"en": "RIGHT FOOT"
+	},
+	"RG": {
+		"en": "RIGHT GLUTEUS MEDIUS"
+	},
+	"RH": {
+		"en": "RIGHT HAND"
+	},
+	"RIJ": {
+		"en": "RIGHT INTERNAL JUGULAR"
+	},
+	"RLAQ": {
+		"en": "RT LOWER ABD QUADRANT"
+	},
+	"RLFA": {
+		"en": "RIGHT LOWER FOREARM"
+	},
+	"RMFA": {
+		"en": "RIGHT MID FOREARM"
+	},
+	"RN": {
+		"en": "RIGHT NARIS"
+	},
+	"RPC": {
+		"en": "RIGHT POSTERIOR CHEST"
+	},
+	"RSC": {
+		"en": "RIGHT SUBCLAVIAN"
+	},
+	"RT": {
+		"en": "RIGHT THIGH"
+	},
+	"RUA": {
+		"en": "RIGHT UPPER ARM"
+	},
+	"RUAQ": {
+		"en": "RIGHT UPPER ABD QUADRANT"
+	},
+	"RUFA": {
+		"en": "RIGHT UPPER FOREARM"
+	},
+	"RVG": {
+		"en": "RIGHT VENTRAGLUTEAL"
+	},
+	"RVL": {
+		"en": "RIGHT VASTUS LATERALIS"
+	},
+	"blood": {
+		"en": "Blood"
+	},
+	"lk": {
+		"en": "Left Knee"
+	},
+	"rk": {
+		"en": "Right Knee"
+	},
+	"lhip": {
+		"en": "Left Hip"
+	},
+	"rhip": {
+		"en": "Right Hip"
+	},
+	"lfem": {
+		"en": "Left Femur"
+	},
+	"rfem": {
+		"en": "Right Femur"
+	},
+	"ltib": {
+		"en": "Left Tibia"
+	},
+	"rtib": {
+		"en": "Right Tibia"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"male": {
+		"en": "Male"
+	},
+	"female": {
+		"en": "Female"
+	},
+	"unknown": {
+		"en": "Unknown"
+	},
+	"changed": {
+		"en": "Changed (according to MKG/RCM code)"
+	},
+	"undefined": {
+		"en": "Undefined"
+	}
+}

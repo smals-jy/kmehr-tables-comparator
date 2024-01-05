@@ -1,0 +1,62 @@
+{
+	"a": {
+		"en": "Year",
+		"nl": "jaar",
+		"fr": "année",
+		"de": "Jahre"
+	},
+	"mo": {
+		"en": "Month",
+		"nl": "maand",
+		"fr": "mois",
+		"de": "monat"
+	},
+	"wk": {
+		"en": "Week",
+		"nl": "week",
+		"fr": "semaine",
+		"de": "woche"
+	},
+	"d": {
+		"en": "Day",
+		"nl": "dag",
+		"fr": "jour",
+		"de": "tag"
+	},
+	"hr": {
+		"en": "Hour",
+		"nl": "uur",
+		"fr": "heure",
+		"de": "uhr"
+	},
+	"min": {
+		"en": "Minute",
+		"nl": "minuut",
+		"fr": "minute",
+		"de": "minut"
+	},
+	"s": {
+		"en": "Second",
+		"nl": "seconde",
+		"fr": "seconde",
+		"de": "sekunde "
+	},
+	"ms": {
+		"en": "Millisecond",
+		"nl": "milliseconde",
+		"fr": "milliseconde",
+		"de": "millisekunde"
+	},
+	"us": {
+		"en": "Microsecond",
+		"nl": "microseconde",
+		"fr": "microseconde",
+		"de": "microsekunde"
+	},
+	"ns": {
+		"en": "Nanosecond",
+		"nl": "nanoseconde",
+		"fr": "nanoseconde",
+		"de": "nanosekunde"
+	}
+}

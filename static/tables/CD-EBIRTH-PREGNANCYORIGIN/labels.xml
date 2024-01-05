@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Property : Belgian Ministry of Health
+  Author   :  I. Pollet
+  Date      : 27/07/2009
+ -->
+<kmehr-cd>
+	<VERSION>1.0</VERSION>
+	<DATE>2009-07-30</DATE>
+	<STATUS>published</STATUS>
+	<NAME>eBirth pregnacy origin</NAME>
+	<VALUE>
+		<CODE>spontaneous</CODE>
+		<DESCRIPTION L="fr">Spontanée</DESCRIPTION>
+		<DESCRIPTION L="nl">Spontaan</DESCRIPTION>
+		<DESCRIPTION L="de">Spontan</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>hormonal</CODE>
+		<DESCRIPTION L="fr">Traitement hormonal </DESCRIPTION>
+		<DESCRIPTION L="nl">Hormonaal</DESCRIPTION>
+		<DESCRIPTION L="de">Hormonbehandlung</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>IVF</CODE>
+		<DESCRIPTION L="fr">FIV</DESCRIPTION>
+		<DESCRIPTION L="nl">IVF</DESCRIPTION>
+		<DESCRIPTION L="de">In-Vitro-Befruchtung</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>ICSI</CODE>
+		<DESCRIPTION L="fr">ICSI</DESCRIPTION>
+		<DESCRIPTION L="nl">ICSI</DESCRIPTION>
+		<DESCRIPTION L="de">ICSI</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

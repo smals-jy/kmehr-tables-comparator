@@ -1,0 +1,207 @@
+{
+	"1": {
+		"nl": "Capsules",
+		"fr": "Gélules",
+		"de": "Gelatinekapseln"
+	},
+	"2": {
+		"nl": "Tabletten",
+		"fr": "Cachets / comprimés",
+		"de": "Tabletten"
+	},
+	"3": {
+		"nl": "Creme",
+		"fr": "Crème",
+		"de": "Creme"
+	},
+	"4": {
+		"nl": "Gel",
+		"fr": "Gel",
+		"de": "Gel"
+	},
+	"5": {
+		"nl": "Pasta",
+		"fr": "Pâte",
+		"de": "Paste"
+	},
+	"6": {
+		"nl": "Vette zalf",
+		"fr": "Pommade grasse",
+		"de": "Fette Salbe"
+	},
+	"7": {
+		"nl": "Granulaat",
+		"fr": "Granulé",
+		"de": "Granulat"
+	},
+	"8": {
+		"nl": "Suppo volwassene",
+		"fr": "Suppo adulte",
+		"de": "Zäpfchen für Erwachsene"
+	},
+	"9": {
+		"nl": "Suppo kind",
+		"fr": "Suppo enfant",
+		"de": "Zäpfchen für Kinder"
+	},
+	"10": {
+		"nl": "Vaginale zetpillen / vaginale ovules",
+		"fr": "Ovules vaginales",
+		"de": "Vaginalzäpfchen"
+	},
+	"11": {
+		"nl": "Rektiool",
+		"fr": "Rectiole",
+		"de": "Rektiole"
+	},
+	"12": {
+		"nl": "Niet-verdeeld poeder inwendig gebruik",
+		"fr": "Poudre non-divisée usage interne",
+		"de": "nicht gespaltenes Pulver innerliche Anwendung"
+	},
+	"13": {
+		"nl": "Niet-verdeeld poeder uitwendig gebruik",
+		"fr": "Poudre non-divisée usage externe",
+		"de": "nicht gespaltenes Pulver äußerliche Anwendung"
+	},
+	"14": {
+		"nl": "Inhalatie",
+		"fr": "Inhalation",
+		"de": "Inhalation"
+	},
+	"15": {
+		"nl": "Te verdelen poeders inwendig gebruik",
+		"fr": "Poudres à diviser usage interne",
+		"de": "Pulver Zum Spalten innerliche Anwendung"
+	},
+	"16": {
+		"nl": "Te verdelen poeders uitwendig gebruik",
+		"fr": "Poudres à diviser usage externe",
+		"de": "Pulver Zum Spalten äußerliche Anwendung"
+	},
+	"17": {
+		"nl": "Neusdruppels",
+		"fr": "Gouttes nasales",
+		"de": "Nasentropfen"
+	},
+	"18": {
+		"nl": "Neuszalf",
+		"fr": "Pommade nasale",
+		"de": "Nasensalbe"
+	},
+	"19": {
+		"nl": "Siroop",
+		"fr": "Sirop",
+		"de": "Sirup"
+	},
+	"20": {
+		"nl": "Oplossing inwendig gebruik",
+		"fr": "Solution usage interne",
+		"de": "Lösung innerliche Anwendung"
+	},
+	"21": {
+		"nl": "Oplossing uitwendig gebruik",
+		"fr": "Solution usage externe",
+		"de": "Lösung äußerliche Anwendung"
+	},
+	"22": {
+		"nl": "Druppels inwendig gebruik",
+		"fr": "Gouttes usage interne",
+		"de": "Tropfen innerliche Anwendung"
+	},
+	"23": {
+		"nl": "Druppels uitwendig gebruik",
+		"fr": "Gouttes usage externe",
+		"de": "Tropfen äußerliche Anwendung"
+	},
+	"24": {
+		"nl": "Emulsie inwendig gebruik",
+		"fr": "Emulsion usage interne",
+		"de": "Emulsion innerliche Anwendung"
+	},
+	"25": {
+		"nl": "Emulsie uitwendig gebruik",
+		"fr": "Emulsion usage externe",
+		"de": "Emulsion äußerliche Anwendung"
+	},
+	"26": {
+		"nl": "Shampoo",
+		"fr": "Shampooing",
+		"de": "Shampoo"
+	},
+	"27": {
+		"nl": "Oogdruppels",
+		"fr": "Gouttes ophtalmiques",
+		"de": "Augentropfen"
+	},
+	"28": {
+		"nl": "Ooglotion",
+		"fr": "Lotion ophtalmique",
+		"de": "Augenlotion"
+	},
+	"29": {
+		"nl": "Oogbad",
+		"fr": "Bain ophtalmique",
+		"de": "Augenbad"
+	},
+	"30": {
+		"nl": "Zalf",
+		"fr": "Pommade",
+		"de": "Salbe"
+	},
+	"31": {
+		"nl": "Oogzalf",
+		"fr": "Pommade ophtalmique",
+		"de": "Augensalbe "
+	},
+	"32": {
+		"nl": "Oordruppels",
+		"fr": "Gouttes auriculaires",
+		"de": "Ohrentropfen"
+	},
+	"33": {
+		"nl": "Suspensie inwendig gebruik",
+		"fr": "Suspension usage interne",
+		"de": "Suspension innerliche Anwendung"
+	},
+	"34": {
+		"nl": "Suspensie uitwendig gebruik",
+		"fr": "Suspension usage externe",
+		"de": "Suspension äußerliche Anwendung"
+	},
+	"40": {
+		"nl": "Kruidenmengsel",
+		"fr": "Mélange de plantes",
+		"de": "Kräutermischung"
+	},
+	"41": {
+		"nl": "Thee",
+		"fr": "Thé",
+		"de": "Tee"
+	},
+	"71": {
+		"nl": "enterisch omhulde capsules",
+		"fr": "Gélules à enrobage entérique / Gélules entériques",
+		"de": "enterische Kapseln"
+	},
+	"90": {
+		"nl": "Als dusdanig",
+		"fr": "en tant que tel/telle",
+		"de": "derartig"
+	},
+	"91": {
+		"nl": "Als dusdanig dermatologie (vast)",
+		"fr": "Dermatologie (solide) en tant que telle",
+		"de": "Dermatologie (fest) derartig"
+	},
+	"92": {
+		"nl": "Als dusdanig poeder",
+		"fr": "Poudre en tant que telle ",
+		"de": "Pulver derartig"
+	},
+	"93": {
+		"nl": "Als dusdanig vloeistof",
+		"fr": "Solution en tant que telle ",
+		"de": "Lösung derartig"
+	}
+}

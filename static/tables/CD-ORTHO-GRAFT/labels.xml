@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  1.0 	 : 27/04/2012
+	
+  Reference table
+  -->
+  
+ <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.2</VERSION>
+	<DATE>2014-12-15</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Ortho Graft</NAME>
+	<VALUE>
+		<CODE>allograft</CODE>
+		<DESCRIPTION L="en">Allo graft</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>homograft (deprecated)</CODE>
+		<DESCRIPTION L="en">Homo graft</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>alloandautograft</CODE>
+		<DESCRIPTION L="en">Allo and auto graft</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>autograft</CODE>
+		<DESCRIPTION L="en">Auto graft</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>none</CODE>
+		<DESCRIPTION L="en">None</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

@@ -1,0 +1,62 @@
+{
+	"agreementtype": {
+		"fr": "Type d’accord"
+	},
+	"requesttype": {
+		"fr": "Type de demande"
+	},
+	"responsetype": {
+		"fr": "Type de réponse"
+	},
+	"agreementstartdate": {
+		"fr": "Date de début de la demande"
+	},
+	"agreementenddate": {
+		"fr": "Date de fin de la demande"
+	},
+	"consultationstartdate": {
+		"fr": "Date de fin de la demande"
+	},
+	"consultationenddate": {
+		"fr": "Date de fin de consultation"
+	},
+	"careproviderreference": {
+		"fr": "Référence demande prescripteur"
+	},
+	"iorequestreference": {
+		"fr": "Référence demande attribuée par OA"
+	},
+	"decisionreference": {
+		"fr": "Référence de la decision"
+	},
+	"refusaljustification": {
+		"fr": "Motif de refus"
+	},
+	"chapter4reference": {
+		"fr": "Référence à la base règlementaire chapitre IV"
+	},
+	"unitnumber": {
+		"fr": "Strength accordé"
+	},
+	"strength": {
+		"fr": "Nombre d’unités restant à délivrer"
+	},
+	"restunitnumber": {
+		"fr": "Strength restant à délivrer"
+	},
+	"reststrength": {
+		"fr": "Strength restant à délivrer"
+	},
+	"orphandrugdeliveryplace": {
+		"fr": "Etablissement hospitalier – medicaments orphelins"
+	},
+	"orphandrugdeliveryid": {
+		"fr": "Numéro unique – medicaments orphelins"
+	},
+	"coveragetype": {
+		"fr": "Type de couverture"
+	},
+	"chapter4annexreference": {
+		"fr": "Référence à la base règlementaire annexe chapitre IV"
+	}
+}

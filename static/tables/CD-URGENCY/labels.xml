@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+  Property : Belgian Ministry of Health
+  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Date       : 17/07/2002
+  
+  Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
+  Reference table
+-->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2002-07-17</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Message urgency</NAME>
+	<VALUE>
+		<CODE>hour</CODE>
+		<DESCRIPTION L="en">To be processed within the hour</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>4hours</CODE>
+		<DESCRIPTION L="en">To be processed within the 4 hours</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>12hours</CODE>
+		<DESCRIPTION L="en">To be processed within the 12 hours</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>day</CODE>
+		<DESCRIPTION L="en">To be processed within 24 hours</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>week</CODE>
+		<DESCRIPTION L="en">To be processed within 1 week</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>month</CODE>
+		<DESCRIPTION L="en">To be processed within 1 month</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>asap</CODE>
+		<DESCRIPTION L="en">To be processed as soon as possible</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

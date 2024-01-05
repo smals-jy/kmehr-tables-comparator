@@ -1,0 +1,14 @@
+{
+	"couldwaitafterwe": {
+		"fr": "could wait after the week-end"
+	},
+	"urgent": {
+		"fr": "this was urgent"
+	},
+	"noturgent": {
+		"fr": "this was not urgent"
+	},
+	"lifethreathning": {
+		"fr": "the situation was life threathning"
+	}
+}

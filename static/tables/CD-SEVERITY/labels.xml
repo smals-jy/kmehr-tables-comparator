@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2002-07-17</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Severity</NAME>
+	<VALUE>
+		<CODE>normal</CODE>
+		<DESCRIPTION L="en">Normal (for all service types)</DESCRIPTION>
+		<HL7>10207</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>abnormal</CODE>
+		<DESCRIPTION L="en">Abnormal (for nominal observations, all service types)</DESCRIPTION>
+		<HL7>10208</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>veryabnormal</CODE>
+		<DESCRIPTION L="en">Abnormal alert (for nominal observations and all service types)</DESCRIPTION>
+		<HL7>10211</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>veryhigh</CODE>
+		<DESCRIPTION L="en">Above upper alert threshold (for quantitative observations)</DESCRIPTION>
+		<HL7>10213</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>extremelyhigh</CODE>
+		<DESCRIPTION L="en">particularly above upper alert threshold</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>high</CODE>
+		<DESCRIPTION L="en">Above high normal (for quantitative observations)</DESCRIPTION>
+		<HL7>10210</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>low</CODE>
+		<DESCRIPTION L="en">Below low normal (for quantitative observations)</DESCRIPTION>
+		<HL7>10209</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>verylow</CODE>
+		<DESCRIPTION L="en">Below lower alert threshold (for quantitative observations)</DESCRIPTION>
+		<HL7>10212</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>extremelylow</CODE>
+		<DESCRIPTION L="en">particularly below lower alert threshold</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>susceptibleintermediate</CODE>
+		<DESCRIPTION L="en">Intermediately susceptible</DESCRIPTION>
+		<HL7>relatively equivalent to 10221</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>susceptiblemoderate</CODE>
+		<DESCRIPTION L="en">Moderately susceptible</DESCRIPTION>
+		<HL7>10222</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>resistent</CODE>
+		<DESCRIPTION L="en">Resistent</DESCRIPTION>
+		<HL7>10220</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>susceptible</CODE>
+		<DESCRIPTION L="en">Susceptible</DESCRIPTION>
+		<HL7>10223</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>verysusceptible</CODE>
+		<DESCRIPTION L="en">Very susceptible</DESCRIPTION>
+		<HL7>10224</HL7>
+	</VALUE>
+</kmehr-cd>

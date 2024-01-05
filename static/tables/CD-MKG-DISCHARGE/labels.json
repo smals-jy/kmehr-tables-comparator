@@ -1,0 +1,26 @@
+{
+	"0": {
+		"fr": "Inconnu"
+	},
+	"1": {
+		"fr": "Sur avis m�dical"
+	},
+	"2": {
+		"fr": "Contre avis m�dical"
+	},
+	"3": {
+		"fr": "D�c�s avec autopsie"
+	},
+	"4": {
+		"fr": "D�c�s sans autopsie"
+	},
+	"5": {
+		"fr": "Transfert vers autre institution sp�cialis�e"
+	},
+	"6": {
+		"fr": "Transfert/retour r�adaptation/soins"
+	},
+	"D": {
+		"fr": "Retour � l'h�pital d'origine"
+	}
+}

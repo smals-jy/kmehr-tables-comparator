@@ -1,0 +1,11 @@
+{
+	"age": {
+		"en": "adjusted to the age of the patient"
+	},
+	"sex": {
+		"en": "adjusted to the sex of the patient"
+	},
+	"gestational": {
+		"en": "adjusted to the gestational age"
+	}
+}

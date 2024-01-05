@@ -1,0 +1,11 @@
+{
+	"onprescription": {
+		"en": "On Prescription"
+	},
+	"otc": {
+		"en": "Otc"
+	},
+	"other": {
+		"en": "Other"
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Property : CIN/NIC
+  Author   :  D. Janssens
+  Date       : 01/07/2011
+ -->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2011-07-01</DATE>
+	<STATUS>final</STATUS>
+	<NAME>MAA Coverage Type</NAME>
+	<VALUE>
+		<CODE>chapter4</CODE>
+		<DESCRIPTION L="fr">Chapitre IV</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>
