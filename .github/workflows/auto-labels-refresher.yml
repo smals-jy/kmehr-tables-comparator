@@ -16,9 +16,9 @@ jobs:
         steps:
             - name: 🛎️ Checkout
               uses: actions/checkout@v4
-            - name: Install html-xml-utils
+            - name: Install html-xml-utils / tidy
               run: |
-                sudo apt-get install -y html-xml-utils
+                sudo apt-get install -y html-xml-utils tidy
             - name: 🚀 Use Node.js 18.x
               uses: actions/setup-node@v3
               with:
