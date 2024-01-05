@@ -16,9 +16,9 @@ jobs:
         steps:
             - name: 🛎️ Checkout
               uses: actions/checkout@v4
-            - name: Install pup
+            - name: Install html-xml-utils
               run: |
-                sudo apt-get install -y pup
+                sudo apt-get install -y html-xml-utils
             - name: 🚀 Use Node.js 18.x
               uses: actions/setup-node@v3
               with:
