@@ -22,6 +22,16 @@ type Props = {
   dictionnary: {
     [version: string]: KMEHR_Mapping;
   };
+  labels: {
+    [table: string]: {
+      [code: string]: {
+        fr?: string,
+        nl?: string,
+        de?: string,
+        en?: string,
+      }
+    }
+  }
 };
 
 type Added_Value = {
@@ -39,10 +49,20 @@ type Deleted_Value = {
 type Differences = {
     ADDED_VALUES: Added_Value[],
     DELETED_VALUES: Deleted_Value[],
-    NEW_TABLES: string[]
+    NEW_TABLES: string[],
+    labels: {
+      [table: string]: {
+        [code: string]: {
+          fr?: string,
+          nl?: string,
+          de?: string,
+          en?: string,
+        }
+      }
+    },
 }
 
-function AddedValuesViewer({ADDED_VALUES}: Differences) {
+function AddedValuesViewer({ADDED_VALUES, labels}: Differences) {
   const groupedResult = groupBy(ADDED_VALUES, val => val.table);
 
   return (
@@ -57,6 +77,12 @@ function AddedValuesViewer({ADDED_VALUES}: Differences) {
             Object
               .entries(groupedResult)
               .map( ([tableName, newValues], idx) => {
+
+                // extract labels related to this tablename and values
+                const current_labels = Object
+                  .entries((labels[tableName] || {}))
+                  .filter(s => newValues.some(v => v.new_value == s[0]));
+
                 return (
                   <TabItem value={idx.toString()} label={tableName}>
                     <Tabs>
@@ -72,6 +98,30 @@ function AddedValuesViewer({ADDED_VALUES}: Differences) {
                           {JSON.stringify(newValues.map(val => val.new_value), null, "\t")}
                         </CodeBlock>
                       </TabItem>
+                      <TabItem value='labels' label='Labels'>
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Code</th>
+                              <th>Meaning (English)</th>
+                              <th>Meaning (French)</th>
+                              <th>Meaning (Dutch)</th>
+                              <th>Meaning (German)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {
+                              current_labels.map( ([code, entry]) => <tr key={code}>
+                                <th>{code}</th>
+                                <th>{entry.en || ""}</th>
+                                <th>{entry.fr || ""}</th>
+                                <th>{entry.nl || ""}</th>
+                                <th>{entry.de || ""}</th>
+                              </tr>)
+                            }
+                          </tbody>
+                        </table>
+                      </TabItem>
                     </Tabs>
                   </TabItem>
                 )
@@ -83,7 +133,7 @@ function AddedValuesViewer({ADDED_VALUES}: Differences) {
   )
 }
 
-function DeletedValuesViewer({DELETED_VALUES}: Differences) {
+function DeletedValuesViewer({DELETED_VALUES, labels}: Differences) {
   const groupedResult = groupBy(DELETED_VALUES, val => val.table);
 
   return (
@@ -98,6 +148,12 @@ function DeletedValuesViewer({DELETED_VALUES}: Differences) {
             Object
               .entries(groupedResult)
               .map( ([tableName, newValues], idx) => {
+
+                // extract labels related to this tablename and values
+                const current_labels = Object
+                  .entries((labels[tableName] || {}))
+                  .filter(s => newValues.some(v => v.old_value == s[0]));
+
                 return (
                   <TabItem value={idx.toString()} label={tableName}>
                     <Tabs>
@@ -112,6 +168,30 @@ function DeletedValuesViewer({DELETED_VALUES}: Differences) {
                         <CodeBlock language='json'>
                           {JSON.stringify(newValues.map(val => val.old_value), null, "\t")}
                         </CodeBlock>
+                      </TabItem>
+                      <TabItem value='labels' label='Labels'>
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Code</th>
+                              <th>Meaning (English)</th>
+                              <th>Meaning (French)</th>
+                              <th>Meaning (Dutch)</th>
+                              <th>Meaning (German)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {
+                              current_labels.map( ([code, entry]) => <tr key={code}>
+                                <th>{code}</th>
+                                <th>{entry.en || ""}</th>
+                                <th>{entry.fr || ""}</th>
+                                <th>{entry.nl || ""}</th>
+                                <th>{entry.de || ""}</th>
+                              </tr>)
+                            }
+                          </tbody>
+                        </table>
                       </TabItem>
                     </Tabs>
                   </TabItem>
@@ -151,10 +231,10 @@ function compareVersions(a : string, b : string) {
   return 0;
 }
 
-export default function DiffComponent({ versions, dictionnary }: Props) {
+export default function DiffComponent({ versions, dictionnary, labels }: Props) {
   const [fromVersion, setFromVersion] = useState<string | null>(null);
   const [toVersion, setToVersion] = useState<string | null>(null);
-  const [diffResult, setDiffResult] = useState<Differences>({
+  const [diffResult, setDiffResult] = useState<Omit<Differences, "labels">>({
     ADDED_VALUES: [],
     DELETED_VALUES: [],
     NEW_TABLES: []
@@ -219,9 +299,9 @@ export default function DiffComponent({ versions, dictionnary }: Props) {
       
       <div>
         <h2>Diff Result:</h2>
-        {diffResult.ADDED_VALUES.length > 0 && <AddedValuesViewer {...diffResult} />}
-        {diffResult.DELETED_VALUES.length > 0 && <DeletedValuesViewer {...diffResult} />}
-        {diffResult.NEW_TABLES.length > 0 && <NewTablesViewer {...diffResult} />}
+        {diffResult.ADDED_VALUES.length > 0 && <AddedValuesViewer {...diffResult} labels={labels} />}
+        {diffResult.DELETED_VALUES.length > 0 && <DeletedValuesViewer {...diffResult} labels={labels} />}
+        {diffResult.NEW_TABLES.length > 0 && <NewTablesViewer {...diffResult} labels={labels} />}
       </div>
     </Layout>
   );
