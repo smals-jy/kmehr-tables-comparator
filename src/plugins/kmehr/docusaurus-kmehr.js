@@ -46,17 +46,42 @@ async function retrieveKMEHRDefinitions() {
     return [kmehr_versions, result];
 }
 
+// Fetch labels
+async function retrieveKMEHRLabels() {
+    const KMEHR_FOLDER = pathResolver(__dirname, "../../..","static/tables");
+
+    // Scan available folders
+    const kmehr_labels = (await readdir(KMEHR_FOLDER, { withFileTypes: true }))
+        .filter(dirent => dirent.isDirectory())
+        .map(dirent => dirent.name);
+
+    let result = {};
+
+    // Extract the json payload for each & merge them into a single array
+    for (let kmehr_label of kmehr_labels) {
+        const output_path = pathResolver(KMEHR_FOLDER, kmehr_label, `labels.json`);
+        const json = JSON.parse(await readFile(output_path));
+        result[kmehr_label] = json;
+    }
+
+    return result;
+}
+
 // Docusaurus declaration
 function KMEHR_DIFF(context, _opts) {
     return {
         name: "docusaurus-eHealth-kmehr-plugin",
         // load json files that holds the table
         async loadContent() {
-            return retrieveKMEHRDefinitions();
+            return Promise.all([
+                retrieveKMEHRDefinitions(),
+                retrieveKMEHRLabels(),
+            ])
         },
         async contentLoaded({content, actions}) {
             const {createData, addRoute} = actions;
-            const [VERSIONS, RESULT] = content;
+            const [KMEHR, LABELS] = content;
+            const [VERSIONS, RESULT] = KMEHR;
 
             // Create versions.json
             const versionsJsonPath = await createData(
@@ -70,6 +95,12 @@ function KMEHR_DIFF(context, _opts) {
                 JSON.stringify(RESULT),
             );
 
+            // Create labels.json
+            const labelsJsonPath = await createData(
+                'labels.json',
+                JSON.stringify(LABELS),
+            );
+
             // Add the '/diff' routes, and ensure it receives the props
             // Workaround to work both on local & remote
             const baseUrl = context.siteConfig.baseUrl !== "/" ? context.siteConfig.baseUrl.slice(0, context.siteConfig.baseUrl.length - 1) : "";
@@ -79,7 +110,8 @@ function KMEHR_DIFF(context, _opts) {
                 modules: {
                     // propName -> JSON file path
                     versions: versionsJsonPath,
-                    dictionnary: resultJsonPath
+                    dictionnary: resultJsonPath,
+                    labels: labelsJsonPath
                 },
                 exact: false,
             });
