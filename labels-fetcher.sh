@@ -20,7 +20,7 @@ tidy -o temp/tables.html temp/index.html > /dev/null 2>&1
 cleaned_content=$(<temp/tables.html)
 
 # Extract rows from cleaned HTML content using hxselect
-rows=$(echo "$cleaned_content" | hxselect 'tr[role="row"]')
+rows=$(echo "$cleaned_content" | hxselect 'tbody tr')
 
 # Loop through each row
 while read -r row; do
