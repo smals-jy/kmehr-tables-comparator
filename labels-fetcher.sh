@@ -2,30 +2,38 @@
 
 # Step 1 : Extract links and references names from the website
 page_content=$(curl -s https://www.ehealth.fgov.be/standards/kmehr/en/tables)
-links=$(echo "$page_content" | grep -oP '<a[^>]*\shref="([^"]*)"[^>]*class="btn btn-primary icon-kmehr"[^>]*>\s*xml\s*</a>')
 
-# Count the number of links found
-num_links=$(echo "$links" | wc -l)
-echo "Found $num_links links."
+# Extract rows with role="row" using pup
+rows=$(echo "$page_content" | pup 'tr[role="row"]')
+
+# Initialize counter for processed rows
+processed_rows=0
 
 # Create the temp directory and navigate to it
 mkdir -p temp
 echo "Created temp directory."
 
-echo "$links" | while read -r line; do
+# Loop through each row
+while read -r row; do
+    name=$(echo "$row" | pup 'td.sorting_1 text{}')
+    link=$(echo "$row" | pup 'a.btn-primary.icon-kmehr[href$=".xml"] attr{href}')
 
-    # Prepare variables
-    table=$(echo "$line" | sed -n 's/.*[?&]name=\([^&]*\).*/\1/p' | tr '[:lower:]' '[:upper:]')
-    full_href=$(echo "$line" | sed -n 's/.*href="\([^"]*\).*/\1/p')
+    if [ -n "$link" ]; then
+        # Clean name (convert to uppercase)
+        cleaned_name=$(echo "$name" | tr -d '\n\r' | tr '[:upper:]' '[:lower:]')
 
-    # Step 2: Download the files
-    echo "Downloading version $table..."
-    wget -O "temp/$table.xml" "https://www.ehealth.fgov.be$full_href"
+        # Download and copy the XML file
+        echo "Downloading reference $cleaned_name..."
+        wget -O "temp/$cleaned_name.xml" "https://www.ehealth.fgov.be$link"
+        cp -r "temp/$cleaned_name.xml" "static/tables/$cleaned_name/labels.xml"
 
-    # Step 3 : Replace old xml file
-    cp -r "temp/$table.xml" "static/tables/$table/labels.xml"
+        # Increment the processed row counter
+        ((processed_rows++))
+    fi
+done <<< "$rows"
 
-done
+# Display the number of processed rows
+echo "Processed $processed_rows rows."
 
 # Clean up by removing the temp directory
 rm -r "temp"
