@@ -25,7 +25,7 @@ jobs:
             - name: ✨ Fix permissions
               run: |
                 chmod u+x labels-fetcher.sh
-            - name: 🔨 Find new KMEHR versions
+            - name: 🔨 Find new KMEHR labels
               shell: bash
               run: |
                 ./labels-fetcher.sh
