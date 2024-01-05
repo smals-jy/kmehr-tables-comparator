@@ -14,7 +14,7 @@ html_content=$(curl -s https://www.ehealth.fgov.be/standards/kmehr/en/tables)
 echo "$html_content" > temp/index.html
 
 # Use tidy to clean up the HTML content
-tidy -o temp/tables.html temp/index.html
+tidy -o temp/tables.html temp/index.html > /dev/null 2>&1
 
 # Read the cleaned HTML content back into a variable
 cleaned_content=$(<temp/tables.html)
@@ -40,6 +40,9 @@ done <<< "$rows"
 
 # Display the number of processed rows
 echo "Processed $processed_rows rows."
+
+# For debug, to see the file used
+cp -r "temp/tables.html" "static/tables/tables.html"
 
 # Clean up by removing the temp directory
 rm -r "temp"
