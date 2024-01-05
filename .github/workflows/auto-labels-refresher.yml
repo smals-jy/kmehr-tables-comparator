@@ -18,7 +18,7 @@ jobs:
               uses: actions/checkout@v4
             - name: Install pup
               run: |
-                apt install -y pup
+                sudo apt-get install -y pup
             - name: 🚀 Use Node.js 18.x
               uses: actions/setup-node@v3
               with:
