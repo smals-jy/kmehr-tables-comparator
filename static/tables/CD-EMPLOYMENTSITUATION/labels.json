@@ -1,0 +1,20 @@
+{
+	"selfemployed": {
+		"en": "self-employed",
+		"fr": "ind�pendant",
+		"nl": "zelfstandige",
+		"de": "Selbst�ndiger"
+	},
+	"employed": {
+		"en": "employed",
+		"fr": "salari�",
+		"nl": "loontrekkende",
+		"de": "Arbeitnehmer"
+	},
+	"civilservant": {
+		"en": "civil servant",
+		"fr": "fonctionnaire",
+		"nl": "ambtenaar",
+		"de": "Beamter"
+	}
+}

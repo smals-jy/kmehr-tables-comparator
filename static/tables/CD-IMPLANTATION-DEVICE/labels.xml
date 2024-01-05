@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  1.0 	 : 27/04/2012
+	
+  Reference table
+  -->
+  
+ <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2012-04-01</DATE>
+	<STATUS>final</STATUS>
+	<NAME>Implantation Device</NAME>
+	<VALUE>
+		<CODE>spacer</CODE>
+		<DESCRIPTION L="en">Spacer</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>hipprosthesis</CODE>
+		<DESCRIPTION L="en">Hip Prosthesis</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>kneeprosthesis</CODE>
+		<DESCRIPTION L="en">Knee Prosthesis</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

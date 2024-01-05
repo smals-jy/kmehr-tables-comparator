@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Property : Belgian Ministry of Health
+  Author   :  I. Pollet
+  Date      : 27/07/2009
+ -->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2009-07-30</DATE>
+	<STATUS>published</STATUS>
+	<NAME>eBirth birth place type</NAME>
+	<VALUE>
+		<CODE>home</CODE>
+		<DESCRIPTION L="en">home</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>hospital</CODE>
+		<DESCRIPTION L="en">hospital</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>other</CODE>
+		<DESCRIPTION L="en">other</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

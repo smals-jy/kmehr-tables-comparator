@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Property : Belgian Ministry of Health
+  Author   :  I. Pollet
+  Date      : 27/07/2009
+ -->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2009-07-30</DATE>
+	<STATUS>published</STATUS>
+	<NAME>eBirth monitoring foetal</NAME>
+	<VALUE>
+		<CODE>CTG</CODE>
+		<DESCRIPTION L="fr">CTG (cardio(toco)gramme)</DESCRIPTION>
+		<DESCRIPTION L="nl">CTG (cardiotocogram)</DESCRIPTION>
+		<DESCRIPTION L="de">KTG (Kardio(toko)gramm)</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>STAN</CODE>
+		<DESCRIPTION L="fr">STAN</DESCRIPTION>
+		<DESCRIPTION L="nl">STAN-monitor</DESCRIPTION>
+		<DESCRIPTION L="de">STAN</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>MBE</CODE>
+		<DESCRIPTION L="fr">pH au scalp</DESCRIPTION>
+		<DESCRIPTION L="nl">MBO (microbloedonderzoek)</DESCRIPTION>
+		<DESCRIPTION L="de">pH an der Kopfhaut</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>intermittent-auscultation</CODE>
+		<DESCRIPTION L="fr">Auscultation intermittente</DESCRIPTION>
+		<DESCRIPTION L="nl">Intermittente ausculatie</DESCRIPTION>
+		<DESCRIPTION L="de">Intermittente Auskultation</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

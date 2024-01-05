@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  1.0 	 : 27/04/2012
+	
+  Reference table
+  -->
+  
+ <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.2</VERSION>
+	<DATE>2015-03-01</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Implementation Type</NAME>
+	<VALUE>
+		<CODE>unimedial</CODE>
+		<DESCRIPTION L="en">Uni medial</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>unilateral</CODE>
+		<DESCRIPTION L="en">Uni lateral</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>bicompartimental</CODE>
+		<DESCRIPTION L="en">Bicompartimental</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>femoropatellar</CODE>
+		<DESCRIPTION L="en">Femoropatellar</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>cementwithoutab</CODE>
+		<DESCRIPTION L="en">Cement Without AB</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>totalcr</CODE>
+		<DESCRIPTION L="en">Total PCL retaining (CR)</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>totalps</CODE>
+		<DESCRIPTION L="en">Total posterior-stabilized (PS)</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>totalcck</CODE>
+		<DESCRIPTION L="en">Total type CCK</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>hinge</CODE>
+		<DESCRIPTION L="en">Hinge</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>totaluc</CODE>
+		<DESCRIPTION L="en">Total ultracongruent (UC)</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>other</CODE>
+		<DESCRIPTION L="en">Other</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>totalprosthesis</CODE>
+		<DESCRIPTION L="en">Total prosthesis</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>totalprosthesisdualmobility</CODE>
+		<DESCRIPTION L="en">Total prosthesis dual mobility</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>hemiprosthesismonoblock</CODE>
+		<DESCRIPTION L="en">Hemi prosthesis mono block</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>hemiprosthesisbipolar</CODE>
+		<DESCRIPTION L="en">Hemi prosthesis bipolar</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>bicruciateretaining</CODE>
+		<DESCRIPTION L="en">Bicruciate retaining</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>hemiprosthesismodular</CODE>
+		<DESCRIPTION L="en">Hemi prosthesis modular</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>resurfacingfemhemi</CODE>
+		<DESCRIPTION L="en">Resurfacing fem hemi</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>resurfacingfemcup</CODE>
+		<DESCRIPTION L="en">Resurfacing fem cup</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>resurfacingpartial</CODE>
+		<DESCRIPTION L="en">Resurfacing partial</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>resurfacingpartialfemcondyle</CODE>
+		<DESCRIPTION L="en">Resurfacing partial fem condyle</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

@@ -1,0 +1,22 @@
+{
+	"CTG": {
+		"fr": "CTG (cardio(toco)gramme)",
+		"nl": "CTG (cardiotocogram)",
+		"de": "KTG (Kardio(toko)gramm)"
+	},
+	"STAN": {
+		"fr": "STAN",
+		"nl": "STAN-monitor",
+		"de": "STAN"
+	},
+	"MBE": {
+		"fr": "pH au scalp",
+		"nl": "MBO (microbloedonderzoek)",
+		"de": "pH an der Kopfhaut"
+	},
+	"intermittent-auscultation": {
+		"fr": "Auscultation intermittente",
+		"nl": "Intermittente ausculatie",
+		"de": "Intermittente Auskultation"
+	}
+}

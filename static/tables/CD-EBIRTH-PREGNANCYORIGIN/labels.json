@@ -1,0 +1,22 @@
+{
+	"spontaneous": {
+		"fr": "Spontanée",
+		"nl": "Spontaan",
+		"de": "Spontan"
+	},
+	"hormonal": {
+		"fr": "Traitement hormonal ",
+		"nl": "Hormonaal",
+		"de": "Hormonbehandlung"
+	},
+	"IVF": {
+		"fr": "FIV",
+		"nl": "IVF",
+		"de": "In-Vitro-Befruchtung"
+	},
+	"ICSI": {
+		"fr": "ICSI",
+		"nl": "ICSI",
+		"de": "ICSI"
+	}
+}

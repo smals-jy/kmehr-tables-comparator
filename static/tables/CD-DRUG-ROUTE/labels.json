@@ -1,0 +1,492 @@
+{
+	"00001": {
+		"en": "auric.",
+		"de": "ins Ohr",
+		"fr": "dans l'oreille",
+		"nl": "in het oor"
+	},
+	"00002": {
+		"en": "derm.",
+		"de": "auf die Haut",
+		"fr": "sur la peau",
+		"nl": "op de huid"
+	},
+	"00003": {
+		"en": "derm./rect",
+		"fr": "derm./rect.",
+		"nl": "derm./rect."
+	},
+	"00004": {
+		"en": "derm./vag.",
+		"fr": "derm./vag.",
+		"nl": "derm./vag."
+	},
+	"00005": {
+		"en": "e.dur.",
+		"de": "Injektion außerhalb der Hirnhaut",
+		"fr": "injection en dehors de la méninge",
+		"nl": "Inspuiting buiten het hersenvlies"
+	},
+	"00006": {
+		"en": "e.dur./i.thec./local",
+		"fr": "e.dur./i.théc./local",
+		"nl": "e.dur./i.thec./lokaal"
+	},
+	"00007": {
+		"en": "e.dur./local",
+		"fr": "e.dur./local",
+		"nl": "p.dur./lokaal"
+	},
+	"00008": {
+		"en": "e.trach.",
+		"de": "in die Luftröhre",
+		"fr": "dans la trachée",
+		"nl": "In de luchtpijp"
+	},
+	"00009": {
+		"en": "endocerv.",
+		"de": "einführen in den Gebärmutterhals",
+		"fr": "introduire dans le col de l'utérus",
+		"nl": "Inbrengen in de baarmoederhals"
+	},
+	"00010": {
+		"en": "i.arter.",
+		"de": "Injektion in eine Arterie",
+		"fr": "injection dans l'artère",
+		"nl": "Inspuiting in een slagader"
+	},
+	"00011": {
+		"en": "i.cavern.",
+		"de": "Injektion in den Penis",
+		"fr": "injection dans le pénis",
+		"nl": "Inspuiting in de penis"
+	},
+	"00012": {
+		"en": "i.derm.",
+		"de": "Injektion in die Haut",
+		"fr": "injection dans la peau",
+		"nl": "Inspuiting in de huid"
+	},
+	"00013": {
+		"en": "i.m.",
+		"de": "Injektion in einen Muskel",
+		"fr": "injection dans un muscle",
+		"nl": "inspuiting in een spier"
+	},
+	"00014": {
+		"en": "i.m./i.thec./e.dur./s.c.",
+		"fr": "i.m./i.théc./e.dur./s.c.",
+		"nl": "i.m./i.thec./p.dur./s.c."
+	},
+	"00015": {
+		"en": "i.m./i.v.",
+		"fr": "i.m./i.v.",
+		"nl": "i.m./i.v."
+	},
+	"00016": {
+		"en": "i.m./i.v./inf.",
+		"nl": "i.m./i.v./inf.",
+		"fr": "i.m./i.v./perf."
+	},
+	"00017": {
+		"en": "i.m./i.v./inf./e.dur./s.c.",
+		"nl": "i.m./i.v./inf./e.dur./s.c.",
+		"fr": "i.m./i.v./perf./p.dur./s.c."
+	},
+	"00018": {
+		"en": "i.m./i.v./inf./i.arter./i.thec.",
+		"fr": "i.m./i.v./inf./i.arter./i.thec.",
+		"nl": "i.m./i.v./inf./i.arter./i.thec."
+	},
+	"00019": {
+		"en": "i.m./i.v./perf./i.artér./local/s.c.",
+		"nl": "i.m./i.v./perf./i.arter./lokaal/s.c.",
+		"fr": "i.m./i.v./perf./i.artér./local/s.c."
+	},
+	"00020": {
+		"en": "i.m./i.v./inf./i.thec.",
+		"fr": "i.m./i.v./inf./i.thec.",
+		"nl": "i.m./i.v./inf./i.thec."
+	},
+	"00021": {
+		"en": "i.m./i.v./inf./rect.",
+		"nl": "i.m./i.v./inf./rect.",
+		"fr": "i.m./i.v./perf./rect."
+	},
+	"00022": {
+		"en": "i.m./i.v./inf./s.c.",
+		"nl": "i.m./i.v./inf./s.c.",
+		"fr": "i.m./i.v./perf./s.c."
+	},
+	"00023": {
+		"en": "i.m./i.v./inhal.",
+		"fr": "i.m./i.v./inhal.",
+		"nl": "i.m./i.v./inhal."
+	},
+	"00024": {
+		"en": "i.m./i.v./local",
+		"nl": "i.m./i.v./lokaal",
+		"fr": "i.m./i.v./local"
+	},
+	"00025": {
+		"en": "i.m./i.v./or.",
+		"fr": "i.m./i.v./or.",
+		"nl": "i.m./i.v./or."
+	},
+	"00026": {
+		"en": "i.m./i.v./rect",
+		"fr": "i.m./i.v./rect.",
+		"nl": "i.m./i.v./rect."
+	},
+	"00027": {
+		"en": "i.m./i.v./s.c.",
+		"fr": "i.m./i.v./s.c.",
+		"nl": "i.m./i.v./s.c."
+	},
+	"00028": {
+		"en": "i.m./inf.",
+		"nl": "i.m./inf.",
+		"fr": "i.m./perf."
+	},
+	"00029": {
+		"en": "i.m./perf./local",
+		"nl": "i.m./perf./lokaal",
+		"fr": "i.m./perf./local"
+	},
+	"00030": {
+		"en": "i.m./local",
+		"fr": "i.m./local",
+		"nl": "i.m./lokaal"
+	},
+	"00031": {
+		"en": "i.m./local/rect.",
+		"nl": "i.m./lokaal/rect.",
+		"fr": "i.m./rect./local"
+	},
+	"00032": {
+		"en": "i.m./s.c.",
+		"fr": "i.m./s.c.",
+		"nl": "i.m./s.c."
+	},
+	"00033": {
+		"en": "i.thec.",
+		"de": "Injektion ins Rückenmark",
+		"fr": "injection dans la moelle épinière",
+		"nl": "Inspuiting in het ruggenmerg"
+	},
+	"00034": {
+		"en": "i.ut.",
+		"de": "einführen in die Gebärmutter",
+		"fr": "introduire dans l'utérus",
+		"nl": "Inbrengen in de baarmoeder"
+	},
+	"00035": {
+		"en": "i.v.",
+		"de": "Injektion in eine Vene",
+		"fr": "injection dans une veine",
+		"nl": "Inspuiting in een ader"
+	},
+	"00036": {
+		"en": "i.v./p.dur./local",
+		"nl": "i.v./e.dur./lokaal",
+		"fr": "i.v./p.dur./local"
+	},
+	"00037": {
+		"en": "i.v./i.arter./i.ves.",
+		"nl": "i.v./i.arter./i.ves.",
+		"fr": "i.v./i.artér./i.vés."
+	},
+	"00038": {
+		"en": "i.v./inf.",
+		"fr": "i.v./perf.",
+		"nl": "i.v./inf."
+	},
+	"00039": {
+		"en": "i.v./perf./p.dur.",
+		"fr": "i.v./perf./p.dur.",
+		"nl": "i.v./perf./p.dur."
+	},
+	"00040": {
+		"en": "i.v./perf./i.artér.",
+		"fr": "i.v./perf./i.artér.",
+		"nl": "i.v./inf./i.arter."
+	},
+	"00041": {
+		"en": "i.v./perf./i.théc./s.c.",
+		"fr": "i.v./perf./i.théc./s.c.",
+		"nl": "i.v./inf./i.thec./s.c."
+	},
+	"00042": {
+		"en": "i.v./perf./inhal.",
+		"fr": "i.v./perf./inhal.",
+		"nl": "i.v./inf./inhal."
+	},
+	"00043": {
+		"en": "i.v./perf./s.c.",
+		"fr": "i.v./perf./s.c.",
+		"nl": "i.v./inf./s.c."
+	},
+	"00044": {
+		"en": "i.v./s.c.",
+		"fr": "i.v./s.c.",
+		"nl": "i.v./s.c."
+	},
+	"00045": {
+		"en": "i.ves.",
+		"de": "in die Harnblase",
+		"fr": "dans la vessie",
+		"nl": "In de urineblaas"
+	},
+	"00046": {
+		"en": "perf.",
+		"de": "Infusion",
+		"fr": "perfusion",
+		"nl": "infuus"
+	},
+	"00047": {
+		"en": "perf./i.ves.",
+		"fr": "perf./i.vés.",
+		"nl": "inf./i.ves."
+	},
+	"00048": {
+		"en": "perf./s.c.",
+		"fr": "perf./s.c.",
+		"nl": "inf./s.c."
+	},
+	"00049": {
+		"en": "inhal.",
+		"de": "Inhalation",
+		"fr": "inhalation",
+		"nl": "Inhalatie"
+	},
+	"00050": {
+		"en": "inhal./nas./local",
+		"fr": "inhal./nas./local",
+		"nl": "inhal./nas./lokaal"
+	},
+	"00051": {
+		"en": "inj.",
+		"de": "Injektion",
+		"fr": "injection",
+		"nl": "Inspuiting"
+	},
+	"00052": {
+		"en": "lip",
+		"de": "auf die Lippen",
+		"fr": "lèvre",
+		"nl": "Op de lippen"
+	},
+	"00053": {
+		"en": "local",
+		"de": "lokal",
+		"fr": "local",
+		"nl": "lokaal"
+	},
+	"00054": {
+		"en": "muc.",
+		"de": "auf die Schleimhaut",
+		"fr": "sur la muqueuse",
+		"nl": "Op het slijmvlies"
+	},
+	"00055": {
+		"en": "nas.",
+		"de": "in die Nase",
+		"fr": "dans le nez",
+		"nl": "in de neus"
+	},
+	"00056": {
+		"en": "opht.",
+		"de": "in die Augen",
+		"fr": "dans les yeux",
+		"nl": "in de ogen"
+	},
+	"00057": {
+		"en": "opht./auric.",
+		"fr": "opht./auric.",
+		"nl": "oft./auric."
+	},
+	"00058": {
+		"en": "opht./auric./nas.",
+		"fr": "opht./auric./nas.",
+		"nl": "oft./auric./nas."
+	},
+	"00059": {
+		"en": "opht./auric./nas./local",
+		"fr": "opht./auric./nas./local",
+		"nl": "oft./auric./nas./lokaal"
+	},
+	"00060": {
+		"en": "or.",
+		"de": "einnehmen",
+		"fr": "prendre/avaler",
+		"nl": "innemen"
+	},
+	"00061": {
+		"en": "or./bucco-phar./derm.",
+		"fr": "or./bucco-phar./derm.",
+		"nl": "or./orofar./derm."
+	},
+	"00062": {
+		"en": "or./rect.",
+		"fr": "or./rect.",
+		"nl": "or./rect."
+	},
+	"00063": {
+		"en": "or./s.l.",
+		"fr": "or./s.l.",
+		"nl": "or./s.l."
+	},
+	"00064": {
+		"en": "bucco-phar.",
+		"de": "durch den Mund",
+		"fr": "par la bouche",
+		"nl": "in de mond"
+	},
+	"00065": {
+		"en": "bucco-phar./derm.",
+		"fr": "bucco-phar./derm.",
+		"nl": "orofar./derm."
+	},
+	"00066": {
+		"en": "bucco-phar./nas.",
+		"de": "durch den Mund und in die Nase",
+		"fr": "par la bouche et dans le nez",
+		"nl": "in de mond en in de neus"
+	},
+	"00067": {
+		"en": "rect.",
+		"de": "rektal",
+		"fr": "par voie rectale",
+		"nl": "anaal opsteken"
+	},
+	"00068": {
+		"en": "s.c.",
+		"de": "Spritze unter die Haut",
+		"fr": "injection sous-cutanée",
+		"nl": "onderhuidse inspuiting"
+	},
+	"00069": {
+		"en": "s.c./i.derm.",
+		"fr": "s.c./i.derm.",
+		"nl": "s.c./i.derm."
+	},
+	"00070": {
+		"en": "s.l.",
+		"de": "unter die Zunge",
+		"fr": "sous la langue",
+		"nl": "onder de tong"
+	},
+	"00071": {
+		"en": "teeth",
+		"de": "auf die Zähne",
+		"fr": "sur les dents",
+		"nl": "op de tanden"
+	},
+	"00072": {
+		"en": "urethr.",
+		"de": "in den Harnleiter",
+		"fr": "dans l'uretère",
+		"nl": "in de urineleider"
+	},
+	"00073": {
+		"en": "vag.",
+		"de": "vaginal",
+		"fr": "par voie vaginale",
+		"nl": "vaginaal"
+	},
+	"derm": {
+		"en": "dermatologically",
+		"fr": "dermatologique",
+		"nl": "dermatologisch"
+	},
+	"larter": {
+		"en": "intra-arterial",
+		"fr": "intra-artérielle",
+		"nl": "intra-arterieel"
+	},
+	"icut": {
+		"en": "intracutaneous",
+		"fr": "intracutané",
+		"nl": "intracutaan"
+	},
+	"ider": {
+		"en": "intradermally",
+		"fr": "intradermique",
+		"nl": "intradermaal"
+	},
+	"oft": {
+		"en": "ophtalmological",
+		"fr": "ophtalmologique",
+		"nl": "oftalmologisch"
+	},
+	"cutaneous-injection": {
+		"en": "cutaneous injection",
+		"fr": "injection cutanée",
+		"nl": "cutane injectie"
+	},
+	"dermal-injection": {
+		"en": "dermal injection",
+		"fr": "injection dermique",
+		"nl": "dermale injectie"
+	},
+	"nose-left": {
+		"en": "nose left",
+		"fr": "nez gauche",
+		"nl": "neus links"
+	},
+	"nose-right": {
+		"en": "nose right",
+		"fr": "nez droite",
+		"nl": "neus rechts"
+	},
+	"both-nostrils": {
+		"en": "both nostrils",
+		"fr": "les deux narines",
+		"nl": "beide neusgaten"
+	},
+	"eye-left": {
+		"en": "eye left",
+		"fr": "oeil gauche",
+		"nl": "oog links"
+	},
+	"eye-right": {
+		"en": "eye right",
+		"fr": "oeil droite",
+		"nl": "oog rechts"
+	},
+	"both-eyes": {
+		"en": "both eyes",
+		"fr": "les deux yeux",
+		"nl": "beide ogen"
+	},
+	"ear-left": {
+		"en": "ear left",
+		"fr": "oreille gauche",
+		"nl": "oor links"
+	},
+	"ear-right": {
+		"en": "ear right",
+		"fr": "oreille droite",
+		"nl": "oor rechts"
+	},
+	"both-ears": {
+		"en": "both ears",
+		"fr": "les deux oreilles",
+		"nl": "beide oren"
+	},
+	"vitreal-injection": {
+		"en": "vitreal injection",
+		"fr": "injection vitrale",
+		"nl": "vitreale injectie"
+	},
+	"transdermal": {
+		"en": "transdermal",
+		"fr": "transdermique",
+		"nl": "transdermaal"
+	},
+	"hyperdermoclyse": {
+		"en": "hyperdermoclyse",
+		"fr": "hyperdermoclyse",
+		"nl": "hyperdermoclyse"
+	}
+}

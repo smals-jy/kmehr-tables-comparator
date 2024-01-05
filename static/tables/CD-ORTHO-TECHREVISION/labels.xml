@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  1.0 	 : 27/04/2012
+	
+  Reference table
+  -->
+  
+ <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2012-04-01</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Ortho Technic Revision</NAME>
+	<VALUE>
+		<CODE>femoralheadneck</CODE>
+		<DESCRIPTION L="en">Femoral replacement : head/neck</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>femoralcomplete</CODE>
+		<DESCRIPTION L="en">Femoral replacement : complete</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>acetabularinsert</CODE>
+		<DESCRIPTION L="en">Acetabular replacement : insert</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>acetabularcomplete</CODE>
+		<DESCRIPTION L="en">Acetabular replacement : complete</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

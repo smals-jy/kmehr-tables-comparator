@@ -1,0 +1,178 @@
+{
+	"admission": {
+		"en": "Admission notification"
+	},
+	"alert": {
+		"en": "Alert"
+	},
+	"contactreport": {
+		"en": "Contact report"
+	},
+	"death": {
+		"en": "Death notification"
+	},
+	"discharge": {
+		"en": "Discharge notification"
+	},
+	"dischargereport": {
+		"en": "Discharge letter"
+	},
+	"epidemiology": {
+		"en": "Epidemiological survey"
+	},
+	"labrequest": {
+		"en": "Laboratory test request"
+	},
+	"labresult": {
+		"en": "Laboratory result"
+	},
+	"note": {
+		"en": "Note"
+	},
+	"pharmaceuticalprescription": {
+		"en": "Pharmaceutical prescription"
+	},
+	"productdelivery": {
+		"en": "Pharmaceutical product delivery"
+	},
+	"quickdischargereport": {
+		"en": "Provisional discharge letter"
+	},
+	"referral": {
+		"en": "Referral letter"
+	},
+	"request": {
+		"en": "Procedure request"
+	},
+	"result": {
+		"en": "Procedure result"
+	},
+	"vaccination": {
+		"en": "Vaccination report"
+	},
+	"sumehr": {
+		"en": "Summerised Electronic Healthcare Record"
+	},
+	"ecare-safe-consultation": {
+		"en": "eCare-SAFE consultation"
+	},
+	"ebirth-mother-notification": {
+		"en": "eBirth notification- mother part"
+	},
+	"ebirth-baby-notification": {
+		"en": "eBirth notification- baby part"
+	},
+	"ebirth-baby-medicalform": {
+		"en": "eBirth medical form - baby part"
+	},
+	"ebirth-mother-medicalform": {
+		"en": "eBirth medical form - mother part"
+	},
+	"clinicalsummary": {
+		"en": "Clinical summary (part of GP software migration file)"
+	},
+	"bvt-sample": {
+		"en": "BVT Sample (part of BCR Biobank project)"
+	},
+	"medicaladvisoragreement (deprecated)": {
+		"en": "Medical Advisor Agreement (eg. Chapter IV)"
+	},
+	"intervention": {
+		"en": "Intervention (TucoDeclaration)"
+	},
+	"clinicalpath": {
+		"en": "Clinical path (Hub-Metahub)"
+	},
+	"telemonitoring": {
+		"en": "Tele monitoring (Hub-Metahub)"
+	},
+	"radiationexposuremonitoring": {
+		"en": "Radiation exposure monitoring (Hub-Metahub)"
+	},
+	"medicationschemeelement": {
+		"en": "Medication scheme element (Vitalink)"
+	},
+	"treatmentsuspension": {
+		"en": "Treatment suspension (Vitalink)"
+	},
+	"prescription": {
+		"en": "Prescription"
+	},
+	"notification": {
+		"en": "Notification"
+	},
+	"report": {
+		"en": "Report"
+	},
+	"medicationscheme": {
+		"en": "Medication scheme"
+	},
+	"vaccinationscheme": {
+		"en": "Vaccination scheme"
+	},
+	"vaccinationschemeelement": {
+		"en": "Vaccination scheme element"
+	},
+	"ecare-tardis-consultation": {
+		"en": "eCare-SAFE tardis consultation"
+	},
+	"genericregistryentry": {
+		"en": "Generic registry entry"
+	},
+	"population-based-screening": {
+		"en": "Population based screening (Vitalink)",
+		"nl": "Screening bij bevolking (Vitalink)",
+		"fr": "Recherche sur la population (Vitalink)"
+	},
+	"child-prevention": {
+		"en": "Child prevention (Vitalink)",
+		"nl": "Kinder preventie (Vitalink)",
+		"fr": "Prévention enfants (Vitalink)"
+	},
+	"applicationlink": {
+		"en": "Link to invoke an external application",
+		"nl": "Link om externe toepassing aan te roepen",
+		"fr": "Lien pour démarrer une application externe"
+	},
+	"careplan": {
+		"en": "Careplan",
+		"nl": "Zorgplan",
+		"fr": "Plan de soins"
+	},
+	"diarynote": {
+		"en": "diarynote",
+		"nl": "dagboeknota",
+		"fr": "note dans le journal",
+		"de": "Journalnotiz"
+	},
+	"mea": {
+		"en": "Medical emergency attestation (PPS-SI)",
+		"nl": "Attest van dringende medische hulp (POD-MI)",
+		"fr": "Attestation d'aide médicale urgente (SPP-IS)",
+		"de": "Zertifikat Notfallmedizin (OPD-S)"
+	},
+	"perinatal": {
+		"en": "perinatal dataset",
+		"nl": "perinatale dataset",
+		"fr": "dataset périnatal",
+		"de": "Perinatales Datensatz"
+	},
+	"belrai-report": {
+		"en": "belrai report"
+	},
+	"pharmaceuticalmedicationscheme": {
+		"en": "Pharmaceutical medication scheme",
+		"nl": "Pharmaceutisch medicatieschema",
+		"fr": "Schéma de médication pharmaceutique",
+		"de": "Pharmazeutisches Medikationsschema"
+	},
+	"nursingsummaryreport": {
+		"en": "Nursing summary report",
+		"nl": "Rapport verpleegkundige samenvatting",
+		"fr": "Rapport de résumé infirmier",
+		"de": "Zusammenfassung Pflegebericht"
+	},
+	"geriatrictransferreport": {
+		"en": "Geriatric transfer report"
+	}
+}

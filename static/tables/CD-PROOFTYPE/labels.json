@@ -1,0 +1,32 @@
+{
+	"sisreading": {
+		"en": "SIS card reading"
+	},
+	"isireading": {
+		"en": "ISI card reading"
+	},
+	"eidsigning": {
+		"en": "eID Card Signing"
+	},
+	"eidreading": {
+		"en": "eID Card Reading"
+	},
+	"eidencoding_housecall": {
+		"en": "eID Card Encoding house call"
+	},
+	"eidencoding_nocard": {
+		"en": "eID Card Encoding no card"
+	},
+	"eidencoding_techproblem": {
+		"en": "eID Card Encoding technical problem"
+	},
+	"propagation": {
+		"en": "Propagation"
+	},
+	"authenticsource": {
+		"en": "Authentic Source(deprecated)"
+	},
+	"patientmanagement": {
+		"en": "Patient Management(deprecated)"
+	}
+}

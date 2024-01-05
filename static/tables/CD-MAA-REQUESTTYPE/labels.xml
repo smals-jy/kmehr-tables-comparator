@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Property : CIN/NIC
+  Author   :  D. Janssens
+  Date       : 01/07/2011
+ -->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2011-07-01</DATE>
+	<STATUS>final</STATUS>
+	<NAME>MAA Request Type</NAME>
+	<VALUE>
+		<CODE>newrequest</CODE>
+		<DESCRIPTION L="fr">Nouvelles demande</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>extension</CODE>
+		<DESCRIPTION L="fr">Prolongation</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>noncontinuousextension</CODE>
+		<DESCRIPTION L="fr">Prolongation non continue</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>complimentaryannex</CODE>
+		<DESCRIPTION L="fr">Annexe complémentaire suite à un refus motif 502</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>cancellation</CODE>
+		<DESCRIPTION L="fr">Annulation</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>closure</CODE>
+		<DESCRIPTION L="fr">Annulation</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  1.0 	 : 27/04/2012
+	
+  Reference table
+  --><kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.3</VERSION>
+	<DATE>2015-12-01</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Transaction Registry</NAME>
+	<VALUE>
+		<CODE>qermid-stent-intervention</CODE>
+		<DESCRIPTION L="en">Qermid stent intervention</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>orthopride-intervention</CODE>
+		<DESCRIPTION L="en">Orthopride intervention</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>defib-intervention</CODE>
+		<DESCRIPTION L="en">Defib intervention</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>pacemaker-intervention</CODE>
+		<DESCRIPTION L="en">Pacemaker intervention</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>arthritis-notification</CODE>
+		<DESCRIPTION L="en">Arthritis notification</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

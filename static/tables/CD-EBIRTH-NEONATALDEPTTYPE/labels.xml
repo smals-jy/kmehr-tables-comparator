@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Property : Belgian Ministry of Health
+  Author   :  I. Pollet
+  Date      : 27/07/2009
+ -->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2009-07-30</DATE>
+	<STATUS>published</STATUS>
+	<NAME>eBirth type of neonatal department</NAME>
+	<VALUE>
+		<CODE>nstar</CODE>
+		<DESCRIPTION L="fr">Département-N*</DESCRIPTION>
+		<DESCRIPTION L="nl">N*-dienst</DESCRIPTION>
+		<DESCRIPTION L="de">N*-Station</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>nic</CODE>
+		<DESCRIPTION L="fr">Département-NIC</DESCRIPTION>
+		<DESCRIPTION L="nl">NIC-dienst</DESCRIPTION>
+		<DESCRIPTION L="de">NIC-Station</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

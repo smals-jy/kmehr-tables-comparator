@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- Kmehr reference table - external table - only for illustration -->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2010-08-06</DATE>
+	<STATUS>published</STATUS>
+	<NAME>ATC codes</NAME>
+	<VALUE>
+		<CODE>N02AB02</CODE>
+		<DESCRIPTION L="en">pethidine</DESCRIPTION>
+		<DESCRIPTION L="fr">pethidine</DESCRIPTION>
+		<DESCRIPTION L="nl">pethidine</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>N02BE01</CODE>
+		<DESCRIPTION L="en">paracetamol</DESCRIPTION>
+		<DESCRIPTION L="fr">paracetamol</DESCRIPTION>
+		<DESCRIPTION L="nl">paracetamol</DESCRIPTION>
+	</VALUE>
+	</kmehr-cd>

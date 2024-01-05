@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Property : Belgian Ministry of Health
+  Author   :  I. Pollet
+  Date      : 27/07/2009
+ -->
+ <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2009-07-30</DATE>
+	<STATUS>published</STATUS>
+	<NAME>eBirth special values</NAME>
+	<VALUE>
+		<CODE>noanswer</CODE>
+		<DESCRIPTION L="en">No answer from the patient</DESCRIPTION>
+		<DESCRIPTION L="fr">Pas de réponse du patient</DESCRIPTION>
+		<DESCRIPTION L="nl">Geen antwoord van de patient</DESCRIPTION>
+		<DESCRIPTION L="de">Der Patientin nicht bekannt</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>unknown</CODE>
+		<DESCRIPTION L="en">Unknown</DESCRIPTION>
+		<DESCRIPTION L="fr">Inconnu</DESCRIPTION>
+		<DESCRIPTION L="nl">Onbekend</DESCRIPTION>
+		<DESCRIPTION L="de">Unbekannt</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>nottested</CODE>
+		<DESCRIPTION L="en">Not tested</DESCRIPTION>
+		<DESCRIPTION L="fr">Non testé</DESCRIPTION>
+		<DESCRIPTION L="nl">Niet getest</DESCRIPTION>
+		<DESCRIPTION L="de">Nicht getestet</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

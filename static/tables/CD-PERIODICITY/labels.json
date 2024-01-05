@@ -1,0 +1,349 @@
+{
+	"UH": {
+		"en": "Per half hour",
+		"fr": "Par demi-heure",
+		"nl": "Om het half uur",
+		"de": "Pro halbe Stunde"
+	},
+	"U": {
+		"en": "Per hour",
+		"fr": "Par heure",
+		"nl": "Om het uur",
+		"de": "Pro Uhr"
+	},
+	"UT": {
+		"en": "Per 2 hours",
+		"fr": "Par 2 heures",
+		"nl": "Om de 2 uren",
+		"de": "Pro 2 Uhren"
+	},
+	"UD": {
+		"en": "Per 3 hours",
+		"fr": "Par 3 heures",
+		"nl": "Om de 3 uren",
+		"de": "Pro 3 Uhren"
+	},
+	"UV": {
+		"en": "Per 4 hours",
+		"fr": "Par 4 heures",
+		"nl": "Om de 4 uren",
+		"de": "Pro 4 Uhren"
+	},
+	"UQ": {
+		"en": "Per 5 hours",
+		"fr": "Par 5 heures",
+		"nl": "Om de 5 uren",
+		"de": "Pro 5 Uhren"
+	},
+	"UZ": {
+		"en": "Per 6 hours",
+		"fr": "Par 6 heures",
+		"nl": "Om de 6 uren",
+		"de": "Pro 6 Uhren"
+	},
+	"US": {
+		"en": "Per 7 hours",
+		"fr": "Par 7 heures",
+		"nl": "Om de 7 uren",
+		"de": "Pro 7 Uhren"
+	},
+	"UA": {
+		"en": "Per 8 hours",
+		"fr": "Par 8 heures",
+		"nl": "Om de 8 uren",
+		"de": "Pro 8 Uhren"
+	},
+	"UN": {
+		"en": "Per 9 hours",
+		"fr": "Par 9 heures",
+		"nl": "Om de 9 uren",
+		"de": "Pro 9 Uhren"
+	},
+	"UX": {
+		"en": "Per 10 hours",
+		"fr": "Par 10 heures",
+		"nl": "Om de 10 uren",
+		"de": "Pro 10 Uhren"
+	},
+	"UE": {
+		"en": "Per11 hours",
+		"fr": "Par 11 heures",
+		"nl": "Om de 11 uren",
+		"de": "Pro 11 Uhren"
+	},
+	"UW": {
+		"en": "Per 12 hours",
+		"fr": "Par 12 heures",
+		"nl": "Om de 12 uren",
+		"de": "Pro 12 Uhren"
+	},
+	"D": {
+		"en": "Per day",
+		"fr": "Par jour",
+		"nl": "Dagelijks",
+		"de": "Pro Tag"
+	},
+	"DT": {
+		"en": "Per 2 days",
+		"fr": "Par 2 jours",
+		"nl": "Om de 2 dagen",
+		"de": "Pro 2 Tagen"
+	},
+	"O1": {
+		"en": "Every 2 days",
+		"fr": "tous les 2 jours",
+		"nl": "Om de 2 dagen",
+		"de": "Jeden 2 Tagen"
+	},
+	"DD": {
+		"en": "Per 3 days",
+		"fr": "par 3 jours",
+		"nl": "Om de 3 dagen",
+		"de": "Pro 3 Tagen"
+	},
+	"DV": {
+		"en": "Per 4 days",
+		"fr": "Par 4 jours",
+		"nl": "Om de 4 dagen",
+		"de": "Pro 4 Tagen"
+	},
+	"DQ": {
+		"en": "Per 5 days",
+		"fr": "Par 5 jours",
+		"nl": "Om de 5 dagen",
+		"de": "Pro 5 Tagen"
+	},
+	"DZ": {
+		"en": "Per 6 days",
+		"fr": "Par 6 jours",
+		"nl": "Om de 6 dagen",
+		"de": "Pro 6 Tagen"
+	},
+	"W": {
+		"en": "Per 7 days",
+		"fr": "Par semaine",
+		"nl": "Wekelijks",
+		"de": "Pro Woche"
+	},
+	"DA": {
+		"en": "Per 8 days",
+		"fr": "Par 8 jours",
+		"nl": "Om de 8 dagen",
+		"de": "Pro 8 Tagen"
+	},
+	"DN": {
+		"en": "Per 9 days",
+		"fr": "Par 9 jours",
+		"nl": "Om de 9 dagen",
+		"de": "Pro 9 Tagen"
+	},
+	"DX": {
+		"en": "Per 10 days",
+		"fr": "Par 10 jours",
+		"nl": "Om de 10 dagen",
+		"de": "Pro 10 Tagen"
+	},
+	"DE": {
+		"en": "Per 11 days",
+		"fr": "Par 11 jours",
+		"nl": "Om de 11 dagen",
+		"de": "Pro 11 Tagen"
+	},
+	"DW": {
+		"en": "Per 12 days",
+		"fr": "Par 12 jours",
+		"nl": "Om de 12 dagen",
+		"de": "Pro 12 Tagen"
+	},
+	"WT": {
+		"en": "Per 2 weeks",
+		"fr": "Par 2 semaines",
+		"nl": "Om de 2 weken",
+		"de": "Pro 2 Wochen"
+	},
+	"WD": {
+		"en": "Per 3 weeks",
+		"fr": "Par 3 semaines",
+		"nl": "Om de 3 weken",
+		"de": "Pro 3 Wochen"
+	},
+	"WV": {
+		"en": "Per 4 weeks",
+		"fr": "Par 4 semaines",
+		"nl": "Om de 4 weken",
+		"de": "Pro 4 Wochen"
+	},
+	"M": {
+		"en": "Per month",
+		"fr": "Par mois",
+		"nl": "Maandelijks",
+		"de": "Pro Monat"
+	},
+	"WQ": {
+		"en": "Per 5 weeks",
+		"fr": "Par 5 semaines",
+		"nl": "Om de 5 weken",
+		"de": "Pro 5 Wochen"
+	},
+	"WZ": {
+		"en": "Per 6 weeks",
+		"fr": "Par 6 semaines",
+		"nl": "Om de 6 weken",
+		"de": "Pro 6 Wochen"
+	},
+	"WS": {
+		"en": "Per 7 weeks",
+		"fr": "Par 7 semaines",
+		"nl": "Om de 7 weken",
+		"de": "Pro 7 Wochen"
+	},
+	"WA": {
+		"en": "Per 8 weeks",
+		"fr": "Par 8 semaines",
+		"nl": "Om de 8 weken",
+		"de": "Pro 8 Wochen"
+	},
+	"MT": {
+		"en": "Per 2 months",
+		"fr": "Par 2 mois",
+		"nl": "Om de 2 maanden",
+		"de": "Pro 2 Monaten"
+	},
+	"WN": {
+		"en": "Per 9 weeks",
+		"fr": "Par 9 semaines",
+		"nl": "Om de 9 weken",
+		"de": "Pro 9 Wochen"
+	},
+	"WX": {
+		"en": "Per 10 weeks",
+		"fr": "Par 10 semaines",
+		"nl": "Om de 10 weken",
+		"de": "Pro 10 Wochen"
+	},
+	"WE": {
+		"en": "Per 11 weeks",
+		"fr": "Par 11 semaines",
+		"nl": "Om de 11 weken",
+		"de": "Pro 11 Wochen"
+	},
+	"WW": {
+		"en": "Per 12 weeks",
+		"fr": "Par 12 semaines",
+		"nl": "Om de 12 weken",
+		"de": "Pro 12 Wochen"
+	},
+	"MD": {
+		"en": "Per 3 months",
+		"fr": "Par 3 mois",
+		"nl": "Om de 3 maanden",
+		"de": "Pro 3 Monaten"
+	},
+	"MV": {
+		"en": "Per 4 months",
+		"fr": "Par 4 mois",
+		"nl": "Om de 4 maanden",
+		"de": "Pro 4 Monaten"
+	},
+	"MQ": {
+		"en": "Per 5 months",
+		"fr": "Par 5 mois",
+		"nl": "Om de 5 maanden",
+		"de": "Pro 5 Monaten"
+	},
+	"WP": {
+		"en": "Per 24 weeks",
+		"fr": "Par 24 semaines",
+		"nl": "Om de 24 weken",
+		"de": "Pro 24 Wochen"
+	},
+	"JH2": {
+		"en": "Per half year",
+		"fr": "Par demi-année",
+		"nl": "Halfjaarlijks",
+		"de": "Pro halbes Jahre"
+	},
+	"MZ2": {
+		"en": "Per 6 months",
+		"fr": "Par 6 mois",
+		"nl": "Om de 6 maanden",
+		"de": "Pro 6 Monaten"
+	},
+	"MS": {
+		"en": "Per 7 months",
+		"fr": "Par 7 mois",
+		"nl": "Om de 7 maanden",
+		"de": "Pro 7 Monaten"
+	},
+	"MA": {
+		"en": "Per 8 months",
+		"fr": "Par 8 mois",
+		"nl": "Om de 8 maanden",
+		"de": "Pro 8 Monaten"
+	},
+	"MN": {
+		"en": "Per 9 months",
+		"fr": "Par 9 mois",
+		"nl": "Om de 9 maanden",
+		"de": "Pro 9 Monaten"
+	},
+	"MX": {
+		"en": "Per 10 months",
+		"fr": "Par 10 mois",
+		"nl": "Om de 10 maanden",
+		"de": "Pro 10 Monaten"
+	},
+	"ME": {
+		"en": "Per 11 months",
+		"fr": "Par 11 mois",
+		"nl": "Om de 11 maanden",
+		"de": "Pro 11 Monaten"
+	},
+	"J": {
+		"en": "Per Year",
+		"fr": "Par an",
+		"nl": "Jaarlijks",
+		"de": "Pro Jahre"
+	},
+	"MC": {
+		"en": "Per 18 months",
+		"fr": "Par 18 mois",
+		"nl": "Om de 18 maanden",
+		"de": "Pro 18 Monaten"
+	},
+	"JT": {
+		"en": "Per 2 years",
+		"fr": "Par 2 années",
+		"nl": "Om de 2 jaar",
+		"de": "Pro 2 Jahren"
+	},
+	"JD": {
+		"en": "Per 3 years",
+		"nl": "Om de 3 jaar",
+		"de": "Pro 3 Jahren"
+	},
+	"JV": {
+		"en": "Per 4 years",
+		"fr": "Par 4 années",
+		"nl": "Om de 4 jaar",
+		"de": "Pro 4 Jahren"
+	},
+	"JQ": {
+		"en": "Per 5 years",
+		"fr": "Par 5 années",
+		"nl": "Om de 5 jaar",
+		"de": "Pro 5 Jahren"
+	},
+	"JZ": {
+		"en": "Per 6 years",
+		"fr": "Par 6 années",
+		"nl": "Om de 6 jaar",
+		"de": "Pro 6 Jahren"
+	},
+	"ondemand": {
+		"en": "On demand",
+		"fr": "Sur demande",
+		"nl": "Op aanvraag",
+		"de": "auf Nachfrage"
+	}
+}

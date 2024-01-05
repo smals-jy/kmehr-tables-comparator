@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kmehr-cd>
+	<VERSION>1.0</VERSION>
+	<DATE>2017-06-01</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Employment situation</NAME>
+	<DESCRIPTION L="en">This identifies the working regime of a person</DESCRIPTION>
+	<VALUE>
+		<CODE>selfemployed</CODE>
+		<DESCRIPTION L="en">self-employed</DESCRIPTION>
+		<DESCRIPTION L="fr">ind�pendant</DESCRIPTION>
+		<DESCRIPTION L="nl">zelfstandige</DESCRIPTION>
+		<DESCRIPTION L="de">Selbst�ndiger</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>employed</CODE>
+		<DESCRIPTION L="en">employed</DESCRIPTION>
+		<DESCRIPTION L="fr">salari�</DESCRIPTION>
+		<DESCRIPTION L="nl">loontrekkende</DESCRIPTION>
+		<DESCRIPTION L="de">Arbeitnehmer</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>civilservant</CODE>
+		<DESCRIPTION L="en">civil servant</DESCRIPTION>
+		<DESCRIPTION L="fr">fonctionnaire</DESCRIPTION>
+		<DESCRIPTION L="nl">ambtenaar</DESCRIPTION>
+		<DESCRIPTION L="de">Beamter</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

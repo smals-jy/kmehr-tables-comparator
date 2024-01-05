@@ -1,0 +1,25 @@
+{
+	"primaryprevention": {
+		"fr": "Prévention primaire",
+		"nl": "Primaire preventie"
+	},
+	"breastcancerprevention": {
+		"fr": "Prévention cancer du sein",
+		"nl": "Preventie Borstkanker"
+	},
+	"prostatecancerprevention": {
+		"fr": "Prévention cancer de la prostate",
+		"nl": "Preventie Prostaatkanker"
+	},
+	"colrectalcancerprevention": {
+		"fr": "Prévention cancer colo-rectal",
+		"nl": "Preventie Colorectale kanker"
+	},
+	"cervixutericancer": {
+		"fr": "Prévention cancer du col de l'utérus",
+		"nl": "Preventie Baarmoederhalskanker"
+	},
+	"gmdplus": {
+		"en": "General Medical Record +"
+	}
+}

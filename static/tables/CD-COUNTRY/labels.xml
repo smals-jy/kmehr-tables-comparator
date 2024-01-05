@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+  Property : Belgian Ministry of Health
+  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Date       : 17/07/2002
+  
+  Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
+  Reference table
+-->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2002-07-17</DATE>
+	<STATUS>deprecated</STATUS>
+	<NAME>Country</NAME>
+	<VALUE>
+		<CODE>ad</CODE>
+		<DESCRIPTION L="en">Andorra, Principality of</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ae</CODE>
+		<DESCRIPTION L="en">United Arab Emirates</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>af</CODE>
+		<DESCRIPTION L="en">Afghanistan, Islamic State of</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ag</CODE>
+		<DESCRIPTION L="en">Antigua and Barbuda</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ai</CODE>
+		<DESCRIPTION L="en">Anguilla</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>al</CODE>
+		<DESCRIPTION L="en">Albania</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>am</CODE>
+		<DESCRIPTION L="en">Armenia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>an</CODE>
+		<DESCRIPTION L="en">Netherlands Antilles</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ao</CODE>
+		<DESCRIPTION L="en">Angola</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>aq</CODE>
+		<DESCRIPTION L="en">Antarctica</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ar</CODE>
+		<DESCRIPTION L="en">Argentina</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>arpa</CODE>
+		<DESCRIPTION L="en">Old style Arpanet</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>as</CODE>
+		<DESCRIPTION L="en">American Samoa</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>at</CODE>
+		<DESCRIPTION L="en">Austria</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>au</CODE>
+		<DESCRIPTION L="en">Australia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>aw</CODE>
+		<DESCRIPTION L="en">Aruba</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>az</CODE>
+		<DESCRIPTION L="en">Azerbaidjan</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ba</CODE>
+		<DESCRIPTION L="en">Bosnia-Herzegovina</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bb</CODE>
+		<DESCRIPTION L="en">Barbados</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bd</CODE>
+		<DESCRIPTION L="en">Bangladesh</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>be</CODE>
+		<DESCRIPTION L="en">Belgium</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bf</CODE>
+		<DESCRIPTION L="en">Burkina Faso</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bg</CODE>
+		<DESCRIPTION L="en">Bulgaria</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bh</CODE>
+		<DESCRIPTION L="en">Bahrain</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bi</CODE>
+		<DESCRIPTION L="en">Burundi</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bj</CODE>
+		<DESCRIPTION L="en">Benin</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bm</CODE>
+		<DESCRIPTION L="en">Bermuda</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bn</CODE>
+		<DESCRIPTION L="en">Brunei Darussalam</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bo</CODE>
+		<DESCRIPTION L="en">Bolivia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>br</CODE>
+		<DESCRIPTION L="en">Brazil</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bs</CODE>
+		<DESCRIPTION L="en">Bahamas</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bt</CODE>
+		<DESCRIPTION L="en">Bhutan</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bv</CODE>
+		<DESCRIPTION L="en">Bouvet Island</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bw</CODE>
+		<DESCRIPTION L="en">Botswana</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>by</CODE>
+		<DESCRIPTION L="en">Belarus</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>bz</CODE>
+		<DESCRIPTION L="en">Belize</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ca</CODE>
+		<DESCRIPTION L="en">Canada</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cc</CODE>
+		<DESCRIPTION L="en">Cocos (Keeling) Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cf</CODE>
+		<DESCRIPTION L="en">Central African Republic</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cd</CODE>
+		<DESCRIPTION L="en">Congo, The Democratic Republic of the</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cg</CODE>
+		<DESCRIPTION L="en">Congo</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ch</CODE>
+		<DESCRIPTION L="en">Switzerland</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ci</CODE>
+		<DESCRIPTION L="en">Ivory Coast (Cote D'Ivoire)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ck</CODE>
+		<DESCRIPTION L="en">Cook Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cl</CODE>
+		<DESCRIPTION L="en">Chile</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cm</CODE>
+		<DESCRIPTION L="en">Cameroon</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cn</CODE>
+		<DESCRIPTION L="en">China</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>co</CODE>
+		<DESCRIPTION L="en">Colombia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>com</CODE>
+		<DESCRIPTION L="en">Commercial</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cr</CODE>
+		<DESCRIPTION L="en">Costa Rica</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cs</CODE>
+		<DESCRIPTION L="en">Former Czechoslovakia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cu</CODE>
+		<DESCRIPTION L="en">Cuba</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cv</CODE>
+		<DESCRIPTION L="en">Cape Verde</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cx</CODE>
+		<DESCRIPTION L="en">Christmas Island</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cy</CODE>
+		<DESCRIPTION L="en">Cyprus</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cz</CODE>
+		<DESCRIPTION L="en">Czech Republic</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>de</CODE>
+		<DESCRIPTION L="en">Germany</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>dj</CODE>
+		<DESCRIPTION L="en">Djibouti</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>dk</CODE>
+		<DESCRIPTION L="en">Denmark</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>dm</CODE>
+		<DESCRIPTION L="en">Dominica</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>do</CODE>
+		<DESCRIPTION L="en">Dominican Republic</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>dz</CODE>
+		<DESCRIPTION L="en">Algeria</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ec</CODE>
+		<DESCRIPTION L="en">Ecuador</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>edu</CODE>
+		<DESCRIPTION L="en">Educational</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ee</CODE>
+		<DESCRIPTION L="en">Estonia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>eg</CODE>
+		<DESCRIPTION L="en">Egypt</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>eh</CODE>
+		<DESCRIPTION L="en">Western Sahara</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>er</CODE>
+		<DESCRIPTION L="en">Eritrea</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>es</CODE>
+		<DESCRIPTION L="en">Spain</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>et</CODE>
+		<DESCRIPTION L="en">Ethiopia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>fi</CODE>
+		<DESCRIPTION L="en">Finland</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>fj</CODE>
+		<DESCRIPTION L="en">Fiji</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>fk</CODE>
+		<DESCRIPTION L="en">Falkland Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>fm</CODE>
+		<DESCRIPTION L="en">Micronesia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>fo</CODE>
+		<DESCRIPTION L="en">Faroe Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>fr</CODE>
+		<DESCRIPTION L="en">France</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>fx</CODE>
+		<DESCRIPTION L="en">France (European Territory)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ga</CODE>
+		<DESCRIPTION L="en">Gabon</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gb</CODE>
+		<DESCRIPTION L="en">Great Britain</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gd</CODE>
+		<DESCRIPTION L="en">Grenada</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ge</CODE>
+		<DESCRIPTION L="en">Georgia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gf</CODE>
+		<DESCRIPTION L="en">French Guyana</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gh</CODE>
+		<DESCRIPTION L="en">Ghana</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gi</CODE>
+		<DESCRIPTION L="en">Gibraltar</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gl</CODE>
+		<DESCRIPTION L="en">Greenland</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gm</CODE>
+		<DESCRIPTION L="en">Gambia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gn</CODE>
+		<DESCRIPTION L="en">Guinea</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gov</CODE>
+		<DESCRIPTION L="en">USA Government</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gp</CODE>
+		<DESCRIPTION L="en">Guadeloupe (French)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gq</CODE>
+		<DESCRIPTION L="en">Equatorial Guinea</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gr</CODE>
+		<DESCRIPTION L="en">Greece</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gs</CODE>
+		<DESCRIPTION L="en">S. Georgia and S. Sandwich Isls.</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gt</CODE>
+		<DESCRIPTION L="en">Guatemala</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gu</CODE>
+		<DESCRIPTION L="en">Guam (USA)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gw</CODE>
+		<DESCRIPTION L="en">Guinea Bissau</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gy</CODE>
+		<DESCRIPTION L="en">Guyana</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>hk</CODE>
+		<DESCRIPTION L="en">Hong Kong</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>hm</CODE>
+		<DESCRIPTION L="en">Heard and McDonald Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>hn</CODE>
+		<DESCRIPTION L="en">Honduras</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>hr</CODE>
+		<DESCRIPTION L="en">Croatia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ht</CODE>
+		<DESCRIPTION L="en">Haiti</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>hu</CODE>
+		<DESCRIPTION L="en">Hungary</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>id</CODE>
+		<DESCRIPTION L="en">Indonesia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ie</CODE>
+		<DESCRIPTION L="en">Ireland</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>il</CODE>
+		<DESCRIPTION L="en">Israel</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>in</CODE>
+		<DESCRIPTION L="en">India</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>int</CODE>
+		<DESCRIPTION L="en">International</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>io</CODE>
+		<DESCRIPTION L="en">British Indian Ocean Territory</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>iq</CODE>
+		<DESCRIPTION L="en">Iraq</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ir</CODE>
+		<DESCRIPTION L="en">Iran</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>is</CODE>
+		<DESCRIPTION L="en">Iceland</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>it</CODE>
+		<DESCRIPTION L="en">Italy</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>jm</CODE>
+		<DESCRIPTION L="en">Jamaica</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>jo</CODE>
+		<DESCRIPTION L="en">Jordan</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>jp</CODE>
+		<DESCRIPTION L="en">Japan</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ke</CODE>
+		<DESCRIPTION L="en">Kenya</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>kg</CODE>
+		<DESCRIPTION L="en">Kyrgyz Republic (Kyrgyzstan)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>kh</CODE>
+		<DESCRIPTION L="en">Cambodia, Kingdom of</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ki</CODE>
+		<DESCRIPTION L="en">Kiribati</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>km</CODE>
+		<DESCRIPTION L="en">Comoros</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>kn</CODE>
+		<DESCRIPTION L="en">Saint Kitts and Nevis Anguilla</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>kp</CODE>
+		<DESCRIPTION L="en">North Korea</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>kr</CODE>
+		<DESCRIPTION L="en">South Korea</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>kw</CODE>
+		<DESCRIPTION L="en">Kuwait</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ky</CODE>
+		<DESCRIPTION L="en">Cayman Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>kz</CODE>
+		<DESCRIPTION L="en">Kazakhstan</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>la</CODE>
+		<DESCRIPTION L="en">Laos</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>lb</CODE>
+		<DESCRIPTION L="en">Lebanon</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>lc</CODE>
+		<DESCRIPTION L="en">Saint Lucia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>li</CODE>
+		<DESCRIPTION L="en">Liechtenstein</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>lk</CODE>
+		<DESCRIPTION L="en">Sri Lanka</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>lr</CODE>
+		<DESCRIPTION L="en">Liberia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ls</CODE>
+		<DESCRIPTION L="en">Lesotho</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>lt</CODE>
+		<DESCRIPTION L="en">Lithuania</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>lu</CODE>
+		<DESCRIPTION L="en">Luxembourg</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>lv</CODE>
+		<DESCRIPTION L="en">Latvia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ly</CODE>
+		<DESCRIPTION L="en">Libya</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ma</CODE>
+		<DESCRIPTION L="en">Morocco</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mc</CODE>
+		<DESCRIPTION L="en">Monaco</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>md</CODE>
+		<DESCRIPTION L="en">Moldavia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mg</CODE>
+		<DESCRIPTION L="en">Madagascar</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mh</CODE>
+		<DESCRIPTION L="en">Marshall Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mil</CODE>
+		<DESCRIPTION L="en">USA Military</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mk</CODE>
+		<DESCRIPTION L="en">Macedonia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ml</CODE>
+		<DESCRIPTION L="en">Mali</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mm</CODE>
+		<DESCRIPTION L="en">Myanmar</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mn</CODE>
+		<DESCRIPTION L="en">Mongolia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mo</CODE>
+		<DESCRIPTION L="en">Macau</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mp</CODE>
+		<DESCRIPTION L="en">Northern Mariana Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mq</CODE>
+		<DESCRIPTION L="en">Martinique (French)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mr</CODE>
+		<DESCRIPTION L="en">Mauritania</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ms</CODE>
+		<DESCRIPTION L="en">Montserrat</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mt</CODE>
+		<DESCRIPTION L="en">Malta</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mu</CODE>
+		<DESCRIPTION L="en">Mauritius</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mv</CODE>
+		<DESCRIPTION L="en">Maldives</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mw</CODE>
+		<DESCRIPTION L="en">Malawi</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mx</CODE>
+		<DESCRIPTION L="en">Mexico</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>my</CODE>
+		<DESCRIPTION L="en">Malaysia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>mz</CODE>
+		<DESCRIPTION L="en">Mozambique</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>na</CODE>
+		<DESCRIPTION L="en">Namibia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>nato</CODE>
+		<DESCRIPTION L="en">NATO (this was purged in 1996 - see hq.nato.int)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>nc</CODE>
+		<DESCRIPTION L="en">New Caledonia (French)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ne</CODE>
+		<DESCRIPTION L="en">Niger</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>net</CODE>
+		<DESCRIPTION L="en">Network</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>nf</CODE>
+		<DESCRIPTION L="en">Norfolk Island</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ng</CODE>
+		<DESCRIPTION L="en">Nigeria</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ni</CODE>
+		<DESCRIPTION L="en">Nicaragua</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>nl</CODE>
+		<DESCRIPTION L="en">Netherlands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>no</CODE>
+		<DESCRIPTION L="en">Norway</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>np</CODE>
+		<DESCRIPTION L="en">Nepal</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>nr</CODE>
+		<DESCRIPTION L="en">Nauru</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>nt</CODE>
+		<DESCRIPTION L="en">Neutral Zone</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>nu</CODE>
+		<DESCRIPTION L="en">Niue</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>nz</CODE>
+		<DESCRIPTION L="en">New Zealand</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>om</CODE>
+		<DESCRIPTION L="en">Oman</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>org</CODE>
+		<DESCRIPTION L="en">Non-Profit Making Organisations (sic)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>pa</CODE>
+		<DESCRIPTION L="en">Panama</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>pe</CODE>
+		<DESCRIPTION L="en">Peru</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>pf</CODE>
+		<DESCRIPTION L="en">Polynesia (French)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>pg</CODE>
+		<DESCRIPTION L="en">Papua New Guinea</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ph</CODE>
+		<DESCRIPTION L="en">Philippines</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>pk</CODE>
+		<DESCRIPTION L="en">Pakistan</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>pl</CODE>
+		<DESCRIPTION L="en">Poland</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>pm</CODE>
+		<DESCRIPTION L="en">Saint Pierre and Miquelon</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>pn</CODE>
+		<DESCRIPTION L="en">Pitcairn Island</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>pr</CODE>
+		<DESCRIPTION L="en">Puerto Rico</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>pt</CODE>
+		<DESCRIPTION L="en">Portugal</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>pw</CODE>
+		<DESCRIPTION L="en">Palau</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>py</CODE>
+		<DESCRIPTION L="en">Paraguay</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>qa</CODE>
+		<DESCRIPTION L="en">Qatar</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>re</CODE>
+		<DESCRIPTION L="en">Reunion (French)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ro</CODE>
+		<DESCRIPTION L="en">Romania</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ru</CODE>
+		<DESCRIPTION L="en">Russian Federation</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>rw</CODE>
+		<DESCRIPTION L="en">Rwanda</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sa</CODE>
+		<DESCRIPTION L="en">Saudi Arabia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sb</CODE>
+		<DESCRIPTION L="en">Solomon Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sc</CODE>
+		<DESCRIPTION L="en">Seychelles</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sd</CODE>
+		<DESCRIPTION L="en">Sudan</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>se</CODE>
+		<DESCRIPTION L="en">Sweden</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sg</CODE>
+		<DESCRIPTION L="en">Singapore</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sh</CODE>
+		<DESCRIPTION L="en">Saint Helena</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>si</CODE>
+		<DESCRIPTION L="en">Slovenia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sj</CODE>
+		<DESCRIPTION L="en">Svalbard and Jan Mayen Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sk</CODE>
+		<DESCRIPTION L="en">Slovak Republic</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sl</CODE>
+		<DESCRIPTION L="en">Sierra Leone</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sm</CODE>
+		<DESCRIPTION L="en">San Marino</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sn</CODE>
+		<DESCRIPTION L="en">Senegal</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>so</CODE>
+		<DESCRIPTION L="en">Somalia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sr</CODE>
+		<DESCRIPTION L="en">Suriname</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>st</CODE>
+		<DESCRIPTION L="en">Saint Tome (Sao Tome) and Principe</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>su</CODE>
+		<DESCRIPTION L="en">Former USSR</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sv</CODE>
+		<DESCRIPTION L="en">El Salvador</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sy</CODE>
+		<DESCRIPTION L="en">Syria</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sz</CODE>
+		<DESCRIPTION L="en">Swaziland</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tc</CODE>
+		<DESCRIPTION L="en">Turks and Caicos Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>td</CODE>
+		<DESCRIPTION L="en">Chad</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tf</CODE>
+		<DESCRIPTION L="en">French Southern Territories</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tg</CODE>
+		<DESCRIPTION L="en">Togo</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>th</CODE>
+		<DESCRIPTION L="en">Thailand</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tj</CODE>
+		<DESCRIPTION L="en">Tadjikistan</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tk</CODE>
+		<DESCRIPTION L="en">Tokelau</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tm</CODE>
+		<DESCRIPTION L="en">Turkmenistan</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tn</CODE>
+		<DESCRIPTION L="en">Tunisia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>to</CODE>
+		<DESCRIPTION L="en">Tonga</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tp</CODE>
+		<DESCRIPTION L="en">East Timor</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tr</CODE>
+		<DESCRIPTION L="en">Turkey</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tt</CODE>
+		<DESCRIPTION L="en">Trinidad and Tobago</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tv</CODE>
+		<DESCRIPTION L="en">Tuvalu</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tw</CODE>
+		<DESCRIPTION L="en">Taiwan</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>tz</CODE>
+		<DESCRIPTION L="en">Tanzania</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ua</CODE>
+		<DESCRIPTION L="en">Ukraine</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ug</CODE>
+		<DESCRIPTION L="en">Uganda</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>uk</CODE>
+		<DESCRIPTION L="en">United Kingdom</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>um</CODE>
+		<DESCRIPTION L="en">USA Minor Outlying Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>us</CODE>
+		<DESCRIPTION L="en">United States</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>uy</CODE>
+		<DESCRIPTION L="en">Uruguay</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>uz</CODE>
+		<DESCRIPTION L="en">Uzbekistan</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>va</CODE>
+		<DESCRIPTION L="en">Holy See (Vatican City State)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>vc</CODE>
+		<DESCRIPTION L="en">Saint Vincent and Grenadines</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ve</CODE>
+		<DESCRIPTION L="en">Venezuela</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>vg</CODE>
+		<DESCRIPTION L="en">Virgin Islands (British)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>vi</CODE>
+		<DESCRIPTION L="en">Virgin Islands (USA)</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>vn</CODE>
+		<DESCRIPTION L="en">Vietnam</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>vu</CODE>
+		<DESCRIPTION L="en">Vanuatu</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>wf</CODE>
+		<DESCRIPTION L="en">Wallis and Futuna Islands</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ws</CODE>
+		<DESCRIPTION L="en">Samoa</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ye</CODE>
+		<DESCRIPTION L="en">Yemen</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>yt</CODE>
+		<DESCRIPTION L="en">Mayotte</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>yu</CODE>
+		<DESCRIPTION L="en">Yugoslavia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>za</CODE>
+		<DESCRIPTION L="en">South Africa</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>zm</CODE>
+		<DESCRIPTION L="en">Zambia</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>zr</CODE>
+		<DESCRIPTION L="en">Zaire</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>zw</CODE>
+		<DESCRIPTION L="en">Zimbabwe</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+</kmehr-cd>

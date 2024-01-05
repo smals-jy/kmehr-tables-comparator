@@ -1,0 +1,20 @@
+{
+	"newrequest": {
+		"fr": "Nouvelles demande"
+	},
+	"extension": {
+		"fr": "Prolongation"
+	},
+	"noncontinuousextension": {
+		"fr": "Prolongation non continue"
+	},
+	"complimentaryannex": {
+		"fr": "Annexe complémentaire suite à un refus motif 502"
+	},
+	"cancellation": {
+		"fr": "Annulation"
+	},
+	"closure": {
+		"fr": "Annulation"
+	}
+}

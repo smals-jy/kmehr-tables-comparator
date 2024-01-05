@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  1.0 	 : 27/04/2012
+	
+  Reference table
+  -->
+  
+ <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2012-04-01</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Medication Scheme Origin</NAME>
+	<VALUE>
+		<CODE>regularprocess</CODE>
+		<DESCRIPTION L="en">Regular Process</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>recorded</CODE>
+		<DESCRIPTION L="en">Recorded</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

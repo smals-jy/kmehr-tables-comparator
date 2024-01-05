@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Property : Cancer Registry
+  Author   :  D. Janssens
+  Date       : 01/07/2011
+ -->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2011-07-01</DATE>
+	<STATUS>draft</STATUS>
+	<NAME>BVT Sample Status</NAME>
+	<VALUE>
+		<CODE>saved</CODE>
+		<DESCRIPTION L="en">Saved</DESCRIPTION>
+		<DESCRIPTION L="fr">Sauvé</DESCRIPTION>
+		<DESCRIPTION L="nl">Opgeslagen</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>submitted</CODE>
+		<DESCRIPTION L="en">Submitted</DESCRIPTION>
+		<DESCRIPTION L="fr">Envoyé</DESCRIPTION>
+		<DESCRIPTION L="nl">Ingezonden</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>rejected</CODE>
+		<DESCRIPTION L="en">Rejected</DESCRIPTION>
+		<DESCRIPTION L="fr">Rejeté</DESCRIPTION>
+		<DESCRIPTION L="nl">Geweigerd</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>inactive</CODE>
+		<DESCRIPTION L="en">Inactive</DESCRIPTION>
+		<DESCRIPTION L="fr">Inactif</DESCRIPTION>
+		<DESCRIPTION L="nl">Inactief</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>published</CODE>
+		<DESCRIPTION L="en">Published</DESCRIPTION>
+		<DESCRIPTION L="fr">Publié</DESCRIPTION>
+		<DESCRIPTION L="nl">Gepubliceerd</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

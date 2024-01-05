@@ -1,0 +1,92 @@
+{
+	"active": {
+		"en": "Service object is active or on-going."
+	},
+	"inactive": {
+		"en": "Service object is inactive."
+	},
+	"cancelled": {
+		"en": "Service object has been abandoned before activation."
+	},
+	"completed": {
+		"en": "Service object is completed."
+	},
+	"prescribed": {
+		"en": "Service object has been prescribed/requested."
+	},
+	"added": {
+		"en": "Service object has been added by the performer."
+	},
+	"planned": {
+		"en": "Service object has been planned."
+	},
+	"delivered": {
+		"en": "Service object has been delivered to the patient."
+	},
+	"substituted": {
+		"en": "Service object has been delivered to the patient but as a substitution of the originally prescribed service."
+	},
+	"administrated": {
+		"en": "Service object has been administrated to the patient."
+	},
+	"reported": {
+		"en": "Service object has been completed and reported."
+	},
+	"corrected": {
+		"en": "Service object has been corrected"
+	},
+	"refused": {
+		"en": "Service object has been refused"
+	},
+	"switched": {
+		"en": "Service object has been switched"
+	},
+	"suspended": {
+		"en": "Service object has been suspended"
+	},
+	"stopped": {
+		"en": "Service object has been stopped"
+	},
+	"aborted": {
+		"en": "Service object has been aborted"
+	},
+	"excluded": {
+		"en": "Service object has been excluded"
+	},
+	"notpresent": {
+		"en": "Service object is not present"
+	},
+	"ordered": {
+		"en": "Service object has been ordered"
+	},
+	"scheduled": {
+		"en": "Service object has been scheduled"
+	},
+	"todo": {
+		"en": "Service object has to be done"
+	},
+	"postponed": {
+		"en": "Service object has been postponed"
+	},
+	"pending": {
+		"en": "Service object is pending"
+	},
+	"expected": {
+		"en": "Service object is expected"
+	},
+	"obtained": {
+		"en": "Service object has been obtained"
+	},
+	"proposed": {
+		"en": "Proposed",
+		"fr": "Proposé",
+		"nl": "Vorgeschlagen",
+		"de": "Voorgesteld"
+	},
+	"retracted": {
+		"en": "Retracted",
+		"fr": "Rétracté ",
+		"nl": "Ingetrokken",
+		"de": "zurückgezogn"
+	}
+}

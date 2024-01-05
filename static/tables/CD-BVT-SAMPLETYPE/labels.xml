@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Property : Belgian Cancer Registry
+  Author   :  D. Janssens
+  Date       : 01/07/2011
+ -->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2011-07-01</DATE>
+	<STATUS>draft</STATUS>
+	<NAME>BVT Sample Type</NAME>
+	<VALUE>
+		<CODE>primarytumor</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>metastasis</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>normaltissue</CODE>
+	</VALUE>
+	<VALUE>
+		<CODE>other</CODE>
+	</VALUE>
+</kmehr-cd>

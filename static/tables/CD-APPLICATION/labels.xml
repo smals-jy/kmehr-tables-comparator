@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+  Property : Belgian Ministry of Health
+  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Date       : 09/09/2003
+  
+  Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
+  Reference table
+-->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.1</VERSION>
+	<DATE>2015-06-01</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Application type</NAME>
+	<VALUE>
+		<CODE>ecaredefib</CODE>
+		<DESCRIPTION L="en">eCare Defib Declaration</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>ecareortho</CODE>
+		<DESCRIPTION L="en">eCare Ortho Declaration</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>ecaresafe</CODE>
+		<DESCRIPTION L="en">eCare Safe Declaration</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>ecaretuco</CODE>
+		<DESCRIPTION L="en">eCare Tuco Declaration</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>ecaretardis</CODE>
+		<DESCRIPTION L="en">eCare Tardis Declaration</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>ecarepacemaker</CODE>
+		<DESCRIPTION L="en">eCare Pacemaker Declaration</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

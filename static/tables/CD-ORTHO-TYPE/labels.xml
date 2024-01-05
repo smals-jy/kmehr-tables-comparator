@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  1.0 	 : 27/04/2012
+	
+  Reference table
+  -->
+  
+ <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2012-04-01</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Ortho Type</NAME>
+	<VALUE>
+		<CODE>primaryprocedure</CODE>
+		<DESCRIPTION L="en">Primary Procedure</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>revisionwithprosthesis</CODE>
+		<DESCRIPTION L="en">Revision With Prosthesis</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>osteosynthesis</CODE>
+		<DESCRIPTION L="en">Osteosynthesis</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>resection</CODE>
+		<DESCRIPTION L="en">Resection</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>arthrodesis</CODE>
+		<DESCRIPTION L="en">Arthrodesis</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>amputation</CODE>
+		<DESCRIPTION L="en">Amputation</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

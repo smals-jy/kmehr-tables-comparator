@@ -1,0 +1,32 @@
+{
+	"0": {
+		"fr": "Inconnu"
+	},
+	"1": {
+		"fr": "A domicile"
+	},
+	"2": {
+		"fr": "Admission administrative lors d'une fusion"
+	},
+	"3": {
+		"fr": "Autre h�pital non universitaire"
+	},
+	"4": {
+		"fr": "Autre h�pital universitaire"
+	},
+	"5": {
+		"fr": "Autre h�pital psychiatrique"
+	},
+	"6": {
+		"fr": "Maisons de repos, soins et homes"
+	},
+	"7": {
+		"fr": "MSP et habitations prot�g�es"
+	},
+	"8": {
+		"fr": "N� � l'h�pital"
+	},
+	"9": {
+		"fr": "Autre"
+	}
+}

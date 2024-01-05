@@ -1,0 +1,197 @@
+{
+	"isinitialintervention": {
+		"en": "Is Initial Intervention"
+	},
+	"dominance": {
+		"en": "Dominance"
+	},
+	"existingbridge": {
+		"en": "Existing Brigde"
+	},
+	"observedlesion": {
+		"en": "Observed Lesion"
+	},
+	"segment": {
+		"en": "Segment"
+	},
+	"totaltreatedlength": {
+		"en": "Total Treated Length"
+	},
+	"bloodvesseldiameter": {
+		"en": "Blood Vessel Diameter"
+	},
+	"procedure-device": {
+		"en": "Procedure Device"
+	},
+	"contrastproductused": {
+		"en": "Contrast Product Used"
+	},
+	"reimbursementnomenclaturetype": {
+		"en": "Reimbursement Nomenclature Type"
+	},
+	"intervention-type": {
+		"en": "Intervention Type"
+	},
+	"intervention-site": {
+		"en": "ntervention Site"
+	},
+	"approach": {
+		"en": "Approach"
+	},
+	"navigationcomputer": {
+		"en": "Navigation Computer"
+	},
+	"intervention-device": {
+		"en": "Intervention Device"
+	},
+	"bearingsurface": {
+		"en": "Bearing Surface"
+	},
+	"graftused": {
+		"en": "Graft Used"
+	},
+	"acetabularinterface": {
+		"en": "Acetabular Interface"
+	},
+	"femoralinterface": {
+		"en": "Femoral Interface"
+	},
+	"stem": {
+		"en": "Stem"
+	},
+	"cup": {
+		"en": "Cup"
+	},
+	"head": {
+		"en": "Head"
+	},
+	"neck": {
+		"en": "Neck"
+	},
+	"insert": {
+		"en": "Insert"
+	},
+	"prosthesis-other": {
+		"en": "Prosthesis Other"
+	},
+	"brand": {
+		"en": "Brand"
+	},
+	"producer": {
+		"en": "Producer"
+	},
+	"size": {
+		"en": "Size"
+	},
+	"revisiontechnic": {
+		"en": "Revision Technic"
+	},
+	"kneeimplanttype": {
+		"en": "Knee Implant Type"
+	},
+	"kneeinsert (deprecated)": {
+		"en": "Knee Insert"
+	},
+	"tibialinterface": {
+		"en": "Tibial Interface"
+	},
+	"patellarinterface": {
+		"en": "Patellar Interface"
+	},
+	"patella": {
+		"en": "Patella"
+	},
+	"femur": {
+		"en": "Femur"
+	},
+	"tibia": {
+		"en": "Tibia"
+	},
+	"tickness": {
+		"en": "Tickness"
+	},
+	"kneeprosthesis": {
+		"en": "Knee Prosthesis"
+	},
+	"revisioncomponent": {
+		"en": "Revision Component"
+	},
+	"doctorsremark": {
+		"en": "Doctor's Remark"
+	},
+	"resynchronisation": {
+		"en": "Resynchronisation"
+	},
+	"pacingindication": {
+		"en": "Pacing Indication"
+	},
+	"issecondoperator": {
+		"en": "Is Second Operator"
+	},
+	"postpcitimi": {
+		"en": "Post Pcitimi"
+	},
+	"poststenosis": {
+		"en": "Post Stenosis"
+	},
+	"infiltration": {
+		"en": "Infiltration"
+	},
+	"operation-type": {
+		"en": "Operation Type"
+	},
+	"alignment": {
+		"en": "Alignment"
+	},
+	"custominstrumentation": {
+		"en": "Custom Instrumentation"
+	},
+	"substitute": {
+		"en": "Substitute"
+	},
+	"modularneck": {
+		"en": "Modular Neck"
+	},
+	"materialsremark": {
+		"en": "Materials Remark"
+	},
+	"ortho-device": {
+		"en": "Ortho Device"
+	},
+	"devicename": {
+		"en": "Device Name"
+	},
+	"distributor": {
+		"en": "Distributor"
+	},
+	"manufacturer": {
+		"en": "Manufacturer"
+	},
+	"femoralreplacement": {
+		"en": "Femoral Replacement"
+	},
+	"acetabularreplacement": {
+		"en": "Acetabular Replacement"
+	},
+	"revisedcomponent": {
+		"en": "Revised Component"
+	},
+	"cardioversion": {
+		"en": "Cardioversion"
+	},
+	"motivation": {
+		"en": "Motivation"
+	},
+	"criteriacomments": {
+		"en": "Criteria Comments"
+	},
+	"comorbiditiescomments": {
+		"en": "Comorbidities Comments"
+	},
+	"informationprimo": {
+		"en": "Information primo"
+	},
+	"lvef": {
+		"en": "Left ventricular ejection fraction"
+	}
+}

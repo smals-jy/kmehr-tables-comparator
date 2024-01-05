@@ -1,0 +1,74 @@
+{
+	"coronaryanatomy": {
+		"en": "Coronary Anatomy"
+	},
+	"chapter4": {
+		"en": "Chapter 4"
+	},
+	"non-biologic": {
+		"en": "Non biologic"
+	},
+	"bmi": {
+		"en": "Bmi"
+	},
+	"primarykneeprocedure": {
+		"en": "Primary knee procedure"
+	},
+	"approachtechnic": {
+		"en": "Approach Technic"
+	},
+	"instrumentation": {
+		"en": "Instrumentation"
+	},
+	"orthopedicanatomy": {
+		"en": "Orthopedic anatomy"
+	},
+	"interface": {
+		"en": "Interface"
+	},
+	"revisionplan": {
+		"en": "Revision plan"
+	},
+	"material": {
+		"en": "Material"
+	},
+	"notified-material": {
+		"en": "Notified material"
+	},
+	"not-notified-material": {
+		"en": "Not notified material"
+	},
+	"not-notified-ortho-device": {
+		"en": "Not notified ortho device"
+	},
+	"criteria": {
+		"en": "Criteria"
+	},
+	"comorbidities": {
+		"en": "Comorbidities"
+	},
+	"comorbiditiesinformation": {
+		"en": "Comorbidities information"
+	},
+	"results": {
+		"en": "Results"
+	},
+	"resynchronisationinfo": {
+		"en": "Resynchronisation info"
+	},
+	"crtp": {
+		"en": "Crt-p"
+	},
+	"infiltration": {
+		"en": "Infiltration"
+	},
+	"das28": {
+		"en": "Das 28"
+	},
+	"haq": {
+		"en": "Haq"
+	},
+	"posology": {
+		"en": "Posology"
+	}
+}

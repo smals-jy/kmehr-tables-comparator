@@ -1,0 +1,192 @@
+{
+	"NMF001": {
+		"en": "Preparation and administration of medication for chronic psychiatric patients",
+		"nl": "Voorbereiding en toediening van medicatie bij chronische psychiatrische patiënten",
+		"fr": "Préparation et administration de la médication chez un patient en psychiatrie chronique"
+	},
+	"NMF002": {
+		"en": "Weekly preparing medication",
+		"nl": "Wekelijkse voorbereiding van de geneesmiddelen per os",
+		"fr": "Préparation hebdomadaire de la médicaments administrés par voie orale"
+	},
+	"NMF011": {
+		"en": "Bladder Catheter care",
+		"nl": "Blaassonde zorgen",
+		"fr": "Soins sonde vessie"
+	},
+	"NMF012": {
+		"en": "Bladder Wash",
+		"nl": "Blaasspoeling",
+		"fr": "Lavage de la vessie"
+	},
+	"NMF013": {
+		"en": "Suprapubic cystostomie",
+		"nl": "Verzorgen suprapubische cystostomie sonde",
+		"fr": "Soins cystostomie supra-pubique"
+	},
+	"NMF021": {
+		"en": "Constipation Care- Faecalome",
+		"nl": "Manueel verwijderen van faecalomen",
+		"fr": "évacuation manuelle de fécalome"
+	},
+	"NMF022": {
+		"en": "Clyster",
+		"nl": "Lavement",
+		"fr": "Lavement"
+	},
+	"NMF031": {
+		"en": "Eye drops or eye ointment in postoperative phase",
+		"nl": "Aanbrengen van oogdruppels en/of oogzalf in postoperatieve fase",
+		"fr": "Application de collyre et/ou de pommade ophtalmique enphase postopératoire"
+	},
+	"NMF040": {
+		"en": "Wound care",
+		"nl": "Wondzorg",
+		"fr": "Soins de plaie"
+	},
+	"NMF041": {
+		"en": "Surveillance of a wound treated with bioactive bandage",
+		"nl": "Toezicht op wonde met bioactief verband",
+		"fr": "Supervision soins de plaie traitée avec bandage bioactif"
+	},
+	"NMF042": {
+		"en": "Application of ointment or a product on a wound",
+		"nl": "Aanbrengen van zalf of van een geneeskrachtig product op een wonde",
+		"fr": "Application sur une plaie d'une pommade et/ou produit médicinal"
+	},
+	"NMF043": {
+		"en": "Simple wound care",
+		"nl": "Eenvoudige wondzorg",
+		"fr": "Soins de plaie simple"
+	},
+	"NMF044": {
+		"en": "Complex wound care",
+		"nl": "Complexe wondzorg",
+		"fr": "Soins de plaie complexe"
+	},
+	"NMF045": {
+		"en": "Specific wound care",
+		"nl": "Specifieke wondzorg",
+		"fr": "Soins de plaie spécifique"
+	},
+	"NMF046": {
+		"en": "Visit referent nurse in specific wound care",
+		"nl": "Bezoek van een referentieverpleegkundige bij specifieke Wondzorg",
+		"fr": "Visite infirmière référente pour plaie spécifique"
+	},
+	"NMF047": {
+		"en": "Stoma wound care",
+		"nl": "Stoma zorg ",
+		"fr": "Soins stomie"
+	},
+	"NMF051": {
+		"en": "Putting (compressive) bandages",
+		"nl": "In het kader van compressietherapie : aanbrengen van bandage(s), compressieverband(en)",
+		"fr": "Dans le cadre d'une thérapie de compression : application de bandage(s), pansement(s) de compression"
+	},
+	"NMF052": {
+		"en": "Undo or Putting on stockings",
+		"nl": "In het kader van compressietherapie : aandoen en/of uittrekken van kous(en)",
+		"fr": "Dans le cadre d'une thérapie de compression : application et/ou enlèvement de bas"
+	},
+	"NMF061": {
+		"en": "Enteral Feeding (via catether)",
+		"nl": "Enterale voeding via maagsonde, gastro- of enterostomiesonde",
+		"fr": "nutrition entérale via une sonde gastrique, une sonde de gastrostomie ou d'entérostomie"
+	},
+	"NMF062": {
+		"en": "Replacement gastrostomy sonde",
+		"nl": "Vervangen van een gastrostomiesonde met ballon",
+		"fr": "Remplacement d'une sonde de gastrostomie à ballonnet"
+	},
+	"NMF071": {
+		"en": "Perfusion",
+		"nl": "plaatsen van en/of toezicht op (intraveneuze of subcutane) perfusie",
+		"fr": "mise en place et/ou surveillance des perfusions (intraveineuses ou sous-cutanées)"
+	},
+	"NMF072": {
+		"en": "Placement Indwelling cathether",
+		"nl": "Plaatsing van een verblijfskatheter of van specifiek materiaal dat de toediening van een geneeskundige oplossing in een inplanteerbare kamer toelaat",
+		"fr": "Mise en place d'un cathéter à demeure ou d'un matériel spécifique permettant l'administration d'une solution médicamenteuse dans une chambre implantable"
+	},
+	"NMF073": {
+		"en": "Removal Indwelling cathether",
+		"nl": "Verwijdering van een verblijfskatheter of van specifiek materiaal dat de toediening van een geneeskundige oplossing in een implanteerbare kamer toelaat",
+		"fr": "Retrait d'un cathéter à demeure ou d'un matériel spécifique permettant l'administration d'une solution médicamenteuse dans une chambre implantable"
+	},
+	"NMF074": {
+		"en": "Supervision analgesic epidural or intrathecal pain pump",
+		"nl": "Toezicht en opvolging bij het gebruik van pompsystemen voor het toedienen van chronische analgesie via epidurale of intrathecale catheter",
+		"fr": "La surveillance et le suivi lors de l'utilisation d'un système de pompe pour l'administration d'une analgésie chronique via un cathéter épidural ou intrathécal"
+	},
+	"NMF081": {
+		"en": "Injection IV",
+		"nl": "IV Inspuiting",
+		"fr": "Injection IV"
+	},
+	"NMF082": {
+		"en": "Injection IM, SC",
+		"nl": "IM of SC inspuiting",
+		"fr": "Injection IM ou SC"
+	},
+	"NMF091": {
+		"en": "Body care (toilet)",
+		"nl": "Hygiënische verzorging",
+		"fr": "Soins d’hygiène"
+	},
+	"NMF092": {
+		"en": "Vulva – vaginal irrigation",
+		"nl": "Aseptische vulvazorgen – Irrigatie",
+		"fr": "Soins aseptiques de vulve – Irrigation vaginale"
+	},
+	"NMF093": {
+		"en": "Dressing",
+		"nl": "Aankleden",
+		"fr": "Habiller"
+	},
+	"NMF101": {
+		"en": "Respiratory aspiration",
+		"nl": "Aspiratie luchtwegen",
+		"fr": "Aspiration respiratoire"
+	},
+	"NMF111": {
+		"en": "Specific nursing diabetes dossier",
+		"nl": "Specifiek verpleegdossier diabetes (referentie verpl.) ",
+		"fr": "Dossier diabétique par infirmière de référence"
+	},
+	"NMF112": {
+		"en": "Individual education in self treatment by a reference nurse ",
+		"nl": "Individuele educatie tot zelfzorg van een diabetespatiënt door een referentieverpleegkundige",
+		"fr": "Education individuelle aux soins autonomes d'un patient diabétique par un infirmier relais en diabétologie"
+	},
+	"NMF113": {
+		"en": "Presence at selftreatment training",
+		"nl": "Aanwezigheid vaste verpleegkundige bij individuele educatie zelfzorg",
+		"fr": "Présence d'un infirmier référent lors de l'éducation individuelle aux soins autonomes"
+	},
+	"NMF114": {
+		"en": "Individual education to motivate diabetes patients",
+		"nl": "Individuele educatie tot inzicht diabetes patiënt",
+		"fr": "Education individuelle en compréhension du diabète"
+	},
+	"NMF115": {
+		"en": "Follow-up of a diabetes patient after self treatment training",
+		"nl": "Opvolging van een diabetespatiënt na de educatie tot zelfzorg",
+		"fr": "Le suivi d'un patient diabétique après l'éducation aux soins autonomes"
+	},
+	"NMF116": {
+		"en": "Follow-up of diabetes patient not starting effective self treatment",
+		"nl": "Opvolging voor begeleiding van een diabetespatiënt die niet overschakelt op zelfzorg door een vaste verpleegkundige",
+		"fr": "Suivi d'un patient diabétique qui ne passe pas en auto-soins"
+	},
+	"NMF121": {
+		"en": "Nursing consult",
+		"nl": "Verpleegkundig consult in de thuisverpleging",
+		"fr": "Consultation infirmière dans le cadre des soins à domicile"
+	},
+	"NMF999": {
+		"en": "Other",
+		"nl": "Andere verrichting",
+		"fr": "Autres actes"
+	}
+}

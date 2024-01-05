@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 
+  Property : Belgian Ministry of Health
+  Author   : Dr André Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Date       : 17/07/2002
+  Update   :  06/08/2009  
+  
+  Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
+  Reference table
+--><kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.9</VERSION>
+	<DATE>2016-12-01</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Lifecycle</NAME>
+	<VALUE>
+		<CODE>active</CODE>
+		<DESCRIPTION L="en">Service object is active or on-going.</DESCRIPTION>
+		<HL7>15942</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>inactive</CODE>
+		<DESCRIPTION L="en">Service object is inactive.</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>cancelled</CODE>
+		<DESCRIPTION L="en">Service object has been abandoned before activation.</DESCRIPTION>
+		<HL7>15938</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>completed</CODE>
+		<DESCRIPTION L="en">Service object is completed.</DESCRIPTION>
+		<HL7>15940</HL7>
+	</VALUE>
+	<VALUE>
+		<CODE>prescribed</CODE>
+		<DESCRIPTION L="en">Service object has been prescribed/requested.</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>added</CODE>
+		<DESCRIPTION L="en">Service object has been added by the performer.</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>planned</CODE>
+		<DESCRIPTION L="en">Service object has been planned.</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>delivered</CODE>
+		<DESCRIPTION L="en">Service object has been delivered to the patient.</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>substituted</CODE>
+		<DESCRIPTION L="en">Service object has been delivered to the patient but as a substitution of the originally prescribed service.</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>administrated</CODE>
+		<DESCRIPTION L="en">Service object has been administrated to the patient.</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>reported</CODE>
+		<DESCRIPTION L="en">Service object has been completed and reported.</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>corrected</CODE>
+		<DESCRIPTION L="en">Service object has been corrected</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>refused</CODE>
+		<DESCRIPTION L="en">Service object has been refused</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>switched</CODE>
+		<DESCRIPTION L="en">Service object has been switched</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>suspended</CODE>
+		<DESCRIPTION L="en">Service object has been suspended</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>stopped</CODE>
+		<DESCRIPTION L="en">Service object has been stopped</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>aborted</CODE>
+		<DESCRIPTION L="en">Service object has been aborted</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>excluded</CODE>
+		<DESCRIPTION L="en">Service object has been excluded</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>notpresent</CODE>
+		<DESCRIPTION L="en">Service object is not present</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ordered</CODE>
+		<DESCRIPTION L="en">Service object has been ordered</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>scheduled</CODE>
+		<DESCRIPTION L="en">Service object has been scheduled</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>todo</CODE>
+		<DESCRIPTION L="en">Service object has to be done</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>postponed</CODE>
+		<DESCRIPTION L="en">Service object has been postponed</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>pending</CODE>
+		<DESCRIPTION L="en">Service object is pending</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>expected</CODE>
+		<DESCRIPTION L="en">Service object is expected</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>obtained</CODE>
+		<DESCRIPTION L="en">Service object has been obtained</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>proposed</CODE>
+		<DESCRIPTION L="en">Proposed</DESCRIPTION>
+		<DESCRIPTION L="fr">Proposé</DESCRIPTION>
+		<DESCRIPTION L="nl">Vorgeschlagen</DESCRIPTION>
+		<DESCRIPTION L="de">Voorgesteld</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>retracted</CODE>
+		<DESCRIPTION L="en">Retracted</DESCRIPTION>
+		<DESCRIPTION L="fr">Rétracté </DESCRIPTION>
+		<DESCRIPTION L="nl">Ingetrokken</DESCRIPTION>
+		<DESCRIPTION L="de">zurückgezogn</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+</kmehr-cd>

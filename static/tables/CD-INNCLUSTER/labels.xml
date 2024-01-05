@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+<!-- Extract - only for illustration purpose -->
+	<VERSION>Extract.0.1</VERSION>
+	<DATE>2010-08-10</DATE>
+	<STATUS>published</STATUS>
+	<NAME>INN Cluster</NAME>
+	<VALUE>
+		<CODE>8038747</CODE>
+		<DESCRIPTION L="fr">paracétamol 1 g (oral)</DESCRIPTION>
+		<DESCRIPTION L="nl">paracetamol 1 g (oraal)</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>8038895</CODE>
+		<DESCRIPTION L="fr">paracétamol 80 mg (rectal)</DESCRIPTION>
+		<DESCRIPTION L="nl">paracetamol 80 mg (rectaal)</DESCRIPTION>
+	</VALUE>
+</kmehr-cd>

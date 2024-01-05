@@ -1,0 +1,20 @@
+{
+	"ecaredefib": {
+		"en": "eCare Defib Declaration"
+	},
+	"ecareortho": {
+		"en": "eCare Ortho Declaration"
+	},
+	"ecaresafe": {
+		"en": "eCare Safe Declaration"
+	},
+	"ecaretuco": {
+		"en": "eCare Tuco Declaration"
+	},
+	"ecaretardis": {
+		"en": "eCare Tardis Declaration"
+	},
+	"ecarepacemaker": {
+		"en": "eCare Pacemaker Declaration"
+	}
+}

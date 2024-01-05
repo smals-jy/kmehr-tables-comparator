@@ -1,0 +1,20 @@
+{
+	"agreementrequest": {
+		"fr": "Demande d'accord"
+	},
+	"agreementresponse": {
+		"fr": "Réponse à une demande d'accord"
+	},
+	"freeappendix": {
+		"fr": "Annexe libre"
+	},
+	"reglementaryappendix": {
+		"fr": "annexe réglementaire"
+	},
+	"consultationrequest": {
+		"fr": "demande de consultationµ"
+	},
+	"consultationresponse": {
+		"fr": "demande de consultationµ"
+	}
+}

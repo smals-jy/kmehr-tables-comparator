@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+  Property : Belgian Ministry of Health
+  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Date       : 17/07/2002
+  
+  Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
+  Reference table
+-->
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2002-07-17</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Range scope</NAME>
+	<VALUE>
+		<CODE>age</CODE>
+		<DESCRIPTION L="en">adjusted to the age of the patient</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>sex</CODE>
+		<DESCRIPTION L="en">adjusted to the sex of the patient</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>gestational</CODE>
+		<DESCRIPTION L="en">adjusted to the gestational age</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+</kmehr-cd>

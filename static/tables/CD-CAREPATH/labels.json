@@ -1,0 +1,30 @@
+{
+	"101": {
+		"fr": "IC INAMI Diabète Type 2",
+		"nl": "Diabetes Type 2 Zorgpad RIZIV"
+	},
+	"102": {
+		"fr": "IC INAMI Insuffisance Rénale",
+		"nl": "Nierinsufficiëntie Zorgpad RIZIV"
+	},
+	"103": {
+		"fr": "IC INAMI Insuffisance Cardiaque",
+		"nl": "Chronisch hartfalen Zorgpad RIZIV"
+	},
+	"001": {
+		"fr": "IC Diabète Type 2",
+		"nl": "Diabetes Type 2 Zorgpad"
+	},
+	"002": {
+		"fr": "IC Insuffisance Rénale",
+		"nl": "Nierinsufficiëntie Zorgpad"
+	},
+	"003": {
+		"fr": "IC Insuffisance Cardiaque",
+		"nl": "Chronisch hartfalen Zorgpad"
+	},
+	"010": {
+		"fr": "Plan Prévention Primaire",
+		"nl": "Primaire Preventieplanning"
+	}
+}

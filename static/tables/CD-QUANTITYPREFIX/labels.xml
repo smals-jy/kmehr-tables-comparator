@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+	<VERSION>1.0</VERSION>
+	<DATE>2012-10-01</DATE>
+	<STATUS>published</STATUS>
+	<NAME>Quantity prefix</NAME>
+	<VALUE>
+		<CODE>ana</CODE>
+		<DESCRIPTION L="en">ana partes aequales</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ana ad</CODE>
+		<DESCRIPTION L="en">ana partes aequales ad</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>ad</CODE>
+		<DESCRIPTION L="en">ad</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+	<VALUE>
+		<CODE>qs</CODE>
+		<DESCRIPTION L="en">quantum satis</DESCRIPTION>
+		<HL7/>
+	</VALUE>
+</kmehr-cd>
