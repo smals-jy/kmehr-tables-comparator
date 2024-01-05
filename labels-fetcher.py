@@ -18,15 +18,23 @@ processed_rows = 0
 tbody = soup.find('tbody')
 rows = tbody.find_all("tr") if tbody else []
 
+# Function to make search easier for downloading link
+def extract_xml_link_from_row(row):
+  cols = row.find_all("td")
+  for col in cols:
+    links = col.find_all('a', href=True)  # Find all anchor elements with href attribute
+    for link in links:
+      if '/xml/' in link["href"]:
+        return link["href"]
+  return None
+
 for row in rows:
     cols = row.find_all("td")
     if len(cols) >= 2:
         name = cols[0].find('a').get_text().strip().upper() 
-        # TODO fix that stuff to make script working as expected
-        link = cols[1].find('a', class_="btn-primary", href=lambda x: x and x.endswith('.xml'))
+        link = extract_xml_link_from_row(row)
 
         if link:
-            link = link['href']
             # Download and save the XML file
             print(f"Downloading reference {name}...")
             xml_content = requests.get(f"https://www.ehealth.fgov.be{link}").text
