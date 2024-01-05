@@ -19,13 +19,13 @@ tidy -o temp/tables.html temp/index.html > /dev/null 2>&1
 # Read the cleaned HTML content back into a variable
 cleaned_content=$(<temp/tables.html)
 
-# Extract rows from cleaned HTML content using hxselect
-rows=$(echo "$cleaned_content" | hxselect 'tbody tr')
+# Extract rows from cleaned XML content using xmlstarlet
+rows=$(echo "$cleaned_content" | xmlstarlet sel -t -m '//tbody/tr' -c '.')
 
 # Loop through each row
 while read -r row; do
-    name=$(echo "$row" | hxselect 'td.sorting_1' | sed 's/<[^>]*>//g' | tr -d '\n\r' | tr '[:upper:]' '[:lower:]')
-    link=$(echo "$row" | hxselect 'a.btn-primary.icon-kmehr[href$=".xml"]' | sed -n 's/.*href="\([^"]*\)".*/\1/p')
+    name=$(echo "$row" | xmlstarlet sel -t -m 'td[1]/a' -v 'normalize-space()' | tr '[:upper:]' '[:lower:]')
+    link=$(echo "$row" | xmlstarlet sel -t -m 'a[contains(@class, "btn-primary")][contains(@href, ".xml")]' -v '@href')
 
     if [ -n "$link" ]; then
         # Download and copy the XML file
