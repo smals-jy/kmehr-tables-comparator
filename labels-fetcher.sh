@@ -1,14 +1,26 @@
 #!/bin/bash
 
-# Fetch the HTML content and use hxselect to extract rows with role="row"
-rows=$(curl -s https://www.ehealth.fgov.be/standards/kmehr/en/tables | hxselect 'tr[role="row"]')
+# Create the temp directory and navigate to it
+mkdir -p temp
+echo "Created temp directory."
 
 # Initialize counter for processed rows
 processed_rows=0
 
-# Create the temp directory and navigate to it
-mkdir -p temp
-echo "Created temp directory."
+# Fetch the HTML content
+html_content=$(curl -s https://www.ehealth.fgov.be/standards/kmehr/en/tables)
+
+# Save the HTML content to a temporary file
+echo "$html_content" > temp/index.html
+
+# Use tidy to clean up the HTML content
+tidy -o temp/tables.html temp/index.html
+
+# Read the cleaned HTML content back into a variable
+cleaned_content=$(<temp/tables.html)
+
+# Extract rows from cleaned HTML content using hxselect
+rows=$(echo "$cleaned_content" | hxselect 'tr[role="row"]')
 
 # Loop through each row
 while read -r row; do
