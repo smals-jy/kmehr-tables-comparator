@@ -1,9 +1,9 @@
 name: Auto KMEHR labels refresher
 
 on:
-    #schedule:
+    schedule:
         # Each day at 5:00PM
-        #- cron: '0 17 * * *'
+        - cron: '0 17 * * *'
     # Allows you to run this workflow manually from the Actions tab
     workflow_dispatch:
 
@@ -16,23 +16,26 @@ jobs:
         steps:
             - name: 🛎️ Checkout
               uses: actions/checkout@v4
+            - uses: actions/setup-python@v5
+              with:
+                python-version: '3.10' 
             - name: 🚀 Use Node.js 18.x
               uses: actions/setup-node@v3
               with:
                 node-version: 18
             - name: 🚧 Installation
-              run: npm ci
-            - name: ✨ Fix permissions
               run: |
-                chmod u+x labels-fetcher.sh
+                npm ci  
+                python -m pip install --upgrade pip
+                pip install requests beautifulsoup4 lxml
             - name: 🔨 Find new KMEHR labels
-              shell: bash
               run: |
-                ./labels-fetcher.sh
+                python labels-fetcher.py
             - name: 🤖 Generate JSON tables
               run: npm run generate-labels
             - name: 💅 Create Pull Request
               uses: peter-evans/create-pull-request@v5
+              if: false
               with:
                 title: "[auto-updater] Updated KMEHR labels"
                 draft: true
