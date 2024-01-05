@@ -1,9 +1,9 @@
 name: Auto KMEHR labels refresher
 
 on:
-    schedule:
+    #schedule:
         # Each day at 5:00PM
-        - cron: '0 17 * * *'
+        #- cron: '0 17 * * *'
     # Allows you to run this workflow manually from the Actions tab
     workflow_dispatch:
 
