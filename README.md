@@ -20,6 +20,15 @@ Thanks to Docusaurus, we have a [diff tool](https://smals-jy.github.io/kmehr-tab
 
 ⚠️ Don't forget to relaunch `npm start` / `npm run build` depending to your env.
 
+## How to add a new table of KMEHR ?
+
+1. Download its XML version from https://www.ehealth.fgov.be/standards/kmehr/en/tables 
+2. Create a folder in `static/table` (e.g. `CD-HCPARTY`)
+3. Copy the xml file as `labels.xml` to this new folder
+4. Run `npm run generate-labels`
+
+⚠️ Don't forget to relaunch `npm start` / `npm run build` depending to your env.
+
 ## Run project in local
 
 ```bash
