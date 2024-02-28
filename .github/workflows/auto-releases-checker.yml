@@ -21,7 +21,7 @@ jobs:
               with:
                 node-version: 18
             - name: 🚧 Installation
-              run: npm ci
+              run: npm install
             - name: ✨ Fix permissions
               run: |
                 chmod u+x auto-releaser.sh
