@@ -15,8 +15,8 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
     "test": "jest",
-    "generate-json-tables": "npx ts-node generate-cd-tables-for-each-kmehr-version.ts",
-    "generate-labels": "npx ts-node generate-labels-for-cd-tables.ts"
+    "generate-json-tables": "npx ts-node --esm generate-cd-tables-for-each-kmehr-version.ts",
+    "generate-labels": "npx ts-node --esm generate-labels-for-cd-tables.ts"
   },
   "dependencies": {
     "@docusaurus/core": "3.1.1",
