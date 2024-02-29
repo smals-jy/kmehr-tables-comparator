@@ -14,8 +14,8 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
     "test": "jest",
-    "generate-json-tables": "npx ts-node generate-cd-tables-for-each-kmehr-version.ts",
-    "generate-labels": "npx ts-node generate-labels-for-cd-tables.ts"
+    "generate-json-tables": "npx tsx generate-cd-tables-for-each-kmehr-version.ts",
+    "generate-labels": "npx tsx generate-labels-for-cd-tables.ts"
   },
   "dependencies": {
     "@docusaurus/core": "3.1.1",
@@ -37,7 +37,7 @@
     "@types/lodash": "^4.14.202",
     "jest": "^29.6.4",
     "ts-jest": "^29.1.2",
-    "ts-node": "^10.9.1",
+    "tsx": "^4.7.1",
     "typescript": "^5.3.3"
   },
   "browserslist": {
