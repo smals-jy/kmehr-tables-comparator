@@ -15,13 +15,14 @@ echo "Created temp directory."
 echo "$links" | while read -r line; do
   version=$(echo "$line" | sed -n 's/.*ehealthxsd-\(.*\)\.zip.*/\1/p' | head -n 1)
   full_href=$(echo "$line" | sed -n 's/.*href="\([^"]*\).*/\1/p')
+  absolute_url=$(realpath "https://www.ehealth.fgov.be/standards/kmehr/en/page/xschema$full_href")
 
   # Step 2: Download the files
   
   # Check if the version directory does not exist
   if [ ! -d "static/kmehr/$version" ]; then
     echo "Downloading version $version..."
-    wget -O "temp/$version.zip" "https://www.ehealth.fgov.be$full_href"
+    wget -O "temp/$version.zip" "$absolute_url"
 
     # Step 3: Unzip only the files under ehealth-kmehr/XSD/
     echo "Unzipping version $version..."
