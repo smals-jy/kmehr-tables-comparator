@@ -18,7 +18,7 @@
     "generate-labels": "npx tsx generate-labels-for-cd-tables.ts"
   },
   "dependencies": {
-    "@docusaurus/core": "3.2.0",
+    "@docusaurus/core": "3.2.1",
     "@docusaurus/preset-classic": "3.2.0",
     "@mdx-js/react": "^3.0.0",
     "@types/node": "^20.12.2",
