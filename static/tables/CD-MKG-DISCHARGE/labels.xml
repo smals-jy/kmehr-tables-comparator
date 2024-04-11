@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- 
   Property : Belgian Ministry of Health
-  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Author   : Dr André Vandenberghe, Department of Medical Information, CHU de Charleroi
   Date       : 17/07/2002
   
   Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
@@ -18,30 +18,30 @@
 	</VALUE>
 	<VALUE>
 		<CODE>1</CODE>
-		<DESCRIPTION L="fr">Sur avis m�dical</DESCRIPTION>
+		<DESCRIPTION L="fr">Sur avis médical</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>2</CODE>
-		<DESCRIPTION L="fr">Contre avis m�dical</DESCRIPTION>
+		<DESCRIPTION L="fr">Contre avis médical</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>3</CODE>
-		<DESCRIPTION L="fr">D�c�s avec autopsie</DESCRIPTION>
+		<DESCRIPTION L="fr">Décès avec autopsie</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>4</CODE>
-		<DESCRIPTION L="fr">D�c�s sans autopsie</DESCRIPTION>
+		<DESCRIPTION L="fr">Décès sans autopsie</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>5</CODE>
-		<DESCRIPTION L="fr">Transfert vers autre institution sp�cialis�e</DESCRIPTION>
+		<DESCRIPTION L="fr">Transfert vers autre institution spécialisée</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>6</CODE>
-		<DESCRIPTION L="fr">Transfert/retour r�adaptation/soins</DESCRIPTION>
+		<DESCRIPTION L="fr">Transfert/retour réadaptation/soins</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>D</CODE>
-		<DESCRIPTION L="fr">Retour � l'h�pital d'origine</DESCRIPTION>
+		<DESCRIPTION L="fr">Retour à l'hôpital d'origine</DESCRIPTION>
 	</VALUE>
 </kmehr-cd>

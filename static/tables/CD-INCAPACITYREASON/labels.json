@@ -25,7 +25,7 @@
 	},
 	"careencounter": {
 		"en": "Care encounter",
-		"fr": "rencontre m�dicale"
+		"fr": "rencontre médicale"
 	},
 	"pregnancy": {
 		"en": "Pregnancy",
@@ -43,6 +43,6 @@
 		"en": "Accident during travel to or from work",
 		"fr": "accident de trajet du et vers le lieu de travail",
 		"nl": "ongeval op weg naar of van het werk",
-		"de": "Unfall von oder zu der Arbeitsst�tte"
+		"de": "Unfall von oder zu der Arbeitsstätte"
 	}
 }

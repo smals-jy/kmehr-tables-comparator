@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- 
   Property : Belgian Ministry of Health
-  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Author   : Dr André Vandenberghe, Department of Medical Information, CHU de Charleroi
   Date       : 17/07/2002
   
   Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
@@ -22,15 +22,15 @@
 	</VALUE>
 	<VALUE>
 		<CODE>2</CODE>
-		<DESCRIPTION L="fr">M�decin g�n�raliste</DESCRIPTION>
+		<DESCRIPTION L="fr">Médecin généraliste</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>3</CODE>
-		<DESCRIPTION L="fr">M�decin sp�cialiste de l'h�pital</DESCRIPTION>
+		<DESCRIPTION L="fr">Médecin spécialiste de l'hôpital</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>4</CODE>
-		<DESCRIPTION L="fr">M�decin sp�cialiste autre</DESCRIPTION>
+		<DESCRIPTION L="fr">Médecin spécialiste autre</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>5</CODE>
@@ -42,6 +42,6 @@
 	</VALUE>
 	<VALUE>
 		<CODE>8</CODE>
-		<DESCRIPTION L="fr">N� � l'h�pital</DESCRIPTION>
+		<DESCRIPTION L="fr">Né à l'hôpital</DESCRIPTION>
 	</VALUE>
 </kmehr-cd>
