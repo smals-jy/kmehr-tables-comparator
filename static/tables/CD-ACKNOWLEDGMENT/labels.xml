@@ -1,37 +1,23 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- edited with XML Spy v4.3 (http://www.xmlspy.com) by Andr� JP Vandenberghe (Dr Andr� Vandenberghe) -->
-<!-- 
-  Property : Belgian Ministry of Health
-  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
-  Date       : 17/07/2002
-  
-  Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
-  Reference table
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
 
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.0</VERSION>
-	<DATE>2002-07-17</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Message acknowledgment</NAME>
-	<VALUE>
-		<CODE>always</CODE>
-		<DESCRIPTION L="en">Always send an acknowledgement</DESCRIPTION>
-		<HL7>10126</HL7>
-	</VALUE>
-	<VALUE>
-		<CODE>onerror</CODE>
-		<DESCRIPTION L="en">Send an acknowledgement for error/reject conditions only</DESCRIPTION>
-		<HL7>10128</HL7>
-	</VALUE>
-	<VALUE>
-		<CODE>never</CODE>
-		<DESCRIPTION L="en">Never send an acknowledgement</DESCRIPTION>
-		<HL7>10127</HL7>
-	</VALUE>
-	<VALUE>
-		<CODE>onsuccess</CODE>
-		<DESCRIPTION L="en">Send an acknowledgement for successful completion only</DESCRIPTION>
-		<HL7>10129</HL7>
-	</VALUE>
-</kmehr-cd>
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

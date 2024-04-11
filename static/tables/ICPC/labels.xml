@@ -1,75 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.0</VERSION>
-	<DATE>2009-11-05</DATE>
-	<STATUS>draft</STATUS>
-	<NAME>ICPC-2</NAME>
-	<VALUE>
-		<CODE>-65</CODE>
-		<DESCRIPTION L="en">Encounter/problem initiated by other than patient/provider</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>-66</CODE>
-		<DESCRIPTION L="en">Referral to other primary health care provider</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>-67</CODE>
-		<DESCRIPTION L="en">Referral to specialist/hospital</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>-68</CODE>
-		<DESCRIPTION L="en">Other referral NEC</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>-69</CODE>
-		<DESCRIPTION L="en">Other reason for encounter NEC</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>A01</CODE>
-		<DESCRIPTION L="en">Pain general/multiple sites</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>A02</CODE>
-		<DESCRIPTION L="en">Chills</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>A03</CODE>
-		<DESCRIPTION L="en">Fever</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>A04</CODE>
-		<DESCRIPTION L="en">Weakness/tiredness general</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>A05</CODE>
-		<DESCRIPTION L="en">Feeling ill</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>A06</CODE>
-		<DESCRIPTION L="en">Fainting/syncope</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>A07</CODE>
-		<DESCRIPTION L="en">Coma</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>A08</CODE>
-		<DESCRIPTION L="en">Swelling</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>A09</CODE>
-		<DESCRIPTION L="en">Sweating problem</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>A10</CODE>
-		<DESCRIPTION L="en">Bleeding/haemorrhage NOS</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>A11</CODE>
-		<DESCRIPTION L="en">Chest pain NOS</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>A13</CODE>
-		<DESCRIPTION L="en">Concern about/fear of medical treatment</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

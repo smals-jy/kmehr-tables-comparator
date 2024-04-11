@@ -1,51 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.2</VERSION>
-	<DATE>2011-07-01</DATE>
-	<STATUS>final</STATUS>
-	<NAME>Link Type</NAME>
-	<VALUE>
-		<CODE>thumbnail</CODE>
-		<DESCRIPTION L="en">is documented by the referenced thumbnail attachment</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>multimedia</CODE>
-		<DESCRIPTION L="en">is documented by the referenced multimedia attachment</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>isareplyto</CODE>
-		<DESCRIPTION L="en">In reply to</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>isaconsequenceof</CODE>
-		<DESCRIPTION L="en">Is a consequence of</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>isanewversionof</CODE>
-		<DESCRIPTION L="en">Is a new version of</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>isachildof</CODE>
-		<DESCRIPTION L="en">The subject patient is a child of</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>isaservicefor </CODE>
-		<DESCRIPTION L="en">links a service to a healthcare element through a healthcare approach</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>isarealisationof</CODE>
-		<DESCRIPTION L="en">links an order and a service / act provided or an act to a planned act</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>isapproachfor</CODE>
-		<DESCRIPTION L="en">links a healthcare approach to a healthcare element</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>isplannedfor</CODE>
-		<DESCRIPTION L="en">links a planned (preventive) act to a care plan or indication</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>isattestationof </CODE>
-		<DESCRIPTION L="en">links a document to an item</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

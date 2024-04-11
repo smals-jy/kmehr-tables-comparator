@@ -1,84 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- 
-  Property : Belgian Ministry of Health
-  Author   :  I. Pollet
-  Date      : 27/07/2009
- -->
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.0</VERSION>
-	<DATE>2009-07-30</DATE>
-	<STATUS>published</STATUS>
-	<NAME>eBirth caesarian indication</NAME>
-	<VALUE>
-		<CODE>previouscaesareansection</CODE>
-		<DESCRIPTION L="fr">Césarienne antérieure</DESCRIPTION>
-		<DESCRIPTION L="nl">Voorafgaande keizersnede</DESCRIPTION>
-		<DESCRIPTION L="de">Früherer Kaiserschnitt</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>breechpresentation</CODE>
-		<DESCRIPTION L="fr">Siège</DESCRIPTION>
-		<DESCRIPTION L="nl">Stuitligging</DESCRIPTION>
-		<DESCRIPTION L="de">Steißgeburt</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>transversepresentation</CODE>
-		<DESCRIPTION L="fr">Transverse</DESCRIPTION>
-		<DESCRIPTION L="nl">Dwarsligging</DESCRIPTION>
-		<DESCRIPTION L="de">Transversal</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>foetaldistress</CODE>
-		<DESCRIPTION L="fr">Souffrance foetale</DESCRIPTION>
-		<DESCRIPTION L="nl">Foetale nood</DESCRIPTION>
-		<DESCRIPTION L="de">Leiden des Fötus</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>dystocienotinlabour</CODE>
-		<DESCRIPTION L="fr">Dystocie, pas en travail</DESCRIPTION>
-		<DESCRIPTION L="nl">Dysproportie, niet in arbeid</DESCRIPTION>
-		<DESCRIPTION L="de">Geburtshindernis, außerhalb der Wehen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>dystocieinlabourinsufficientdilatation</CODE>
-		<DESCRIPTION L="fr">Dystocie, en travail mais stagnation dilatation</DESCRIPTION>
-		<DESCRIPTION L="nl">Dystocie, wel in arbeid en niet vorderende ontsluiting</DESCRIPTION>
-		<DESCRIPTION L="de">Geburtshindernis, während der Wehen, aber Stagnation, Dehnung</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>dystocieinlabourinsufficientexpulsion</CODE>
-		<DESCRIPTION L="fr">Dystocie, en travail mais arrêt de la progression à l'expulsion</DESCRIPTION>
-		<DESCRIPTION L="nl">Dystocie, wel in arbeid en niet vorderende uitdrijving</DESCRIPTION>
-		<DESCRIPTION L="de">Geburtshindernis, während der Wehen, aber kein Fortschreiten bei der Austreibung</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>maternalindication</CODE>
-		<DESCRIPTION L="fr">Pathologie maternelle</DESCRIPTION>
-		<DESCRIPTION L="nl">Maternaal</DESCRIPTION>
-		<DESCRIPTION L="de">Krankheitsbild der Mutter</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>abruptioplacentae</CODE>
-		<DESCRIPTION L="fr">Cause placentaire (décollement, praevia)</DESCRIPTION>
-		<DESCRIPTION L="nl">Placentair</DESCRIPTION>
-		<DESCRIPTION L="de">Placentabedingt (Ablösung, Placenta praevia)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>requestedbypatient</CODE>
-		<DESCRIPTION L="fr">Demandée par la patiente</DESCRIPTION>
-		<DESCRIPTION L="nl">Op vraag van patiënt zonder medische indicatie</DESCRIPTION>
-		<DESCRIPTION L="de">Von der Patientin gewünscht</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>multiplepregnancy</CODE>
-		<DESCRIPTION L="fr">Grossesse multiple</DESCRIPTION>
-		<DESCRIPTION L="nl">Meerling</DESCRIPTION>
-		<DESCRIPTION L="de">Mehrfachschwangerschaft</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>other</CODE>
-		<DESCRIPTION L="fr">Autre</DESCRIPTION>
-		<DESCRIPTION L="nl">Andere</DESCRIPTION>
-		<DESCRIPTION L="de">Sonstiges</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

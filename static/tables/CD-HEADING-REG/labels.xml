@@ -1,109 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  1.0 	 : 27/04/2012
-	
-  Reference table
-  -->
-  
- <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.3</VERSION>
-	<DATE>2015-12-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Heading Registry</NAME>
-	<VALUE>
-		<CODE>coronaryanatomy</CODE>
-		<DESCRIPTION L="en">Coronary Anatomy</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>chapter4</CODE>
-		<DESCRIPTION L="en">Chapter 4</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>non-biologic</CODE>
-		<DESCRIPTION L="en">Non biologic</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>bmi</CODE>
-		<DESCRIPTION L="en">Bmi</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>primarykneeprocedure</CODE>
-		<DESCRIPTION L="en">Primary knee procedure</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>approachtechnic</CODE>
-		<DESCRIPTION L="en">Approach Technic</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>instrumentation</CODE>
-		<DESCRIPTION L="en">Instrumentation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>orthopedicanatomy</CODE>
-		<DESCRIPTION L="en">Orthopedic anatomy</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>interface</CODE>
-		<DESCRIPTION L="en">Interface</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>revisionplan</CODE>
-		<DESCRIPTION L="en">Revision plan</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>material</CODE>
-		<DESCRIPTION L="en">Material</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>notified-material</CODE>
-		<DESCRIPTION L="en">Notified material</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>not-notified-material</CODE>
-		<DESCRIPTION L="en">Not notified material</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>not-notified-ortho-device</CODE>
-		<DESCRIPTION L="en">Not notified ortho device</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>criteria</CODE>
-		<DESCRIPTION L="en">Criteria</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>comorbidities</CODE>
-		<DESCRIPTION L="en">Comorbidities</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>comorbiditiesinformation</CODE>
-		<DESCRIPTION L="en">Comorbidities information</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>results</CODE>
-		<DESCRIPTION L="en">Results</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>resynchronisationinfo</CODE>
-		<DESCRIPTION L="en">Resynchronisation info</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>crtp</CODE>
-		<DESCRIPTION L="en">Crt-p</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>infiltration</CODE>
-		<DESCRIPTION L="en">Infiltration</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>das28</CODE>
-		<DESCRIPTION L="en">Das 28</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>haq</CODE>
-		<DESCRIPTION L="en">Haq</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>posology</CODE>
-		<DESCRIPTION L="en">Posology</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

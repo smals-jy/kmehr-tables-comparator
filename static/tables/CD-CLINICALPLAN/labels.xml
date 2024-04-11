@@ -1,36 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.1</VERSION>
-	<DATE>2012-07-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Clinical plan</NAME>
-	<VALUE>
-		<CODE>primaryprevention</CODE>
-		<DESCRIPTION L="fr">Prévention primaire</DESCRIPTION>
-		<DESCRIPTION L="nl">Primaire preventie</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>breastcancerprevention</CODE>
-		<DESCRIPTION L="fr">Prévention cancer du sein</DESCRIPTION>
-		<DESCRIPTION L="nl">Preventie Borstkanker</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>prostatecancerprevention</CODE>
-		<DESCRIPTION L="fr">Prévention cancer de la prostate</DESCRIPTION>
-		<DESCRIPTION L="nl">Preventie Prostaatkanker</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>colrectalcancerprevention</CODE>
-		<DESCRIPTION L="fr">Prévention cancer colo-rectal</DESCRIPTION>
-		<DESCRIPTION L="nl">Preventie Colorectale kanker</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>cervixutericancer</CODE>
-		<DESCRIPTION L="fr">Prévention cancer du col de l'utérus</DESCRIPTION>
-		<DESCRIPTION L="nl">Preventie Baarmoederhalskanker</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>gmdplus</CODE>
-		<DESCRIPTION L="en">General Medical Record +</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

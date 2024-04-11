@@ -1,50 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.3</VERSION>
-	<DATE>2016-12-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Patient's will</NAME>
-	<VALUE>
-		<CODE>ntbr (deprecated)</CODE>
-		<DESCRIPTION L="en">not to be resuscitated</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>bloodtransfusionrefusal</CODE>
-		<DESCRIPTION L="en">blood transfusion refusal</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>intubationrefusal</CODE>
-		<DESCRIPTION L="en">intubation refusal</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>euthanasiarequest</CODE>
-		<DESCRIPTION L="en">euthanasia request</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>vaccinationrefusal</CODE>
-		<DESCRIPTION L="en">vaccination refusal</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>organdonationconsent</CODE>
-		<DESCRIPTION L="en">organ donation consent</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>datareuseforclinicalresearchconsent</CODE>
-		<DESCRIPTION L="en">data reuse for clinical research consent</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>datareuseforclinicaltrialsconsent</CODE>
-		<DESCRIPTION L="en">data reuse for clinical trials consent</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>clinicaltrialparticipationconsent</CODE>
-		<DESCRIPTION L="en">clinical trial participation consent</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>omissionofmedicaldata</CODE>
-		<DESCRIPTION L="en">At the request of the patient, certain medical data are not included in this transaction</DESCRIPTION>
-		<DESCRIPTION L="fr">Sur demande du patient, certaines données médicales n’ont pas été reprises dans cette transaction</DESCRIPTION>
-		<DESCRIPTION L="nl">Bepaalde medische gegevens zijnop vraag van de patiënt niet opgenomen in deze boodschap</DESCRIPTION>
-		<DESCRIPTION L="de">Auf Wunsch des Patienten sind bestimmte medizinische Daten nicht in dieser Transaction erhalten</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

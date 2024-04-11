@@ -1,92 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- 
-  Property : CIN/NIC
-  Author   :  D. Janssens
-  Date       : 01/07/2011
- -->
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.0</VERSION>
-	<DATE>2011-07-01</DATE>
-	<STATUS>final</STATUS>
-	<NAME>MAA Items</NAME>
-	<VALUE>
-		<CODE>agreementtype</CODE>
-		<DESCRIPTION L="fr">Type d’accord</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>requesttype</CODE>
-		<DESCRIPTION L="fr">Type de demande</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>responsetype</CODE>
-		<DESCRIPTION L="fr">Type de réponse</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>agreementstartdate</CODE>
-		<DESCRIPTION L="fr">Date de début de la demande</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>agreementenddate</CODE>
-		<DESCRIPTION L="fr">Date de fin de la demande</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>consultationstartdate</CODE>
-		<DESCRIPTION L="fr">Date de fin de la demande</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>consultationenddate</CODE>
-		<DESCRIPTION L="fr">Date de fin de consultation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>careproviderreference</CODE>
-		<DESCRIPTION L="fr">Référence demande prescripteur</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>iorequestreference</CODE>
-		<DESCRIPTION L="fr">Référence demande attribuée par OA</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>decisionreference</CODE>
-		<DESCRIPTION L="fr">Référence de la decision</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>refusaljustification</CODE>
-		<DESCRIPTION L="fr">Motif de refus</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>chapter4reference</CODE>
-		<DESCRIPTION L="fr">Référence à la base règlementaire chapitre IV</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>unitnumber</CODE>
-		<DESCRIPTION L="fr">Strength accordé</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>strength</CODE>
-		<DESCRIPTION L="fr">Nombre d’unités restant à délivrer</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>restunitnumber</CODE>
-		<DESCRIPTION L="fr">Strength restant à délivrer</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>reststrength</CODE>
-		<DESCRIPTION L="fr">Strength restant à délivrer</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>orphandrugdeliveryplace</CODE>
-		<DESCRIPTION L="fr">Etablissement hospitalier – medicaments orphelins</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>orphandrugdeliveryid</CODE>
-		<DESCRIPTION L="fr">Numéro unique – medicaments orphelins</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>coveragetype</CODE>
-		<DESCRIPTION L="fr">Type de couverture</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>chapter4annexreference</CODE>
-		<DESCRIPTION L="fr">Référence à la base règlementaire annexe chapitre IV</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

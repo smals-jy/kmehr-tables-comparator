@@ -1,65 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  1.0 	 : 27/04/2012
-	
-  Reference table
-  -->
-  
- <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.1</VERSION>
-	<DATE>2014-12-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Ortho Approach</NAME>
-	<VALUE>
-		<CODE>lateral (deprecated)</CODE>
-		<DESCRIPTION L="en">Lateral</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>posterior</CODE>
-		<DESCRIPTION L="en">Posterior</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>anterior</CODE>
-		<DESCRIPTION L="en">Anterior</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>bytrochanterotomy</CODE>
-		<DESCRIPTION L="en">By Trochanterotomy</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>withfemoralosteotomy</CODE>
-		<DESCRIPTION L="en">With Femoral Osteotomy</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>other (deprecated)</CODE>
-		<DESCRIPTION L="en">Other</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>subvastus</CODE>
-		<DESCRIPTION L="en">Subvastus</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>midvastus</CODE>
-		<DESCRIPTION L="en">Midvastus</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>parapatellarlateral</CODE>
-		<DESCRIPTION L="en">Parapatellar Lateral</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>parapatellarmedial</CODE>
-		<DESCRIPTION L="en">Parapatellar Medial</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>tuberositasosteotomie</CODE>
-		<DESCRIPTION L="en">Tuberositasosteotomie</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>antelateral</CODE>
-		<DESCRIPTION L="en">Ante lateral</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>postlateral</CODE>
-		<DESCRIPTION L="en">Post lateral</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

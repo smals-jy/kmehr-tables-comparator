@@ -1,14 +1,1 @@
-{
-	"phone": {
-		"en": "Non mobile telephone"
-	},
-	"mobile": {
-		"en": "Mobile telephone"
-	},
-	"fax": {
-		"en": "Fax"
-	},
-	"email": {
-		"en": "Electronic mail"
-	}
-}
+{}

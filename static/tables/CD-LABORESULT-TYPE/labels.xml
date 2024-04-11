@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="ISO-8859-1"?><kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">	<VERSION>1.0</VERSION>	<DATE>2022-06-01</DATE>	<STATUS>published</STATUS>	<NAME>Labo Result Type</NAME>	<VALUE>		<CODE>18768-2</CODE>		<DESCRIPTION L="en">cell counts anddifferential</DESCRIPTION>		<DESCRIPTION L="fr">hemogramme</DESCRIPTION>		<DESCRIPTION L="nl">bloedbeeld endifferentiatie</DESCRIPTION>		<DESCRIPTION L="de">blutbild</DESCRIPTION>	</VALUE>	<VALUE>		<CODE>18767-4</CODE>		<DESCRIPTION L="en">blood gas</DESCRIPTION>		<DESCRIPTION L="fr">gaz sanguins</DESCRIPTION>		<DESCRIPTION L="nl">bloedgassen</DESCRIPTION>		<DESCRIPTION L="de">blutgas</DESCRIPTION>	</VALUE>	<VALUE>		<CODE>18727-8</CODE>		<DESCRIPTION L="en">serology</DESCRIPTION>		<DESCRIPTION L="fr">serologie</DESCRIPTION>		<DESCRIPTION L="nl">serologie</DESCRIPTION>		<DESCRIPTION L="de">serologie</DESCRIPTION>	</VALUE>	<VALUE>		<CODE>18721-1</CODE>		<DESCRIPTION L="en">therapeutic drugmonitoring</DESCRIPTION>		<DESCRIPTION L="fr">medicaments</DESCRIPTION>		<DESCRIPTION L="nl">therapeutische drugmonitoring</DESCRIPTION>		<DESCRIPTION L="de">therapeutisches drug monitoring</DESCRIPTION>	</VALUE>	<VALUE>		<CODE>18728-6</CODE>		<DESCRIPTION L="en">toxicology</DESCRIPTION>		<DESCRIPTION L="fr">toxicologie</DESCRIPTION>		<DESCRIPTION L="nl">toxicologie</DESCRIPTION>		<DESCRIPTION L="de">toxikologie</DESCRIPTION>	</VALUE>	<VALUE>		<CODE>18722-9</CODE>		<DESCRIPTION L="en">seminology</DESCRIPTION>		<DESCRIPTION L="fr">seminologie</DESCRIPTION>		<DESCRIPTION L="nl">semen analyse</DESCRIPTION>		<DESCRIPTION L="de">seminologie</DESCRIPTION>	</VALUE>	<VALUE>		<CODE>18720-3</CODE>		<DESCRIPTION L="en">coagulation</DESCRIPTION>		<DESCRIPTION L="fr">coagulation</DESCRIPTION>		<DESCRIPTION L="nl">bloedstolling</DESCRIPTION>		<DESCRIPTION L="de">coagulation</DESCRIPTION>	</VALUE>	<VALUE>		<CODE>18729-4</CODE>		<DESCRIPTION L="en">urinalysis</DESCRIPTION>		<DESCRIPTION L="fr">analyse d'urine</DESCRIPTION>		<DESCRIPTION L="nl">urine analyse</DESCRIPTION>		<DESCRIPTION L="de">urinuntersuchung</DESCRIPTION>	</VALUE>	<VALUE>		<CODE>18716-1</CODE>		<DESCRIPTION L="en">allergology</DESCRIPTION>		<DESCRIPTION L="fr">allergologie</DESCRIPTION>		<DESCRIPTION L="nl">allergologie</DESCRIPTION>		<DESCRIPTION L="de">allergologie</DESCRIPTION>	</VALUE>	<VALUE>		<CODE>18717-9</CODE>		<DESCRIPTION L="en">blood bank / transfusion</DESCRIPTION>		<DESCRIPTION L="fr">banque de sang / transfusion</DESCRIPTION>		<DESCRIPTION L="nl">bloedbank / transfusie</DESCRIPTION>		<DESCRIPTION L="de">blutbank / transfusion</DESCRIPTION>	</VALUE>	<VALUE>		<CODE>18719-5</CODE>		<DESCRIPTION L="en">chemistry</DESCRIPTION>		<DESCRIPTION L="fr">chimie</DESCRIPTION>		<DESCRIPTION L="nl">scheikunde</DESCRIPTION>		<DESCRIPTION L="de">chemie</DESCRIPTION>	</VALUE>	<VALUE>		<CODE>18725-2</CODE>		<DESCRIPTION L="en">microbiology</DESCRIPTION>		<DESCRIPTION L="fr">microbiologie</DESCRIPTION>		<DESCRIPTION L="nl">microbiologie</DESCRIPTION>		<DESCRIPTION L="de">mikrobiologie</DESCRIPTION>	</VALUE></kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

@@ -1,61 +1,23 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- 
-  Property : Belgian Ministry of Health
-  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
-  Date       : 27/09/2004
-  
-  Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
-  Reference table
--->
-<kmehr-cd>
-	<VERSION>1.2</VERSION>
-	<DATE>2017-06-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Incapacity type</NAME>
-	<DESCRIPTION L="en">This is the string that identifies the incapacity type.</DESCRIPTION>
-	<DESCRIPTION L="en">That string is placed as the value of the element CD of the element CONTENT.</DESCRIPTION>
-	<DESCRIPTION L="en">The scheme used is specified in the attribute 'S' of the element CD of the element CONTENT.</DESCRIPTION>
-	<DESCRIPTION L="en">The version of the scheme used is specified in the attribute 'SV' of the element CD of the element CONTENT.</DESCRIPTION>
-	<TYPE>National coded values</TYPE>
-	<ATTRIBUTE>
-		<SCHEME>CD-INCAPACITY</SCHEME>
-		<VERSION>1.2</VERSION>
-	</ATTRIBUTE>
-	<VALUE>
-		<CODE>work</CODE>
-		<DESCRIPTION L="en">incapacity to work</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>school</CODE>
-		<DESCRIPTION L="en">incapacity to follow courses</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>swim</CODE>
-		<DESCRIPTION L="en">incapacity to swim</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>sport</CODE>
-		<DESCRIPTION L="en">incapacity to perform gymnastics</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>schoolsports</CODE>
-		<DESCRIPTION L="en">incapacity to perform school sports</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>travel</CODE>
-		<DESCRIPTION L="en">incapacity to travel</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>vote</CODE>
-		<DESCRIPTION L="en">incapacity to vote</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>heavyphysicalactivity</CODE>
-		<DESCRIPTION L="en">heavy physical activity</DESCRIPTION>
-		<DESCRIPTION L="fr">activit� physique intense</DESCRIPTION>
-		<DESCRIPTION L="nl">zware fysieke inspanning</DESCRIPTION>
-		<DESCRIPTION L="de">schwerer physischer Aktivit�t</DESCRIPTION>
-	</VALUE>
-	<EXAMPLE>&lt;item&gt;&lt;content&gt;&lt;cd S="CD-INCAPACITY" SV="1.1"&gt;school&lt;/cd&gt;&lt;/content&gt;&lt;/item&gt;</EXAMPLE>
-	<EXPLANATION>This means that the incapacity concerns the ability to follow courses at school.</EXPLANATION>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

@@ -1,84 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.3</VERSION>
-	<DATE>2020-06-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Diary</NAME>
-	<VALUE>
-		<CODE>diabetes</CODE>
-		<DESCRIPTION L="en">diabetes</DESCRIPTION>
-		<DESCRIPTION L="nl">diabetes</DESCRIPTION>
-		<DESCRIPTION L="fr">diabète</DESCRIPTION>
-		<DESCRIPTION L="de">Diabetes</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>medication</CODE>
-		<DESCRIPTION L="en">medication</DESCRIPTION>
-		<DESCRIPTION L="nl">medicatie</DESCRIPTION>
-		<DESCRIPTION L="fr">médication</DESCRIPTION>
-		<DESCRIPTION L="de">Medikation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>movement</CODE>
-		<DESCRIPTION L="en">movement</DESCRIPTION>
-		<DESCRIPTION L="nl">beweging</DESCRIPTION>
-		<DESCRIPTION L="fr">mouvement</DESCRIPTION>
-		<DESCRIPTION L="de">Bewegung</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>nutrition</CODE>
-		<DESCRIPTION L="en">nutrition</DESCRIPTION>
-		<DESCRIPTION L="nl">voeding</DESCRIPTION>
-		<DESCRIPTION L="fr">nutrition</DESCRIPTION>
-		<DESCRIPTION L="de">Ernährung</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>renalinsufficiency</CODE>
-		<DESCRIPTION L="en">renal insufficiency</DESCRIPTION>
-		<DESCRIPTION L="nl">nierinsufficiëntie</DESCRIPTION>
-		<DESCRIPTION L="fr">insuffisante rénale</DESCRIPTION>
-		<DESCRIPTION L="de">Nierinsuffizienz</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>woundcare</CODE>
-		<DESCRIPTION L="en">wound care</DESCRIPTION>
-		<DESCRIPTION L="nl">wondzorg</DESCRIPTION>
-		<DESCRIPTION L="fr">soins de plaie</DESCRIPTION>
-		<DESCRIPTION L="de">Wundversorgung</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>oncology</CODE>
-		<DESCRIPTION L="en">oncology</DESCRIPTION>
-		<DESCRIPTION L="nl">oncologie</DESCRIPTION>
-		<DESCRIPTION L="fr">oncologie rénale</DESCRIPTION>
-		<DESCRIPTION L="de">Onkologie</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>antibiotherapy</CODE>
-		<DESCRIPTION L="en">antibiotherapy</DESCRIPTION>
-		<DESCRIPTION L="nl">antibiotherapie</DESCRIPTION>
-		<DESCRIPTION L="fr">antibiothérapie</DESCRIPTION>
-		<DESCRIPTION L="de">Antibiotikatherapie</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>infectiology</CODE>
-		<DESCRIPTION L="en">infectiology</DESCRIPTION>
-		<DESCRIPTION L="nl">infectiologie</DESCRIPTION>
-		<DESCRIPTION L="fr">infectiologie</DESCRIPTION>
-		<DESCRIPTION L="de">Infektiologie</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>dentalcare</CODE>
-		<DESCRIPTION L="en">dental care</DESCRIPTION>
-		<DESCRIPTION L="nl">tandheelkundige zorgen</DESCRIPTION>
-		<DESCRIPTION L="fr">soins dentaires</DESCRIPTION>
-		<DESCRIPTION L="de">Zahnpflege</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pregnancy</CODE>
-		<DESCRIPTION L="en">pregnancy</DESCRIPTION>
-		<DESCRIPTION L="nl">zwangerschap</DESCRIPTION>
-		<DESCRIPTION L="fr">grossesse</DESCRIPTION>
-		<DESCRIPTION L="de">Schwangerschaft</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

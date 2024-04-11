@@ -1,58 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<!-- Extract - only for illustration purpose -->
-	<VERSION>Extract.0.1</VERSION>
-	<DATE>2010-08-10</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Drug National Code</NAME>
-	<VALUE>
-		<CODE>2261618</CODE>
-		<DESCRIPTION L="nl">Algostase Mono poederzakjes 40x 1 g</DESCRIPTION>
-		<DESCRIPTION L="fr">Algostase Mono poudre sach 40x 1 g</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>1752534</CODE>
-		<DESCRIPTION L="nl">Algostase Mono bruistab 20x 1 g</DESCRIPTION>
-		<DESCRIPTION L="fr">Algostase Mono compr efferv 20x 1 g</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>2107969</CODE>
-		<DESCRIPTION L="nl">Algostase Mono bruistab 40x 1 g</DESCRIPTION>
-		<DESCRIPTION L="fr">Algostase Mono compr efferv 40x 1 g</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>1799147</CODE>
-		<DESCRIPTION L="nl">Dafalgan tab Forte 16x 1 g</DESCRIPTION>
-		<DESCRIPTION L="fr">Dafalgan compr Forte 16x 1 g</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>1799139</CODE>
-		<DESCRIPTION L="nl">Dafalgan tab Forte 32x 1 g</DESCRIPTION>
-		<DESCRIPTION L="fr">Dafalgan compr Forte 32x 1 g</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>1799121</CODE>
-		<DESCRIPTION L="nl">Dafalgan tab Forte 50x 1 g</DESCRIPTION>
-		<DESCRIPTION L="fr">Dafalgan compr Forte 50x 1 g</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>1449834</CODE>
-		<DESCRIPTION L="nl">Dafalgan bruistab Forte 16x 1 g</DESCRIPTION>
-		<DESCRIPTION L="fr">Dafalgan compr efferv Forte 16x 1 g</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>1449842</CODE>
-		<DESCRIPTION L="nl">Dafalgan bruistab Forte 32x 1 g</DESCRIPTION>
-		<DESCRIPTION L="fr">Dafalgan compr efferv Forte 32x 1 g</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>1484211</CODE>
-		<DESCRIPTION L="nl">Panadol tab 20x 1 g</DESCRIPTION>
-		<DESCRIPTION L="fr">Panadol compr 20x 1 g</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>1484229</CODE>
-		<DESCRIPTION L="nl">Panadol tab 50x 1 g</DESCRIPTION>
-		<DESCRIPTION L="fr">Panadol compr 50x 1 g</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

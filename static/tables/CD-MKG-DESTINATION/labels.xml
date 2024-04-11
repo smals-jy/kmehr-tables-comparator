@@ -1,55 +1,23 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- 
-  Property : Belgian Ministry of Health
-  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
-  Date       : 17/07/2002
-  
-  Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
-  Reference table
--->
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.0</VERSION>
-	<DATE>2002-07-17</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Discharge destination</NAME>
-	<VALUE>
-		<CODE>0</CODE>
-		<DESCRIPTION L="fr">Inconnu</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>1</CODE>
-		<DESCRIPTION L="fr">A domicile</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>2</CODE>
-		<DESCRIPTION L="fr">Sortie administrative lors d'une fusion</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>3</CODE>
-		<DESCRIPTION L="fr">Autre h�pital non universitaire</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>4</CODE>
-		<DESCRIPTION L="fr">Autre h�pital universitaire</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>5</CODE>
-		<DESCRIPTION L="fr">Autre h�pital psychiatrique</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>6</CODE>
-		<DESCRIPTION L="fr">Maisons de repos, soins et homes</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>7</CODE>
-		<DESCRIPTION L="fr">MSP et habitations prot�g�es</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>8</CODE>
-		<DESCRIPTION L="fr">D�c�d�</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>9</CODE>
-		<DESCRIPTION L="fr">Autre</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

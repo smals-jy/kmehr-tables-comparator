@@ -1,105 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  1.0 	 : 27/04/2012
-	
-  Reference table
-  -->
-  
- <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.1</VERSION>
-	<DATE>2014-12-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Ortho Diagnosis</NAME>
-	<VALUE>
-		<CODE>primaryarthrosis</CODE>
-		<DESCRIPTION L="en">Primary Arthrosis</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>necrosisavascular</CODE>
-		<DESCRIPTION L="en">Necrosis Avascular</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>fracture</CODE>
-		<DESCRIPTION L="en">Fracture</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>inflamatory (deprecated)</CODE>
-		<DESCRIPTION L="en">Inflamatory</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>posttraumaticarthrosis</CODE>
-		<DESCRIPTION L="en">Post-traumatic Arthrosis</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>arthrosisafterinfection</CODE>
-		<DESCRIPTION L="en">Arthrosis After Infection</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>secondaryarthrosis</CODE>
-		<DESCRIPTION L="en">Secondary Arthrosis</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>rheumatoidarthritis</CODE>
-		<DESCRIPTION L="en">Rheumatoid Arthritis</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>tumor</CODE>
-		<DESCRIPTION L="en">Tumor</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>hipdysplasia</CODE>
-		<DESCRIPTION L="en">Hip Dysplasia</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>other</CODE>
-		<DESCRIPTION L="en">Other</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>asepticloosening</CODE>
-		<DESCRIPTION L="en">Aseptic Loosening</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>infection</CODE>
-		<DESCRIPTION L="en">Infection</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>instability</CODE>
-		<DESCRIPTION L="en">Instability</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>periprostheticfracture</CODE>
-		<DESCRIPTION L="en">Periprosthetic Fracture</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pain</CODE>
-		<DESCRIPTION L="en">Pain</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>wearpolyethylene</CODE>
-		<DESCRIPTION L="en">Wear Polyethylene</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>wrongalignment</CODE>
-		<DESCRIPTION L="en">Wrong Alignment</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>fractureofimplant</CODE>
-		<DESCRIPTION L="en">Fracture Of Implant</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>progressionarthrosis</CODE>
-		<DESCRIPTION L="en">Progression Arthrosis</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>rigidity</CODE>
-		<DESCRIPTION L="en">Rigidity</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>wear</CODE>
-		<DESCRIPTION L="en">Wear</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>inflammatory</CODE>
-		<DESCRIPTION L="en">Inflammatory</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>

@@ -1,67 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.2</VERSION>
-	<DATE>2013-10-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Heading Type</NAME>
-	<VALUE>
-		<CODE>assessment</CODE>
-		<DESCRIPTION L="en">Assessment (diagnoses, hypotheses, ...)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>clinical</CODE>
-		<DESCRIPTION L="en">Clinical investigation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>clinicalplan</CODE>
-		<DESCRIPTION L="en">Clinical plan of action</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>familyhistory</CODE>
-		<DESCRIPTION L="en">Family history</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>history</CODE>
-		<DESCRIPTION L="en">Patient's history (antecedents)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>medication</CODE>
-		<DESCRIPTION L="en">Medication plan</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>prescription</CODE>
-		<DESCRIPTION L="en">Prescriptions</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>technicalplan</CODE>
-		<DESCRIPTION L="en">Technical plan of action</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>technical</CODE>
-		<DESCRIPTION L="en">Technical investigation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>treatment</CODE>
-		<DESCRIPTION L="en">Recommended treatment</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>userdefined</CODE>
-		<DESCRIPTION L="en">User defined</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>anamnesis</CODE>
-		<DESCRIPTION L="en">Anamnesis</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>examination</CODE>
-		<DESCRIPTION L="en">Examination</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>plan</CODE>
-		<DESCRIPTION L="en">Plan</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>outcomeevaluation</CODE>
-		<DESCRIPTION L="en">Outcome evaluation</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Internal Server Error</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "500 Internal Server Error".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>
