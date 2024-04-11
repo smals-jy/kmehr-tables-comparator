@@ -8,14 +8,14 @@
 	<VALUE>
 		<CODE>selfemployed</CODE>
 		<DESCRIPTION L="en">self-employed</DESCRIPTION>
-		<DESCRIPTION L="fr">ind�pendant</DESCRIPTION>
+		<DESCRIPTION L="fr">indépendant</DESCRIPTION>
 		<DESCRIPTION L="nl">zelfstandige</DESCRIPTION>
-		<DESCRIPTION L="de">Selbst�ndiger</DESCRIPTION>
+		<DESCRIPTION L="de">Selbständiger</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>employed</CODE>
 		<DESCRIPTION L="en">employed</DESCRIPTION>
-		<DESCRIPTION L="fr">salari�</DESCRIPTION>
+		<DESCRIPTION L="fr">salarié</DESCRIPTION>
 		<DESCRIPTION L="nl">loontrekkende</DESCRIPTION>
 		<DESCRIPTION L="de">Arbeitnehmer</DESCRIPTION>
 	</VALUE>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- 
   Property : Belgian Ministry of Health
-  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Author   : Dr André Vandenberghe, Department of Medical Information, CHU de Charleroi
   Date       : 27/09/2004
   
   Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
@@ -54,7 +54,7 @@
 	<VALUE>
 		<CODE>careencounter</CODE>
 		<DESCRIPTION L="en">Care encounter</DESCRIPTION>
-		<DESCRIPTION L="fr">rencontre m�dicale</DESCRIPTION>
+		<DESCRIPTION L="fr">rencontre médicale</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>pregnancy</CODE>
@@ -76,7 +76,7 @@
 		<DESCRIPTION L="en">Accident during travel to or from work</DESCRIPTION>
 		<DESCRIPTION L="fr">accident de trajet du et vers le lieu de travail</DESCRIPTION>
 		<DESCRIPTION L="nl">ongeval op weg naar of van het werk</DESCRIPTION>
-		<DESCRIPTION L="de">Unfall von oder zu der Arbeitsst�tte</DESCRIPTION>
+		<DESCRIPTION L="de">Unfall von oder zu der Arbeitsstätte</DESCRIPTION>
 	</VALUE>
 	<EXAMPLE>&lt;item&gt;&lt;incapacityreason&gt;&lt;cd S="CD-INCAPACITYREASON" SV="1.1"&gt;sickness&lt;/cd&gt;&lt;/incapacityreason&gt;&lt;/item&gt;</EXAMPLE>
 	<EXPLANATION>This means that the incapacity is due to a sickness.</EXPLANATION>

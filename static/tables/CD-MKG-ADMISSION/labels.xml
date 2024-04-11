@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- 
   Property : Belgian Ministry of Health
-  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Author   : Dr André Vandenberghe, Department of Medical Information, CHU de Charleroi
   Date       : 17/07/2002
   
   Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
@@ -22,15 +22,15 @@
 	</VALUE>
 	<VALUE>
 		<CODE>2</CODE>
-		<DESCRIPTION L="fr">Admission inopin�e - urgence</DESCRIPTION>
+		<DESCRIPTION L="fr">Admission inopinée - urgence</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>3</CODE>
-		<DESCRIPTION L="fr">Admission planifi�e</DESCRIPTION>
+		<DESCRIPTION L="fr">Admission planifiée</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>4</CODE>
-		<DESCRIPTION L="fr">Admission � partir de l'h�pital de jour</DESCRIPTION>
+		<DESCRIPTION L="fr">Admission à partir de l'hôpital de jour</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>5</CODE>
@@ -42,6 +42,6 @@
 	</VALUE>
 	<VALUE>
 		<CODE>8</CODE>
-		<DESCRIPTION L="fr">N� � l'h�pital</DESCRIPTION>
+		<DESCRIPTION L="fr">Né à l'hôpital</DESCRIPTION>
 	</VALUE>
 </kmehr-cd>

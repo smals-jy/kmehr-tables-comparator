@@ -1,13 +1,13 @@
 {
 	"selfemployed": {
 		"en": "self-employed",
-		"fr": "ind�pendant",
+		"fr": "indépendant",
 		"nl": "zelfstandige",
-		"de": "Selbst�ndiger"
+		"de": "Selbständiger"
 	},
 	"employed": {
 		"en": "employed",
-		"fr": "salari�",
+		"fr": "salarié",
 		"nl": "loontrekkende",
 		"de": "Arbeitnehmer"
 	},

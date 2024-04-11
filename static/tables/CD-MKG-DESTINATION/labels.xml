@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- 
   Property : Belgian Ministry of Health
-  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Author   : Dr André Vandenberghe, Department of Medical Information, CHU de Charleroi
   Date       : 17/07/2002
   
   Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
@@ -26,15 +26,15 @@
 	</VALUE>
 	<VALUE>
 		<CODE>3</CODE>
-		<DESCRIPTION L="fr">Autre h�pital non universitaire</DESCRIPTION>
+		<DESCRIPTION L="fr">Autre hôpital non universitaire</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>4</CODE>
-		<DESCRIPTION L="fr">Autre h�pital universitaire</DESCRIPTION>
+		<DESCRIPTION L="fr">Autre hôpital universitaire</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>5</CODE>
-		<DESCRIPTION L="fr">Autre h�pital psychiatrique</DESCRIPTION>
+		<DESCRIPTION L="fr">Autre hôpital psychiatrique</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>6</CODE>
@@ -42,11 +42,11 @@
 	</VALUE>
 	<VALUE>
 		<CODE>7</CODE>
-		<DESCRIPTION L="fr">MSP et habitations prot�g�es</DESCRIPTION>
+		<DESCRIPTION L="fr">MSP et habitations protégées</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>8</CODE>
-		<DESCRIPTION L="fr">D�c�d�</DESCRIPTION>
+		<DESCRIPTION L="fr">Décédé</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>9</CODE>

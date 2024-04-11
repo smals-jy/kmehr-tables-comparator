@@ -6,13 +6,13 @@
 		"fr": "Urgence service 100"
 	},
 	"2": {
-		"fr": "Admission inopin�e - urgence"
+		"fr": "Admission inopinée - urgence"
 	},
 	"3": {
-		"fr": "Admission planifi�e"
+		"fr": "Admission planifiée"
 	},
 	"4": {
-		"fr": "Admission � partir de l'h�pital de jour"
+		"fr": "Admission à partir de l'hôpital de jour"
 	},
 	"5": {
 		"fr": "Retour"
@@ -21,6 +21,6 @@
 		"fr": "Placement"
 	},
 	"8": {
-		"fr": "N� � l'h�pital"
+		"fr": "Né à l'hôpital"
 	}
 }

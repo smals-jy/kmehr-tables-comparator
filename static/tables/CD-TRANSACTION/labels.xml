@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.16</VERSION>
-	<DATE>2023-11-10</DATE>
+	<VERSION>1.17</VERSION>
+	<DATE>2024-03-21</DATE>
 	<STATUS>published</STATUS>
 	<NAME>Transaction</NAME>
 	<VALUE>
@@ -228,7 +228,7 @@
 		<DESCRIPTION L="de">Zusammenfassung Pflegebericht</DESCRIPTION>
 	</VALUE>
 	<VALUE>
-		<CODE>geriatrictransferreport</CODE>
-		<DESCRIPTION L="en">Geriatric transfer report</DESCRIPTION>
+		<CODE>transferreport</CODE>
+		<DESCRIPTION L="en">Transfer report</DESCRIPTION>
 	</VALUE>
 </kmehr-cd>

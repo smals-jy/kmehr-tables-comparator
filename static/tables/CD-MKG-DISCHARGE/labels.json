@@ -3,24 +3,24 @@
 		"fr": "Inconnu"
 	},
 	"1": {
-		"fr": "Sur avis m�dical"
+		"fr": "Sur avis médical"
 	},
 	"2": {
-		"fr": "Contre avis m�dical"
+		"fr": "Contre avis médical"
 	},
 	"3": {
-		"fr": "D�c�s avec autopsie"
+		"fr": "Décès avec autopsie"
 	},
 	"4": {
-		"fr": "D�c�s sans autopsie"
+		"fr": "Décès sans autopsie"
 	},
 	"5": {
-		"fr": "Transfert vers autre institution sp�cialis�e"
+		"fr": "Transfert vers autre institution spécialisée"
 	},
 	"6": {
-		"fr": "Transfert/retour r�adaptation/soins"
+		"fr": "Transfert/retour réadaptation/soins"
 	},
 	"D": {
-		"fr": "Retour � l'h�pital d'origine"
+		"fr": "Retour à l'hôpital d'origine"
 	}
 }

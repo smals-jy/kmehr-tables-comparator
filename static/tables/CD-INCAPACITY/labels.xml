@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- 
   Property : Belgian Ministry of Health
-  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi
+  Author   : Dr André Vandenberghe, Department of Medical Information, CHU de Charleroi
   Date       : 27/09/2004
   
   Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
@@ -52,9 +52,9 @@
 	<VALUE>
 		<CODE>heavyphysicalactivity</CODE>
 		<DESCRIPTION L="en">heavy physical activity</DESCRIPTION>
-		<DESCRIPTION L="fr">activit� physique intense</DESCRIPTION>
+		<DESCRIPTION L="fr">activité physique intense</DESCRIPTION>
 		<DESCRIPTION L="nl">zware fysieke inspanning</DESCRIPTION>
-		<DESCRIPTION L="de">schwerer physischer Aktivit�t</DESCRIPTION>
+		<DESCRIPTION L="de">schwerer physischer Aktivität</DESCRIPTION>
 	</VALUE>
 	<EXAMPLE>&lt;item&gt;&lt;content&gt;&lt;cd S="CD-INCAPACITY" SV="1.1"&gt;school&lt;/cd&gt;&lt;/content&gt;&lt;/item&gt;</EXAMPLE>
 	<EXPLANATION>This means that the incapacity concerns the ability to follow courses at school.</EXPLANATION>

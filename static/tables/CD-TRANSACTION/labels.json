@@ -172,7 +172,7 @@
 		"fr": "Rapport de résumé infirmier",
 		"de": "Zusammenfassung Pflegebericht"
 	},
-	"geriatrictransferreport": {
-		"en": "Geriatric transfer report"
+	"transferreport": {
+		"en": "Transfer report"
 	}
 }
