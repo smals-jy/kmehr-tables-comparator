@@ -24,7 +24,7 @@ def extract_xml_link_from_row(row):
   for col in cols:
     links = col.find_all('a', href=True)  # Find all anchor elements with href attribute
     for link in links:
-      if '/xml/' in link["href"]:
+      if '.xml' in link["href"]:
         return link["href"]
   return None
 
