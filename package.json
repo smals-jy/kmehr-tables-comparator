@@ -21,7 +21,7 @@
     "@docusaurus/core": "3.2.1",
     "@docusaurus/preset-classic": "3.2.1",
     "@mdx-js/react": "^3.0.0",
-    "@types/node": "^20.12.2",
+    "@types/node": "^20.12.7",
     "@xmldom/xmldom": "^0.8.10",
     "clsx": "^2.1.0",
     "lodash": "^4.17.21",
