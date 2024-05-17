@@ -18,8 +18,8 @@
     "generate-labels": "npx tsx generate-labels-for-cd-tables.ts"
   },
   "dependencies": {
-    "@docusaurus/core": "3.3.2",
-    "@docusaurus/preset-classic": "3.2.1",
+    "@docusaurus/core": "^3.3.2",
+    "@docusaurus/preset-classic": "^3.2.1",
     "@mdx-js/react": "^3.0.0",
     "@types/node": "^20.12.7",
     "@xmldom/xmldom": "^0.8.10",
@@ -30,7 +30,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.3.2",
+    "@docusaurus/module-type-aliases": "^3.3.2",
     "@jest/globals": "^29.6.4",
     "@docusaurus/tsconfig": "^3.3.2",
     "@types/jest": "^29.5.4",
