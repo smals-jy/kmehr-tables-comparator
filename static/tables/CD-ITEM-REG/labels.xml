@@ -1,270 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-  1.0 	 : 27/04/2012
-	
-  Reference table
-  --><kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.5</VERSION>
-	<DATE>2018-09-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Item Registry</NAME>
-	<VALUE>
-		<CODE>isinitialintervention</CODE>
-		<DESCRIPTION L="en">Is Initial Intervention</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>dominance</CODE>
-		<DESCRIPTION L="en">Dominance</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>existingbridge</CODE>
-		<DESCRIPTION L="en">Existing Brigde</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>observedlesion</CODE>
-		<DESCRIPTION L="en">Observed Lesion</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>segment</CODE>
-		<DESCRIPTION L="en">Segment</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>totaltreatedlength</CODE>
-		<DESCRIPTION L="en">Total Treated Length</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>bloodvesseldiameter</CODE>
-		<DESCRIPTION L="en">Blood Vessel Diameter</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>procedure-device</CODE>
-		<DESCRIPTION L="en">Procedure Device</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>contrastproductused</CODE>
-		<DESCRIPTION L="en">Contrast Product Used</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>reimbursementnomenclaturetype</CODE>
-		<DESCRIPTION L="en">Reimbursement Nomenclature Type</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>intervention-type</CODE>
-		<DESCRIPTION L="en">Intervention Type</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>intervention-site</CODE>
-		<DESCRIPTION L="en">ntervention Site</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>approach</CODE>
-		<DESCRIPTION L="en">Approach</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>navigationcomputer</CODE>
-		<DESCRIPTION L="en">Navigation Computer</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>intervention-device</CODE>
-		<DESCRIPTION L="en">Intervention Device</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>bearingsurface</CODE>
-		<DESCRIPTION L="en">Bearing Surface</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>graftused</CODE>
-		<DESCRIPTION L="en">Graft Used</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>acetabularinterface</CODE>
-		<DESCRIPTION L="en">Acetabular Interface</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>femoralinterface</CODE>
-		<DESCRIPTION L="en">Femoral Interface</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>stem</CODE>
-		<DESCRIPTION L="en">Stem</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>cup</CODE>
-		<DESCRIPTION L="en">Cup</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>head</CODE>
-		<DESCRIPTION L="en">Head</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>neck</CODE>
-		<DESCRIPTION L="en">Neck</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>insert</CODE>
-		<DESCRIPTION L="en">Insert</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>prosthesis-other</CODE>
-		<DESCRIPTION L="en">Prosthesis Other</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>brand</CODE>
-		<DESCRIPTION L="en">Brand</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>producer</CODE>
-		<DESCRIPTION L="en">Producer</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>size</CODE>
-		<DESCRIPTION L="en">Size</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>revisiontechnic</CODE>
-		<DESCRIPTION L="en">Revision Technic</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>kneeimplanttype</CODE>
-		<DESCRIPTION L="en">Knee Implant Type</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>kneeinsert (deprecated)</CODE>
-		<DESCRIPTION L="en">Knee Insert</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>tibialinterface</CODE>
-		<DESCRIPTION L="en">Tibial Interface</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>patellarinterface</CODE>
-		<DESCRIPTION L="en">Patellar Interface</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>patella</CODE>
-		<DESCRIPTION L="en">Patella</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>femur</CODE>
-		<DESCRIPTION L="en">Femur</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>tibia</CODE>
-		<DESCRIPTION L="en">Tibia</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>tickness</CODE>
-		<DESCRIPTION L="en">Tickness</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>kneeprosthesis</CODE>
-		<DESCRIPTION L="en">Knee Prosthesis</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>revisioncomponent</CODE>
-		<DESCRIPTION L="en">Revision Component</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>doctorsremark</CODE>
-		<DESCRIPTION L="en">Doctor's Remark</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>resynchronisation</CODE>
-		<DESCRIPTION L="en">Resynchronisation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pacingindication</CODE>
-		<DESCRIPTION L="en">Pacing Indication</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>issecondoperator</CODE>
-		<DESCRIPTION L="en">Is Second Operator</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>postpcitimi</CODE>
-		<DESCRIPTION L="en">Post Pcitimi</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>poststenosis</CODE>
-		<DESCRIPTION L="en">Post Stenosis</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>infiltration</CODE>
-		<DESCRIPTION L="en">Infiltration</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>operation-type</CODE>
-		<DESCRIPTION L="en">Operation Type</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>alignment</CODE>
-		<DESCRIPTION L="en">Alignment</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>custominstrumentation</CODE>
-		<DESCRIPTION L="en">Custom Instrumentation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>substitute</CODE>
-		<DESCRIPTION L="en">Substitute</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>modularneck</CODE>
-		<DESCRIPTION L="en">Modular Neck</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>materialsremark</CODE>
-		<DESCRIPTION L="en">Materials Remark</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ortho-device</CODE>
-		<DESCRIPTION L="en">Ortho Device</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>devicename</CODE>
-		<DESCRIPTION L="en">Device Name</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>distributor</CODE>
-		<DESCRIPTION L="en">Distributor</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>manufacturer</CODE>
-		<DESCRIPTION L="en">Manufacturer</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>femoralreplacement</CODE>
-		<DESCRIPTION L="en">Femoral Replacement</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>acetabularreplacement</CODE>
-		<DESCRIPTION L="en">Acetabular Replacement</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>revisedcomponent</CODE>
-		<DESCRIPTION L="en">Revised Component</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>cardioversion</CODE>
-		<DESCRIPTION L="en">Cardioversion</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>motivation</CODE>
-		<DESCRIPTION L="en">Motivation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>criteriacomments</CODE>
-		<DESCRIPTION L="en">Criteria Comments</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>comorbiditiescomments</CODE>
-		<DESCRIPTION L="en">Comorbidities Comments</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>informationprimo</CODE>
-		<DESCRIPTION L="en">Information primo</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>lvef</CODE>
-		<DESCRIPTION L="en">Left ventricular ejection fraction</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>An Error Occurred</title>
+        <link rel="icon" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/favicon.ico"><link rel="stylesheet" type="text/css" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/css/standards.css">                        <link rel="canonical" href="https://www.ehealth.fgov.be/standards/kmehr/file/1a815e1ebeb49f9e05513397f8d36082239f068c/f326f87def11937bd219804b84c1d418f5814d6b/cd-item-reg.xml" />
+                </head>
+    <body class="error-page live" data-translations="{&quot;back_to_ems&quot;:&quot;Back to admin&quot;}">
+        <div id="page">
+            
+    <div id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="mobile-actions">
+                        <button type="button" class="search-open navbar-toggle collapsed hidden-md" aria-expanded="false">
+                            <span class="sr-only">Search</span>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                        <button type="button" id="my-icon" class="navbar-toggle">
+                            <span class="sr-only">Main navigation</span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <a class="navbar-brand" href="/standards/kmehr/en"><img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/standards.svg" alt="Standards"></a>
+                </div>
+                <nav class="hidden-xs hidden-sm" id="main-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="search-open"><a class="navbar-toggle collapsed hidden-xs hidden-sm" data-toggle="collapse" data-target="#search-animated" aria-expanded="false"><span class="sr-only">Rechercher</span><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/basic">Basic</a></li>
+                                                    <li > <a href="/standards/kmehr/en/tables">Tables</a></li>
+                                                    <li > <a href="/standards/kmehr/en/transactions">Transactions</a></li>
+                                                    <li > <a href="/standards/kmehr/en/web-services">Web Services</a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/support">Support</a></li>
+                                            </ul>
+                </nav>
+            </div>
+                            <div id="search-animated" class="hide">
+                    <div class="container-fluid">
+                        
+<form name="form" method="get" action="/standards/kmehr/%2E%2E/../ehealthplatform/en/search">
+    <div class="form-group">
+        <label class="sr-only" for="form_field">Search</label>
+        <div class="input-group">
+            <input type="text" name="q" id="form_field" required="required" class="form-control" placeholder="Search">
+            <input type="hidden" name="search_facet[]" value="platform_search_facet:AV6A1aLRnyUtuZptNdUz" />
+            <span class="input-group-btn">
+                <button class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span></button>
+            </span>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+                    </nav>
+                    </div>
+<div id="content">
+                    <div class="container-fluid">
+                            <div class="row">
+            </div>
+                    </div>
+                </div></div>
+        <nav id="menu"></nav>
+                
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2">
+                    <ul>
+                                                    <li><a href="/standards/kmehr/en/page/terms-and-conditions">Terms and conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/re-use-conditions">Re-use conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/accessibility-statement">Accessibility statement</a></li>
+                                            </ul>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 belgium-link">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="/standards/kmehr/%2E%2E/../ehealthplatform/fr" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-ehealth.png" alt="site eHealth">
+                            </a>
+                        </li>
+                        <li>
+                                                        <a href="https://www.belgium.be/en" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-be.png" alt="belgium.be">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+            <div id="eu-cookie">
+    <div class="container-fluid">
+        <div class="content">
+            <div class="row">
+                                <div class="col-xs-12">
+                    <p>
+		               Cookies are used to improve the user experience.
+		               <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform hidden-xs hidden-sm first-child">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform hidden-xs hidden-sm first-child">x Continue</a>
+                    </p>
+                </div>
+		        <div class="col-xs-12 visible-xs visible-sm">
+		           <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform">x Continue</a>
+		        </div>
+		    </div>
+	    </div>
+    </div>
+</div>
+        <script src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/js/standards.js"></script>        <script defer data-domain="standards.ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script>
+    </body>
+</html>

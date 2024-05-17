@@ -1,84 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.3</VERSION>
-	<DATE>2020-06-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Diary</NAME>
-	<VALUE>
-		<CODE>diabetes</CODE>
-		<DESCRIPTION L="en">diabetes</DESCRIPTION>
-		<DESCRIPTION L="nl">diabetes</DESCRIPTION>
-		<DESCRIPTION L="fr">diabète</DESCRIPTION>
-		<DESCRIPTION L="de">Diabetes</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>medication</CODE>
-		<DESCRIPTION L="en">medication</DESCRIPTION>
-		<DESCRIPTION L="nl">medicatie</DESCRIPTION>
-		<DESCRIPTION L="fr">médication</DESCRIPTION>
-		<DESCRIPTION L="de">Medikation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>movement</CODE>
-		<DESCRIPTION L="en">movement</DESCRIPTION>
-		<DESCRIPTION L="nl">beweging</DESCRIPTION>
-		<DESCRIPTION L="fr">mouvement</DESCRIPTION>
-		<DESCRIPTION L="de">Bewegung</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>nutrition</CODE>
-		<DESCRIPTION L="en">nutrition</DESCRIPTION>
-		<DESCRIPTION L="nl">voeding</DESCRIPTION>
-		<DESCRIPTION L="fr">nutrition</DESCRIPTION>
-		<DESCRIPTION L="de">Ernährung</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>renalinsufficiency</CODE>
-		<DESCRIPTION L="en">renal insufficiency</DESCRIPTION>
-		<DESCRIPTION L="nl">nierinsufficiëntie</DESCRIPTION>
-		<DESCRIPTION L="fr">insuffisante rénale</DESCRIPTION>
-		<DESCRIPTION L="de">Nierinsuffizienz</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>woundcare</CODE>
-		<DESCRIPTION L="en">wound care</DESCRIPTION>
-		<DESCRIPTION L="nl">wondzorg</DESCRIPTION>
-		<DESCRIPTION L="fr">soins de plaie</DESCRIPTION>
-		<DESCRIPTION L="de">Wundversorgung</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>oncology</CODE>
-		<DESCRIPTION L="en">oncology</DESCRIPTION>
-		<DESCRIPTION L="nl">oncologie</DESCRIPTION>
-		<DESCRIPTION L="fr">oncologie rénale</DESCRIPTION>
-		<DESCRIPTION L="de">Onkologie</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>antibiotherapy</CODE>
-		<DESCRIPTION L="en">antibiotherapy</DESCRIPTION>
-		<DESCRIPTION L="nl">antibiotherapie</DESCRIPTION>
-		<DESCRIPTION L="fr">antibiothérapie</DESCRIPTION>
-		<DESCRIPTION L="de">Antibiotikatherapie</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>infectiology</CODE>
-		<DESCRIPTION L="en">infectiology</DESCRIPTION>
-		<DESCRIPTION L="nl">infectiologie</DESCRIPTION>
-		<DESCRIPTION L="fr">infectiologie</DESCRIPTION>
-		<DESCRIPTION L="de">Infektiologie</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>dentalcare</CODE>
-		<DESCRIPTION L="en">dental care</DESCRIPTION>
-		<DESCRIPTION L="nl">tandheelkundige zorgen</DESCRIPTION>
-		<DESCRIPTION L="fr">soins dentaires</DESCRIPTION>
-		<DESCRIPTION L="de">Zahnpflege</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pregnancy</CODE>
-		<DESCRIPTION L="en">pregnancy</DESCRIPTION>
-		<DESCRIPTION L="nl">zwangerschap</DESCRIPTION>
-		<DESCRIPTION L="fr">grossesse</DESCRIPTION>
-		<DESCRIPTION L="de">Schwangerschaft</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>An Error Occurred</title>
+        <link rel="icon" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/favicon.ico"><link rel="stylesheet" type="text/css" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/css/standards.css">                        <link rel="canonical" href="https://www.ehealth.fgov.be/standards/kmehr/file/1a815e1ebeb49f9e05513397f8d36082239f068c/ee30390acef4cf1fe8556c234b0638f8afe03522/cd-diary.xml" />
+                </head>
+    <body class="error-page live" data-translations="{&quot;back_to_ems&quot;:&quot;Back to admin&quot;}">
+        <div id="page">
+            
+    <div id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="mobile-actions">
+                        <button type="button" class="search-open navbar-toggle collapsed hidden-md" aria-expanded="false">
+                            <span class="sr-only">Search</span>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                        <button type="button" id="my-icon" class="navbar-toggle">
+                            <span class="sr-only">Main navigation</span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <a class="navbar-brand" href="/standards/kmehr/en"><img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/standards.svg" alt="Standards"></a>
+                </div>
+                <nav class="hidden-xs hidden-sm" id="main-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="search-open"><a class="navbar-toggle collapsed hidden-xs hidden-sm" data-toggle="collapse" data-target="#search-animated" aria-expanded="false"><span class="sr-only">Rechercher</span><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/basic">Basic</a></li>
+                                                    <li > <a href="/standards/kmehr/en/tables">Tables</a></li>
+                                                    <li > <a href="/standards/kmehr/en/transactions">Transactions</a></li>
+                                                    <li > <a href="/standards/kmehr/en/web-services">Web Services</a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/support">Support</a></li>
+                                            </ul>
+                </nav>
+            </div>
+                            <div id="search-animated" class="hide">
+                    <div class="container-fluid">
+                        
+<form name="form" method="get" action="/standards/kmehr/%2E%2E/../ehealthplatform/en/search">
+    <div class="form-group">
+        <label class="sr-only" for="form_field">Search</label>
+        <div class="input-group">
+            <input type="text" name="q" id="form_field" required="required" class="form-control" placeholder="Search">
+            <input type="hidden" name="search_facet[]" value="platform_search_facet:AV6A1aLRnyUtuZptNdUz" />
+            <span class="input-group-btn">
+                <button class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span></button>
+            </span>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+                    </nav>
+                    </div>
+<div id="content">
+                    <div class="container-fluid">
+                            <div class="row">
+            </div>
+                    </div>
+                </div></div>
+        <nav id="menu"></nav>
+                
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2">
+                    <ul>
+                                                    <li><a href="/standards/kmehr/en/page/terms-and-conditions">Terms and conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/re-use-conditions">Re-use conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/accessibility-statement">Accessibility statement</a></li>
+                                            </ul>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 belgium-link">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="/standards/kmehr/%2E%2E/../ehealthplatform/fr" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-ehealth.png" alt="site eHealth">
+                            </a>
+                        </li>
+                        <li>
+                                                        <a href="https://www.belgium.be/en" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-be.png" alt="belgium.be">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+            <div id="eu-cookie">
+    <div class="container-fluid">
+        <div class="content">
+            <div class="row">
+                                <div class="col-xs-12">
+                    <p>
+		               Cookies are used to improve the user experience.
+		               <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform hidden-xs hidden-sm first-child">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform hidden-xs hidden-sm first-child">x Continue</a>
+                    </p>
+                </div>
+		        <div class="col-xs-12 visible-xs visible-sm">
+		           <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform">x Continue</a>
+		        </div>
+		    </div>
+	    </div>
+    </div>
+</div>
+        <script src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/js/standards.js"></script>        <script defer data-domain="standards.ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script>
+    </body>
+</html>
