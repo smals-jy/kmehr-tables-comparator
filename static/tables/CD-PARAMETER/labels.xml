@@ -1,70 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.2</VERSION>
-	<DATE>2018-03-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Parameters</NAME>
-	<VALUE>
-		<CODE>weight</CODE>
-		<DESCRIPTION L="en">weight</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>height</CODE>
-		<DESCRIPTION L="en">height</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>bmi</CODE>
-		<DESCRIPTION L="en">BMI</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>sbp</CODE>
-		<DESCRIPTION L="en">systolic blood pressure</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>dbp</CODE>
-		<DESCRIPTION L="en">diastolic blood pressure</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pulsecharacter</CODE>
-		<DESCRIPTION L="en">character of pulse</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>heartrate</CODE>
-		<DESCRIPTION L="en">heart rate</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>peakflow</CODE>
-		<DESCRIPTION L="en">peak flow</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>gpa</CODE>
-		<DESCRIPTION L="en">GPA</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>headcircumference</CODE>
-		<DESCRIPTION L="en">head circumference</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>hipcircumference</CODE>
-		<DESCRIPTION L="en">hip circumference</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>apgar</CODE>
-		<DESCRIPTION L="en">APGAR</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>katz</CODE>
-		<DESCRIPTION L="en">katz</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>belrai</CODE>
-		<DESCRIPTION L="en">belrai</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>bloodsugar</CODE>
-		<DESCRIPTION L="en">blood sugar</DESCRIPTION>
-		<DESCRIPTION L="fr">glycémie</DESCRIPTION>
-		<DESCRIPTION L="nl">bloedsuiker</DESCRIPTION>
-		<DESCRIPTION L="de">Blutzucker</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>An Error Occurred</title>
+        <link rel="icon" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/favicon.ico"><link rel="stylesheet" type="text/css" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/css/standards.css">                        <link rel="canonical" href="https://www.ehealth.fgov.be/standards/kmehr/file/1a815e1ebeb49f9e05513397f8d36082239f068c/a828ec9c43b6aa529cd2322683acbced6a42f6e1/cd-parameter.xml" />
+                </head>
+    <body class="error-page live" data-translations="{&quot;back_to_ems&quot;:&quot;Back to admin&quot;}">
+        <div id="page">
+            
+    <div id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="mobile-actions">
+                        <button type="button" class="search-open navbar-toggle collapsed hidden-md" aria-expanded="false">
+                            <span class="sr-only">Search</span>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                        <button type="button" id="my-icon" class="navbar-toggle">
+                            <span class="sr-only">Main navigation</span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <a class="navbar-brand" href="/standards/kmehr/en"><img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/standards.svg" alt="Standards"></a>
+                </div>
+                <nav class="hidden-xs hidden-sm" id="main-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="search-open"><a class="navbar-toggle collapsed hidden-xs hidden-sm" data-toggle="collapse" data-target="#search-animated" aria-expanded="false"><span class="sr-only">Rechercher</span><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/basic">Basic</a></li>
+                                                    <li > <a href="/standards/kmehr/en/tables">Tables</a></li>
+                                                    <li > <a href="/standards/kmehr/en/transactions">Transactions</a></li>
+                                                    <li > <a href="/standards/kmehr/en/web-services">Web Services</a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/support">Support</a></li>
+                                            </ul>
+                </nav>
+            </div>
+                            <div id="search-animated" class="hide">
+                    <div class="container-fluid">
+                        
+<form name="form" method="get" action="/standards/kmehr/%2E%2E/../ehealthplatform/en/search">
+    <div class="form-group">
+        <label class="sr-only" for="form_field">Search</label>
+        <div class="input-group">
+            <input type="text" name="q" id="form_field" required="required" class="form-control" placeholder="Search">
+            <input type="hidden" name="search_facet[]" value="platform_search_facet:AV6A1aLRnyUtuZptNdUz" />
+            <span class="input-group-btn">
+                <button class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span></button>
+            </span>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+                    </nav>
+                    </div>
+<div id="content">
+                    <div class="container-fluid">
+                            <div class="row">
+            </div>
+                    </div>
+                </div></div>
+        <nav id="menu"></nav>
+                
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2">
+                    <ul>
+                                                    <li><a href="/standards/kmehr/en/page/terms-and-conditions">Terms and conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/re-use-conditions">Re-use conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/accessibility-statement">Accessibility statement</a></li>
+                                            </ul>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 belgium-link">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="/standards/kmehr/%2E%2E/../ehealthplatform/fr" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-ehealth.png" alt="site eHealth">
+                            </a>
+                        </li>
+                        <li>
+                                                        <a href="https://www.belgium.be/en" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-be.png" alt="belgium.be">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+            <div id="eu-cookie">
+    <div class="container-fluid">
+        <div class="content">
+            <div class="row">
+                                <div class="col-xs-12">
+                    <p>
+		               Cookies are used to improve the user experience.
+		               <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform hidden-xs hidden-sm first-child">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform hidden-xs hidden-sm first-child">x Continue</a>
+                    </p>
+                </div>
+		        <div class="col-xs-12 visible-xs visible-sm">
+		           <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform">x Continue</a>
+		        </div>
+		    </div>
+	    </div>
+    </div>
+</div>
+        <script src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/js/standards.js"></script>        <script defer data-domain="standards.ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script>
+    </body>
+</html>

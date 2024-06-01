@@ -1,211 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.6</VERSION>
-	<DATE>2018-12-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Item MyCarenet</NAME>
-	<VALUE>
-		<CODE>payment</CODE>
-		<DESCRIPTION L="en">Payment</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>fee</CODE>
-		<DESCRIPTION L="en">Fee</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>reimbursement</CODE>
-		<DESCRIPTION L="en">Reimbursement</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>patientfee</CODE>
-		<DESCRIPTION L="en">Patient fee</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>financialcontract</CODE>
-		<DESCRIPTION L="en">Financial contract</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>refusal</CODE>
-		<DESCRIPTION L="en">Refusal</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>patientpaid</CODE>
-		<DESCRIPTION L="en">Amount paid by patient</DESCRIPTION>
-		<DESCRIPTION L="fr">Montant payé par patient</DESCRIPTION>
-		<DESCRIPTION L="nl">Bedrag betaald door patient</DESCRIPTION>
-		<DESCRIPTION L="de">Betrag von Patient bezahlt</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>supplement</CODE>
-		<DESCRIPTION L="en">Supplement paid</DESCRIPTION>
-		<DESCRIPTION L="fr">Supplément payé</DESCRIPTION>
-		<DESCRIPTION L="nl">Betaald supplement</DESCRIPTION>
-		<DESCRIPTION L="de">Zulage bezahlt</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>paymentreceivingparty</CODE>
-		<DESCRIPTION L="en">Party receiving the payment</DESCRIPTION>
-		<DESCRIPTION L="fr">Parti recevant le paiement</DESCRIPTION>
-		<DESCRIPTION L="nl">Partij die betaling ontvangt</DESCRIPTION>
-		<DESCRIPTION L="de">Partei die Bezahlung erhält</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>internship</CODE>
-		<DESCRIPTION L="en">GP doing internship</DESCRIPTION>
-		<DESCRIPTION L="fr">Medecin Généraliste stagiaire</DESCRIPTION>
-		<DESCRIPTION L="nl">Huisarts in opleiding</DESCRIPTION>
-		<DESCRIPTION L="de">Hausarzt im Praktikum</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>documentidentity</CODE>
-		<DESCRIPTION L="en">Identifiers of document</DESCRIPTION>
-		<DESCRIPTION L="fr">Identifiants du document</DESCRIPTION>
-		<DESCRIPTION L="nl">Identificatie aanduidingen van document</DESCRIPTION>
-		<DESCRIPTION L="de">Identifizierer des Dokuments</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>invoicingnumber</CODE>
-		<DESCRIPTION L="en">Identifier for patient to track eAttest</DESCRIPTION>
-		<DESCRIPTION L="fr">Identifiant pour le patient pour suivre un eAttest</DESCRIPTION>
-		<DESCRIPTION L="nl">Identificatie aanduiding voor de patient om eAttest te volgen</DESCRIPTION>
-		<DESCRIPTION L="de">Identifizierer vor Patient um eAttest zu folgen</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>reimbursement-fpssi</CODE>
-		<DESCRIPTION L="en">Amount of reimbursement by FPS Social Integration</DESCRIPTION>
-		<DESCRIPTION L="fr">Montant de remboursement SPP intégration sociale</DESCRIPTION>
-		<DESCRIPTION L="nl">Bedrag van terugbetaling POD Maatschappelijke Integratie</DESCRIPTION>
-		<DESCRIPTION L="de">Betrag Vergueting FPD Sozialen Integration</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>reimbursement-pswc	</CODE>
-		<DESCRIPTION L="en">Amount of reimbursement by PSWC</DESCRIPTION>
-		<DESCRIPTION L="fr">Montant de remboursement CPAS</DESCRIPTION>
-		<DESCRIPTION L="nl">Bedrag van terugbetaling OCMW</DESCRIPTION>
-		<DESCRIPTION L="de">Betrag Vergueting ÖSHZ</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>umc</CODE>
-		<DESCRIPTION L="en">Attestation urgent medical care needed</DESCRIPTION>
-		<DESCRIPTION L="fr">Attestation aide medicale urgente demandé</DESCRIPTION>
-		<DESCRIPTION L="nl">Attest urgente medische zorgen nodig</DESCRIPTION>
-		<DESCRIPTION L="de">Braucht Attest für ärztliche Nothilfe</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>mediprimanumber</CODE>
-		<DESCRIPTION L="en">Mediprima number</DESCRIPTION>
-		<DESCRIPTION L="fr">numéro Mediprima</DESCRIPTION>
-		<DESCRIPTION L="nl">Mediprima nummer</DESCRIPTION>
-		<DESCRIPTION L="de">Mediprimakarten nummer</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>pswc</CODE>
-		<DESCRIPTION L="en">PSWC</DESCRIPTION>
-		<DESCRIPTION L="fr">CPAS</DESCRIPTION>
-		<DESCRIPTION L="nl">OCMW</DESCRIPTION>
-		<DESCRIPTION L="de">ÖSHZ</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>treatmentreason</CODE>
-		<DESCRIPTION L="en">Reason of treatment</DESCRIPTION>
-		<DESCRIPTION L="fr">Causes du traitement</DESCRIPTION>
-		<DESCRIPTION L="nl">Reden behandeling</DESCRIPTION>
-		<DESCRIPTION L="de">Grund einer Behandlung</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>agreementenddate</CODE>
-		<DESCRIPTION L="en">Agreement end date</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>agreementstartdate</CODE>
-		<DESCRIPTION L="en">Agreement start date</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>agreementtype</CODE>
-		<DESCRIPTION L="en">Agreement type</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>consultationenddate</CODE>
-		<DESCRIPTION L="en">Consultation end date</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>consultationstartdate</CODE>
-		<DESCRIPTION L="en">Consultation start date</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>authorisationtype</CODE>
-		<DESCRIPTION L="en">Authorisation type</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>decisionreference</CODE>
-		<DESCRIPTION L="en">Decision reference</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>orphandrugdeliveryplace</CODE>
-		<DESCRIPTION L="en">Orphan drug delivery place</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>refusaljustification</CODE>
-		<DESCRIPTION L="en">Refusal justification</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>reststrength</CODE>
-		<DESCRIPTION L="en">Rest strength</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>restunitnumber</CODE>
-		<DESCRIPTION L="en">Rest unit number</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>legalbasis</CODE>
-		<DESCRIPTION L="en">Legal basis</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>legalunitnumber</CODE>
-		<DESCRIPTION L="en">Legal unit number</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-	<VALUE>
-		<CODE>legalstrength</CODE>
-		<DESCRIPTION L="en">Legal strength</DESCRIPTION>
-		<HL7/>
-	</VALUE>
-		<VALUE>
-		<CODE>istrialperiod</CODE>
-		<DESCRIPTION L="en">Is trial period</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>closurejustification</CODE>
-		<DESCRIPTION L="en">Closure justification</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>An Error Occurred</title>
+        <link rel="icon" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/favicon.ico"><link rel="stylesheet" type="text/css" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/css/standards.css">                        <link rel="canonical" href="https://www.ehealth.fgov.be/standards/kmehr/file/1a815e1ebeb49f9e05513397f8d36082239f068c/bdf0fe2925a35fabb2c97345e79a190f46d88486/cd-item-mycarenet.xml" />
+                </head>
+    <body class="error-page live" data-translations="{&quot;back_to_ems&quot;:&quot;Back to admin&quot;}">
+        <div id="page">
+            
+    <div id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="mobile-actions">
+                        <button type="button" class="search-open navbar-toggle collapsed hidden-md" aria-expanded="false">
+                            <span class="sr-only">Search</span>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                        <button type="button" id="my-icon" class="navbar-toggle">
+                            <span class="sr-only">Main navigation</span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <a class="navbar-brand" href="/standards/kmehr/en"><img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/standards.svg" alt="Standards"></a>
+                </div>
+                <nav class="hidden-xs hidden-sm" id="main-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="search-open"><a class="navbar-toggle collapsed hidden-xs hidden-sm" data-toggle="collapse" data-target="#search-animated" aria-expanded="false"><span class="sr-only">Rechercher</span><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/basic">Basic</a></li>
+                                                    <li > <a href="/standards/kmehr/en/tables">Tables</a></li>
+                                                    <li > <a href="/standards/kmehr/en/transactions">Transactions</a></li>
+                                                    <li > <a href="/standards/kmehr/en/web-services">Web Services</a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/support">Support</a></li>
+                                            </ul>
+                </nav>
+            </div>
+                            <div id="search-animated" class="hide">
+                    <div class="container-fluid">
+                        
+<form name="form" method="get" action="/standards/kmehr/%2E%2E/../ehealthplatform/en/search">
+    <div class="form-group">
+        <label class="sr-only" for="form_field">Search</label>
+        <div class="input-group">
+            <input type="text" name="q" id="form_field" required="required" class="form-control" placeholder="Search">
+            <input type="hidden" name="search_facet[]" value="platform_search_facet:AV6A1aLRnyUtuZptNdUz" />
+            <span class="input-group-btn">
+                <button class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span></button>
+            </span>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+                    </nav>
+                    </div>
+<div id="content">
+                    <div class="container-fluid">
+                            <div class="row">
+            </div>
+                    </div>
+                </div></div>
+        <nav id="menu"></nav>
+                
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2">
+                    <ul>
+                                                    <li><a href="/standards/kmehr/en/page/terms-and-conditions">Terms and conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/re-use-conditions">Re-use conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/accessibility-statement">Accessibility statement</a></li>
+                                            </ul>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 belgium-link">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="/standards/kmehr/%2E%2E/../ehealthplatform/fr" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-ehealth.png" alt="site eHealth">
+                            </a>
+                        </li>
+                        <li>
+                                                        <a href="https://www.belgium.be/en" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-be.png" alt="belgium.be">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+            <div id="eu-cookie">
+    <div class="container-fluid">
+        <div class="content">
+            <div class="row">
+                                <div class="col-xs-12">
+                    <p>
+		               Cookies are used to improve the user experience.
+		               <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform hidden-xs hidden-sm first-child">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform hidden-xs hidden-sm first-child">x Continue</a>
+                    </p>
+                </div>
+		        <div class="col-xs-12 visible-xs visible-sm">
+		           <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform">x Continue</a>
+		        </div>
+		    </div>
+	    </div>
+    </div>
+</div>
+        <script src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/js/standards.js"></script>        <script defer data-domain="standards.ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script>
+    </body>
+</html>

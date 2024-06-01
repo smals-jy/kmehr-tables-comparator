@@ -1,66 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.4</VERSION>
-	<DATE>2023-08-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Transaction Type</NAME>
-	<VALUE>
-		<CODE>incapacity</CODE>
-		<DESCRIPTION L="en">Incapacity</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>incapacityextension</CODE>
-		<DESCRIPTION L="en">Incapacity extension</DESCRIPTION>
-	</VALUE>	
-	<VALUE>
-		<CODE>incapacityrelapse</CODE>
-		<DESCRIPTION L="en">Incapacity relapse</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>nursing</CODE>
-		<DESCRIPTION L="en">Nursing</DESCRIPTION>
-	</VALUE>	
-	<VALUE>
-		<CODE>physiotherapy</CODE>
-		<DESCRIPTION L="en">Physiotherapy</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>intermediarynursing</CODE>
-		<DESCRIPTION L="en">Intermediary nursing</DESCRIPTION>
-	</VALUE>	
-	<VALUE>
-		<CODE>intermediaryphysiotherapy</CODE>
-		<DESCRIPTION L="en">Intermediary physiotherapy</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>transferdocument</CODE>
-		<DESCRIPTION L="en">Transfer document</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>childrecord</CODE>
-		<DESCRIPTION L="en">Child record (Vitalink)</DESCRIPTION>
-		<DESCRIPTION L="nl">Kinddossier (Vitalink)</DESCRIPTION>
-		<DESCRIPTION L="fr">Dossier d'enfant (Vitalink)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>adanormal</CODE>
-		<DESCRIPTION L="en">Request for partial work resumption</DESCRIPTION>
-		<DESCRIPTION L="nl">Aanvraag voor deeltijdse arbeidshervatting</DESCRIPTION>
-		<DESCRIPTION L="fr">Demande de reprise de travail partielle</DESCRIPTION>
-		<DESCRIPTION L="de">Antrag auf Wiederaufnahme der Teilzeitarbeit</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>adaextension</CODE>
-		<DESCRIPTION L="en">Request for extension of a period of partial work resumption</DESCRIPTION>
-		<DESCRIPTION L="nl">Aanvraag voor verlenging periode deeltijdse werkhervatting</DESCRIPTION>
-		<DESCRIPTION L="fr">Demande de prolongation d’une période de reprise de travail partielle</DESCRIPTION>
-		<DESCRIPTION L="de">Antrag auf Verlängerung der Frist für die Wiederaufnahme der Teilzeitarbeit</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>adarelapse</CODE>
-		<DESCRIPTION L="en">Request for return to partial work regime after relapse</DESCRIPTION>
-		<DESCRIPTION L="nl">Aanvraag voor terugkeer naar deeltijds werkregime na hervalling</DESCRIPTION>
-		<DESCRIPTION L="fr">aDemande de retour vers un régime de travail partiel après rechute</DESCRIPTION>
-		<DESCRIPTION L="de">Antrag auf Rückkehr zu einem teilweisen Arbeitsregime nach einem Rückfal</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>An Error Occurred</title>
+        <link rel="icon" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/favicon.ico"><link rel="stylesheet" type="text/css" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/css/standards.css">                        <link rel="canonical" href="https://www.ehealth.fgov.be/standards/kmehr/file/1a815e1ebeb49f9e05513397f8d36082239f068c/c3d03a8c5086176f93a5cd8c7be67633315dd227/cd-transaction-type.xml" />
+                </head>
+    <body class="error-page live" data-translations="{&quot;back_to_ems&quot;:&quot;Back to admin&quot;}">
+        <div id="page">
+            
+    <div id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="mobile-actions">
+                        <button type="button" class="search-open navbar-toggle collapsed hidden-md" aria-expanded="false">
+                            <span class="sr-only">Search</span>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                        <button type="button" id="my-icon" class="navbar-toggle">
+                            <span class="sr-only">Main navigation</span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <a class="navbar-brand" href="/standards/kmehr/en"><img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/standards.svg" alt="Standards"></a>
+                </div>
+                <nav class="hidden-xs hidden-sm" id="main-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="search-open"><a class="navbar-toggle collapsed hidden-xs hidden-sm" data-toggle="collapse" data-target="#search-animated" aria-expanded="false"><span class="sr-only">Rechercher</span><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/basic">Basic</a></li>
+                                                    <li > <a href="/standards/kmehr/en/tables">Tables</a></li>
+                                                    <li > <a href="/standards/kmehr/en/transactions">Transactions</a></li>
+                                                    <li > <a href="/standards/kmehr/en/web-services">Web Services</a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/support">Support</a></li>
+                                            </ul>
+                </nav>
+            </div>
+                            <div id="search-animated" class="hide">
+                    <div class="container-fluid">
+                        
+<form name="form" method="get" action="/standards/kmehr/%2E%2E/../ehealthplatform/en/search">
+    <div class="form-group">
+        <label class="sr-only" for="form_field">Search</label>
+        <div class="input-group">
+            <input type="text" name="q" id="form_field" required="required" class="form-control" placeholder="Search">
+            <input type="hidden" name="search_facet[]" value="platform_search_facet:AV6A1aLRnyUtuZptNdUz" />
+            <span class="input-group-btn">
+                <button class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span></button>
+            </span>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+                    </nav>
+                    </div>
+<div id="content">
+                    <div class="container-fluid">
+                            <div class="row">
+            </div>
+                    </div>
+                </div></div>
+        <nav id="menu"></nav>
+                
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2">
+                    <ul>
+                                                    <li><a href="/standards/kmehr/en/page/terms-and-conditions">Terms and conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/re-use-conditions">Re-use conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/accessibility-statement">Accessibility statement</a></li>
+                                            </ul>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 belgium-link">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="/standards/kmehr/%2E%2E/../ehealthplatform/fr" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-ehealth.png" alt="site eHealth">
+                            </a>
+                        </li>
+                        <li>
+                                                        <a href="https://www.belgium.be/en" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-be.png" alt="belgium.be">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+            <div id="eu-cookie">
+    <div class="container-fluid">
+        <div class="content">
+            <div class="row">
+                                <div class="col-xs-12">
+                    <p>
+		               Cookies are used to improve the user experience.
+		               <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform hidden-xs hidden-sm first-child">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform hidden-xs hidden-sm first-child">x Continue</a>
+                    </p>
+                </div>
+		        <div class="col-xs-12 visible-xs visible-sm">
+		           <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform">x Continue</a>
+		        </div>
+		    </div>
+	    </div>
+    </div>
+</div>
+        <script src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/js/standards.js"></script>        <script defer data-domain="standards.ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script>
+    </body>
+</html>
