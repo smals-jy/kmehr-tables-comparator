@@ -1,1 +1,116 @@
-<?xml version="1.0" encoding="ISO-8859-1"?><!--   Property : Belgian Ministry of Health  Author   : Dr Andr� Vandenberghe, Department of Medical Information, CHU de Charleroi  Date       : 17/07/2002    Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission  Reference table--><kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">	<VERSION>1.4</VERSION>	<DATE>2023-11-10</DATE>	<STATUS>published</STATUS>	<NAME>Media type</NAME>	<VALUE>		<CODE>application/msword</CODE>		<DESCRIPTION L="en">MSWORD - This format is very prone to compatibility problems. If sharing of edit-able text is required, text/plain, text/html or text/rtf should be used instead.</DESCRIPTION>		<HL7>14834</HL7>	</VALUE>	<VALUE>		<CODE>application/pdf</CODE>		<DESCRIPTION L="en">PDF - The Portable Document Format is recommended for written text that is completely laid out and read-only. PDF is a platform independent, widely deployed, and open specification with freely available creation and rendering tools.</DESCRIPTION>		<HL7>14833</HL7>	</VALUE>	<VALUE>		<CODE>audio/basic</CODE>		<DESCRIPTION L="en">Basic Audio - This is a format for single channel audio, encoded using 8bit ISDN mu-law [PCM] at a sample rate of 8000 Hz. This format is standardized by: CCITT, Fascicle III.4 oRecommendation G.711. Pulse Code Modulation (PCM) of Voice Frequencies. Geneva, 1972.</DESCRIPTION>		<HL7>14836</HL7>	</VALUE>	<VALUE>		<CODE>audio/k32adpcm</CODE>		<DESCRIPTION L="en">K32ADPCM Audio - ADPCM allows compressing audio data. It is defined in the Internet specification RFC 2421 [ftp://ftp.isi.edu/in-notes/rfc2421.txt]. Its implementation base is unclear.</DESCRIPTION>		<HL7>14838</HL7>	</VALUE>	<VALUE>		<CODE>audio/mp3</CODE>		<DESCRIPTION L="en">MP3 Audio - MPEG-1 Audio layer-3 is an audio compression algorithm and file format defined in ISO 11172-3 and ISO 13818-3. MP3 has an adjustable sampling frequency for highly compressed telephone to CD quality audio.</DESCRIPTION>		<HL7>14837</HL7>	</VALUE>	<VALUE>		<CODE>image/g3fax</CODE>		<DESCRIPTION L="en">G3Fax Image - This is recommended only for fax applications.</DESCRIPTION>		<HL7>14843</HL7>	</VALUE>	<VALUE>		<CODE>image/gif</CODE>		<DESCRIPTION L="en">GIF Image - GIF is a popular format that is universally well supported. However GIF is patent encumbered and should therefore be used with caution.</DESCRIPTION>		<HL7>14841</HL7>	</VALUE>	<VALUE>		<CODE>image/jpeg</CODE>		<DESCRIPTION L="en">JPEG Image - This format is required for high compression of high color photographs. It is a "lossy" compression, but the difference to lossless compression is almost unnoticeable to the human vision.</DESCRIPTION>		<HL7>14842</HL7>	</VALUE>	<VALUE>		<CODE>image/png</CODE>		<DESCRIPTION L="en">PNG Image - Portable Network Graphics (PNG) [http://www.cdrom.com/pub/png] is a widely supported lossless image compression standard with open source code available.</DESCRIPTION>		<HL7>14840</HL7>	</VALUE>	<VALUE>		<CODE>image/tiff</CODE>		<DESCRIPTION L="en">TIFF Image - Although TIFF (Tag Image File Format) is an international standard it has many interoperability problems in practice. Too many different versions that are not handled by all software alike.</DESCRIPTION>		<HL7>14844</HL7>	</VALUE>	<VALUE>		<CODE>model/vrml</CODE>		<DESCRIPTION L="en">VRML Model - This is an openly standardized format for 3D models that can be useful for virtual reality applications such as anatomy or biochemical research (visualization of the steric structure of macromolecules)</DESCRIPTION>		<HL7>14849</HL7>	</VALUE>	<VALUE>		<CODE>multipart/x-hl7-cda-level1</CODE>		<DESCRIPTION L="en">CDA Level 1 Multipart - The HL7 clinical document Architecture, Level 1 MIME package.</DESCRIPTION>		<HL7>14851</HL7>	</VALUE>	<VALUE>		<CODE>text/html</CODE>		<DESCRIPTION L="en">HTML Text - For marked-up text according to the Hypertext Mark-up Language. HTML markup is sufficient for typographically marking-up most written-text documents. HTML is platform independent and widely deployed.</DESCRIPTION>		<HL7>14828</HL7>	</VALUE>	<VALUE>		<CODE>text/plain</CODE>		<DESCRIPTION L="en">Plain Text - For any plain text. This is the default and is equivalent to a character string (ST) data type.</DESCRIPTION>		<HL7>14826</HL7>	</VALUE>	<VALUE>		<CODE>text/rtf</CODE>		<DESCRIPTION L="en">RTF Text - The Rich Text Format is widely used to share word-processor documents. However, RTF does have compatibility problems, as it is quite dependent on the word processor. May be useful if word processor edit-able text should be shared.</DESCRIPTION>		<HL7>14831</HL7>	</VALUE>	<VALUE>		<CODE>text/sgml</CODE>		<DESCRIPTION L="en">SGML Text - For structured character based data. There is a risk that general SGML/XML is too powerful to allow a sharing of general SGML/XML documents between different applications.</DESCRIPTION>		<HL7>14829</HL7>	</VALUE>	<VALUE>		<CODE>text/x-hl7-ft</CODE>		<DESCRIPTION L="en">HL7 Text - For compatibility, this represents the HL7 v2.x FT data type. Its use is recommended only for backward compatibility with HL7 v2.x systems.</DESCRIPTION>		<HL7>14827</HL7>	</VALUE>	<VALUE>		<CODE>text/xml</CODE>		<DESCRIPTION L="en">XML Text - For structured character based data. There is a risk that general SGML/XML is too powerful to allow a sharing of general SGML/XML documents between different applications.</DESCRIPTION>		<HL7>14830</HL7>	</VALUE>	<VALUE>		<CODE>video/mpeg</CODE>		<DESCRIPTION L="en">MPEG Video - MPEG is an international standard, widely deployed, highly efficient for high color video; open source code exists; highly interoperable.</DESCRIPTION>		<HL7>14846</HL7>	</VALUE>	<VALUE>		<CODE>video/x-avi</CODE>		<DESCRIPTION L="en">X-AVI Video - The AVI file format is just a wrapper for many different codecs; it is a source of many interoperability problems.</DESCRIPTION>		<HL7>14847</HL7>	</VALUE>	<VALUE>		<CODE>kmehr/transaction</CODE>		<DESCRIPTION L="en">Kmehr-Bis transaction</DESCRIPTION>		<HL7/>	</VALUE>	<VALUE>		<CODE>image/dicom</CODE>		<DESCRIPTION L="en">Digital imaging and communications in medicine</DESCRIPTION>		<HL7/>	</VALUE>	<VALUE>		<CODE>application/hl7-sda+xml</CODE>		<DESCRIPTION L="en">To be used as a mime type for SDA/SPL/CDA with the characteristic that they are human renderable.</DESCRIPTION>		<HL7/>	</VALUE>	<VALUE>		<CODE>application/rtf</CODE>		<DESCRIPTION L="en">RTF - The Rich Text Format is widely used to share word-processor documents. However, RTF does have compatibility problems, as it is quite dependent on the word processor. May be useful if word processor edit-able text should be shared.</DESCRIPTION>		<HL7/>	</VALUE>	<VALUE>		<CODE>application/fhir+json</CODE>		<DESCRIPTION L="en"></DESCRIPTION>		<HL7/>	</VALUE>	<VALUE>		<CODE>application/fhir+xml</CODE>		<DESCRIPTION L="en"></DESCRIPTION>		<HL7/>	</VALUE></kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>An Error Occurred</title>
+        <link rel="icon" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/favicon.ico"><link rel="stylesheet" type="text/css" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/css/standards.css">                        <link rel="canonical" href="https://www.ehealth.fgov.be/standards/kmehr/file/1a815e1ebeb49f9e05513397f8d36082239f068c/f30da46e2249ecf19bf10954e892b4035b35e3a4/cd-mediatype.xml" />
+                </head>
+    <body class="error-page live" data-translations="{&quot;back_to_ems&quot;:&quot;Back to admin&quot;}">
+        <div id="page">
+            
+    <div id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="mobile-actions">
+                        <button type="button" class="search-open navbar-toggle collapsed hidden-md" aria-expanded="false">
+                            <span class="sr-only">Search</span>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                        <button type="button" id="my-icon" class="navbar-toggle">
+                            <span class="sr-only">Main navigation</span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <a class="navbar-brand" href="/standards/kmehr/en"><img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/standards.svg" alt="Standards"></a>
+                </div>
+                <nav class="hidden-xs hidden-sm" id="main-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="search-open"><a class="navbar-toggle collapsed hidden-xs hidden-sm" data-toggle="collapse" data-target="#search-animated" aria-expanded="false"><span class="sr-only">Rechercher</span><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/basic">Basic</a></li>
+                                                    <li > <a href="/standards/kmehr/en/tables">Tables</a></li>
+                                                    <li > <a href="/standards/kmehr/en/transactions">Transactions</a></li>
+                                                    <li > <a href="/standards/kmehr/en/web-services">Web Services</a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/support">Support</a></li>
+                                            </ul>
+                </nav>
+            </div>
+                            <div id="search-animated" class="hide">
+                    <div class="container-fluid">
+                        
+<form name="form" method="get" action="/standards/kmehr/%2E%2E/../ehealthplatform/en/search">
+    <div class="form-group">
+        <label class="sr-only" for="form_field">Search</label>
+        <div class="input-group">
+            <input type="text" name="q" id="form_field" required="required" class="form-control" placeholder="Search">
+            <input type="hidden" name="search_facet[]" value="platform_search_facet:AV6A1aLRnyUtuZptNdUz" />
+            <span class="input-group-btn">
+                <button class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span></button>
+            </span>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+                    </nav>
+                    </div>
+<div id="content">
+                    <div class="container-fluid">
+                            <div class="row">
+            </div>
+                    </div>
+                </div></div>
+        <nav id="menu"></nav>
+                
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2">
+                    <ul>
+                                                    <li><a href="/standards/kmehr/en/page/terms-and-conditions">Terms and conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/re-use-conditions">Re-use conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/accessibility-statement">Accessibility statement</a></li>
+                                            </ul>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 belgium-link">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="/standards/kmehr/%2E%2E/../ehealthplatform/fr" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-ehealth.png" alt="site eHealth">
+                            </a>
+                        </li>
+                        <li>
+                                                        <a href="https://www.belgium.be/en" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-be.png" alt="belgium.be">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+            <div id="eu-cookie">
+    <div class="container-fluid">
+        <div class="content">
+            <div class="row">
+                                <div class="col-xs-12">
+                    <p>
+		               Cookies are used to improve the user experience.
+		               <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform hidden-xs hidden-sm first-child">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform hidden-xs hidden-sm first-child">x Continue</a>
+                    </p>
+                </div>
+		        <div class="col-xs-12 visible-xs visible-sm">
+		           <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform">x Continue</a>
+		        </div>
+		    </div>
+	    </div>
+    </div>
+</div>
+        <script src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/js/standards.js"></script>        <script defer data-domain="standards.ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script>
+    </body>
+</html>

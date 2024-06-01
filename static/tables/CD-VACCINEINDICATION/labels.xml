@@ -1,203 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.5</VERSION>
-	<DATE>2023-11-10</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Vaccine Code</NAME>
-	<VALUE>
-		<CODE>poliomyelitis</CODE>
-		<DESCRIPTION L="en">vaccine against polio</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen poliomyelitis</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre la poliomyélite</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>measles</CODE>
-		<DESCRIPTION L="en">vaccine against measles</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen mazelen</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre la rougeole</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>rubella</CODE>
-		<DESCRIPTION L="en">vaccine against rubella</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen rubella</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre la rubéole</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>mumps</CODE>
-		<DESCRIPTION L="en">vaccine against mumps</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen bof</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre les oreillons</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>seasonalinfluenza</CODE>
-		<DESCRIPTION L="en">vaccine against seasonal flu</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen seizoengebonden influenza </DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre la grippe saisonnière</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>hepatitisa</CODE>
-		<DESCRIPTION L="en">vaccine against hepatitis A</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen hepatitis A</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre l'hépatite A</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>hepatitisb</CODE>
-		<DESCRIPTION L="en">vaccine against hepatitis B</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen hepatitis B</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre l'hépatite B</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>rabies</CODE>
-		<DESCRIPTION L="en">vaccine against rabies</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen rabiës</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre la rage</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>varicella</CODE>
-		<DESCRIPTION L="en">vaccine against varicella</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen varicella</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre la varicelle</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>rotavirus</CODE>
-		<DESCRIPTION L="en">vaccine against rotavirus</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen rotavirus</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre le rotavirus</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>papillomavirus</CODE>
-		<DESCRIPTION L="en">vaccine against human papillomavirus</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen human papillomavirus</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre le papillomavirus humain</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>yellowfever</CODE>
-		<DESCRIPTION L="en">vaccine against yellow fever</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen gele koorts</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre la fièvre jaune</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>tickborneencephalitis</CODE>
-		<DESCRIPTION L="en">vaccine against tick-borne encephalitis</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen tekenencefalitis</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre l'encéphalite à tiques</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ej</CODE>
-		<DESCRIPTION L="en">vaccine against Japanese encephalitis</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen Japanese encefalitis</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre l'encéphalite japonaise</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>diphteria</CODE>
-		<DESCRIPTION L="en">vaccine against diphteria</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen difterie </DESCRIPTION>
-		<DESCRIPTION L="fr">Vaccine contre la diphtérie</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>tetanus</CODE>
-		<DESCRIPTION L="en">vaccine against tetanus</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen tetanus</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre le tétanos</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pertussis</CODE>
-		<DESCRIPTION L="en">vaccine against pertussis</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen kinkhoest</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre la coqueluche</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>hib</CODE>
-		<DESCRIPTION L="en">vaccine against Hib (haemophilus influenzae)</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen Hibinfecties (Haemophilus influenzae)</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre les infections à Hib (Haemophilus influenzae)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>meningitisc</CODE>
-		<DESCRIPTION L="en">vaccine against meningococcal serogroup C</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen meningokokkeninfectie van serogroep C</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre les infections à méningocoques du sérogroupe C</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>meningitis</CODE>
-		<DESCRIPTION L="en">vaccine against meningococcal serogroups A, C, W and Y</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen meningokokkeninfectie van serogroepen A, C, W et Y</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre les infections à méningocoques des sérogroupes A, C, W et Y</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pneumonia23</CODE>
-		<DESCRIPTION L="en">23-valent polysaccharide vaccine against pneumonia</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen 23 types pneumokokken</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre 23 types de pneumocoques</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pneumonia7</CODE>
-		<DESCRIPTION L="en">7-valent polysaccharide vaccine against pneumonia</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen 7 types pneumokokken</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre 7 types de pneumocoques</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>tuberculosis</CODE>
-		<DESCRIPTION L="en">vaccine against tuberculosis (BCG)</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen tuberculose (BCG)</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre la tuberculose (BCG)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>typhoid</CODE>
-		<DESCRIPTION L="en">vaccine against typhoid</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen buiktyfus</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre la fièvre typhoïde</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pandemics</CODE>
-		<DESCRIPTION L="en">vaccine against specific pandemics</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen specifieke pandemie </DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre une pandémie spécifique</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>herpeszoster</CODE>
-		<DESCRIPTION L="en">vaccine against herpes zoster (shingles)</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen herpes zoster (zona)</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre l'herpès zoster (zona)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>varicella</CODE>
-		<DESCRIPTION L="en">vacinne against varicella</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen varicella (windpokken)</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre la varicelle</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>cholera</CODE>
-		<DESCRIPTION L="en">vaccinne against cholera</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen cholera</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre le choléra</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>covid19</CODE>
-		<DESCRIPTION L="en">vaccine against COVID-19</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen COVID-19</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre le COVID-19</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>meningitisb</CODE>
-		<DESCRIPTION L="en">vaccine against meningococcal serogroup B</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen meningokokkeninfectie van serogroep B</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre les infections à méningocoques du sérogroupe B</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pneumonia15</CODE>
-		<DESCRIPTION L="en">15-valent polysaccharide vaccine against pneumonia</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen 15 types pneumokokken</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre 15 types de pneumocoques</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pneumonia20</CODE>
-		<DESCRIPTION L="en">20-valent polysaccharide vaccine against pneumonia</DESCRIPTION>
-		<DESCRIPTION L="nl">vaccin tegen 20 types pneumokokken</DESCRIPTION>
-		<DESCRIPTION L="fr">vaccin contre 20 types de pneumocoques</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>monkeypox</CODE>
-		<DESCRIPTION L="en">monkeypox</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>An Error Occurred</title>
+        <link rel="icon" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/favicon.ico"><link rel="stylesheet" type="text/css" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/css/standards.css">                        <link rel="canonical" href="https://www.ehealth.fgov.be/standards/kmehr/file/1a815e1ebeb49f9e05513397f8d36082239f068c/6188b5ea027c4c0a2e4b83cb16da1ca76076d156/cd-vaccineindication.xml" />
+                </head>
+    <body class="error-page live" data-translations="{&quot;back_to_ems&quot;:&quot;Back to admin&quot;}">
+        <div id="page">
+            
+    <div id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="mobile-actions">
+                        <button type="button" class="search-open navbar-toggle collapsed hidden-md" aria-expanded="false">
+                            <span class="sr-only">Search</span>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                        <button type="button" id="my-icon" class="navbar-toggle">
+                            <span class="sr-only">Main navigation</span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <a class="navbar-brand" href="/standards/kmehr/en"><img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/standards.svg" alt="Standards"></a>
+                </div>
+                <nav class="hidden-xs hidden-sm" id="main-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="search-open"><a class="navbar-toggle collapsed hidden-xs hidden-sm" data-toggle="collapse" data-target="#search-animated" aria-expanded="false"><span class="sr-only">Rechercher</span><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/basic">Basic</a></li>
+                                                    <li > <a href="/standards/kmehr/en/tables">Tables</a></li>
+                                                    <li > <a href="/standards/kmehr/en/transactions">Transactions</a></li>
+                                                    <li > <a href="/standards/kmehr/en/web-services">Web Services</a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/support">Support</a></li>
+                                            </ul>
+                </nav>
+            </div>
+                            <div id="search-animated" class="hide">
+                    <div class="container-fluid">
+                        
+<form name="form" method="get" action="/standards/kmehr/%2E%2E/../ehealthplatform/en/search">
+    <div class="form-group">
+        <label class="sr-only" for="form_field">Search</label>
+        <div class="input-group">
+            <input type="text" name="q" id="form_field" required="required" class="form-control" placeholder="Search">
+            <input type="hidden" name="search_facet[]" value="platform_search_facet:AV6A1aLRnyUtuZptNdUz" />
+            <span class="input-group-btn">
+                <button class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span></button>
+            </span>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+                    </nav>
+                    </div>
+<div id="content">
+                    <div class="container-fluid">
+                            <div class="row">
+            </div>
+                    </div>
+                </div></div>
+        <nav id="menu"></nav>
+                
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2">
+                    <ul>
+                                                    <li><a href="/standards/kmehr/en/page/terms-and-conditions">Terms and conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/re-use-conditions">Re-use conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/accessibility-statement">Accessibility statement</a></li>
+                                            </ul>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 belgium-link">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="/standards/kmehr/%2E%2E/../ehealthplatform/fr" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-ehealth.png" alt="site eHealth">
+                            </a>
+                        </li>
+                        <li>
+                                                        <a href="https://www.belgium.be/en" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-be.png" alt="belgium.be">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+            <div id="eu-cookie">
+    <div class="container-fluid">
+        <div class="content">
+            <div class="row">
+                                <div class="col-xs-12">
+                    <p>
+		               Cookies are used to improve the user experience.
+		               <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform hidden-xs hidden-sm first-child">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform hidden-xs hidden-sm first-child">x Continue</a>
+                    </p>
+                </div>
+		        <div class="col-xs-12 visible-xs visible-sm">
+		           <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform">x Continue</a>
+		        </div>
+		    </div>
+	    </div>
+    </div>
+</div>
+        <script src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/js/standards.js"></script>        <script defer data-domain="standards.ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script>
+    </body>
+</html>
