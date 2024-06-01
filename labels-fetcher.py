@@ -36,8 +36,9 @@ for row in rows:
 
         if link:
             # Download and save the XML file
-            print(f"Downloading reference {name} from {link} ...")
-            xml_content = requests.get(f"https://www.ehealth.fgov.be/standards/kmehr/en/{link}").text
+            fullLink = f"https://www.ehealth.fgov.be/standards/kmehr/en/{link}"
+            print(f"Downloading reference {name} from {fullLink} ...")
+            xml_content = requests.get(fullLink).text
             xml_path = f"static/tables/{name}/labels.xml"
             os.makedirs(os.path.dirname(xml_path), exist_ok=True)
             with open(xml_path, "w") as file:
