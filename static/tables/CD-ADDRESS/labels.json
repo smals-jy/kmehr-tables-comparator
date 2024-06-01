@@ -1,17 +1,1 @@
-{
-	"home": {
-		"en": "The primary home, to reach a person after business hours."
-	},
-	"vacation": {
-		"en": "A vacation home, to reach a person while on vacation."
-	},
-	"work": {
-		"en": "A business address where the person could be contacted during working hours."
-	},
-	"other": {
-		"en": "Other"
-	},
-	"careaddress": {
-		"en": "Care address"
-	}
-}
+{}

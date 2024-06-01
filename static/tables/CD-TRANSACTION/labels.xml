@@ -1,234 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.17</VERSION>
-	<DATE>2024-03-21</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Transaction</NAME>
-	<VALUE>
-		<CODE>admission</CODE>
-		<DESCRIPTION L="en">Admission notification</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>alert</CODE>
-		<DESCRIPTION L="en">Alert</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>contactreport</CODE>
-		<DESCRIPTION L="en">Contact report</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>death</CODE>
-		<DESCRIPTION L="en">Death notification</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>discharge</CODE>
-		<DESCRIPTION L="en">Discharge notification</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>dischargereport</CODE>
-		<DESCRIPTION L="en">Discharge letter</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>epidemiology</CODE>
-		<DESCRIPTION L="en">Epidemiological survey</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>labrequest</CODE>
-		<DESCRIPTION L="en">Laboratory test request</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>labresult</CODE>
-		<DESCRIPTION L="en">Laboratory result</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>note</CODE>
-		<DESCRIPTION L="en">Note</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pharmaceuticalprescription</CODE>
-		<DESCRIPTION L="en">Pharmaceutical prescription</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>productdelivery</CODE>
-		<DESCRIPTION L="en">Pharmaceutical product delivery</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>quickdischargereport</CODE>
-		<DESCRIPTION L="en">Provisional discharge letter</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>referral</CODE>
-		<DESCRIPTION L="en">Referral letter</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>request</CODE>
-		<DESCRIPTION L="en">Procedure request</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>result</CODE>
-		<DESCRIPTION L="en">Procedure result</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>vaccination</CODE>
-		<DESCRIPTION L="en">Vaccination report</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>sumehr</CODE>
-		<DESCRIPTION L="en">Summerised Electronic Healthcare Record</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ecare-safe-consultation</CODE>
-		<DESCRIPTION L="en">eCare-SAFE consultation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ebirth-mother-notification</CODE>
-		<DESCRIPTION L="en">eBirth notification- mother part</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ebirth-baby-notification</CODE>
-		<DESCRIPTION L="en">eBirth notification- baby part</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ebirth-baby-medicalform</CODE>
-		<DESCRIPTION L="en">eBirth medical form - baby part</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ebirth-mother-medicalform</CODE>
-		<DESCRIPTION L="en">eBirth medical form - mother part</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>clinicalsummary</CODE>
-		<DESCRIPTION L="en">Clinical summary (part of GP software migration file)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>bvt-sample</CODE>
-		<DESCRIPTION L="en">BVT Sample (part of BCR Biobank project)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>medicaladvisoragreement (deprecated)</CODE>
-		<DESCRIPTION L="en">Medical Advisor Agreement (eg. Chapter IV)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>intervention</CODE>
-		<DESCRIPTION L="en">Intervention (TucoDeclaration)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>clinicalpath</CODE>
-		<DESCRIPTION L="en">Clinical path (Hub-Metahub)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>telemonitoring</CODE>
-		<DESCRIPTION L="en">Tele monitoring (Hub-Metahub)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>radiationexposuremonitoring</CODE>
-		<DESCRIPTION L="en">Radiation exposure monitoring (Hub-Metahub)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>medicationschemeelement</CODE>
-		<DESCRIPTION L="en">Medication scheme element (Vitalink)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>treatmentsuspension</CODE>
-		<DESCRIPTION L="en">Treatment suspension (Vitalink)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>prescription</CODE>
-		<DESCRIPTION L="en">Prescription</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>notification</CODE>
-		<DESCRIPTION L="en">Notification</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>report</CODE>
-		<DESCRIPTION L="en">Report</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>medicationscheme</CODE>
-		<DESCRIPTION L="en">Medication scheme</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>vaccinationscheme</CODE>
-		<DESCRIPTION L="en">Vaccination scheme</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>vaccinationschemeelement</CODE>
-		<DESCRIPTION L="en">Vaccination scheme element</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ecare-tardis-consultation</CODE>
-		<DESCRIPTION L="en">eCare-SAFE tardis consultation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>genericregistryentry</CODE>
-		<DESCRIPTION L="en">Generic registry entry</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>population-based-screening</CODE>
-		<DESCRIPTION L="en">Population based screening (Vitalink)</DESCRIPTION>
-		<DESCRIPTION L="nl">Screening bij bevolking (Vitalink)</DESCRIPTION>
-		<DESCRIPTION L="fr">Recherche sur la population (Vitalink)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>child-prevention</CODE>
-		<DESCRIPTION L="en">Child prevention (Vitalink)</DESCRIPTION>
-		<DESCRIPTION L="nl">Kinder preventie (Vitalink)</DESCRIPTION>
-		<DESCRIPTION L="fr">Prévention enfants (Vitalink)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>applicationlink</CODE>
-		<DESCRIPTION L="en">Link to invoke an external application</DESCRIPTION>
-		<DESCRIPTION L="nl">Link om externe toepassing aan te roepen</DESCRIPTION>
-		<DESCRIPTION L="fr">Lien pour démarrer une application externe</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>careplan</CODE>
-		<DESCRIPTION L="en">Careplan</DESCRIPTION>
-		<DESCRIPTION L="nl">Zorgplan</DESCRIPTION>
-		<DESCRIPTION L="fr">Plan de soins</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>diarynote</CODE>
-		<DESCRIPTION L="en">diarynote</DESCRIPTION>
-		<DESCRIPTION L="nl">dagboeknota</DESCRIPTION>
-		<DESCRIPTION L="fr">note dans le journal</DESCRIPTION>
-		<DESCRIPTION L="de">Journalnotiz</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>mea</CODE>
-		<DESCRIPTION L="en">Medical emergency attestation (PPS-SI)</DESCRIPTION>
-		<DESCRIPTION L="nl">Attest van dringende medische hulp (POD-MI)</DESCRIPTION>
-		<DESCRIPTION L="fr">Attestation d'aide médicale urgente (SPP-IS)</DESCRIPTION>
-		<DESCRIPTION L="de">Zertifikat Notfallmedizin (OPD-S)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>perinatal</CODE>
-		<DESCRIPTION L="en">perinatal dataset</DESCRIPTION>
-		<DESCRIPTION L="nl">perinatale dataset</DESCRIPTION>
-		<DESCRIPTION L="fr">dataset périnatal</DESCRIPTION>
-		<DESCRIPTION L="de">Perinatales Datensatz</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>belrai-report</CODE>
-		<DESCRIPTION L="en">belrai report</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pharmaceuticalmedicationscheme</CODE>
-		<DESCRIPTION L="en">Pharmaceutical medication scheme</DESCRIPTION>
-		<DESCRIPTION L="nl">Pharmaceutisch medicatieschema</DESCRIPTION>
-		<DESCRIPTION L="fr">Schéma de médication pharmaceutique</DESCRIPTION>
-		<DESCRIPTION L="de">Pharmazeutisches Medikationsschema</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>nursingsummaryreport</CODE>
-		<DESCRIPTION L="en">Nursing summary report</DESCRIPTION>
-		<DESCRIPTION L="nl">Rapport verpleegkundige samenvatting</DESCRIPTION>
-		<DESCRIPTION L="fr">Rapport de résumé infirmier</DESCRIPTION>
-		<DESCRIPTION L="de">Zusammenfassung Pflegebericht</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>transferreport</CODE>
-		<DESCRIPTION L="en">Transfer report</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html><html lang="nl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>404 | eGezondheid</title><meta name="description" content="website.description"><link rel="canonical" href="https://www.ehealth.fgov.be/notfound" /><link rel="icon" type="image/png" sizes="96x96" href="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/favicon-96x96.png"><link rel="apple-touch-icon" sizes="180x180" href="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/apple-touch-icon-180x180.png"><meta name="msapplication-square70x70logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-150x150.png"><meta name="msapplication-square310x310logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-310x310.png"><meta name="theme-color" content="#2C7F9F"/><meta name="msapplication-wide310x150logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-310x150.png"><meta name="msapplication-TileColor" content="#FFFFFF"><link rel="stylesheet" href="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/css/app.css"><style id="flx-styles">
+                    
+                    body, .fm_body table {
+                        background-color: transparent !important;
+                        font-family: "Open Sans", "DMSerifDisplay", system-ui, -apple-system, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                    }
+
+                    .fm_body table {
+                        position: relative;
+                        color: #434343;
+                        border-radius: 4px;
+                        background-color: #f9f9f9;
+                    }
+
+                    .fm_body table > tbody > tr {
+                        display: block;
+                    }
+                    .fm_body table > tbody > tr > td {
+                        display:block;
+                        padding-bottom: 0 !important;
+                    }
+                    .fm_body table tr td:first-child {
+                        font-weight: normal !important;
+                        height: 21px;
+                    }
+
+                    .fm_body a{
+                        color: #2C00AC;
+                        text-decoration: none;
+                    }
+                    .fm_body a:hover{
+                        color: #2C00AC;
+                        text-decoration: underline;
+                    }
+
+                    .fm_body input, .fm_body button, .fm_body select, .fm_body textarea {
+                        font-size: 16px !important;
+                        font-family: "Open Sans", "DMSerifDisplay", system-ui, -apple-system, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                    }
+                    .fm_body p.small {
+                        color: #999999;
+                        font-size: 10px;
+                        margin: 0;
+                        text-align: right;
+                    }
+
+                    /* custom code */
+                    .fm_body table {
+                        float: left;
+                        border-collapse: collapse;
+                    }
+                    p.button {
+                        float: left;
+                        margin: 0;
+                        margin-left: .5rem;
+                        margin-top: 11px;
+                    }
+
+                    .fm_body #btn-send {
+                        background-image: none !important;
+                        display: inline-block;
+                        text-align: center;
+                        text-decoration: none;
+                        vertical-align: middle;
+                        user-select: none;
+                        border: 1px solid #2C7F9F;
+                        padding: 0.5rem 1.5rem;
+                        font-size: 1rem;
+                        line-height: 1.5;
+                        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+                        color: #fff;
+                        background-color: #2C7F9F;
+                        text-shadow: none;
+                        box-shadow: none;
+                        height: calc(1.5em + 1rem + 2px) !important;
+                        font-weight: normal;
+                    }
+
+                    /*
+                    * {
+                        font-family: Verdana !important;
+                    }
+                    */
+
+                    .fm_body input[name^="fields"] {
+                        display: block !important;
+                        width: 100% !important;
+                        height: calc(1.5em + 1rem + 2px) !important;
+                        padding: 0.5rem 1.5rem !important;
+                        font-size: 1rem !important;
+                        font-weight: 500 !important;
+                        line-height: 1.5 !important;
+                        color: #495057 !important;
+                        background-color: transparent !important;
+                        background-clip: padding-box !important;
+                        border: 1px solid #1a1a1a !important;
+                        border-radius: 1.3125rem !important;
+                        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+                        box-sizing: border-box !important;
+                        margin-bottom: 0 !important;
+                    }
+
+                    .preferences, #preferences, p.field {
+                        margin: 0;
+                    }
+
+                </style><script>
+                    var fm=function(){return{load:function(){var e=document,t=e.getElementById("iframe_flxml_form"),n=e.getElementById("flx-styles"),r=n?n.innerHTML:"";t?t.contentWindow.postMessage(r,"https://www.flexmail.eu/"):alert("Flexmail: Frame not found!")}}}()
+                </script></head><body class="error-404 " data-translations="{&quot;target_blank&quot;:&quot;Nieuw venster&quot;,&quot;file_selected&quot;:&quot;%count% bestand(en) geselecteerd&quot;,&quot;form_error&quot;:&quot;Er is een probleem opgetreden met het formulier : %message%&quot;,&quot;form_saved&quot;:&quot;Uw aanvraag werd geregistreerd met de identifier %uid%&quot;,&quot;form_processed&quot;:&quot;Uw aanvraag werd geregistreerd&quot;,&quot;form_error_try_later&quot;:&quot;Er is een probleem opgetreden met het formulier. Probeer het later opnieuw&quot;}"><div class="c-cookies-bar js-cookies-bar | position-fixed w-100 py-4"><div class="container"><div class="d-lg-flex align-items-center"><p class="mr-lg-auto mb-lg-0 text-small">Wij gebruiken cookies op deze site om uw gebruikerservaring te verbeteren.</p><p class="flex-shrink-0 mb-0"><a href="/nl/page/cookiebeleid" class="btn btn-outline-primary text-small mr-2">
+                    Meer weten
+                </a><a href="#" id="closeCookie" class="btn btn-primary text-small">
+                    &times; Ik begrijp het
+                </a></p></div></div></div><main><div class="container h-100"><div class="row justify-content-center"><div class="col-12 text-center mt-6 mt-md-0"><h1 class="text-primary">404</h1></div><div class="col-md-6 text-center"><h2 class="h1">Pagina niet gevonden</h2><p>We kunnen de pagina die u zoekt helaas niet vinden.<br>Vergeet niet om uw favorieten bij te werken.</p><a href="/nl" class="btn btn-primary mt-4">Verder gaan in het Nederlands</a></div><div class="col-md-6 text-center mt-6 mt-md-0"><h2 class="h1">Page non trouvée</h2><p>Nous n’avons pas trouvé la page que vous désirez.<br>N’oubliez pas d’adapter vos favoris.</p><a href="/fr" class="btn btn-primary mt-4">Continuer en français</a></div></div></div></main><!-- Modal --><div class="modal fade" id="searchModal" data-keyboard="true" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-xl"><div class="modal-content"><div class="modal-header align-items-center"><h5 class="sr-only" id="searchModalLabel">search.modal.title</h5><a class="navbar-brand text-decoration-none" href="/nl"><img src="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/images/logo_esante_nl.svg" alt=""><p class="mb-0 mt-2 d-none d-lg-block">Portaal van de diensten eGezondheid</p></a><button class="navbar-toggler close" type="button" data-dismiss="modal" aria-label="Close" aria-expanded="true"><div class="cross"><span></span><span></span></div></button></div><div class="modal-body d-flex align-items-center"><form action="/nl/search" method="GET" class="form w-100 mt-6"><div class="input-group search-group w-100"><input name="q" class="form-control d-inline" type="text" placeholder="Geef uw sleutelwoorden in" aria-label="Zoeken"><div class="input-group-append"><button class="btn px-0" type="submit">Zoeken <img src="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/images/icon_search.svg" alt="" class="ml-2" height="20"></button></div></div></form></div></div></div></div><script src="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/js/app.js" defer="defer"></script><script defer data-domain="ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script></body></html>

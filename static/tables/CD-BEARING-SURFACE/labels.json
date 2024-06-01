@@ -1,17 +1,1 @@
-{
-	"metalpoly": {
-		"en": "Metal - Polyethylene"
-	},
-	"cerampoly": {
-		"en": "Ceramics - Polyethylene"
-	},
-	"metalmetal": {
-		"en": "Metal - Metal"
-	},
-	"ceramceram": {
-		"en": "Ceramics - Ceramics"
-	},
-	"other": {
-		"en": "Other"
-	}
-}
+{}

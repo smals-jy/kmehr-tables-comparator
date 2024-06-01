@@ -1,258 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.1</VERSION>
-	<DATE>2015-12-01</DATE>
-	<STATUS>draft</STATUS>
-	<NAME>eBirth Item Type</NAME>
-	<VALUE>
-		<CODE>multiparity</CODE>
-		<DESCRIPTION L="en">Multiple pregnancy</DESCRIPTION>
-		<DESCRIPTION L="fr">Meerlingzwangerschap</DESCRIPTION>
-		<DESCRIPTION L="nl">Grossesse multiple</DESCRIPTION>
-		<DESCRIPTION L="de">Zwillinge, Drillinge, Mehrlinge</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>samesex</CODE>
-		<DESCRIPTION L="en">Structure by sex of the multiple pregnancy</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>stillborn</CODE>
-		<DESCRIPTION L="en">number of stillborn babies</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>birthplace</CODE>
-		<DESCRIPTION L="en">place of birth</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>birthrank</CODE>
-		<DESCRIPTION L="en">baby birth rank</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>partusnumber</CODE>
-		<DESCRIPTION L="en">Partus number </DESCRIPTION>
-		<DESCRIPTION L="fr">Partusnummer</DESCRIPTION>
-		<DESCRIPTION L="nl">Classification de l'accouchement </DESCRIPTION>
-		<DESCRIPTION L="de">Klassifikation der Geburt </DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>beforepregnancyweight</CODE>
-		<DESCRIPTION L="en">Weight of the mother before the current pregnancy </DESCRIPTION>
-		<DESCRIPTION L="fr">Gewicht van de moeder voor de zwangerschap</DESCRIPTION>
-		<DESCRIPTION L="nl">Poids de la mère avant la grossesse</DESCRIPTION>
-		<DESCRIPTION L="de">Gewicht der Mutter vor der Schwangerschaft</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>atdeliveryweight</CODE>
-		<DESCRIPTION L="en">Weight of the mother at her entrance in the delivery room </DESCRIPTION>
-		<DESCRIPTION L="fr">Gewicht van de moeder bij aankomst in het verloskwartier</DESCRIPTION>
-		<DESCRIPTION L="nl">Poids de la mère à l'entrée en la salle d'accouchement</DESCRIPTION>
-		<DESCRIPTION L="de">Gewicht der Mutter bei ihrem Eingang im Entbindungsaal</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>height</CODE>
-		<DESCRIPTION L="en">Height of the mother</DESCRIPTION>
-		<DESCRIPTION L="fr">Lengte van de moeder</DESCRIPTION>
-		<DESCRIPTION L="nl">Taille de la mère</DESCRIPTION>
-		<DESCRIPTION L="de">Größe der Mutter </DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>previouschildbirth</CODE>
-		<DESCRIPTION L="en">Childbirth(s) before this pregnancy</DESCRIPTION>
-		<DESCRIPTION L="fr">Geboorten vóór deze zwangerschap</DESCRIPTION>
-		<DESCRIPTION L="nl">Naissance(s) avant cette grossesse</DESCRIPTION>
-		<DESCRIPTION L="de">Entbindungen vor dieser Schwangerschaft </DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>previousbornalive</CODE>
-		<DESCRIPTION L="en">Total number of born-alive baby(s)</DESCRIPTION>
-		<DESCRIPTION L="fr">Aantal levendgeboren kinderen</DESCRIPTION>
-		<DESCRIPTION L="nl">Nombre total d’enfants nés vivants</DESCRIPTION>
-		<DESCRIPTION L="de">Summe der lebendgeborenen Kinder</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>lastbabybirthdate</CODE>
-		<DESCRIPTION L="en">Date of birth of the last baby born alive</DESCRIPTION>
-		<DESCRIPTION L="fr">Geboortedatum van het laatste levendgeboren kindje</DESCRIPTION>
-		<DESCRIPTION L="nl">Date de naissance du dernier enfant né vivant </DESCRIPTION>
-		<DESCRIPTION L="de">Geburtsdatum des zuletzt lebendgeborenen Kindes</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>intermediatestillborndelivery</CODE>
-		<DESCRIPTION L="en">intermediate delivery of a stillborn baby</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>previouscaesarean</CODE>
-		<DESCRIPTION L="en">Caesarean section during a previous delivery</DESCRIPTION>
-		<DESCRIPTION L="fr">Keizersnede bij een vorige zwangerschap</DESCRIPTION>
-		<DESCRIPTION L="nl">Césarienne pour une précédente grossesse </DESCRIPTION>
-		<DESCRIPTION L="de">Kaiserschnitt bei früheren Schwangerschaften  </DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>parity</CODE>
-		<DESCRIPTION L="en">Parity (this delivery included)</DESCRIPTION>
-		<DESCRIPTION L="fr">Pariteit (deze bevalling inbegrepen)</DESCRIPTION>
-		<DESCRIPTION L="nl">Parité (cet accouchement inclus) </DESCRIPTION>
-		<DESCRIPTION L="de">Parität (diese Schwangerschaft inbegriffen)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pregnancyorigin</CODE>
-		<DESCRIPTION L="en">Origin of the pregnancy</DESCRIPTION>
-		<DESCRIPTION L="fr">Ontstaan zwangerschap</DESCRIPTION>
-		<DESCRIPTION L="nl">Conception de la grossesse </DESCRIPTION>
-		<DESCRIPTION L="de">Entstehung der Schwangerschaft</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>hypertensiondiagnose</CODE>
-		<DESCRIPTION L="en">Hypertension ((>= 140 / >= 90 mm Hg)</DESCRIPTION>
-		<DESCRIPTION L="fr">Hypertensie (>= 140 / >= 90 mm Hg) in deze zwangerschap</DESCRIPTION>
-		<DESCRIPTION L="nl">Hypertension ((>= 140 / >= 90 mm Hg) durant cette grossesse</DESCRIPTION>
-		<DESCRIPTION L="de">Hypertonie ((>= 140 / >= 90 mm Hg) während dieser Schwangerschaft</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>diabetesdiagnose</CODE>
-		<DESCRIPTION L="en">Diabetes</DESCRIPTION>
-		<DESCRIPTION L="fr">Diabetes</DESCRIPTION>
-		<DESCRIPTION L="nl">Diabète</DESCRIPTION>
-		<DESCRIPTION L="de">Diabetes</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>HIVdiagnose</CODE>
-		<DESCRIPTION L="en">HIV</DESCRIPTION>
-		<DESCRIPTION L="fr">HIV</DESCRIPTION>
-		<DESCRIPTION L="nl">VIH</DESCRIPTION>
-		<DESCRIPTION L="de">HIV</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pregnancyduration</CODE>
-		<DESCRIPTION L="en">Duration of the pregnancy till the delivery</DESCRIPTION>
-		<DESCRIPTION L="fr">Zwangerschapsduur bij de bevalling </DESCRIPTION>
-		<DESCRIPTION L="nl">Durée de la grossesse jusqu'à l'accouchement </DESCRIPTION>
-		<DESCRIPTION L="de">Anzahl der Schwangerschaftswochen bis zur Geburt</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>childposition</CODE>
-		<DESCRIPTION L="en">Position of the child at birth</DESCRIPTION>
-		<DESCRIPTION L="fr">Ligging van het kind bij de geboorte</DESCRIPTION>
-		<DESCRIPTION L="nl">Présentation de l’enfant à la naissance</DESCRIPTION>
-		<DESCRIPTION L="de">Lage des Kindes vor der Geburt</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>inductiondelivery</CODE>
-		<DESCRIPTION L="en">Induction of the delivery</DESCRIPTION>
-		<DESCRIPTION L="fr">Inductie van de baring</DESCRIPTION>
-		<DESCRIPTION L="nl">Induction de l'accouchement</DESCRIPTION>
-		<DESCRIPTION L="de">Geburtseinleitung </DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>epiduralanalgesia</CODE>
-		<DESCRIPTION L="en">Epidural analgesia</DESCRIPTION>
-		<DESCRIPTION L="fr">Epidurale analgesie </DESCRIPTION>
-		<DESCRIPTION L="nl">Analgésie péridurale </DESCRIPTION>
-		<DESCRIPTION L="de">Periduralanästhesie </DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>rachianalagesia</CODE>
-		<DESCRIPTION L="en">Rachi analgesia</DESCRIPTION>
-		<DESCRIPTION L="fr">Rachi analgesie</DESCRIPTION>
-		<DESCRIPTION L="nl">Rachianesthésie</DESCRIPTION>
-		<DESCRIPTION L="de">Spinalanästhesie</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>foetalmonitoring</CODE>
-		<DESCRIPTION L="en">Monitoring (control) foetal</DESCRIPTION>
-		<DESCRIPTION L="fr">Foetale bewaking</DESCRIPTION>
-		<DESCRIPTION L="nl">Surveillance fœtale pendant le travail</DESCRIPTION>
-		<DESCRIPTION L="de">Fötusüberwachung während der Beschäftigungszeit</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>streptococcusbcolonization</CODE>
-		<DESCRIPTION L="en">Colonization of streptococcus of B group</DESCRIPTION>
-		<DESCRIPTION L="fr">Groep B streptococcen kolonisatie</DESCRIPTION>
-		<DESCRIPTION L="nl">Colonisation par le streptocoque du groupe B</DESCRIPTION>
-		<DESCRIPTION L="de">B-Streptokokken Kolonisation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>intrapartalsbgprophylaxis</CODE>
-		<DESCRIPTION L="en">Intrapartal operation of SBG prophylaxis (peni, ampi)</DESCRIPTION>
-		<DESCRIPTION L="fr">Intrapartale toediening van GBS profylaxe (peni, ampi)</DESCRIPTION>
-		<DESCRIPTION L="nl">Antibioprophylaxie intrapartale du streptocoque B</DESCRIPTION>
-		<DESCRIPTION L="de">Intrapartale Antibiotikaprophylaxe</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>deliveryway</CODE>
-		<DESCRIPTION L="en">Way of delivery</DESCRIPTION>
-		<DESCRIPTION L="fr">Wijze van verlossing</DESCRIPTION>
-		<DESCRIPTION L="nl">Mode d'accouchement</DESCRIPTION>
-		<DESCRIPTION L="de">Methode der Entbindung</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>episiotomy</CODE>
-		<DESCRIPTION L="en">Episiotomy</DESCRIPTION>
-		<DESCRIPTION L="fr">Episiotomie</DESCRIPTION>
-		<DESCRIPTION L="nl">Episiotomie</DESCRIPTION>
-		<DESCRIPTION L="de">(Dammschnitt) Episiotomie</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>caesareanindication</CODE>
-		<DESCRIPTION L="en">Indication(s) for caesarean section</DESCRIPTION>
-		<DESCRIPTION L="fr">Indicatie(s) voor sectio</DESCRIPTION>
-		<DESCRIPTION L="nl">indication(s) de la césarienne</DESCRIPTION>
-		<DESCRIPTION L="de">Indikation des Kaiserschnitts</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>breastfeeding</CODE>
-		<DESCRIPTION L="en">Baby breast-feed</DESCRIPTION>
-		<DESCRIPTION L="fr">Borstvoeding  </DESCRIPTION>
-		<DESCRIPTION L="nl">Allaitement de l'enfant</DESCRIPTION>
-		<DESCRIPTION L="de">Kind zu stillen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>atbirthweight</CODE>
-		<DESCRIPTION L="en">Weight at birth</DESCRIPTION>
-		<DESCRIPTION L="fr">Geboortegewicht</DESCRIPTION>
-		<DESCRIPTION L="nl">Poids à la naissance</DESCRIPTION>
-		<DESCRIPTION L="de">Gewicht bei der Geburt</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>apgarscore1</CODE>
-		<DESCRIPTION L="en">Apgar score: after 1 min</DESCRIPTION>
-		<DESCRIPTION L="fr">Apgar-score: na 1 min</DESCRIPTION>
-		<DESCRIPTION L="nl">indice d'Apgar: après 1 min</DESCRIPTION>
-		<DESCRIPTION L="de">Apgar-Index: nach 1 Minute</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>apgarscore5</CODE>
-		<DESCRIPTION L="en">Apgar score: after 5 min</DESCRIPTION>
-		<DESCRIPTION L="fr">Apgar-score: na 5 min</DESCRIPTION>
-		<DESCRIPTION L="nl">indice d'Apgar: après 5 min</DESCRIPTION>
-		<DESCRIPTION L="de">Apgar-Index: nach 5 Minuten</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>artificialrespiration</CODE>
-		<DESCRIPTION L="en">Artificial respiration to the newborn baby (immediate care)</DESCRIPTION>
-		<DESCRIPTION L="fr">Beademing van pasgeborene (onmiddelijke zorgen) </DESCRIPTION>
-		<DESCRIPTION L="nl">Ventilation du nouveau-né (soins immédiats)</DESCRIPTION>
-		<DESCRIPTION L="de">Künstliche Beatmung des Neugeborenen (unmittelbare Behandlung)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>neonataldept</CODE>
-		<DESCRIPTION L="en">Transfer to neonatal department </DESCRIPTION>
-		<DESCRIPTION L="fr">Transfer naar neonatale afdeling</DESCRIPTION>
-		<DESCRIPTION L="nl">Transfert vers un département néonatal</DESCRIPTION>
-		<DESCRIPTION L="de">Transfer zur postnatalen Station</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>congenitalmalformation</CODE>
-		<DESCRIPTION L="en">Major congenital malformation (detected at birth)</DESCRIPTION>
-		<DESCRIPTION L="fr">Majeure misvormingen (gedetecteerd bij de geboorte)</DESCRIPTION>
-		<DESCRIPTION L="nl">Malformations congénitales majeures (lors de la naissance)</DESCRIPTION>
-		<DESCRIPTION L="de">Schwere Geburtsfehler</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>othermedicalrisk</CODE>
-		<DESCRIPTION L="en">Other medical risk</DESCRIPTION>
-		<DESCRIPTION L="fr"></DESCRIPTION>
-		<DESCRIPTION L="nl"></DESCRIPTION>
-		<DESCRIPTION L="de"></DESCRIPTION>
-	</VALUE>	
-</kmehr-cd>
+<!DOCTYPE html><html lang="nl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>404 | eGezondheid</title><meta name="description" content="website.description"><link rel="canonical" href="https://www.ehealth.fgov.be/notfound" /><link rel="icon" type="image/png" sizes="96x96" href="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/favicon-96x96.png"><link rel="apple-touch-icon" sizes="180x180" href="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/apple-touch-icon-180x180.png"><meta name="msapplication-square70x70logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-150x150.png"><meta name="msapplication-square310x310logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-310x310.png"><meta name="theme-color" content="#2C7F9F"/><meta name="msapplication-wide310x150logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-310x150.png"><meta name="msapplication-TileColor" content="#FFFFFF"><link rel="stylesheet" href="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/css/app.css"><style id="flx-styles">
+                    
+                    body, .fm_body table {
+                        background-color: transparent !important;
+                        font-family: "Open Sans", "DMSerifDisplay", system-ui, -apple-system, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                    }
+
+                    .fm_body table {
+                        position: relative;
+                        color: #434343;
+                        border-radius: 4px;
+                        background-color: #f9f9f9;
+                    }
+
+                    .fm_body table > tbody > tr {
+                        display: block;
+                    }
+                    .fm_body table > tbody > tr > td {
+                        display:block;
+                        padding-bottom: 0 !important;
+                    }
+                    .fm_body table tr td:first-child {
+                        font-weight: normal !important;
+                        height: 21px;
+                    }
+
+                    .fm_body a{
+                        color: #2C00AC;
+                        text-decoration: none;
+                    }
+                    .fm_body a:hover{
+                        color: #2C00AC;
+                        text-decoration: underline;
+                    }
+
+                    .fm_body input, .fm_body button, .fm_body select, .fm_body textarea {
+                        font-size: 16px !important;
+                        font-family: "Open Sans", "DMSerifDisplay", system-ui, -apple-system, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                    }
+                    .fm_body p.small {
+                        color: #999999;
+                        font-size: 10px;
+                        margin: 0;
+                        text-align: right;
+                    }
+
+                    /* custom code */
+                    .fm_body table {
+                        float: left;
+                        border-collapse: collapse;
+                    }
+                    p.button {
+                        float: left;
+                        margin: 0;
+                        margin-left: .5rem;
+                        margin-top: 11px;
+                    }
+
+                    .fm_body #btn-send {
+                        background-image: none !important;
+                        display: inline-block;
+                        text-align: center;
+                        text-decoration: none;
+                        vertical-align: middle;
+                        user-select: none;
+                        border: 1px solid #2C7F9F;
+                        padding: 0.5rem 1.5rem;
+                        font-size: 1rem;
+                        line-height: 1.5;
+                        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+                        color: #fff;
+                        background-color: #2C7F9F;
+                        text-shadow: none;
+                        box-shadow: none;
+                        height: calc(1.5em + 1rem + 2px) !important;
+                        font-weight: normal;
+                    }
+
+                    /*
+                    * {
+                        font-family: Verdana !important;
+                    }
+                    */
+
+                    .fm_body input[name^="fields"] {
+                        display: block !important;
+                        width: 100% !important;
+                        height: calc(1.5em + 1rem + 2px) !important;
+                        padding: 0.5rem 1.5rem !important;
+                        font-size: 1rem !important;
+                        font-weight: 500 !important;
+                        line-height: 1.5 !important;
+                        color: #495057 !important;
+                        background-color: transparent !important;
+                        background-clip: padding-box !important;
+                        border: 1px solid #1a1a1a !important;
+                        border-radius: 1.3125rem !important;
+                        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+                        box-sizing: border-box !important;
+                        margin-bottom: 0 !important;
+                    }
+
+                    .preferences, #preferences, p.field {
+                        margin: 0;
+                    }
+
+                </style><script>
+                    var fm=function(){return{load:function(){var e=document,t=e.getElementById("iframe_flxml_form"),n=e.getElementById("flx-styles"),r=n?n.innerHTML:"";t?t.contentWindow.postMessage(r,"https://www.flexmail.eu/"):alert("Flexmail: Frame not found!")}}}()
+                </script></head><body class="error-404 " data-translations="{&quot;target_blank&quot;:&quot;Nieuw venster&quot;,&quot;file_selected&quot;:&quot;%count% bestand(en) geselecteerd&quot;,&quot;form_error&quot;:&quot;Er is een probleem opgetreden met het formulier : %message%&quot;,&quot;form_saved&quot;:&quot;Uw aanvraag werd geregistreerd met de identifier %uid%&quot;,&quot;form_processed&quot;:&quot;Uw aanvraag werd geregistreerd&quot;,&quot;form_error_try_later&quot;:&quot;Er is een probleem opgetreden met het formulier. Probeer het later opnieuw&quot;}"><div class="c-cookies-bar js-cookies-bar | position-fixed w-100 py-4"><div class="container"><div class="d-lg-flex align-items-center"><p class="mr-lg-auto mb-lg-0 text-small">Wij gebruiken cookies op deze site om uw gebruikerservaring te verbeteren.</p><p class="flex-shrink-0 mb-0"><a href="/nl/page/cookiebeleid" class="btn btn-outline-primary text-small mr-2">
+                    Meer weten
+                </a><a href="#" id="closeCookie" class="btn btn-primary text-small">
+                    &times; Ik begrijp het
+                </a></p></div></div></div><main><div class="container h-100"><div class="row justify-content-center"><div class="col-12 text-center mt-6 mt-md-0"><h1 class="text-primary">404</h1></div><div class="col-md-6 text-center"><h2 class="h1">Pagina niet gevonden</h2><p>We kunnen de pagina die u zoekt helaas niet vinden.<br>Vergeet niet om uw favorieten bij te werken.</p><a href="/nl" class="btn btn-primary mt-4">Verder gaan in het Nederlands</a></div><div class="col-md-6 text-center mt-6 mt-md-0"><h2 class="h1">Page non trouvée</h2><p>Nous n’avons pas trouvé la page que vous désirez.<br>N’oubliez pas d’adapter vos favoris.</p><a href="/fr" class="btn btn-primary mt-4">Continuer en français</a></div></div></div></main><!-- Modal --><div class="modal fade" id="searchModal" data-keyboard="true" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-xl"><div class="modal-content"><div class="modal-header align-items-center"><h5 class="sr-only" id="searchModalLabel">search.modal.title</h5><a class="navbar-brand text-decoration-none" href="/nl"><img src="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/images/logo_esante_nl.svg" alt=""><p class="mb-0 mt-2 d-none d-lg-block">Portaal van de diensten eGezondheid</p></a><button class="navbar-toggler close" type="button" data-dismiss="modal" aria-label="Close" aria-expanded="true"><div class="cross"><span></span><span></span></div></button></div><div class="modal-body d-flex align-items-center"><form action="/nl/search" method="GET" class="form w-100 mt-6"><div class="input-group search-group w-100"><input name="q" class="form-control d-inline" type="text" placeholder="Geef uw sleutelwoorden in" aria-label="Zoeken"><div class="input-group-append"><button class="btn px-0" type="submit">Zoeken <img src="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/images/icon_search.svg" alt="" class="ml-2" height="20"></button></div></div></form></div></div></div></div><script src="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/js/app.js" defer="defer"></script><script defer data-domain="ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script></body></html>

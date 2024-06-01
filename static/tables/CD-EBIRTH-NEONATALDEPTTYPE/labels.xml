@@ -1,24 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- 
-  Property : Belgian Ministry of Health
-  Author   :  I. Pollet
-  Date      : 27/07/2009
- -->
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.0</VERSION>
-	<DATE>2009-07-30</DATE>
-	<STATUS>published</STATUS>
-	<NAME>eBirth type of neonatal department</NAME>
-	<VALUE>
-		<CODE>nstar</CODE>
-		<DESCRIPTION L="fr">Département-N*</DESCRIPTION>
-		<DESCRIPTION L="nl">N*-dienst</DESCRIPTION>
-		<DESCRIPTION L="de">N*-Station</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>nic</CODE>
-		<DESCRIPTION L="fr">Département-NIC</DESCRIPTION>
-		<DESCRIPTION L="nl">NIC-dienst</DESCRIPTION>
-		<DESCRIPTION L="de">NIC-Station</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html><html lang="nl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>404 | eGezondheid</title><meta name="description" content="website.description"><link rel="canonical" href="https://www.ehealth.fgov.be/notfound" /><link rel="icon" type="image/png" sizes="96x96" href="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/favicon-96x96.png"><link rel="apple-touch-icon" sizes="180x180" href="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/apple-touch-icon-180x180.png"><meta name="msapplication-square70x70logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-150x150.png"><meta name="msapplication-square310x310logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-310x310.png"><meta name="theme-color" content="#2C7F9F"/><meta name="msapplication-wide310x150logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-310x150.png"><meta name="msapplication-TileColor" content="#FFFFFF"><link rel="stylesheet" href="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/css/app.css"><style id="flx-styles">
+                    
+                    body, .fm_body table {
+                        background-color: transparent !important;
+                        font-family: "Open Sans", "DMSerifDisplay", system-ui, -apple-system, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                    }
+
+                    .fm_body table {
+                        position: relative;
+                        color: #434343;
+                        border-radius: 4px;
+                        background-color: #f9f9f9;
+                    }
+
+                    .fm_body table > tbody > tr {
+                        display: block;
+                    }
+                    .fm_body table > tbody > tr > td {
+                        display:block;
+                        padding-bottom: 0 !important;
+                    }
+                    .fm_body table tr td:first-child {
+                        font-weight: normal !important;
+                        height: 21px;
+                    }
+
+                    .fm_body a{
+                        color: #2C00AC;
+                        text-decoration: none;
+                    }
+                    .fm_body a:hover{
+                        color: #2C00AC;
+                        text-decoration: underline;
+                    }
+
+                    .fm_body input, .fm_body button, .fm_body select, .fm_body textarea {
+                        font-size: 16px !important;
+                        font-family: "Open Sans", "DMSerifDisplay", system-ui, -apple-system, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                    }
+                    .fm_body p.small {
+                        color: #999999;
+                        font-size: 10px;
+                        margin: 0;
+                        text-align: right;
+                    }
+
+                    /* custom code */
+                    .fm_body table {
+                        float: left;
+                        border-collapse: collapse;
+                    }
+                    p.button {
+                        float: left;
+                        margin: 0;
+                        margin-left: .5rem;
+                        margin-top: 11px;
+                    }
+
+                    .fm_body #btn-send {
+                        background-image: none !important;
+                        display: inline-block;
+                        text-align: center;
+                        text-decoration: none;
+                        vertical-align: middle;
+                        user-select: none;
+                        border: 1px solid #2C7F9F;
+                        padding: 0.5rem 1.5rem;
+                        font-size: 1rem;
+                        line-height: 1.5;
+                        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+                        color: #fff;
+                        background-color: #2C7F9F;
+                        text-shadow: none;
+                        box-shadow: none;
+                        height: calc(1.5em + 1rem + 2px) !important;
+                        font-weight: normal;
+                    }
+
+                    /*
+                    * {
+                        font-family: Verdana !important;
+                    }
+                    */
+
+                    .fm_body input[name^="fields"] {
+                        display: block !important;
+                        width: 100% !important;
+                        height: calc(1.5em + 1rem + 2px) !important;
+                        padding: 0.5rem 1.5rem !important;
+                        font-size: 1rem !important;
+                        font-weight: 500 !important;
+                        line-height: 1.5 !important;
+                        color: #495057 !important;
+                        background-color: transparent !important;
+                        background-clip: padding-box !important;
+                        border: 1px solid #1a1a1a !important;
+                        border-radius: 1.3125rem !important;
+                        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+                        box-sizing: border-box !important;
+                        margin-bottom: 0 !important;
+                    }
+
+                    .preferences, #preferences, p.field {
+                        margin: 0;
+                    }
+
+                </style><script>
+                    var fm=function(){return{load:function(){var e=document,t=e.getElementById("iframe_flxml_form"),n=e.getElementById("flx-styles"),r=n?n.innerHTML:"";t?t.contentWindow.postMessage(r,"https://www.flexmail.eu/"):alert("Flexmail: Frame not found!")}}}()
+                </script></head><body class="error-404 " data-translations="{&quot;target_blank&quot;:&quot;Nieuw venster&quot;,&quot;file_selected&quot;:&quot;%count% bestand(en) geselecteerd&quot;,&quot;form_error&quot;:&quot;Er is een probleem opgetreden met het formulier : %message%&quot;,&quot;form_saved&quot;:&quot;Uw aanvraag werd geregistreerd met de identifier %uid%&quot;,&quot;form_processed&quot;:&quot;Uw aanvraag werd geregistreerd&quot;,&quot;form_error_try_later&quot;:&quot;Er is een probleem opgetreden met het formulier. Probeer het later opnieuw&quot;}"><div class="c-cookies-bar js-cookies-bar | position-fixed w-100 py-4"><div class="container"><div class="d-lg-flex align-items-center"><p class="mr-lg-auto mb-lg-0 text-small">Wij gebruiken cookies op deze site om uw gebruikerservaring te verbeteren.</p><p class="flex-shrink-0 mb-0"><a href="/nl/page/cookiebeleid" class="btn btn-outline-primary text-small mr-2">
+                    Meer weten
+                </a><a href="#" id="closeCookie" class="btn btn-primary text-small">
+                    &times; Ik begrijp het
+                </a></p></div></div></div><main><div class="container h-100"><div class="row justify-content-center"><div class="col-12 text-center mt-6 mt-md-0"><h1 class="text-primary">404</h1></div><div class="col-md-6 text-center"><h2 class="h1">Pagina niet gevonden</h2><p>We kunnen de pagina die u zoekt helaas niet vinden.<br>Vergeet niet om uw favorieten bij te werken.</p><a href="/nl" class="btn btn-primary mt-4">Verder gaan in het Nederlands</a></div><div class="col-md-6 text-center mt-6 mt-md-0"><h2 class="h1">Page non trouvée</h2><p>Nous n’avons pas trouvé la page que vous désirez.<br>N’oubliez pas d’adapter vos favoris.</p><a href="/fr" class="btn btn-primary mt-4">Continuer en français</a></div></div></div></main><!-- Modal --><div class="modal fade" id="searchModal" data-keyboard="true" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-xl"><div class="modal-content"><div class="modal-header align-items-center"><h5 class="sr-only" id="searchModalLabel">search.modal.title</h5><a class="navbar-brand text-decoration-none" href="/nl"><img src="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/images/logo_esante_nl.svg" alt=""><p class="mb-0 mt-2 d-none d-lg-block">Portaal van de diensten eGezondheid</p></a><button class="navbar-toggler close" type="button" data-dismiss="modal" aria-label="Close" aria-expanded="true"><div class="cross"><span></span><span></span></div></button></div><div class="modal-body d-flex align-items-center"><form action="/nl/search" method="GET" class="form w-100 mt-6"><div class="input-group search-group w-100"><input name="q" class="form-control d-inline" type="text" placeholder="Geef uw sleutelwoorden in" aria-label="Zoeken"><div class="input-group-append"><button class="btn px-0" type="submit">Zoeken <img src="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/images/icon_search.svg" alt="" class="ml-2" height="20"></button></div></div></form></div></div></div></div><script src="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/js/app.js" defer="defer"></script><script defer data-domain="ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script></body></html>

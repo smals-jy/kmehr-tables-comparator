@@ -1,414 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.1</VERSION>
-	<DATE>2014-04-01</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Periodicity</NAME>
-	<VALUE>
-		<CODE>UH</CODE>
-		<DESCRIPTION L="en">Per half hour</DESCRIPTION>
-		<DESCRIPTION L="fr">Par demi-heure</DESCRIPTION>
-		<DESCRIPTION L="nl">Om het half uur</DESCRIPTION>
-		<DESCRIPTION L="de">Pro halbe Stunde</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>U</CODE>
-		<DESCRIPTION L="en">Per hour</DESCRIPTION>
-		<DESCRIPTION L="fr">Par heure</DESCRIPTION>
-		<DESCRIPTION L="nl">Om het uur</DESCRIPTION>
-		<DESCRIPTION L="de">Pro Uhr</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>UT</CODE>
-		<DESCRIPTION L="en">Per 2 hours</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 2 heures</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 2 uren</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 2 Uhren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>UD</CODE>
-		<DESCRIPTION L="en">Per 3 hours</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 3 heures</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 3 uren</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 3 Uhren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>UV</CODE>
-		<DESCRIPTION L="en">Per 4 hours</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 4 heures</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 4 uren</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 4 Uhren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>UQ</CODE>
-		<DESCRIPTION L="en">Per 5 hours</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 5 heures</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 5 uren</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 5 Uhren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>UZ</CODE>
-		<DESCRIPTION L="en">Per 6 hours</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 6 heures</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 6 uren</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 6 Uhren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>US</CODE>
-		<DESCRIPTION L="en">Per 7 hours</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 7 heures</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 7 uren</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 7 Uhren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>UA</CODE>
-		<DESCRIPTION L="en">Per 8 hours</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 8 heures</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 8 uren</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 8 Uhren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>UN</CODE>
-		<DESCRIPTION L="en">Per 9 hours</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 9 heures</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 9 uren</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 9 Uhren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>UX</CODE>
-		<DESCRIPTION L="en">Per 10 hours</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 10 heures</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 10 uren</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 10 Uhren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>UE</CODE>
-		<DESCRIPTION L="en">Per11 hours</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 11 heures</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 11 uren</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 11 Uhren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>UW</CODE>
-		<DESCRIPTION L="en">Per 12 hours</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 12 heures</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 12 uren</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 12 Uhren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>D</CODE>
-		<DESCRIPTION L="en">Per day</DESCRIPTION>
-		<DESCRIPTION L="fr">Par jour</DESCRIPTION>
-		<DESCRIPTION L="nl">Dagelijks</DESCRIPTION>
-		<DESCRIPTION L="de">Pro Tag</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>DT</CODE>
-		<DESCRIPTION L="en">Per 2 days</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 2 jours</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 2 dagen</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 2 Tagen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>O1</CODE>
-		<DESCRIPTION L="en">Every 2 days</DESCRIPTION>
-		<DESCRIPTION L="fr">tous les 2 jours</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 2 dagen</DESCRIPTION>
-		<DESCRIPTION L="de">Jeden 2 Tagen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>DD</CODE>
-		<DESCRIPTION L="en">Per 3 days</DESCRIPTION>
-		<DESCRIPTION L="fr">par 3 jours</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 3 dagen</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 3 Tagen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>DV</CODE>
-		<DESCRIPTION L="en">Per 4 days</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 4 jours</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 4 dagen</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 4 Tagen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>DQ</CODE>
-		<DESCRIPTION L="en">Per 5 days</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 5 jours</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 5 dagen</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 5 Tagen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>DZ</CODE>
-		<DESCRIPTION L="en">Per 6 days</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 6 jours</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 6 dagen</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 6 Tagen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>W</CODE>
-		<DESCRIPTION L="en">Per 7 days</DESCRIPTION>
-		<DESCRIPTION L="fr">Par semaine</DESCRIPTION>
-		<DESCRIPTION L="nl">Wekelijks</DESCRIPTION>
-		<DESCRIPTION L="de">Pro Woche</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>DA</CODE>
-		<DESCRIPTION L="en">Per 8 days</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 8 jours</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 8 dagen</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 8 Tagen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>DN</CODE>
-		<DESCRIPTION L="en">Per 9 days</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 9 jours</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 9 dagen</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 9 Tagen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>DX</CODE>
-		<DESCRIPTION L="en">Per 10 days</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 10 jours</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 10 dagen</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 10 Tagen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>DE</CODE>
-		<DESCRIPTION L="en">Per 11 days</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 11 jours</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 11 dagen</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 11 Tagen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>DW</CODE>
-		<DESCRIPTION L="en">Per 12 days</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 12 jours</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 12 dagen</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 12 Tagen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>WT</CODE>
-		<DESCRIPTION L="en">Per 2 weeks</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 2 semaines</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 2 weken</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 2 Wochen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>WD</CODE>
-		<DESCRIPTION L="en">Per 3 weeks</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 3 semaines</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 3 weken</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 3 Wochen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>WV</CODE>
-		<DESCRIPTION L="en">Per 4 weeks</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 4 semaines</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 4 weken</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 4 Wochen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>M</CODE>
-		<DESCRIPTION L="en">Per month</DESCRIPTION>
-		<DESCRIPTION L="fr">Par mois</DESCRIPTION>
-		<DESCRIPTION L="nl">Maandelijks</DESCRIPTION>
-		<DESCRIPTION L="de">Pro Monat</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>WQ</CODE>
-		<DESCRIPTION L="en">Per 5 weeks</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 5 semaines</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 5 weken</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 5 Wochen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>WZ</CODE>
-		<DESCRIPTION L="en">Per 6 weeks</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 6 semaines</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 6 weken</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 6 Wochen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>WS</CODE>
-		<DESCRIPTION L="en">Per 7 weeks</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 7 semaines</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 7 weken</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 7 Wochen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>WA</CODE>
-		<DESCRIPTION L="en">Per 8 weeks</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 8 semaines</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 8 weken</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 8 Wochen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>MT</CODE>
-		<DESCRIPTION L="en">Per 2 months</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 2 mois</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 2 maanden</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 2 Monaten</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>WN</CODE>
-		<DESCRIPTION L="en">Per 9 weeks</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 9 semaines</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 9 weken</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 9 Wochen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>WX</CODE>
-		<DESCRIPTION L="en">Per 10 weeks</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 10 semaines</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 10 weken</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 10 Wochen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>WE</CODE>
-		<DESCRIPTION L="en">Per 11 weeks</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 11 semaines</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 11 weken</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 11 Wochen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>WW</CODE>
-		<DESCRIPTION L="en">Per 12 weeks</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 12 semaines</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 12 weken</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 12 Wochen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>MD</CODE>
-		<DESCRIPTION L="en">Per 3 months</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 3 mois</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 3 maanden</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 3 Monaten</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>MV</CODE>
-		<DESCRIPTION L="en">Per 4 months</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 4 mois</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 4 maanden</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 4 Monaten</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>MQ</CODE>
-		<DESCRIPTION L="en">Per 5 months</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 5 mois</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 5 maanden</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 5 Monaten</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>WP</CODE>
-		<DESCRIPTION L="en">Per 24 weeks</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 24 semaines</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 24 weken</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 24 Wochen</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>JH2</CODE>
-		<DESCRIPTION L="en">Per half year</DESCRIPTION>
-		<DESCRIPTION L="fr">Par demi-année</DESCRIPTION>
-		<DESCRIPTION L="nl">Halfjaarlijks</DESCRIPTION>
-		<DESCRIPTION L="de">Pro halbes Jahre</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>MZ2</CODE>
-		<DESCRIPTION L="en">Per 6 months</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 6 mois</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 6 maanden</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 6 Monaten</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>MS</CODE>
-		<DESCRIPTION L="en">Per 7 months</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 7 mois</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 7 maanden</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 7 Monaten</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>MA</CODE>
-		<DESCRIPTION L="en">Per 8 months</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 8 mois</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 8 maanden</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 8 Monaten</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>MN</CODE>
-		<DESCRIPTION L="en">Per 9 months</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 9 mois</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 9 maanden</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 9 Monaten</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>MX</CODE>
-		<DESCRIPTION L="en">Per 10 months</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 10 mois</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 10 maanden</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 10 Monaten</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ME</CODE>
-		<DESCRIPTION L="en">Per 11 months</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 11 mois</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 11 maanden</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 11 Monaten</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>J</CODE>
-		<DESCRIPTION L="en">Per Year</DESCRIPTION>
-		<DESCRIPTION L="fr">Par an</DESCRIPTION>
-		<DESCRIPTION L="nl">Jaarlijks</DESCRIPTION>
-		<DESCRIPTION L="de">Pro Jahre</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>MC</CODE>
-		<DESCRIPTION L="en">Per 18 months</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 18 mois</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 18 maanden</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 18 Monaten</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 18 Monaten</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>JT</CODE>
-		<DESCRIPTION L="en">Per 2 years</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 2 années</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 2 jaar</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 2 Jahren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>JD</CODE>
-		<DESCRIPTION L="en">Per 3 years</DESCRIPTION>
-		<DESCRIPTION L="nl">Par 3 années</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 3 jaar</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 3 Jahren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>JV</CODE>
-		<DESCRIPTION L="en">Per 4 years</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 4 années</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 4 jaar</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 4 Jahren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>JQ</CODE>
-		<DESCRIPTION L="en">Per 5 years</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 5 années</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 5 jaar</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 5 Jahren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>JZ</CODE>
-		<DESCRIPTION L="en">Per 6 years</DESCRIPTION>
-		<DESCRIPTION L="fr">Par 6 années</DESCRIPTION>
-		<DESCRIPTION L="nl">Om de 6 jaar</DESCRIPTION>
-		<DESCRIPTION L="de">Pro 6 Jahren</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ondemand</CODE>
-		<DESCRIPTION L="en">On demand</DESCRIPTION>
-		<DESCRIPTION L="fr">Sur demande</DESCRIPTION>
-		<DESCRIPTION L="nl">Op aanvraag</DESCRIPTION>
-		<DESCRIPTION L="de">auf Nachfrage</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html><html lang="nl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>404 | eGezondheid</title><meta name="description" content="website.description"><link rel="canonical" href="https://www.ehealth.fgov.be/notfound" /><link rel="icon" type="image/png" sizes="96x96" href="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/favicon-96x96.png"><link rel="apple-touch-icon" sizes="180x180" href="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/apple-touch-icon-180x180.png"><meta name="msapplication-square70x70logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-150x150.png"><meta name="msapplication-square310x310logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-310x310.png"><meta name="theme-color" content="#2C7F9F"/><meta name="msapplication-wide310x150logo" content="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/mstile-310x150.png"><meta name="msapplication-TileColor" content="#FFFFFF"><link rel="stylesheet" href="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/css/app.css"><style id="flx-styles">
+                    
+                    body, .fm_body table {
+                        background-color: transparent !important;
+                        font-family: "Open Sans", "DMSerifDisplay", system-ui, -apple-system, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                    }
+
+                    .fm_body table {
+                        position: relative;
+                        color: #434343;
+                        border-radius: 4px;
+                        background-color: #f9f9f9;
+                    }
+
+                    .fm_body table > tbody > tr {
+                        display: block;
+                    }
+                    .fm_body table > tbody > tr > td {
+                        display:block;
+                        padding-bottom: 0 !important;
+                    }
+                    .fm_body table tr td:first-child {
+                        font-weight: normal !important;
+                        height: 21px;
+                    }
+
+                    .fm_body a{
+                        color: #2C00AC;
+                        text-decoration: none;
+                    }
+                    .fm_body a:hover{
+                        color: #2C00AC;
+                        text-decoration: underline;
+                    }
+
+                    .fm_body input, .fm_body button, .fm_body select, .fm_body textarea {
+                        font-size: 16px !important;
+                        font-family: "Open Sans", "DMSerifDisplay", system-ui, -apple-system, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                    }
+                    .fm_body p.small {
+                        color: #999999;
+                        font-size: 10px;
+                        margin: 0;
+                        text-align: right;
+                    }
+
+                    /* custom code */
+                    .fm_body table {
+                        float: left;
+                        border-collapse: collapse;
+                    }
+                    p.button {
+                        float: left;
+                        margin: 0;
+                        margin-left: .5rem;
+                        margin-top: 11px;
+                    }
+
+                    .fm_body #btn-send {
+                        background-image: none !important;
+                        display: inline-block;
+                        text-align: center;
+                        text-decoration: none;
+                        vertical-align: middle;
+                        user-select: none;
+                        border: 1px solid #2C7F9F;
+                        padding: 0.5rem 1.5rem;
+                        font-size: 1rem;
+                        line-height: 1.5;
+                        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+                        color: #fff;
+                        background-color: #2C7F9F;
+                        text-shadow: none;
+                        box-shadow: none;
+                        height: calc(1.5em + 1rem + 2px) !important;
+                        font-weight: normal;
+                    }
+
+                    /*
+                    * {
+                        font-family: Verdana !important;
+                    }
+                    */
+
+                    .fm_body input[name^="fields"] {
+                        display: block !important;
+                        width: 100% !important;
+                        height: calc(1.5em + 1rem + 2px) !important;
+                        padding: 0.5rem 1.5rem !important;
+                        font-size: 1rem !important;
+                        font-weight: 500 !important;
+                        line-height: 1.5 !important;
+                        color: #495057 !important;
+                        background-color: transparent !important;
+                        background-clip: padding-box !important;
+                        border: 1px solid #1a1a1a !important;
+                        border-radius: 1.3125rem !important;
+                        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+                        box-sizing: border-box !important;
+                        margin-bottom: 0 !important;
+                    }
+
+                    .preferences, #preferences, p.field {
+                        margin: 0;
+                    }
+
+                </style><script>
+                    var fm=function(){return{load:function(){var e=document,t=e.getElementById("iframe_flxml_form"),n=e.getElementById("flx-styles"),r=n?n.innerHTML:"";t?t.contentWindow.postMessage(r,"https://www.flexmail.eu/"):alert("Flexmail: Frame not found!")}}}()
+                </script></head><body class="error-404 " data-translations="{&quot;target_blank&quot;:&quot;Nieuw venster&quot;,&quot;file_selected&quot;:&quot;%count% bestand(en) geselecteerd&quot;,&quot;form_error&quot;:&quot;Er is een probleem opgetreden met het formulier : %message%&quot;,&quot;form_saved&quot;:&quot;Uw aanvraag werd geregistreerd met de identifier %uid%&quot;,&quot;form_processed&quot;:&quot;Uw aanvraag werd geregistreerd&quot;,&quot;form_error_try_later&quot;:&quot;Er is een probleem opgetreden met het formulier. Probeer het later opnieuw&quot;}"><div class="c-cookies-bar js-cookies-bar | position-fixed w-100 py-4"><div class="container"><div class="d-lg-flex align-items-center"><p class="mr-lg-auto mb-lg-0 text-small">Wij gebruiken cookies op deze site om uw gebruikerservaring te verbeteren.</p><p class="flex-shrink-0 mb-0"><a href="/nl/page/cookiebeleid" class="btn btn-outline-primary text-small mr-2">
+                    Meer weten
+                </a><a href="#" id="closeCookie" class="btn btn-primary text-small">
+                    &times; Ik begrijp het
+                </a></p></div></div></div><main><div class="container h-100"><div class="row justify-content-center"><div class="col-12 text-center mt-6 mt-md-0"><h1 class="text-primary">404</h1></div><div class="col-md-6 text-center"><h2 class="h1">Pagina niet gevonden</h2><p>We kunnen de pagina die u zoekt helaas niet vinden.<br>Vergeet niet om uw favorieten bij te werken.</p><a href="/nl" class="btn btn-primary mt-4">Verder gaan in het Nederlands</a></div><div class="col-md-6 text-center mt-6 mt-md-0"><h2 class="h1">Page non trouvée</h2><p>Nous n’avons pas trouvé la page que vous désirez.<br>N’oubliez pas d’adapter vos favoris.</p><a href="/fr" class="btn btn-primary mt-4">Continuer en français</a></div></div></div></main><!-- Modal --><div class="modal fade" id="searchModal" data-keyboard="true" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-xl"><div class="modal-content"><div class="modal-header align-items-center"><h5 class="sr-only" id="searchModalLabel">search.modal.title</h5><a class="navbar-brand text-decoration-none" href="/nl"><img src="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/images/logo_esante_nl.svg" alt=""><p class="mb-0 mt-2 d-none d-lg-block">Portaal van de diensten eGezondheid</p></a><button class="navbar-toggler close" type="button" data-dismiss="modal" aria-label="Close" aria-expanded="true"><div class="cross"><span></span><span></span></div></button></div><div class="modal-body d-flex align-items-center"><form action="/nl/search" method="GET" class="form w-100 mt-6"><div class="input-group search-group w-100"><input name="q" class="form-control d-inline" type="text" placeholder="Geef uw sleutelwoorden in" aria-label="Zoeken"><div class="input-group-append"><button class="btn px-0" type="submit">Zoeken <img src="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/static/images/icon_search.svg" alt="" class="ml-2" height="20"></button></div></div></form></div></div></div></div><script src="/bundles/d914e1644ea78b94afc8ed84f9095a4baab8f7f7/js/app.js" defer="defer"></script><script defer data-domain="ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script></body></html>
