@@ -1,234 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?>
-<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.17</VERSION>
-	<DATE>2024-03-21</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Transaction</NAME>
-	<VALUE>
-		<CODE>admission</CODE>
-		<DESCRIPTION L="en">Admission notification</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>alert</CODE>
-		<DESCRIPTION L="en">Alert</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>contactreport</CODE>
-		<DESCRIPTION L="en">Contact report</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>death</CODE>
-		<DESCRIPTION L="en">Death notification</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>discharge</CODE>
-		<DESCRIPTION L="en">Discharge notification</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>dischargereport</CODE>
-		<DESCRIPTION L="en">Discharge letter</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>epidemiology</CODE>
-		<DESCRIPTION L="en">Epidemiological survey</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>labrequest</CODE>
-		<DESCRIPTION L="en">Laboratory test request</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>labresult</CODE>
-		<DESCRIPTION L="en">Laboratory result</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>note</CODE>
-		<DESCRIPTION L="en">Note</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pharmaceuticalprescription</CODE>
-		<DESCRIPTION L="en">Pharmaceutical prescription</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>productdelivery</CODE>
-		<DESCRIPTION L="en">Pharmaceutical product delivery</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>quickdischargereport</CODE>
-		<DESCRIPTION L="en">Provisional discharge letter</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>referral</CODE>
-		<DESCRIPTION L="en">Referral letter</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>request</CODE>
-		<DESCRIPTION L="en">Procedure request</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>result</CODE>
-		<DESCRIPTION L="en">Procedure result</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>vaccination</CODE>
-		<DESCRIPTION L="en">Vaccination report</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>sumehr</CODE>
-		<DESCRIPTION L="en">Summerised Electronic Healthcare Record</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ecare-safe-consultation</CODE>
-		<DESCRIPTION L="en">eCare-SAFE consultation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ebirth-mother-notification</CODE>
-		<DESCRIPTION L="en">eBirth notification- mother part</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ebirth-baby-notification</CODE>
-		<DESCRIPTION L="en">eBirth notification- baby part</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ebirth-baby-medicalform</CODE>
-		<DESCRIPTION L="en">eBirth medical form - baby part</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ebirth-mother-medicalform</CODE>
-		<DESCRIPTION L="en">eBirth medical form - mother part</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>clinicalsummary</CODE>
-		<DESCRIPTION L="en">Clinical summary (part of GP software migration file)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>bvt-sample</CODE>
-		<DESCRIPTION L="en">BVT Sample (part of BCR Biobank project)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>medicaladvisoragreement (deprecated)</CODE>
-		<DESCRIPTION L="en">Medical Advisor Agreement (eg. Chapter IV)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>intervention</CODE>
-		<DESCRIPTION L="en">Intervention (TucoDeclaration)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>clinicalpath</CODE>
-		<DESCRIPTION L="en">Clinical path (Hub-Metahub)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>telemonitoring</CODE>
-		<DESCRIPTION L="en">Tele monitoring (Hub-Metahub)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>radiationexposuremonitoring</CODE>
-		<DESCRIPTION L="en">Radiation exposure monitoring (Hub-Metahub)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>medicationschemeelement</CODE>
-		<DESCRIPTION L="en">Medication scheme element (Vitalink)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>treatmentsuspension</CODE>
-		<DESCRIPTION L="en">Treatment suspension (Vitalink)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>prescription</CODE>
-		<DESCRIPTION L="en">Prescription</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>notification</CODE>
-		<DESCRIPTION L="en">Notification</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>report</CODE>
-		<DESCRIPTION L="en">Report</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>medicationscheme</CODE>
-		<DESCRIPTION L="en">Medication scheme</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>vaccinationscheme</CODE>
-		<DESCRIPTION L="en">Vaccination scheme</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>vaccinationschemeelement</CODE>
-		<DESCRIPTION L="en">Vaccination scheme element</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>ecare-tardis-consultation</CODE>
-		<DESCRIPTION L="en">eCare-SAFE tardis consultation</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>genericregistryentry</CODE>
-		<DESCRIPTION L="en">Generic registry entry</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>population-based-screening</CODE>
-		<DESCRIPTION L="en">Population based screening (Vitalink)</DESCRIPTION>
-		<DESCRIPTION L="nl">Screening bij bevolking (Vitalink)</DESCRIPTION>
-		<DESCRIPTION L="fr">Recherche sur la population (Vitalink)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>child-prevention</CODE>
-		<DESCRIPTION L="en">Child prevention (Vitalink)</DESCRIPTION>
-		<DESCRIPTION L="nl">Kinder preventie (Vitalink)</DESCRIPTION>
-		<DESCRIPTION L="fr">Prévention enfants (Vitalink)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>applicationlink</CODE>
-		<DESCRIPTION L="en">Link to invoke an external application</DESCRIPTION>
-		<DESCRIPTION L="nl">Link om externe toepassing aan te roepen</DESCRIPTION>
-		<DESCRIPTION L="fr">Lien pour démarrer une application externe</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>careplan</CODE>
-		<DESCRIPTION L="en">Careplan</DESCRIPTION>
-		<DESCRIPTION L="nl">Zorgplan</DESCRIPTION>
-		<DESCRIPTION L="fr">Plan de soins</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>diarynote</CODE>
-		<DESCRIPTION L="en">diarynote</DESCRIPTION>
-		<DESCRIPTION L="nl">dagboeknota</DESCRIPTION>
-		<DESCRIPTION L="fr">note dans le journal</DESCRIPTION>
-		<DESCRIPTION L="de">Journalnotiz</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>mea</CODE>
-		<DESCRIPTION L="en">Medical emergency attestation (PPS-SI)</DESCRIPTION>
-		<DESCRIPTION L="nl">Attest van dringende medische hulp (POD-MI)</DESCRIPTION>
-		<DESCRIPTION L="fr">Attestation d'aide médicale urgente (SPP-IS)</DESCRIPTION>
-		<DESCRIPTION L="de">Zertifikat Notfallmedizin (OPD-S)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>perinatal</CODE>
-		<DESCRIPTION L="en">perinatal dataset</DESCRIPTION>
-		<DESCRIPTION L="nl">perinatale dataset</DESCRIPTION>
-		<DESCRIPTION L="fr">dataset périnatal</DESCRIPTION>
-		<DESCRIPTION L="de">Perinatales Datensatz</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>belrai-report</CODE>
-		<DESCRIPTION L="en">belrai report</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>pharmaceuticalmedicationscheme</CODE>
-		<DESCRIPTION L="en">Pharmaceutical medication scheme</DESCRIPTION>
-		<DESCRIPTION L="nl">Pharmaceutisch medicatieschema</DESCRIPTION>
-		<DESCRIPTION L="fr">Schéma de médication pharmaceutique</DESCRIPTION>
-		<DESCRIPTION L="de">Pharmazeutisches Medikationsschema</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>nursingsummaryreport</CODE>
-		<DESCRIPTION L="en">Nursing summary report</DESCRIPTION>
-		<DESCRIPTION L="nl">Rapport verpleegkundige samenvatting</DESCRIPTION>
-		<DESCRIPTION L="fr">Rapport de résumé infirmier</DESCRIPTION>
-		<DESCRIPTION L="de">Zusammenfassung Pflegebericht</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>transferreport</CODE>
-		<DESCRIPTION L="en">Transfer report</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>An Error Occurred</title>
+        <link rel="icon" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/favicon.ico"><link rel="stylesheet" type="text/css" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/css/standards.css">                        <link rel="canonical" href="https://www.ehealth.fgov.be/standards/kmehr/file/1a815e1ebeb49f9e05513397f8d36082239f068c/4c69127dbb8e010eaec9c33d2eb891e1f885596f/cd-transaction.xml" />
+                </head>
+    <body class="error-page live" data-translations="{&quot;back_to_ems&quot;:&quot;Back to admin&quot;}">
+        <div id="page">
+            
+    <div id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="mobile-actions">
+                        <button type="button" class="search-open navbar-toggle collapsed hidden-md" aria-expanded="false">
+                            <span class="sr-only">Search</span>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                        <button type="button" id="my-icon" class="navbar-toggle">
+                            <span class="sr-only">Main navigation</span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <a class="navbar-brand" href="/standards/kmehr/en"><img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/standards.svg" alt="Standards"></a>
+                </div>
+                <nav class="hidden-xs hidden-sm" id="main-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="search-open"><a class="navbar-toggle collapsed hidden-xs hidden-sm" data-toggle="collapse" data-target="#search-animated" aria-expanded="false"><span class="sr-only">Rechercher</span><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/basic">Basic</a></li>
+                                                    <li > <a href="/standards/kmehr/en/tables">Tables</a></li>
+                                                    <li > <a href="/standards/kmehr/en/transactions">Transactions</a></li>
+                                                    <li > <a href="/standards/kmehr/en/web-services">Web Services</a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/support">Support</a></li>
+                                            </ul>
+                </nav>
+            </div>
+                            <div id="search-animated" class="hide">
+                    <div class="container-fluid">
+                        
+<form name="form" method="get" action="/standards/kmehr/%2E%2E/../ehealthplatform/en/search">
+    <div class="form-group">
+        <label class="sr-only" for="form_field">Search</label>
+        <div class="input-group">
+            <input type="text" name="q" id="form_field" required="required" class="form-control" placeholder="Search">
+            <input type="hidden" name="search_facet[]" value="platform_search_facet:AV6A1aLRnyUtuZptNdUz" />
+            <span class="input-group-btn">
+                <button class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span></button>
+            </span>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+                    </nav>
+                    </div>
+<div id="content">
+                    <div class="container-fluid">
+                            <div class="row">
+            </div>
+                    </div>
+                </div></div>
+        <nav id="menu"></nav>
+                
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2">
+                    <ul>
+                                                    <li><a href="/standards/kmehr/en/page/terms-and-conditions">Terms and conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/re-use-conditions">Re-use conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/accessibility-statement">Accessibility statement</a></li>
+                                            </ul>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 belgium-link">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="/standards/kmehr/%2E%2E/../ehealthplatform/fr" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-ehealth.png" alt="site eHealth">
+                            </a>
+                        </li>
+                        <li>
+                                                        <a href="https://www.belgium.be/en" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-be.png" alt="belgium.be">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+            <div id="eu-cookie">
+    <div class="container-fluid">
+        <div class="content">
+            <div class="row">
+                                <div class="col-xs-12">
+                    <p>
+		               Cookies are used to improve the user experience.
+		               <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform hidden-xs hidden-sm first-child">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform hidden-xs hidden-sm first-child">x Continue</a>
+                    </p>
+                </div>
+		        <div class="col-xs-12 visible-xs visible-sm">
+		           <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform">x Continue</a>
+		        </div>
+		    </div>
+	    </div>
+    </div>
+</div>
+        <script src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/js/standards.js"></script>        <script defer data-domain="standards.ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script>
+    </body>
+</html>

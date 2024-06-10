@@ -1,198 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?><!-- 
-  Property : Belgian Ministry of Health
-  Author   : Dr André Vandenberghe, Department of Medical Information, CHU de Charleroi
-  Date       : 09/09/2003
-  Update    : 04/08/2009, 28/06/2010, 31/08/2010
-  
-  Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
-  Reference table
---><kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.42</VERSION>
-	<DATE>2023-11-10</DATE>
-	<STATUS>published</STATUS>
-	<NAME>Message standardisation version</NAME>
-	<VALUE>
-		<CODE>20010424</CODE>
-		<DESCRIPTION L="en">Recommendation 4, 24/04/2001</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20021205</CODE>
-		<DESCRIPTION L="en">Recommendation 19, draft</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20030909</CODE>
-		<DESCRIPTION L="en">Kmehr-Bis specification approved by Recommendation 19a of the Commission for Norms in Healthcare Telematics</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20090101</CODE>
-		<DESCRIPTION L="en">Evolution for new transactions: eCare-SAFE, eBirth, prescription (draft)</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20100601</CODE>
-		<DESCRIPTION L="en">Evolution for Sumehr 1.1. New namespace !</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20100901</CODE>
-		<DESCRIPTION L="en">Evolution for GP software migration format.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20110701</CODE>
-		<DESCRIPTION L="en">Evolution for Hub-Metahub 1.1, GP software migration format 1.1, Biobank.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20120401</CODE>
-		<DESCRIPTION L="en">Evolution for TucoDeclaration, OrthoDeclaration, Vitalink.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20120701</CODE>
-		<DESCRIPTION L="en">Evolution for Therapeuticlink.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20121001</CODE>
-		<DESCRIPTION L="en">Evolution for gmd, magistral preparation.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20130701</CODE>
-		<DESCRIPTION L="en">Evolution for Medex, GP Software homologation 2013</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20131001</CODE>
-		<DESCRIPTION L="en">Evolution for DefibDeclaration, homologation 2013</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20140401</CODE>
-		<DESCRIPTION L="en">Support new patient INSS support card number ISI+</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20140701</CODE>
-		<DESCRIPTION L="en">Evolution for TucoDeclaration 2.0</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20141001</CODE>
-		<DESCRIPTION L="en">Evolution eCare Safe V2.3, eCare Defib</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20141201</CODE>
-		<DESCRIPTION L="en">Evolution for eCare DefibDeclaration, eCare OrthoDeclaration</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20150301</CODE>
-		<DESCRIPTION L="en">Evolution for XML Library, eCare OrthoDeclaration</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20150601</CODE>
-		<DESCRIPTION L="en">Evolution for eCare PacemakerDeclaration</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20150901</CODE>
-		<DESCRIPTION L="en">Evolution for eCare PacemakerDeclaration and Nursing Migration Format</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20151201</CODE>
-		<DESCRIPTION L="en">Evolution for eCare TardisDeclaration</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20160301</CODE>
-		<DESCRIPTION L="en">Evolution for eCare TardisDeclaration</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20160601</CODE>
-		<DESCRIPTION L="en">Evolution to rationalize structures of types person and error. Update of CD-FED-COUNTRY and CD-PROOF</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20160901</CODE>
-		<DESCRIPTION L="en">Evolution for My Carenet eAttest, Mediprima, Recip-e and Reintegration</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20161201</CODE>
-		<DESCRIPTION L="en">Evolution for Hubservices, Recip-e, Mediprima, SumehrV2</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20170301</CODE>
-		<DESCRIPTION L="en">Evolution for exchange of medication schemes. Update of CD-ENCRYPTOR values.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20170601</CODE>
-		<DESCRIPTION L="en">Evolution for Mult-eMediAtt</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20170901</CODE>
-		<DESCRIPTION L="en">Evolution for Diary note, update of hcparty values.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20171201</CODE>
-		<DESCRIPTION L="en">Evolution for HL7 CDA Base64 support in KMEHR.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20180301</CODE>
-		<DESCRIPTION L="en">Evolution for AMP table, hcparty and parameter values.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20180601</CODE>
-		<DESCRIPTION L="en">Evolution for MyCarenet.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20180901</CODE>
-		<DESCRIPTION L="en">Evolution for MyCarenet.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20181201</CODE>
-		<DESCRIPTION L="en">Evolution for MyCarenet.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20190301</CODE>
-		<DESCRIPTION L="en">Evolution for Recip-e.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20190901</CODE>
-		<DESCRIPTION L="en">Evolution for Diary note.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20200301</CODE>
-		<DESCRIPTION L="en">Evolution for Pharmaceutical prescription.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20200601</CODE>
-		<DESCRIPTION L="en">Evolution for Diary, HCparty and Transaction tables.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20200901</CODE>
-		<DESCRIPTION L="en">Evolution for Administration units and drug routes.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20201201</CODE>
-		<DESCRIPTION L="en">Evolution for nursing report and pharmaceutical medication scheme.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20210120</CODE>
-		<DESCRIPTION L="en">Extra mid-cycle release to support covid vaccination indication code.</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20220401</CODE>
-		<DESCRIPTION L="en">Evolution for Additional values in CD-HCPARTY, CD-MEDIATYPE and CD-VACCINEINDICATION</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20220701</CODE>
-		<DESCRIPTION L="en">Evolution for Labo result type and hcparty table</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20221001</CODE>
-		<DESCRIPTION L="en">Evolution for vaccination indication table</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20230401</CODE>
-		<DESCRIPTION L="en">Evolution for additional values in CD-HCPARTY</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20230414</CODE>
-		<DESCRIPTION L="en">Correction for values in CD-HCPARTY</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20230801</CODE>
-		<DESCRIPTION L="en">Evolution for Mult-emediatt</DESCRIPTION>
-	</VALUE>
-	<VALUE>
-		<CODE>20231110</CODE>
-		<DESCRIPTION L="en">Evolution for fhir messages</DESCRIPTION>
-	</VALUE>
-</kmehr-cd>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>An Error Occurred</title>
+        <link rel="icon" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/favicon.ico"><link rel="stylesheet" type="text/css" href="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/css/standards.css">                        <link rel="canonical" href="https://www.ehealth.fgov.be/standards/kmehr/file/1a815e1ebeb49f9e05513397f8d36082239f068c/ea9181feeb63179db777ca65c4fc3146c05566fd/cd-standard.xml" />
+                </head>
+    <body class="error-page live" data-translations="{&quot;back_to_ems&quot;:&quot;Back to admin&quot;}">
+        <div id="page">
+            
+    <div id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="mobile-actions">
+                        <button type="button" class="search-open navbar-toggle collapsed hidden-md" aria-expanded="false">
+                            <span class="sr-only">Search</span>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                        <button type="button" id="my-icon" class="navbar-toggle">
+                            <span class="sr-only">Main navigation</span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <a class="navbar-brand" href="/standards/kmehr/en"><img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/standards.svg" alt="Standards"></a>
+                </div>
+                <nav class="hidden-xs hidden-sm" id="main-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="search-open"><a class="navbar-toggle collapsed hidden-xs hidden-sm" data-toggle="collapse" data-target="#search-animated" aria-expanded="false"><span class="sr-only">Rechercher</span><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/basic">Basic</a></li>
+                                                    <li > <a href="/standards/kmehr/en/tables">Tables</a></li>
+                                                    <li > <a href="/standards/kmehr/en/transactions">Transactions</a></li>
+                                                    <li > <a href="/standards/kmehr/en/web-services">Web Services</a></li>
+                                                    <li > <a href="/standards/kmehr/en/page/support">Support</a></li>
+                                            </ul>
+                </nav>
+            </div>
+                            <div id="search-animated" class="hide">
+                    <div class="container-fluid">
+                        
+<form name="form" method="get" action="/standards/kmehr/%2E%2E/../ehealthplatform/en/search">
+    <div class="form-group">
+        <label class="sr-only" for="form_field">Search</label>
+        <div class="input-group">
+            <input type="text" name="q" id="form_field" required="required" class="form-control" placeholder="Search">
+            <input type="hidden" name="search_facet[]" value="platform_search_facet:AV6A1aLRnyUtuZptNdUz" />
+            <span class="input-group-btn">
+                <button class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span></button>
+            </span>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+                    </nav>
+                    </div>
+<div id="content">
+                    <div class="container-fluid">
+                            <div class="row">
+            </div>
+                    </div>
+                </div></div>
+        <nav id="menu"></nav>
+                
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2">
+                    <ul>
+                                                    <li><a href="/standards/kmehr/en/page/terms-and-conditions">Terms and conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/re-use-conditions">Re-use conditions</a></li>
+                                                    <li><a href="/standards/kmehr/en/page/accessibility-statement">Accessibility statement</a></li>
+                                            </ul>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 belgium-link">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="/standards/kmehr/%2E%2E/../ehealthplatform/fr" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-ehealth.png" alt="site eHealth">
+                            </a>
+                        </li>
+                        <li>
+                                                        <a href="https://www.belgium.be/en" target="_blank">
+                                <img src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/img/logos/logo-be.png" alt="belgium.be">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+            <div id="eu-cookie">
+    <div class="container-fluid">
+        <div class="content">
+            <div class="row">
+                                <div class="col-xs-12">
+                    <p>
+		               Cookies are used to improve the user experience.
+		               <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform hidden-xs hidden-sm first-child">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform hidden-xs hidden-sm first-child">x Continue</a>
+                    </p>
+                </div>
+		        <div class="col-xs-12 visible-xs visible-sm">
+		           <a href="/standards/kmehr/%2E%2E/../fr/page/politique-d-utilisation-des-cookies" class="btn-ehealthplatform">Read more</a>
+<a href="#" class="close-cookie btn-ehealthplatform">x Continue</a>
+		        </div>
+		    </div>
+	    </div>
+    </div>
+</div>
+        <script src="/standards/kmehr/bundles/03844822abd45fe651620d46b623f1d97a9c9765/js/standards.js"></script>        <script defer data-domain="standards.ehealth.fgov.be" src="https://analytics.ehealthplatform.info/js/script.js"></script>
+    </body>
+</html>
