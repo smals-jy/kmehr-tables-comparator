@@ -1,11 +1,11 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from requests_toolbelt.utils import dump
+# from requests_toolbelt.utils import dump
 
-def logging_hook(response):
-    data = dump.dump_all(response)
-    print(data.decode('utf-8'))
+#def logging_hook(response):
+#    data = dump.dump_all(response)
+#    print(data.decode('utf-8'))
 
 # Create the directory for storing XML files
 os.makedirs("static/tables", exist_ok=True)
@@ -44,7 +44,7 @@ for row in rows:
             fullLink = f"https://www.ehealth.fgov.be/standards/kmehr/en/{link}"
             print(f"Downloading reference {name} from {fullLink} ...")
             resp = requests.get(fullLink)
-            logging_hook(resp)
+            #logging_hook(resp)
             xml_content = resp.text
             xml_path = f"static/tables/{name}/labels.xml"
             os.makedirs(os.path.dirname(xml_path), exist_ok=True)
