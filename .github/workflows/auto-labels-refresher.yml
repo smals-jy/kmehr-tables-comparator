@@ -27,7 +27,7 @@ jobs:
               run: |
                 npm install  
                 python -m pip install --upgrade pip
-                pip install requests beautifulsoup4 lxml
+                pip install requests beautifulsoup4 lxml requests-toolbelt
             - name: 🔨 Find new KMEHR labels
               run: |
                 python labels-fetcher.py
