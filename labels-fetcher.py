@@ -44,15 +44,18 @@ for row in rows:
             fullLink = f"https://www.ehealth.fgov.be/standards/kmehr/en/{link}"
             print(f"Downloading reference {name} from {fullLink} ...")
             resp = requests.get(fullLink)
-            #logging_hook(resp)
-            xml_content = resp.text
-            xml_path = f"static/tables/{name}/labels.xml"
-            os.makedirs(os.path.dirname(xml_path), exist_ok=True)
-            with open(xml_path, "w") as file:
-                file.write(xml_content)
 
-            # Increment the processed row counter
-            processed_rows += 1
+            # Check if the response content type is XML
+            content_type = resp.headers.get('Content-Type', '')
+            if 'xml' in content_type:
+                xml_content = resp.text
+                xml_path = f"static/tables/{name}/labels.xml"
+                os.makedirs(os.path.dirname(xml_path), exist_ok=True)
+                with open(xml_path, "w") as file:
+                    file.write(xml_content)
+                processed_rows += 1
+            else:
+                print(f"Skipped {name}, content type is not XML (thanks eHealth)")
 
 # Display the number of processed rows
 print(f"Processed {processed_rows} rows.")
