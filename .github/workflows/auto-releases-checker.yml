@@ -35,4 +35,3 @@ jobs:
               uses: peter-evans/create-pull-request@v6
               with:
                 title: "[auto-updater] New KMEHR releases"
-                draft: true
