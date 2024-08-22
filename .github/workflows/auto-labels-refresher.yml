@@ -38,4 +38,3 @@ jobs:
               #if: false
               with:
                 title: "[auto-updater] Updated KMEHR labels"
-                draft: true
