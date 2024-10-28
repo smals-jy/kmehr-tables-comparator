@@ -22,7 +22,7 @@
     "@docusaurus/preset-classic": "^3.5.2",
     "@mdx-js/react": "^3.1.0",
     "@types/node": "^22.8.1",
-    "@xmldom/xmldom": "^0.9.4",
+    "@xmldom/xmldom": "^0.9.5",
     "clsx": "^2.1.1",
     "lodash": "^4.17.21",
     "prism-react-renderer": "^2.4.0",
