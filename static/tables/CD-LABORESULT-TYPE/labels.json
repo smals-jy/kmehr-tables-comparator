@@ -70,5 +70,26 @@
 		"fr": "microbiologie",
 		"nl": "microbiologie",
 		"de": "mikrobiologie"
+	},
+	"18718-7": {
+		"en": "Cell marker"
+	},
+	"18723-7": {
+		"en": "Hematology"
+	},
+	"18724-5": {
+		"en": "HLA (Human Leukocyte Antigen)"
+	},
+	"26435-8": {
+		"en": "Molecular pathology"
+	},
+	"26437-4": {
+		"en": "Chemistry challenge"
+	},
+	"26438-2": {
+		"en": "Cytology"
+	},
+	"27898-6": {
+		"en": "(Anatomo) pathology"
 	}
 }
