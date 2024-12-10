@@ -72,24 +72,45 @@
 		"de": "mikrobiologie"
 	},
 	"18718-7": {
-		"en": "Cell marker"
+		"en": "Cell marker",
+		"fr": "marqueur cellulaire",
+		"nl": "cel marker",
+		"de": "zellmarker"
 	},
 	"18723-7": {
-		"en": "Hematology"
+		"en": "hematology",
+		"fr": "h�matologie",
+		"nl": "hematologie",
+		"de": "h�matologie"
 	},
 	"18724-5": {
-		"en": "HLA (Human Leukocyte Antigen)"
+		"en": "hla (Human Leukocyte Antigen)",
+		"fr": "hla (Human Leukocyte Antigen)",
+		"nl": "hla (Human Leukocyte Antigen)",
+		"de": "hla (Human Leukocyte Antigen)"
 	},
 	"26435-8": {
-		"en": "Molecular pathology"
+		"en": "molecular pathology",
+		"fr": "diagnostique mol�culaire",
+		"nl": "moleculaire diagnostiek",
+		"de": "molekulare Pathologie "
 	},
 	"26437-4": {
-		"en": "Chemistry challenge"
+		"en": "chemistry challenge",
+		"fr": "test de stimulation",
+		"nl": "stimulatietesten",
+		"de": "simulationstest"
 	},
 	"26438-2": {
-		"en": "Cytology"
+		"en": "cytology",
+		"fr": "cytologie",
+		"nl": "cytologie",
+		"de": "zytologie"
 	},
 	"27898-6": {
-		"en": "(Anatomo) pathology"
+		"en": "(Anatomo) pathology",
+		"fr": "anatomopathologie",
+		"nl": "anatomopathologie",
+		"de": "anatomopathologie"
 	}
 }
