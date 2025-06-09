@@ -30,7 +30,7 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.6.1",
+    "@docusaurus/module-type-aliases": "^3.8.1",
     "@jest/globals": "^29.6.4",
     "@docusaurus/tsconfig": "^3.8.0",
     "@types/jest": "^29.5.14",
