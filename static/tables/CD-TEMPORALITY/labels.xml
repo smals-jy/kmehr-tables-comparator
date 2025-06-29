@@ -8,14 +8,14 @@
   Reference table
 -->
 <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.0</VERSION>
-	<DATE>2002-07-17</DATE>
+	<VERSION>1.1</VERSION>
+	<DATE>2025-06-01</DATE>
 	<STATUS>published</STATUS>
 	<NAME>Temporality</NAME>
 	<VALUE>
 		<CODE>oneshot</CODE>
 		<DESCRIPTION L="en">One shot</DESCRIPTION>
-		<DESCRIPTION L="nl">indien nodig</DESCRIPTION>
+		<DESCRIPTION L="nl">eenmalig</DESCRIPTION>
 		<DESCRIPTION L="fr">une seule fois</DESCRIPTION>
 		<DESCRIPTION L="de">einmalig</DESCRIPTION>
 	</VALUE>
@@ -53,5 +53,12 @@
 		<DESCRIPTION L="nl">reactivatie</DESCRIPTION>
 		<DESCRIPTION L="fr">r�activation</DESCRIPTION>
 		<DESCRIPTION L="de">Reaktivierung</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>ifnecessary</CODE>
+		<DESCRIPTION L="en">if necessary</DESCRIPTION>
+		<DESCRIPTION L="nl">indien nodig</DESCRIPTION>
+		<DESCRIPTION L="fr">si n�cessaire</DESCRIPTION>
+		<DESCRIPTION L="de">falls erforderlich</DESCRIPTION>
 	</VALUE>
 </kmehr-cd>

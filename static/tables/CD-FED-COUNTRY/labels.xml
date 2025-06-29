@@ -5,8 +5,8 @@
   Date      : 04/08/2009
  -->
 <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.2</VERSION>
-	<DATE>2016-03-01</DATE>
+	<VERSION>1.3</VERSION>
+	<DATE>2025-06-01</DATE>
 	<STATUS>published</STATUS>
 	<NAME>Fedict Country Codes</NAME>
 	<VALUE>
@@ -1449,5 +1449,12 @@
 		<DESCRIPTION L="nl">Faeröereilanden</DESCRIPTION>		
 		<DESCRIPTION L="fr">Îles Féroé</DESCRIPTION>
 		<DESCRIPTION L="de">Färöer-Inseln</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>cw</CODE>
+		<DESCRIPTION L="en">Curaçao</DESCRIPTION>
+		<DESCRIPTION L="nl">Curaçao</DESCRIPTION>		
+		<DESCRIPTION L="fr">Curaçao</DESCRIPTION>
+		<DESCRIPTION L="de">Curaçao</DESCRIPTION>
 	</VALUE>
 </kmehr-cd>
