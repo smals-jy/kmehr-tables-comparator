@@ -1,7 +1,7 @@
 {
 	"oneshot": {
 		"en": "One shot",
-		"nl": "indien nodig",
+		"nl": "eenmalig",
 		"fr": "une seule fois",
 		"de": "einmalig"
 	},
@@ -34,5 +34,11 @@
 		"nl": "reactivatie",
 		"fr": "r�activation",
 		"de": "Reaktivierung"
+	},
+	"ifnecessary": {
+		"en": "if necessary",
+		"nl": "indien nodig",
+		"fr": "si n�cessaire",
+		"de": "falls erforderlich"
 	}
 }

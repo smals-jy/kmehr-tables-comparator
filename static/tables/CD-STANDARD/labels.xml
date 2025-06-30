@@ -7,8 +7,8 @@
   Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
   Reference table
 --><kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.42</VERSION>
-	<DATE>2023-11-10</DATE>
+	<VERSION>1.44</VERSION>
+	<DATE>2025-06-01</DATE>
 	<STATUS>published</STATUS>
 	<NAME>Message standardisation version</NAME>
 	<VALUE>
@@ -194,5 +194,13 @@
 	<VALUE>
 		<CODE>20231110</CODE>
 		<DESCRIPTION L="en">Evolution for fhir messages</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>20240801</CODE>
+		<DESCRIPTION L="en">Evolution for Mult-emediatt</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>20250601</CODE>
+		<DESCRIPTION L="en">Evolution for Mult-emediatt, additional values in CD-TEMPORALITY and CD-FED-COUNTRY</DESCRIPTION>
 	</VALUE>
 </kmehr-cd>
