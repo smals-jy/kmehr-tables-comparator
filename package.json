@@ -35,7 +35,7 @@
     "@docusaurus/tsconfig": "^3.8.0",
     "@types/jest": "^30.0.0",
     "@types/lodash": "^4.17.20",
-    "jest": "^30.0.4",
+    "jest": "^30.0.5",
     "ts-jest": "^29.4.0",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
