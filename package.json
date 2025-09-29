@@ -37,7 +37,7 @@
     "@types/lodash": "^4.17.20",
     "jest": "^30.1.3",
     "ts-jest": "^29.4.4",
-    "tsx": "^4.20.5",
+    "tsx": "^4.20.6",
     "typescript": "^5.9.2"
   },
   "browserslist": {
