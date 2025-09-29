@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "^3.6.1",
-    "@docusaurus/preset-classic": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.9.1",
     "@mdx-js/react": "^3.1.1",
     "@types/node": "^24.5.2",
     "@xmldom/xmldom": "^0.9.8",
