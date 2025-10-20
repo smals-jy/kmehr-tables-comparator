@@ -32,7 +32,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.9.2",
     "@jest/globals": "^30.2.0",
-    "@docusaurus/tsconfig": "^3.9.1",
+    "@docusaurus/tsconfig": "^3.9.2",
     "@types/jest": "^30.0.0",
     "@types/lodash": "^4.17.20",
     "jest": "^30.2.0",
