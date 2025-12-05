@@ -39,3 +39,7 @@ npm run start
 ## License
 
 Check [License](./LICENSE) file
+
+## Disclaimer
+
+This project is a POC (proof of concept) of what sites that track KMEHR changes could offer. We do not offer any support for this project.
