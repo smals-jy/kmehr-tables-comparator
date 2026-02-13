@@ -155,6 +155,13 @@
 		"fr": "vaccin contre 20 types de pneumocoques"
 	},
 	"monkeypox": {
-		"en": "monkeypox"
+		"en": "vaccine against monkeypox",
+		"nl": "vaccin tegen mpox",
+		"fr": "vaccin contre le mpox"
+	},
+	"ixchiq": {
+		"en": "vaccine against Chikungunya",
+		"nl": "vaccin tegen Chikungunya",
+		"fr": "vaccin contre le Chikungunya"
 	}
 }

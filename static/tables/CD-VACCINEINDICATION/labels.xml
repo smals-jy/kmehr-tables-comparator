@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.5</VERSION>
-	<DATE>2023-11-10</DATE>
+	<VERSION>1.6</VERSION>
+	<DATE>2026-02-13</DATE>
 	<STATUS>published</STATUS>
 	<NAME>Vaccine Code</NAME>
 	<VALUE>
@@ -198,6 +198,14 @@
 	</VALUE>
 	<VALUE>
 		<CODE>monkeypox</CODE>
-		<DESCRIPTION L="en">monkeypox</DESCRIPTION>
+		<DESCRIPTION L="en">vaccine against monkeypox</DESCRIPTION>
+		<DESCRIPTION L="nl">vaccin tegen mpox</DESCRIPTION>
+		<DESCRIPTION L="fr">vaccin contre le mpox</DESCRIPTION>
+	</VALUE>
+		<VALUE>
+		<CODE>ixchiq</CODE>
+		<DESCRIPTION L="en">vaccine against Chikungunya</DESCRIPTION>
+		<DESCRIPTION L="nl">vaccin tegen Chikungunya</DESCRIPTION>
+		<DESCRIPTION L="fr">vaccin contre le Chikungunya</DESCRIPTION>
 	</VALUE>
 </kmehr-cd>

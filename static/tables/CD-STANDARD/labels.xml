@@ -7,8 +7,8 @@
   Kmehr-Bis - Recommendation 19 of the Belgian Healthcare Telematics Commission
   Reference table
 --><kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
-	<VERSION>1.44</VERSION>
-	<DATE>2025-06-01</DATE>
+	<VERSION>1.45</VERSION>
+	<DATE>2026-02-13</DATE>
 	<STATUS>published</STATUS>
 	<NAME>Message standardisation version</NAME>
 	<VALUE>
@@ -202,5 +202,9 @@
 	<VALUE>
 		<CODE>20250601</CODE>
 		<DESCRIPTION L="en">Evolution for Mult-emediatt, additional values in CD-TEMPORALITY and CD-FED-COUNTRY</DESCRIPTION>
+	</VALUE>
+		<VALUE>
+		<CODE>20260213</CODE>
+		<DESCRIPTION L="en">Evolution for Additional values in CD-VACCINEINDICATION</DESCRIPTION>
 	</VALUE>
 </kmehr-cd>
