@@ -1,62 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
 	<VERSION>1.0</VERSION>
 	<DATE>2009-11-04</DATE>
 	<STATUS>published</STATUS>
-  <NAME>International Codification for Diseases</NAME>
-  <VALUE>
-    <CODE>V06.1</CODE>
-    <DESCRIPTION L="en">Need for prophylactic vaccination and inoculation against combinations of diseases: Diphtheria-tetanus-pertussis, combined [DTP]</DESCRIPTION>
-  </VALUE>
-  <VALUE>
-    <CODE>914.5</CODE>
-    <DESCRIPTION L="en">insect bite, nonvenomous, infected</DESCRIPTION>
-  </VALUE>
-  <VALUE>
-    <CODE>303.9</CODE>
-    <DESCRIPTION L="en">Alcohol dependence</DESCRIPTION>
-  </VALUE>
-  <VALUE>
-    <CODE>312.4</CODE>
-    <DESCRIPTION L="en">Neurotic delinquency</DESCRIPTION>
-  </VALUE>
-  <VALUE>
-    <CODE>780.52</CODE>
-    <DESCRIPTION L="en">Sleeplessness</DESCRIPTION>
-  </VALUE>
-  <VALUE>
-    <CODE>780.71</CODE>
-    <DESCRIPTION L="en">Chronic fatigue syndrome</DESCRIPTION>
-  </VALUE>
-  <VALUE>
-    <CODE>302.3</CODE>
-    <DESCRIPTION L="en">Transvestim</DESCRIPTION>
-  </VALUE>
-  <VALUE>
-    <CODE>296.3</CODE>
-    <DESCRIPTION L="en">Major depressive disorder, recurrent episode</DESCRIPTION>
-  </VALUE>
-  <VALUE>
-    <CODE>300.00</CODE>
-    <DESCRIPTION L="en">Anxiety</DESCRIPTION>
-  </VALUE>
-  <VALUE>
-    <CODE>301.3</CODE>
-    <DESCRIPTION L="en">Explosive personality disorder (aggressiveness)</DESCRIPTION>
-  </VALUE>
-  <VALUE>
-    <CODE>...</CODE>
-    <DESCRIPTION L="en"/>
-  </VALUE>
-  <VALUE>
-    <CODE>V03.6</CODE>
-    <DESCRIPTION L="en">Pertussis alone</DESCRIPTION>
-  </VALUE>
-  <VALUE>
-    <CODE>V03.5</CODE>
-    <DESCRIPTION L="en">Diphtheria alone</DESCRIPTION>
-  </VALUE>
-  <VALUE>
-    <CODE>V04.2</CODE>
-    <DESCRIPTION L="en">Measles alone</DESCRIPTION>
-  </VALUE>
+	<NAME>International Codification for Diseases</NAME>
+	<VALUE>
+		<CODE>B65.0</CODE>
+		<DESCRIPTION L="en">Schistosomiasis due to Schistosoma haematobium [urinary schistosomiasis] </DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>B65.1 </CODE>
+		<DESCRIPTION L="en">Schistosomiasis due to Schistosoma mansoni [intestinal schistosomiasis] </DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>B71.9</CODE>
+		<DESCRIPTION L="en">Cestode infection, unspecified </DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>G80.3 </CODE>
+		<DESCRIPTION L="en">Dyskinetic cerebral palsy </DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>G82.0 </CODE>
+		<DESCRIPTION L="en">Flaccid paraplegia </DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>G82.2 </CODE>
+		<DESCRIPTION L="en">Paraplegia, unspecified </DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>G60.1 </CODE>
+		<DESCRIPTION L="en">Refsum's disease</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>G54.1 </CODE>
+		<DESCRIPTION L="en">Lumbosacral plexus disorders </DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>G57.2</CODE>
+		<DESCRIPTION L="en">Lesion of femoral nerve </DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>G58.9 </CODE>
+		<DESCRIPTION L="en">Mononeuropathy, unspecified </DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>G40.4 </CODE>
+		<DESCRIPTION L="en">Other generalized epilepsy and epileptic syndromes </DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>G40.7 </CODE>
+		<DESCRIPTION L="en">Petit mal, unspecified, without grand mal seizures</DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>G40.8 </CODE>
+		<DESCRIPTION L="en">Other epilepsy </DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>G43.0</CODE>
+		<DESCRIPTION L="en">Migraine without aura [common migraine] </DESCRIPTION>
+	</VALUE>
+	<VALUE>
+		<CODE>…</CODE>
+	</VALUE>
 </kmehr-cd>
