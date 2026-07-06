@@ -1,45 +1,44 @@
 {
-	"B65.0": {
-		"en": "Schistosomiasis due to Schistosoma haematobium [urinary schistosomiasis] "
+	"V06.1": {
+		"en": "Need for prophylactic vaccination and inoculation against combinations of diseases: Diphtheria-tetanus-pertussis, combined [DTP]"
 	},
-	"B65.1 ": {
-		"en": "Schistosomiasis due to Schistosoma mansoni [intestinal schistosomiasis] "
+	"914.5": {
+		"en": "insect bite, nonvenomous, infected"
 	},
-	"B71.9": {
-		"en": "Cestode infection, unspecified "
+	"303.9": {
+		"en": "Alcohol dependence"
 	},
-	"G80.3 ": {
-		"en": "Dyskinetic cerebral palsy "
+	"312.4": {
+		"en": "Neurotic delinquency"
 	},
-	"G82.0 ": {
-		"en": "Flaccid paraplegia "
+	"780.52": {
+		"en": "Sleeplessness"
 	},
-	"G82.2 ": {
-		"en": "Paraplegia, unspecified "
+	"780.71": {
+		"en": "Chronic fatigue syndrome"
 	},
-	"G60.1 ": {
-		"en": "Refsum's disease"
+	"302.3": {
+		"en": "Transvestim"
 	},
-	"G54.1 ": {
-		"en": "Lumbosacral plexus disorders "
+	"296.3": {
+		"en": "Major depressive disorder, recurrent episode"
 	},
-	"G57.2": {
-		"en": "Lesion of femoral nerve "
+	"300.00": {
+		"en": "Anxiety"
 	},
-	"G58.9 ": {
-		"en": "Mononeuropathy, unspecified "
+	"301.3": {
+		"en": "Explosive personality disorder (aggressiveness)"
 	},
-	"G40.4 ": {
-		"en": "Other generalized epilepsy and epileptic syndromes "
+	"...": {
+		"en": ""
 	},
-	"G40.7 ": {
-		"en": "Petit mal, unspecified, without grand mal seizures"
+	"V03.6": {
+		"en": "Pertussis alone"
 	},
-	"G40.8 ": {
-		"en": "Other epilepsy "
+	"V03.5": {
+		"en": "Diphtheria alone"
 	},
-	"G43.0": {
-		"en": "Migraine without aura [common migraine] "
-	},
-	"…": {}
+	"V04.2": {
+		"en": "Measles alone"
+	}
 }
