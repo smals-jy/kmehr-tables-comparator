@@ -1,44 +1,45 @@
 {
-	"V06.1": {
-		"en": "Need for prophylactic vaccination and inoculation against combinations of diseases: Diphtheria-tetanus-pertussis, combined [DTP]"
+	"B65.0": {
+		"en": "Schistosomiasis due to Schistosoma haematobium [urinary schistosomiasis] "
 	},
-	"914.5": {
-		"en": "insect bite, nonvenomous, infected"
+	"B65.1 ": {
+		"en": "Schistosomiasis due to Schistosoma mansoni [intestinal schistosomiasis] "
 	},
-	"303.9": {
-		"en": "Alcohol dependence"
+	"B71.9": {
+		"en": "Cestode infection, unspecified "
 	},
-	"312.4": {
-		"en": "Neurotic delinquency"
+	"G80.3 ": {
+		"en": "Dyskinetic cerebral palsy "
 	},
-	"780.52": {
-		"en": "Sleeplessness"
+	"G82.0 ": {
+		"en": "Flaccid paraplegia "
 	},
-	"780.71": {
-		"en": "Chronic fatigue syndrome"
+	"G82.2 ": {
+		"en": "Paraplegia, unspecified "
 	},
-	"302.3": {
-		"en": "Transvestim"
+	"G60.1 ": {
+		"en": "Refsum's disease"
 	},
-	"296.3": {
-		"en": "Major depressive disorder, recurrent episode"
+	"G54.1 ": {
+		"en": "Lumbosacral plexus disorders "
 	},
-	"300.00": {
-		"en": "Anxiety"
+	"G57.2": {
+		"en": "Lesion of femoral nerve "
 	},
-	"301.3": {
-		"en": "Explosive personality disorder (aggressiveness)"
+	"G58.9 ": {
+		"en": "Mononeuropathy, unspecified "
 	},
-	"...": {
-		"en": ""
+	"G40.4 ": {
+		"en": "Other generalized epilepsy and epileptic syndromes "
 	},
-	"V03.6": {
-		"en": "Pertussis alone"
+	"G40.7 ": {
+		"en": "Petit mal, unspecified, without grand mal seizures"
 	},
-	"V03.5": {
-		"en": "Diphtheria alone"
+	"G40.8 ": {
+		"en": "Other epilepsy "
 	},
-	"V04.2": {
-		"en": "Measles alone"
-	}
+	"G43.0": {
+		"en": "Migraine without aura [common migraine] "
+	},
+	"…": {}
 }
