@@ -34,7 +34,7 @@
     "@jest/globals": "^30.3.0",
     "@docusaurus/tsconfig": "^3.10.2",
     "@types/jest": "^30.0.0",
-    "@types/lodash": "^4.17.24",
+    "@types/lodash": "^4.17.25",
     "jest": "^30.4.2",
     "ts-jest": "^29.4.12",
     "tsx": "^4.23.1",
