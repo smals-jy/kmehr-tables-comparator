@@ -1,35 +1,62 @@
 {
 	"ntbr (deprecated)": {
-		"en": "not to be resuscitated"
+		"en": "not to be resuscitated",
+		"fr": "Pas de réanimation",
+		"nl": "Geen reanimatie",
+		"de": "nicht reanimieren"
 	},
 	"bloodtransfusionrefusal": {
-		"en": "blood transfusion refusal"
+		"en": "blood transfusion refusal",
+		"fr": "Refus de transfusion sanguine",
+		"nl": "Weigering van bloedtransfusie",
+		"de": "Bluttransfusionsweigerung"
 	},
 	"intubationrefusal": {
-		"en": "intubation refusal"
+		"en": "intubation refusal",
+		"fr": "Refus d'intubation",
+		"nl": "Weigering van intubatie",
+		"de": "Intubationsweigerung"
 	},
 	"euthanasiarequest": {
-		"en": "euthanasia request"
+		"en": "euthanasia request",
+		"fr": "Demande d'euthanasie",
+		"nl": "Euthanasieverzoek",
+		"de": "Bitte um Sterbehilfe"
 	},
 	"vaccinationrefusal": {
-		"en": "vaccination refusal"
+		"en": "vaccination refusal",
+		"fr": "Refus de vaccination",
+		"nl": "Vaccinatieweigering",
+		"de": "Impfungsweigerung"
 	},
 	"organdonationconsent": {
-		"en": "organ donation consent"
+		"en": "organ donation consent",
+		"fr": "Consentement au don d'organe",
+		"nl": "Toestemming voor orgaandonatie",
+		"de": "Einwilligung zur Organspende"
 	},
 	"datareuseforclinicalresearchconsent": {
-		"en": "data reuse for clinical research consent"
+		"en": "data reuse for clinical research consent",
+		"fr": "Consentement pour la réutilisation de données à des fins de recherche clinique",
+		"nl": "Toestemming voor hergebruik van gegevens voor klinisch onderzoek",
+		"de": "Einwilligung zur Weiterverwendung von Daten für klinische Forschung"
 	},
 	"datareuseforclinicaltrialsconsent": {
-		"en": "data reuse for clinical trials consent"
+		"en": "data reuse for clinical trials consent",
+		"fr": "Consentement pour la réutilisation de données à des fins d'essais cliniques",
+		"nl": "Toestemming voor hergebruik van gegevens voor klinische proeven",
+		"de": "Einwilligung zur Weiterverwendung von Daten für klinische Studien"
 	},
 	"clinicaltrialparticipationconsent": {
-		"en": "clinical trial participation consent"
+		"en": "clinical trial participation consent",
+		"fr": "Consentement pour la participation à des essais cliniques",
+		"nl": "Toestemming voor deelname aan klinische proeven",
+		"de": "Einverständniserklärung zur Teilnahme an einer klinischen Studie"
 	},
 	"omissionofmedicaldata": {
 		"en": "At the request of the patient, certain medical data are not included in this transaction",
-		"fr": "Sur demande du patient, certaines données médicales n’ont pas été reprises dans cette transaction",
-		"nl": "Bepaalde medische gegevens zijnop vraag van de patiënt niet opgenomen in deze boodschap",
+		"fr": "Sur demande du patient, certaines données médicales n'ont pas été reprises dans cette transaction",
+		"nl": "Bepaalde medische gegevens zijn op vraag van de patiënt niet opgenomen in deze transactie",
 		"de": "Auf Wunsch des Patienten sind bestimmte medizinische Daten nicht in dieser Transaction erhalten"
 	}
 }

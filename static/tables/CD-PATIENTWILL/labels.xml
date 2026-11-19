@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <kmehr-cd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tabledescription.xsd">
 	<VERSION>1.3</VERSION>
 	<DATE>2016-12-01</DATE>
@@ -7,44 +7,71 @@
 	<VALUE>
 		<CODE>ntbr (deprecated)</CODE>
 		<DESCRIPTION L="en">not to be resuscitated</DESCRIPTION>
+		<DESCRIPTION L="fr">Pas de réanimation</DESCRIPTION>
+		<DESCRIPTION L="nl">Geen reanimatie</DESCRIPTION>
+		<DESCRIPTION L="de">nicht reanimieren</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>bloodtransfusionrefusal</CODE>
 		<DESCRIPTION L="en">blood transfusion refusal</DESCRIPTION>
+		<DESCRIPTION L="fr">Refus de transfusion sanguine</DESCRIPTION>
+		<DESCRIPTION L="nl">Weigering van bloedtransfusie</DESCRIPTION>
+		<DESCRIPTION L="de">Bluttransfusionsweigerung</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>intubationrefusal</CODE>
 		<DESCRIPTION L="en">intubation refusal</DESCRIPTION>
+		<DESCRIPTION L="fr">Refus d'intubation</DESCRIPTION>
+		<DESCRIPTION L="nl">Weigering van intubatie</DESCRIPTION>
+		<DESCRIPTION L="de">Intubationsweigerung</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>euthanasiarequest</CODE>
 		<DESCRIPTION L="en">euthanasia request</DESCRIPTION>
+		<DESCRIPTION L="fr">Demande d'euthanasie</DESCRIPTION>
+		<DESCRIPTION L="nl">Euthanasieverzoek</DESCRIPTION>
+		<DESCRIPTION L="de">Bitte um Sterbehilfe</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>vaccinationrefusal</CODE>
 		<DESCRIPTION L="en">vaccination refusal</DESCRIPTION>
+		<DESCRIPTION L="fr">Refus de vaccination</DESCRIPTION>
+		<DESCRIPTION L="nl">Vaccinatieweigering</DESCRIPTION>
+		<DESCRIPTION L="de">Impfungsweigerung</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>organdonationconsent</CODE>
 		<DESCRIPTION L="en">organ donation consent</DESCRIPTION>
+		<DESCRIPTION L="fr">Consentement au don d'organe</DESCRIPTION>
+		<DESCRIPTION L="nl">Toestemming voor orgaandonatie</DESCRIPTION>
+		<DESCRIPTION L="de">Einwilligung zur Organspende</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>datareuseforclinicalresearchconsent</CODE>
 		<DESCRIPTION L="en">data reuse for clinical research consent</DESCRIPTION>
+		<DESCRIPTION L="fr">Consentement pour la réutilisation de données à des fins de recherche clinique</DESCRIPTION>
+		<DESCRIPTION L="nl">Toestemming voor hergebruik van gegevens voor klinisch onderzoek</DESCRIPTION>
+		<DESCRIPTION L="de">Einwilligung zur Weiterverwendung von Daten für klinische Forschung</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>datareuseforclinicaltrialsconsent</CODE>
 		<DESCRIPTION L="en">data reuse for clinical trials consent</DESCRIPTION>
+		<DESCRIPTION L="fr">Consentement pour la réutilisation de données à des fins d'essais cliniques</DESCRIPTION>
+		<DESCRIPTION L="nl">Toestemming voor hergebruik van gegevens voor klinische proeven</DESCRIPTION>
+		<DESCRIPTION L="de">Einwilligung zur Weiterverwendung von Daten für klinische Studien</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>clinicaltrialparticipationconsent</CODE>
 		<DESCRIPTION L="en">clinical trial participation consent</DESCRIPTION>
+		<DESCRIPTION L="fr">Consentement pour la participation à des essais cliniques</DESCRIPTION>
+		<DESCRIPTION L="nl">Toestemming voor deelname aan klinische proeven</DESCRIPTION>
+		<DESCRIPTION L="de">Einverständniserklärung zur Teilnahme an einer klinischen Studie</DESCRIPTION>
 	</VALUE>
 	<VALUE>
 		<CODE>omissionofmedicaldata</CODE>
 		<DESCRIPTION L="en">At the request of the patient, certain medical data are not included in this transaction</DESCRIPTION>
-		<DESCRIPTION L="fr">Sur demande du patient, certaines données médicales n’ont pas été reprises dans cette transaction</DESCRIPTION>
-		<DESCRIPTION L="nl">Bepaalde medische gegevens zijnop vraag van de patiënt niet opgenomen in deze boodschap</DESCRIPTION>
+		<DESCRIPTION L="fr">Sur demande du patient, certaines données médicales n'ont pas été reprises dans cette transaction</DESCRIPTION>
+		<DESCRIPTION L="nl">Bepaalde medische gegevens zijn op vraag van de patiënt niet opgenomen in deze transactie</DESCRIPTION>
 		<DESCRIPTION L="de">Auf Wunsch des Patienten sind bestimmte medizinische Daten nicht in dieser Transaction erhalten</DESCRIPTION>
 	</VALUE>
 </kmehr-cd>
